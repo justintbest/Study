@@ -8,3 +8,7 @@ __pycache__/
 
 # NCARB's Guidelines PDF is copyrighted and this repo is public: fetch it locally with `npm run fetch:sources`
 sources/are/*.pdf
+# NCARB Model Rules and AIA Code of Ethics PDFs are copyrighted: fetch locally (npm run fetch:sources)
+sources/are/ethics/*.pdf
+# AIA contract documents from your NCARB Record: never commit (copyrighted, licensed to you)
+sources/are/aia/

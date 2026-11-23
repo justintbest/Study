@@ -110,6 +110,8 @@ export interface ObjectiveContent {
   exam: ExamKind;
   division: string;
   generated?: string;
+  /** Date the content's facts were checked against the files in /sources. */
+  verified?: string;
   references: Reference[];
   questions: Question[];
   flashcards: Flashcard[];

@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 // Downloads the official source PDFs into /sources if they're missing.
 //   npm run fetch:sources          (add -- --force to re-download)
-// NCARB's Guidelines PDF is not committed (copyrighted; public repo), so run this after cloning.
+// NCARB's and AIA's PDFs are not committed (copyrighted; public repo), so run this after cloning.
+// The law texts in sources/are/law/ are public domain and are committed.
 import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -10,6 +11,9 @@ const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const force = process.argv.includes('--force');
 const FILES = [
   ['sources/are/ARE-5-Guidelines.pdf', 'https://www.ncarb.org/sites/default/files/ARE-5-Guidelines.pdf'],
+  ['sources/are/ethics/NCARB-Model-Rules-of-Conduct.pdf', 'https://www.ncarb.org/sites/default/files/Rules_of_Conduct.pdf'],
+  ['sources/are/ethics/AIA-Code-of-Ethics-2024.pdf', 'https://www.aia.org/sites/default/files/2024-04/aia-code-of-ethics-april-2024.pdf'],
+  ['sources/are/ethics/AIA-Code-of-Ethics-2026-proposed.pdf', 'https://www.aia.org/sites/default/files/2026-07/Code%20of%20Ethics.pdf'],
   ['sources/cse/architects-practice-act.pdf', 'https://www.cab.ca.gov/docs/publications/architects-practice-act.pdf'],
   ['sources/cse/coastal-act.pdf', 'https://www.coastal.ca.gov/coastact.pdf'],
 ];

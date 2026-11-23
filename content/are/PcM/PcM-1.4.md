@@ -10,6 +10,7 @@ What does the law expect of an architect? Not perfection, but **reasonable profe
 - **Definition (paraphrased):** perform services with the skill and care ordinarily provided by architects practicing in the same or similar locality under the same or similar circumstances.
   - B101-2017 §2.2 puts this into the contract.
   - B101 §2.2 also requires the architect to perform as quickly as is consistent with that skill and care and the orderly progress of the project.
+- NCARB Model Rule 1.1 states the same standard as a licensing rule. It notes that the architect's **primary duty is to protect the public's health, safety, and welfare**, and that the rule rests on the common-law standard of care.
 - It's a **negligence** standard. To win, a claimant must prove:
   1. **duty**;
   2. **breach** (falling below the standard of care);
@@ -42,6 +43,10 @@ Words like *guarantee, warrant, ensure, certify, highest, best,* or *all* can cr
 The current objective explicitly includes the responsibility to address climate-change vulnerabilities and risks *appropriately*. In practice:
 - Identify **reasonably foreseeable** climate-related hazards for the site and building type: flooding and sea-level rise, extreme heat, wildfire, high wind and storms, drought.
 - **Advise the client** about vulnerabilities and resilience options and their cost and benefit, including options that go **beyond code minimums**. Document the client's decisions.
+- The 2024 AIA Code backs this up:
+  - **Rule 2.401:** make reasonable efforts to inform clients of potential environmental impacts.
+  - **Rule 6.501:** consider with clients the environmental effects of project decisions.
+  - **E.S. 6.5 (Climate Change):** incorporate adaptation strategies that anticipate extreme weather.
 - **Codes are a minimum.** They reflect past data. As climate risk information becomes widely available, what a "reasonably careful architect" does may change too.
 - Don't overpromise. Recommend, explain, and document. Don't guarantee resilience outcomes.
 

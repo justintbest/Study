@@ -16,7 +16,13 @@ Format details: `content/schema/README.md` and `content/schema/objective-content
 Do one division at a time and stop for the user's review afterward.
 1. Read that division's objectives in `content/are-objectives.json`: title, cognitive level, target %, official description.
 2. For each objective, write `content/are/<DIV>/<DIV>-<n.n>.md` (the study note: key concepts, definitions, rules of thumb, exam traps, verify callouts) and `.json` (references, questions, flashcards). Follow the existing PcM files as the style reference.
-3. Run `npm run validate -- --strict`, fix everything, then summarize the flagged items for the user.
+3. Check facts against `/sources` before flagging them:
+   - `sources/are/ethics/` for the NCARB Model Rules and the AIA Code;
+   - `sources/are/law/` for federal statutes and regulations; fetch more from govinfo.gov or ecfr.gov if needed;
+   - `sources/are/aia/` for AIA contracts, if the user has added them.
+
+   Set `"verified": "<date>"` on objectives you checked, and record what you checked in `content/VERIFICATION.md`. Run `npm run fetch:sources` first if the PDFs are missing.
+4. Run `npm run validate -- --strict`, fix everything, then summarize the flagged items for the user.
 
 ## Study sessions in Claude Code
 When the user asks to be quizzed or to study (e.g. "quiz me on PcM objective 2.3", "flashcards for PcM section 3", "10-question weighted PcM quiz", "explain PcM 3.2"):

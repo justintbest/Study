@@ -14,7 +14,7 @@ How should a practice be **legally structured** and **organized** to reach its g
 | **Limited liability partnership (LLP)** | Partners are generally shielded from *other* partners' malpractice and partnership debts (extent varies by state) | Pass-through | Common for professional firms where state law allows |
 | **Limited liability company (LLC / PLLC)** | Members are generally shielded from business debts | Pass-through by default (can elect corporate taxation) | Flexible management and profit allocation; a "professional" LLC (PLLC) may be required for licensed professions in some states |
 | **C corporation (incl. professional corporation, PC)** | Shareholders are generally shielded | **Double taxation:** the corporation pays tax on profits, then shareholders pay tax on dividends | Easy to add owners and transfer stock; formal governance (board, officers, minutes) |
-| **S corporation** | Shareholders are generally shielded | Pass-through | Federal limits: no more than 100 shareholders, one class of stock, individual (U.S.) shareholders generally |
+| **S corporation** | Shareholders are generally shielded | Pass-through | Federal limits (26 U.S.C. §1361(b)): no more than 100 shareholders, one class of stock, generally individual shareholders (no nonresident aliens) |
 
 ### The rule that never changes
 **No entity shields a professional from liability for their own negligence.** An LLC or corporation protects owners from the *business's* debts and from *other* owners' acts, as state law provides. It does **not** protect the architect who personally made the negligent error. That's why professional liability insurance is still essential.
@@ -59,4 +59,4 @@ Firm positioning: some practices lead with **ideas** (design-driven), some with 
 
 > [!TRAP] Treating a joint venture as low risk. Each venturer may be liable for the whole JV's obligations to the client.
 
-> [!VERIFY] S-corporation limits and the C-corporation tax rate are federal tax law, which changes. The ARE won't test specific tax rates.
+S-corporation limits checked against 26 U.S.C. §1361(b)(1) (2024 ed.). Tax rules change, and the ARE won't test specific tax rates.

@@ -94,6 +94,12 @@ function StudyObjective({ objectiveId }: { objectiveId: string }) {
             </label>
           </div>
 
+          {content.verified && (
+            <div className="muted" style={{ fontSize: '0.85rem' }}>
+              ✓ Facts checked against the source documents in <code>/sources</code> on {content.verified}.
+              {flagged.length > 0 ? ' Items still flagged below couldn’t be checked yet.' : ''}
+            </div>
+          )}
           {flagged.length > 0 && (
             <details className="notice warn" style={{ fontSize: '0.9rem' }}>
               <summary>

@@ -4,13 +4,48 @@
   "division": "PcM",
   "generated": "2026-11-23",
   "references": [
-    { "kind": "Federal law", "citation": "Fair Labor Standards Act, 29 U.S.C. §§206–207; 29 C.F.R. Part 541", "topic": "Minimum wage, overtime (1.5× over 40 hours/week), white-collar exemptions (duties + salary tests).", "confidence": "medium", "confidenceNote": "The federal salary threshold for exemptions has been litigated repeatedly. Check the current DOL figure; the ARE tests the concept, not the dollar amount." },
-    { "kind": "Federal law", "citation": "Title VII, Civil Rights Act of 1964 (42 U.S.C. §2000e et seq.); ADA Title I (42 U.S.C. §12111 et seq.); ADEA (29 U.S.C. §621 et seq.)", "topic": "Employment discrimination; employer-size thresholds of 15 / 15 / 20 employees." },
-    { "kind": "Federal law", "citation": "Family and Medical Leave Act, 29 U.S.C. §2601 et seq.", "topic": "Up to 12 workweeks of unpaid, job-protected leave; employers with 50+ employees." },
-    { "kind": "Federal law", "citation": "COBRA, 29 U.S.C. §1161 et seq.", "topic": "Continuation of group health coverage; employers with 20+ employees." },
-    { "kind": "Federal law", "citation": "Occupational Safety and Health Act, 29 U.S.C. §654(a)(1) (General Duty Clause)", "topic": "Employer duty to provide a workplace free of recognized hazards, including staff visiting job sites." },
-    { "kind": "AIA", "citation": "B101-2017 §2.5", "topic": "Insurance the architect agrees to carry (general liability, auto, umbrella, workers' comp, employer's liability, professional liability), with limits filled in by the parties.", "confidence": "medium", "confidenceNote": "Confirm the subparagraph numbering in the B101-2017 copy available through your NCARB Record." },
-    { "kind": "AIA", "citation": "A201-2017 §3.3.1 and Article 10", "topic": "Contractor is solely responsible for construction means, methods, techniques, sequences and procedures, and for jobsite safety." }
+    {
+      "kind": "Federal law",
+      "citation": "Fair Labor Standards Act, 29 U.S.C. §§206–207; 29 C.F.R. §541.600, §541.300",
+      "topic": "Minimum wage; overtime at not less than 1.5× the regular rate for hours over 40 in a workweek; exemptions need the duties test plus salary basis at no less than $684/week (current eCFR)."
+    },
+    {
+      "kind": "Federal law",
+      "citation": "Title VII, 42 U.S.C. §2000e(b); ADA Title I, 42 U.S.C. §12111(5); ADEA, 29 U.S.C. §630(b)",
+      "topic": "Employer-size thresholds: 15 / 15 / 20 employees (each working day in 20+ calendar weeks)."
+    },
+    {
+      "kind": "Federal law",
+      "citation": "Family and Medical Leave Act, 29 U.S.C. §2611(2), (4); §2612(a), (c)",
+      "topic": "Employers with 50+ employees; eligible after 12 months and 1,250 hours, at a worksite with 50+ employees within 75 miles; 12 workweeks of leave in a 12-month period; leave may be unpaid."
+    },
+    {
+      "kind": "Federal law",
+      "citation": "COBRA, 29 U.S.C. §1161(b), §1162",
+      "topic": "Exempts plans of employers with fewer than 20 employees; continuation generally 18 months; premium capped at 102%."
+    },
+    {
+      "kind": "Federal law",
+      "citation": "Occupational Safety and Health Act, 29 U.S.C. §654(a)(1) (General Duty Clause)",
+      "topic": "Employer duty to provide a workplace free of recognized hazards, including staff visiting job sites."
+    },
+    {
+      "kind": "Federal law",
+      "citation": "26 U.S.C. §4980H(c)(2)",
+      "topic": "ACA employer shared-responsibility applies to 'applicable large employers': an average of at least 50 full-time employees (full-time equivalents counted)."
+    },
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 §2.5",
+      "topic": "Insurance the architect agrees to carry (general liability, auto, umbrella, workers' comp, employer's liability, professional liability), with limits filled in by the parties.",
+      "confidence": "medium",
+      "confidenceNote": "Confirm the subparagraph numbering in the B101-2017 copy available through your NCARB Record."
+    },
+    {
+      "kind": "AIA",
+      "citation": "A201-2017 §3.3.1 and Article 10",
+      "topic": "Contractor is solely responsible for construction means, methods, techniques, sequences and procedures, and for jobsite safety."
+    }
   ],
   "questions": [
     {
@@ -19,10 +54,27 @@
       "cognitiveLevel": "U/A",
       "stem": "A visitor trips on a loose carpet seam in an architecture firm's reception area and breaks a wrist. Which of the firm's policies would typically respond to the visitor's claim?",
       "options": [
-        { "id": "a", "text": "Professional liability", "explanation": "Professional liability covers negligent professional services, such as design errors, not premises injuries." },
-        { "id": "b", "text": "Commercial general liability", "correct": true, "explanation": "Correct. CGL covers bodily injury and property damage arising from the firm's non-professional operations and premises." },
-        { "id": "c", "text": "Workers' compensation", "explanation": "Workers' comp covers the firm's own employees, not visitors." },
-        { "id": "d", "text": "Valuable papers", "explanation": "Valuable papers insurance covers loss of documents and records, not injuries." }
+        {
+          "id": "a",
+          "text": "Professional liability",
+          "explanation": "Professional liability covers negligent professional services, such as design errors, not premises injuries."
+        },
+        {
+          "id": "b",
+          "text": "Commercial general liability",
+          "correct": true,
+          "explanation": "Correct. CGL covers bodily injury and property damage arising from the firm's non-professional operations and premises."
+        },
+        {
+          "id": "c",
+          "text": "Workers' compensation",
+          "explanation": "Workers' comp covers the firm's own employees, not visitors."
+        },
+        {
+          "id": "d",
+          "text": "Valuable papers",
+          "explanation": "Valuable papers insurance covers loss of documents and records, not injuries."
+        }
       ],
       "explanation": "Match the loss to the policy: premises injury → CGL."
     },
@@ -32,10 +84,27 @@
       "cognitiveLevel": "U/A",
       "stem": "An architect retires and closes the firm. Its professional liability policy is claims-made. Two years later, a former client files a claim alleging a design error on a project completed while the policy was in force. What would have kept this claim covered?",
       "options": [
-        { "id": "a", "text": "Nothing. The policy covered the error because it was in force when the services were performed.", "explanation": "That describes occurrence-based coverage. Claims-made coverage responds to claims made while the policy (or a reporting extension) is in force." },
-        { "id": "b", "text": "An extended reporting period (\"tail\") endorsement bought when the policy ended", "correct": true, "explanation": "Correct. A tail extends the time to report claims arising from work performed before the policy ended." },
-        { "id": "c", "text": "An umbrella policy", "explanation": "Umbrella policies usually sit above CGL, auto and employer's liability. They don't extend professional liability reporting periods." },
-        { "id": "d", "text": "The client's builder's risk policy", "explanation": "Builder's risk covers physical loss to the work during construction, not claims against the architect." }
+        {
+          "id": "a",
+          "text": "Nothing. The policy covered the error because it was in force when the services were performed.",
+          "explanation": "That describes occurrence-based coverage. Claims-made coverage responds to claims made while the policy (or a reporting extension) is in force."
+        },
+        {
+          "id": "b",
+          "text": "An extended reporting period (\"tail\") endorsement bought when the policy ended",
+          "correct": true,
+          "explanation": "Correct. A tail extends the time to report claims arising from work performed before the policy ended."
+        },
+        {
+          "id": "c",
+          "text": "An umbrella policy",
+          "explanation": "Umbrella policies usually sit above CGL, auto and employer's liability. They don't extend professional liability reporting periods."
+        },
+        {
+          "id": "d",
+          "text": "The client's builder's risk policy",
+          "explanation": "Builder's risk covers physical loss to the work during construction, not claims against the architect."
+        }
       ],
       "explanation": "Claims-made policies need continuous coverage, or a tail, for claims that arrive after the policy ends."
     },
@@ -46,12 +115,39 @@
       "cognitiveLevel": "U/A",
       "stem": "A firm engages a renderer it calls an \"independent contractor.\" Which facts suggest the renderer may legally be an employee?",
       "options": [
-        { "id": "a", "text": "The firm sets the renderer's daily hours and requires work in the office.", "correct": true, "explanation": "Correct. Control over when and where work is done points to employment." },
-        { "id": "b", "text": "The firm supplies the computer and software and trains the renderer in firm methods.", "correct": true, "explanation": "Correct. Supplying tools and training shows behavioral and financial control." },
-        { "id": "c", "text": "The renderer works only for this firm, full time, indefinitely.", "correct": true, "explanation": "Correct. Economic dependence on one firm with an ongoing relationship looks like employment." },
-        { "id": "d", "text": "The renderer invoices per project and markets services to other firms.", "explanation": "Per-project invoicing and serving other clients point toward independent-contractor status." },
-        { "id": "e", "text": "The written agreement labels the renderer an independent contractor.", "explanation": "Labels aren't controlling. The actual working relationship decides classification." },
-        { "id": "f", "text": "The renderer carries their own business insurance.", "explanation": "Carrying one's own business insurance points toward independence, not employment." }
+        {
+          "id": "a",
+          "text": "The firm sets the renderer's daily hours and requires work in the office.",
+          "correct": true,
+          "explanation": "Correct. Control over when and where work is done points to employment."
+        },
+        {
+          "id": "b",
+          "text": "The firm supplies the computer and software and trains the renderer in firm methods.",
+          "correct": true,
+          "explanation": "Correct. Supplying tools and training shows behavioral and financial control."
+        },
+        {
+          "id": "c",
+          "text": "The renderer works only for this firm, full time, indefinitely.",
+          "correct": true,
+          "explanation": "Correct. Economic dependence on one firm with an ongoing relationship looks like employment."
+        },
+        {
+          "id": "d",
+          "text": "The renderer invoices per project and markets services to other firms.",
+          "explanation": "Per-project invoicing and serving other clients point toward independent-contractor status."
+        },
+        {
+          "id": "e",
+          "text": "The written agreement labels the renderer an independent contractor.",
+          "explanation": "Labels aren't controlling. The actual working relationship decides classification."
+        },
+        {
+          "id": "f",
+          "text": "The renderer carries their own business insurance.",
+          "explanation": "Carrying one's own business insurance points toward independence, not employment."
+        }
       ],
       "explanation": "Classification turns on control and economic reality, not on what the contract calls the person."
     },
@@ -61,10 +157,27 @@
       "cognitiveLevel": "U/A",
       "stem": "A non-exempt drafter works 46 hours one week at a regular rate of $30 per hour. Under the FLSA, what is the minimum gross pay for that week?",
       "options": [
-        { "id": "a", "text": "$1,380", "explanation": "This is 46 × $30. It ignores the overtime premium on the 6 hours over 40." },
-        { "id": "b", "text": "$1,470", "correct": true, "explanation": "Correct. (40 × $30) + (6 × $45) = $1,200 + $270 = $1,470." },
-        { "id": "c", "text": "$1,560", "explanation": "This pays the 6 overtime hours at double time ($60), which the FLSA doesn't require." },
-        { "id": "d", "text": "$1,200", "explanation": "This leaves out the 6 overtime hours entirely." }
+        {
+          "id": "a",
+          "text": "$1,380",
+          "explanation": "This is 46 × $30. It ignores the overtime premium on the 6 hours over 40."
+        },
+        {
+          "id": "b",
+          "text": "$1,470",
+          "correct": true,
+          "explanation": "Correct. (40 × $30) + (6 × $45) = $1,200 + $270 = $1,470."
+        },
+        {
+          "id": "c",
+          "text": "$1,560",
+          "explanation": "This pays the 6 overtime hours at double time ($60), which the FLSA doesn't require."
+        },
+        {
+          "id": "d",
+          "text": "$1,200",
+          "explanation": "This leaves out the 6 overtime hours entirely."
+        }
       ],
       "explanation": "Hours over 40 in a workweek → 1.5 × the regular rate for non-exempt employees."
     },
@@ -74,10 +187,27 @@
       "cognitiveLevel": "U/A",
       "stem": "An employee strains a back carrying sample boards to a client meeting. Which statement is generally correct?",
       "options": [
-        { "id": "a", "text": "Workers' compensation covers the injury regardless of fault and is generally the employee's exclusive remedy against the firm.", "correct": true, "explanation": "Correct. Workers' comp is a no-fault system and generally bars a separate negligence suit against the employer." },
-        { "id": "b", "text": "The employee must prove the firm was negligent to recover.", "explanation": "Workers' comp doesn't require proving employer negligence." },
-        { "id": "c", "text": "The firm's CGL policy covers the employee's medical bills.", "explanation": "CGL typically excludes injuries to the insured's own employees. Those go to workers' comp." },
-        { "id": "d", "text": "Coverage applies only if the injury happened in the office.", "explanation": "Work-related injuries away from the office, such as at a client meeting, are generally covered too." }
+        {
+          "id": "a",
+          "text": "Workers' compensation covers the injury regardless of fault and is generally the employee's exclusive remedy against the firm.",
+          "correct": true,
+          "explanation": "Correct. Workers' comp is a no-fault system and generally bars a separate negligence suit against the employer."
+        },
+        {
+          "id": "b",
+          "text": "The employee must prove the firm was negligent to recover.",
+          "explanation": "Workers' comp doesn't require proving employer negligence."
+        },
+        {
+          "id": "c",
+          "text": "The firm's CGL policy covers the employee's medical bills.",
+          "explanation": "CGL typically excludes injuries to the insured's own employees. Those go to workers' comp."
+        },
+        {
+          "id": "d",
+          "text": "Coverage applies only if the injury happened in the office.",
+          "explanation": "Work-related injuries away from the office, such as at a client meeting, are generally covered too."
+        }
       ],
       "explanation": "Employee injury → workers' compensation (no-fault, exclusive remedy)."
     },
@@ -88,12 +218,38 @@
       "cognitiveLevel": "U/A",
       "stem": "Which statements about professional liability insurance for architects are generally true?",
       "options": [
-        { "id": "a", "text": "It is typically written on a claims-made basis.", "correct": true, "explanation": "Correct. Most architects' professional liability policies are claims-made." },
-        { "id": "b", "text": "Defense costs may reduce the available limit of liability.", "correct": true, "explanation": "Correct. Many policies have 'eroding' limits where defense spending reduces what remains for settlement." },
-        { "id": "c", "text": "It covers bodily injury to visitors at the firm's office.", "explanation": "Premises injuries fall under CGL, not professional liability." },
-        { "id": "d", "text": "It covers express warranties and guarantees the architect makes in a contract.", "explanation": "Policies generally exclude liability assumed by contract beyond the negligence standard, such as guarantees and warranties." },
-        { "id": "e", "text": "It is required by federal law for all architects.", "explanation": "No federal law requires it. Clients often require it by contract, and some jurisdictions have their own rules." },
-        { "id": "f", "text": "It pays to correct the contractor's defective workmanship.", "explanation": "Contractor workmanship is the contractor's responsibility, typically addressed through its warranty and insurance." }
+        {
+          "id": "a",
+          "text": "It is typically written on a claims-made basis.",
+          "correct": true,
+          "explanation": "Correct. Most architects' professional liability policies are claims-made."
+        },
+        {
+          "id": "b",
+          "text": "Defense costs may reduce the available limit of liability.",
+          "correct": true,
+          "explanation": "Correct. Many policies have 'eroding' limits where defense spending reduces what remains for settlement."
+        },
+        {
+          "id": "c",
+          "text": "It covers bodily injury to visitors at the firm's office.",
+          "explanation": "Premises injuries fall under CGL, not professional liability."
+        },
+        {
+          "id": "d",
+          "text": "It covers express warranties and guarantees the architect makes in a contract.",
+          "explanation": "Policies generally exclude liability assumed by contract beyond the negligence standard, such as guarantees and warranties."
+        },
+        {
+          "id": "e",
+          "text": "It is required by federal law for all architects.",
+          "explanation": "No federal law requires it. Clients often require it by contract, and some jurisdictions have their own rules."
+        },
+        {
+          "id": "f",
+          "text": "It pays to correct the contractor's defective workmanship.",
+          "explanation": "Contractor workmanship is the contractor's responsibility, typically addressed through its warranty and insurance."
+        }
       ],
       "explanation": "Professional liability = negligence in professional services; claims-made; limits can erode; contractual guarantees excluded."
     },
@@ -103,14 +259,29 @@
       "cognitiveLevel": "U/A",
       "stem": "A 30-person firm has a project manager who needs eight weeks off to care for a parent with a serious health condition. The manager has worked there three years full time. What does federal law generally require?",
       "options": [
-        { "id": "a", "text": "Nothing, because the firm has fewer than 50 employees.", "correct": true, "explanation": "Correct. The FMLA applies to employers with 50 or more employees, so federal law doesn't require this leave. State law or firm policy may still provide it." },
-        { "id": "b", "text": "Up to 12 weeks of paid leave under the FMLA", "explanation": "FMLA leave is unpaid. The FMLA also doesn't reach a 30-person employer." },
-        { "id": "c", "text": "Up to 12 weeks of unpaid, job-protected leave under the FMLA", "explanation": "This describes the FMLA's benefit, but it applies only to employers with 50+ employees." },
-        { "id": "d", "text": "Leave only if the employee is exempt.", "explanation": "Exempt status under the FLSA has nothing to do with family leave eligibility." }
+        {
+          "id": "a",
+          "text": "Nothing, because the firm has fewer than 50 employees.",
+          "correct": true,
+          "explanation": "Correct. The FMLA applies to employers with 50 or more employees, so federal law doesn't require this leave. State law or firm policy may still provide it."
+        },
+        {
+          "id": "b",
+          "text": "Up to 12 weeks of paid leave under the FMLA",
+          "explanation": "FMLA leave is unpaid. The FMLA also doesn't reach a 30-person employer."
+        },
+        {
+          "id": "c",
+          "text": "Up to 12 weeks of unpaid, job-protected leave under the FMLA",
+          "explanation": "This describes the FMLA's benefit, but it applies only to employers with 50+ employees."
+        },
+        {
+          "id": "d",
+          "text": "Leave only if the employee is exempt.",
+          "explanation": "Exempt status under the FLSA has nothing to do with family leave eligibility."
+        }
       ],
-      "explanation": "Know the size thresholds: FMLA 50+, COBRA 20+, ADEA 20+, Title VII and ADA 15+.",
-      "confidence": "medium",
-      "confidenceNote": "Many states have their own family-leave laws covering smaller employers. The ARE item would test the federal concept."
+      "explanation": "The FMLA covers employers with 50 or more employees (29 U.S.C. §2611(4)). Many states have their own family-leave laws covering smaller employers, so check the state; the ARE tests the federal concept. Know the thresholds: FMLA 50+, COBRA 20+, ADEA 20+, Title VII and ADA 15+."
     },
     {
       "id": "PcM-1.2-q08",
@@ -118,10 +289,27 @@
       "cognitiveLevel": "U/A",
       "stem": "An architect sends a junior designer to document existing conditions at an occupied renovation site where demolition is underway. What is the firm's most appropriate action?",
       "options": [
-        { "id": "a", "text": "Provide appropriate PPE and site-safety training, and have the designer follow the contractor's site safety rules.", "correct": true, "explanation": "Correct. The firm has an employer duty to protect its own staff, while the contractor stays responsible for overall jobsite safety." },
-        { "id": "b", "text": "Take over the contractor's site safety program while the designer is on site.", "explanation": "Taking control of site safety moves the contractor's responsibility onto the architect. Architects should avoid this." },
-        { "id": "c", "text": "No action is needed, because jobsite safety is the contractor's sole responsibility.", "explanation": "The contractor controls the jobsite, but the firm still has OSHA employer duties toward its own employees." },
-        { "id": "d", "text": "Require the client to sign a waiver of the designer's injuries.", "explanation": "A client can't waive an employee's workers' comp rights, and a waiver doesn't fix a safety obligation." }
+        {
+          "id": "a",
+          "text": "Provide appropriate PPE and site-safety training, and have the designer follow the contractor's site safety rules.",
+          "correct": true,
+          "explanation": "Correct. The firm has an employer duty to protect its own staff, while the contractor stays responsible for overall jobsite safety."
+        },
+        {
+          "id": "b",
+          "text": "Take over the contractor's site safety program while the designer is on site.",
+          "explanation": "Taking control of site safety moves the contractor's responsibility onto the architect. Architects should avoid this."
+        },
+        {
+          "id": "c",
+          "text": "No action is needed, because jobsite safety is the contractor's sole responsibility.",
+          "explanation": "The contractor controls the jobsite, but the firm still has OSHA employer duties toward its own employees."
+        },
+        {
+          "id": "d",
+          "text": "Require the client to sign a waiver of the designer's injuries.",
+          "explanation": "A client can't waive an employee's workers' comp rights, and a waiver doesn't fix a safety obligation."
+        }
       ],
       "explanation": "Protect your own staff without assuming the contractor's site-safety role."
     },
@@ -131,10 +319,27 @@
       "cognitiveLevel": "U/A",
       "stem": "A firm switches professional liability carriers. What should it make sure the new policy includes?",
       "options": [
-        { "id": "a", "text": "A retroactive date matching the original policy, so prior acts stay covered", "correct": true, "explanation": "Correct. Keeping the original retro date (prior-acts coverage) means claims about earlier work are still covered under the new claims-made policy." },
-        { "id": "b", "text": "A retroactive date equal to the new policy's start date", "explanation": "That would leave all earlier work uninsured for claims made in the future." },
-        { "id": "c", "text": "Occurrence-based professional liability coverage", "explanation": "Occurrence-based professional liability is rarely available to architects. The practical fix is continuous claims-made coverage." },
-        { "id": "d", "text": "A higher deductible to reduce premium", "explanation": "A deductible choice doesn't address the coverage gap for earlier work." }
+        {
+          "id": "a",
+          "text": "A retroactive date matching the original policy, so prior acts stay covered",
+          "correct": true,
+          "explanation": "Correct. Keeping the original retro date (prior-acts coverage) means claims about earlier work are still covered under the new claims-made policy."
+        },
+        {
+          "id": "b",
+          "text": "A retroactive date equal to the new policy's start date",
+          "explanation": "That would leave all earlier work uninsured for claims made in the future."
+        },
+        {
+          "id": "c",
+          "text": "Occurrence-based professional liability coverage",
+          "explanation": "Occurrence-based professional liability is rarely available to architects. The practical fix is continuous claims-made coverage."
+        },
+        {
+          "id": "d",
+          "text": "A higher deductible to reduce premium",
+          "explanation": "A deductible choice doesn't address the coverage gap for earlier work."
+        }
       ],
       "explanation": "With claims-made coverage, continuity of the retroactive date is what protects prior work."
     },
@@ -145,30 +350,118 @@
       "cognitiveLevel": "U/A",
       "stem": "An employee uses a personal car to drive to a site visit and causes an accident that injures another driver. Which coverages are most likely to respond?",
       "options": [
-        { "id": "a", "text": "The employee's personal auto policy", "correct": true, "explanation": "Correct. The owner's personal auto policy is typically primary for that vehicle." },
-        { "id": "b", "text": "The firm's hired and non-owned auto coverage", "correct": true, "explanation": "Correct. Non-owned auto coverage protects the firm when employees use their own vehicles on firm business." },
-        { "id": "c", "text": "The firm's professional liability policy", "explanation": "Driving isn't a professional design service. Professional liability won't respond." },
-        { "id": "d", "text": "The firm's workers' compensation policy, for the other driver's injuries", "explanation": "Workers' comp covers the firm's employees, not third parties injured in an accident." },
-        { "id": "e", "text": "The project owner's builder's risk policy", "explanation": "Builder's risk covers physical loss to the work under construction." },
-        { "id": "f", "text": "The firm's valuable papers policy", "explanation": "Valuable papers covers loss of records, not auto liability." }
+        {
+          "id": "a",
+          "text": "The employee's personal auto policy",
+          "correct": true,
+          "explanation": "Correct. The owner's personal auto policy is typically primary for that vehicle."
+        },
+        {
+          "id": "b",
+          "text": "The firm's hired and non-owned auto coverage",
+          "correct": true,
+          "explanation": "Correct. Non-owned auto coverage protects the firm when employees use their own vehicles on firm business."
+        },
+        {
+          "id": "c",
+          "text": "The firm's professional liability policy",
+          "explanation": "Driving isn't a professional design service. Professional liability won't respond."
+        },
+        {
+          "id": "d",
+          "text": "The firm's workers' compensation policy, for the other driver's injuries",
+          "explanation": "Workers' comp covers the firm's employees, not third parties injured in an accident."
+        },
+        {
+          "id": "e",
+          "text": "The project owner's builder's risk policy",
+          "explanation": "Builder's risk covers physical loss to the work under construction."
+        },
+        {
+          "id": "f",
+          "text": "The firm's valuable papers policy",
+          "explanation": "Valuable papers covers loss of records, not auto liability."
+        }
       ],
       "explanation": "Employee-owned vehicles on firm business are a common gap. Hired and non-owned auto coverage fills it."
     }
   ],
   "flashcards": [
-    { "id": "PcM-1.2-f01", "front": "Professional liability (E&O) covers…", "back": "Claims alleging negligent acts, errors or omissions in professional services. Usually claims-made; may have eroding limits." },
-    { "id": "PcM-1.2-f02", "front": "CGL covers…", "back": "Bodily injury and property damage from non-professional operations or premises. Usually occurrence-based. Excludes professional services." },
-    { "id": "PcM-1.2-f03", "front": "Claims-made trigger", "back": "The policy in force when the claim is made responds, as long as the act happened after the retroactive date." },
-    { "id": "PcM-1.2-f04", "front": "Occurrence trigger", "back": "The policy in force when the injury or damage occurred responds, even if the claim comes years later." },
-    { "id": "PcM-1.2-f05", "front": "Tail coverage", "back": "Extended reporting period bought when a claims-made policy ends (retirement or closure) for later claims about past work." },
-    { "id": "PcM-1.2-f06", "front": "Prior-acts coverage", "back": "Keeping the original retroactive date when switching carriers so earlier work stays insured." },
-    { "id": "PcM-1.2-f07", "front": "Workers' compensation", "back": "State-mandated, no-fault coverage for employee work injuries; generally the employee's exclusive remedy against the employer." },
-    { "id": "PcM-1.2-f08", "front": "FLSA overtime rule", "back": "Non-exempt employees: 1.5× regular rate for hours over 40 in a workweek." },
-    { "id": "PcM-1.2-f09", "front": "What makes an employee exempt from overtime", "back": "Both a duties test (e.g., learned professional) and payment on a salary basis above the threshold. Title alone doesn't count." },
-    { "id": "PcM-1.2-f10", "front": "Employee vs. independent contractor: deciding factor", "back": "Control (behavioral, financial) and economic dependence, not the contract label." },
-    { "id": "PcM-1.2-f11", "front": "Federal employer-size thresholds", "back": "Title VII & ADA: 15+. ADEA & COBRA: 20+. FMLA & ACA mandate: 50+.", "confidence": "medium", "confidenceNote": "Long-standing federal figures; confirm current agency guidance. States often cover smaller employers." },
-    { "id": "PcM-1.2-f12", "front": "Hired & non-owned auto coverage", "back": "Protects the firm when employees use personal or rented vehicles on firm business." },
-    { "id": "PcM-1.2-f13", "front": "EPLI", "back": "Employment practices liability: discrimination, harassment, wrongful termination claims." },
-    { "id": "PcM-1.2-f14", "front": "Who is responsible for jobsite safety?", "back": "The contractor (A201-2017 §3.3.1, Art. 10). The architect protects its own staff but shouldn't take control of site safety." }
-  ]
+    {
+      "id": "PcM-1.2-f01",
+      "front": "Professional liability (E&O) covers…",
+      "back": "Claims alleging negligent acts, errors or omissions in professional services. Usually claims-made; may have eroding limits."
+    },
+    {
+      "id": "PcM-1.2-f02",
+      "front": "CGL covers…",
+      "back": "Bodily injury and property damage from non-professional operations or premises. Usually occurrence-based. Excludes professional services."
+    },
+    {
+      "id": "PcM-1.2-f03",
+      "front": "Claims-made trigger",
+      "back": "The policy in force when the claim is made responds, as long as the act happened after the retroactive date."
+    },
+    {
+      "id": "PcM-1.2-f04",
+      "front": "Occurrence trigger",
+      "back": "The policy in force when the injury or damage occurred responds, even if the claim comes years later."
+    },
+    {
+      "id": "PcM-1.2-f05",
+      "front": "Tail coverage",
+      "back": "Extended reporting period bought when a claims-made policy ends (retirement or closure) for later claims about past work."
+    },
+    {
+      "id": "PcM-1.2-f06",
+      "front": "Prior-acts coverage",
+      "back": "Keeping the original retroactive date when switching carriers so earlier work stays insured."
+    },
+    {
+      "id": "PcM-1.2-f07",
+      "front": "Workers' compensation",
+      "back": "State-mandated, no-fault coverage for employee work injuries; generally the employee's exclusive remedy against the employer."
+    },
+    {
+      "id": "PcM-1.2-f08",
+      "front": "FLSA overtime rule",
+      "back": "Non-exempt employees: 1.5× regular rate for hours over 40 in a workweek."
+    },
+    {
+      "id": "PcM-1.2-f09",
+      "front": "What makes an employee exempt from overtime",
+      "back": "Both a duties test (e.g., learned professional) and salary basis at no less than $684/week (29 C.F.R. §541.600). Title alone doesn't count."
+    },
+    {
+      "id": "PcM-1.2-f10",
+      "front": "Employee vs. independent contractor: deciding factor",
+      "back": "Control (behavioral, financial) and economic dependence, not the contract label."
+    },
+    {
+      "id": "PcM-1.2-f11",
+      "front": "Federal employer-size thresholds",
+      "back": "Title VII & ADA: 15+. ADEA & COBRA: 20+. FMLA & ACA mandate: 50+. (States often cover smaller employers.)"
+    },
+    {
+      "id": "PcM-1.2-f12",
+      "front": "Hired & non-owned auto coverage",
+      "back": "Protects the firm when employees use personal or rented vehicles on firm business."
+    },
+    {
+      "id": "PcM-1.2-f13",
+      "front": "EPLI",
+      "back": "Employment practices liability: discrimination, harassment, wrongful termination claims."
+    },
+    {
+      "id": "PcM-1.2-f14",
+      "front": "Who is responsible for jobsite safety?",
+      "back": "The contractor (A201-2017 §3.3.1, Art. 10). The architect protects its own staff but shouldn't take control of site safety."
+    },
+    {
+      "id": "PcM-1.2-f15",
+      "front": "COBRA continuation basics",
+      "back": "Employers with 20+ employees; coverage generally 18 months after a qualifying event; the employee can be charged up to 102% of the premium."
+    }
+  ],
+  "verified": "2026-11-23"
 }

@@ -92,7 +92,7 @@ The app uses hash URLs (`/#/study/PcM-2.1`), so deep links work on any static ho
   - Theme: system, light or dark.
   - New cards per day.
   - Reset.
-- **Confidence flags.** Anything I wasn't sure is current or accurate carries a **⚠ Verify** badge with a note on what to check. Each objective page lists its flagged items.
+- **Confidence flags.** Anything not yet checked against a source carries a **⚠ Verify** badge with a note on what to check. Each objective page lists its flagged items and shows when its facts were last checked. See `content/VERIFICATION.md` for what has been verified against the NCARB Model Rules, the AIA Code of Ethics and federal law, and what's waiting on the AIA contract PDFs.
 
 ### Notes on question formats
 The October 2026 ARE 5.0 Guidelines list three item types: **multiple choice**, **check-all-that-apply**, and **hotspot**. **Fill-in-the-blank/quantitative is no longer an ARE item type.** The bank still includes a few `numeric` items (finance math, fee splits) as a study aid, labelled "Numeric entry · study aid". Hotspot items need images and aren't included yet. The CSE is multiple choice only.

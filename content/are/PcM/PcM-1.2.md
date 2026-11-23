@@ -17,7 +17,7 @@ It's a U/A objective: know the categories and apply them.
 
 ### Wage and hour (FLSA)
 - **Non-exempt** employees get **1.5× their regular rate for hours over 40 in a workweek**.
-- **Exempt** status (e.g., the *learned professional* exemption) needs *both* a qualifying job duties test *and* payment on a salary basis above the federal threshold. A job title alone never makes someone exempt.
+- **Exempt** status (e.g., the *learned professional* exemption, 29 C.F.R. §541.300) needs *both* a qualifying job duties test *and* payment on a salary basis of at least **$684 per week** (29 C.F.R. §541.600, current). A job title alone never makes someone exempt.
 - Interns at for-profit firms generally must be paid. Unpaid arrangements are allowed only in narrow cases under DOL's "primary beneficiary" test.
 - States may set higher minimum wages and stricter overtime rules. When both apply, the stricter rule controls.
 
@@ -27,12 +27,12 @@ It's a U/A objective: know the categories and apply them.
 | Title VII, Civil Rights Act | Race, color, religion, sex, national origin | 15+ employees |
 | ADA Title I | Disability; reasonable accommodation | 15+ employees |
 | ADEA | Age 40 and over | 20+ employees |
-| FMLA | Up to 12 weeks unpaid, job-protected leave | 50+ employees (eligibility rules apply) |
-| COBRA | Continuation of group health coverage | 20+ employees |
-| ACA employer mandate | Offer affordable coverage | 50+ full-time equivalents |
+| FMLA | Up to 12 workweeks of unpaid, job-protected leave in a 12-month period. Employee needs 12 months' service, 1,250 hours, and 50+ employees within 75 miles | 50+ employees |
+| COBRA | Continuation of group health coverage, generally 18 months, at up to 102% of the premium | 20+ employees |
+| ACA employer mandate | Offer affordable coverage | 50+ full-time employees (FTEs counted) |
 | Equal Pay Act | Equal pay for equal work regardless of sex | Essentially all FLSA-covered employers |
 
-> [!VERIFY] The thresholds above are the long-standing federal numbers. Check current DOL/EEOC guidance, and note that state laws often cover smaller employers.
+Thresholds checked against the U.S. Code (govinfo, 2024 ed.; text in `sources/are/law/`): 42 U.S.C. §2000e(b), §12111(5); 29 U.S.C. §630(b), §2611, §2612, §1161, §1162; 26 U.S.C. §4980H. **State laws often cover smaller employers.** The ARE tests the federal concepts.
 
 ### OSHA
 - Employers must provide a workplace free of recognized hazards (the *General Duty Clause*).

@@ -9,6 +9,19 @@ Official documents that the study content is based on. These are untouched downl
 
 > **Not committed to git.** NCARB's PDF is copyrighted and this repository is public, so `.gitignore` excludes it. Run `npm run fetch:sources` to download it locally. The extracted objectives in `content/are-objectives.json` are committed. SHA-256 of the copy used: see `sources/are/SHA256SUMS`.
 
+### `sources/are/ethics/` (not committed: fetch with `npm run fetch:sources`)
+| File | Source |
+|---|---|
+| `NCARB-Model-Rules-of-Conduct.pdf` | NCARB *Model Rules of Conduct*, rev. July 2023. https://www.ncarb.org/sites/default/files/Rules_of_Conduct.pdf |
+| `AIA-Code-of-Ethics-2024.pdf` | AIA *Code of Ethics and Professional Conduct*, 2024 (the edition on the ARE). https://www.aia.org/sites/default/files/2024-04/aia-code-of-ethics-april-2024.pdf |
+| `AIA-Code-of-Ethics-2026-proposed.pdf` | AIA *Proposed 2026 Code of Ethics* redlines (reference only). https://www.aia.org/sites/default/files/2026-07/Code%20of%20Ethics.pdf |
+
+### `sources/are/law/` (public domain, committed)
+Text of every federal statute and regulation cited in ARE content, from govinfo.gov (U.S. Code, 2024 edition) and ecfr.gov (current): FLSA, Title VII, ADA Title I, ADEA, FMLA, COBRA, the ACA employer mandate, OSHA, Copyright Act sections, the Brooks Act, IRC §1361, NHPA §106, 29 C.F.R. §§541.300/.600, and 36 C.F.R. Part 68. Each file starts with its source URL.
+
+### `sources/are/aia/` (you add these; never committed)
+AIA contract documents downloaded from your NCARB Record (Exams tab → Additional Resources), e.g. `B101-2017.pdf`, `A201-2017.pdf`, `C401-2017.pdf`. They're licensed to you and copyrighted, so `.gitignore` excludes this folder. Claude Code uses them to verify AIA paragraph citations.
+
 ## `sources/cse/`
 | File | Source | Retrieved |
 |---|---|---|

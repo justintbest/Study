@@ -4,14 +4,52 @@
   "division": "PcM",
   "generated": "2026-11-23",
   "references": [
-    { "kind": "Standard", "citation": "CSI MasterFormat (2023 edition, per ARE Guidelines)", "topic": "Organizes specifications by work results into numbered divisions." },
-    { "kind": "Standard", "citation": "CSI SectionFormat / PageFormat", "topic": "Three-part specification sections: General, Products, Execution." },
-    { "kind": "Standard", "citation": "CSI/ASTM UniFormat (ASTM E1557)", "topic": "Elemental classification (A–G) used for early estimates and preliminary project descriptions.", "confidence": "medium", "confidenceNote": "Confirm the ASTM designation and current edition." },
-    { "kind": "Standard", "citation": "U.S. National CAD Standard, incl. Uniform Drawing System", "topic": "Sheet identification (discipline + sheet type + sequence), layers, symbols, set organization.", "confidence": "medium", "confidenceNote": "Confirm the current NCS version number." },
-    { "kind": "Standard", "citation": "BIMForum Level of Development (LOD) Specification", "topic": "LOD 100–500 definitions of model element reliability." },
-    { "kind": "Federal regulation", "citation": "Secretary of the Interior's Standards for the Treatment of Historic Properties, 36 C.F.R. Part 68", "topic": "Four treatments: preservation, rehabilitation, restoration, reconstruction." },
-    { "kind": "Federal law", "citation": "National Historic Preservation Act, Section 106 (54 U.S.C. §306108)", "topic": "Federal agencies must consider the effects of their undertakings on historic properties." },
-    { "kind": "AIA", "citation": "E203-2013 with G202-2013", "topic": "BIM and digital data exhibit and BIM protocol: model element authors, LOD, permitted uses.", "confidence": "medium", "confidenceNote": "Confirm current editions." }
+    {
+      "kind": "Standard",
+      "citation": "CSI MasterFormat (2023 edition, per ARE Guidelines)",
+      "topic": "Organizes specifications by work results into numbered divisions."
+    },
+    {
+      "kind": "Standard",
+      "citation": "CSI SectionFormat / PageFormat",
+      "topic": "Three-part specification sections: General, Products, Execution."
+    },
+    {
+      "kind": "Standard",
+      "citation": "CSI/ASTM UniFormat (ASTM E1557)",
+      "topic": "Elemental classification (A–G) used for early estimates and preliminary project descriptions.",
+      "confidence": "medium",
+      "confidenceNote": "Confirm the ASTM designation and current edition."
+    },
+    {
+      "kind": "Standard",
+      "citation": "U.S. National CAD Standard, incl. Uniform Drawing System",
+      "topic": "Sheet identification (discipline + sheet type + sequence), layers, symbols, set organization.",
+      "confidence": "medium",
+      "confidenceNote": "Confirm the current NCS version number."
+    },
+    {
+      "kind": "Standard",
+      "citation": "BIMForum Level of Development (LOD) Specification",
+      "topic": "LOD 100–500 definitions of model element reliability."
+    },
+    {
+      "kind": "Federal regulation",
+      "citation": "Secretary of the Interior's Standards for the Treatment of Historic Properties, 36 C.F.R. Part 68",
+      "topic": "Four treatments: preservation, rehabilitation, restoration, reconstruction."
+    },
+    {
+      "kind": "Federal law",
+      "citation": "National Historic Preservation Act, Section 106 (54 U.S.C. §306108)",
+      "topic": "Federal agencies must consider the effects of their undertakings on historic properties."
+    },
+    {
+      "kind": "AIA",
+      "citation": "E203-2013 with G202-2013",
+      "topic": "BIM and digital data exhibit and BIM protocol: model element authors, LOD, permitted uses.",
+      "confidence": "medium",
+      "confidenceNote": "Confirm current editions."
+    }
   ],
   "questions": [
     {
@@ -20,10 +58,27 @@
       "cognitiveLevel": "A/E",
       "stem": "At schematic design, an owner wants a cost estimate organized by building systems (foundations, shell, interiors, services) so it can compare design alternatives. Which classification system is most appropriate?",
       "options": [
-        { "id": "a", "text": "UniFormat", "correct": true, "explanation": "Correct. UniFormat organizes cost by building elements and systems, which suits early estimates and comparing alternatives." },
-        { "id": "b", "text": "MasterFormat", "explanation": "MasterFormat organizes by work results and trades. It's better for detailed estimates once specifications exist." },
-        { "id": "c", "text": "Uniform Drawing System", "explanation": "UDS organizes drawing sets, not cost estimates." },
-        { "id": "d", "text": "LOD 400", "explanation": "LOD describes how reliable model elements are. It isn't a cost classification." }
+        {
+          "id": "a",
+          "text": "UniFormat",
+          "correct": true,
+          "explanation": "Correct. UniFormat organizes cost by building elements and systems, which suits early estimates and comparing alternatives."
+        },
+        {
+          "id": "b",
+          "text": "MasterFormat",
+          "explanation": "MasterFormat organizes by work results and trades. It's better for detailed estimates once specifications exist."
+        },
+        {
+          "id": "c",
+          "text": "Uniform Drawing System",
+          "explanation": "UDS organizes drawing sets, not cost estimates."
+        },
+        {
+          "id": "d",
+          "text": "LOD 400",
+          "explanation": "LOD describes how reliable model elements are. It isn't a cost classification."
+        }
       ],
       "explanation": "Early, system-level comparison → UniFormat. Specification-level detail → MasterFormat."
     },
@@ -33,10 +88,27 @@
       "cognitiveLevel": "A/E",
       "stem": "Under the Uniform Drawing System, what does sheet number A-301 most likely represent?",
       "options": [
-        { "id": "a", "text": "The first architectural section sheet", "correct": true, "explanation": "Correct. A = architectural discipline; 3 = sections sheet type; 01 = sequence number." },
-        { "id": "b", "text": "The third architectural floor plan", "explanation": "Plans use sheet type 1 (e.g., A-103 for the third plan sheet)." },
-        { "id": "c", "text": "The first architectural detail sheet", "explanation": "Details use sheet type 5 (e.g., A-501)." },
-        { "id": "d", "text": "An architectural site plan for building 3", "explanation": "UDS sheet numbers encode discipline, sheet type and sequence, not building numbers." }
+        {
+          "id": "a",
+          "text": "The first architectural section sheet",
+          "correct": true,
+          "explanation": "Correct. A = architectural discipline; 3 = sections sheet type; 01 = sequence number."
+        },
+        {
+          "id": "b",
+          "text": "The third architectural floor plan",
+          "explanation": "Plans use sheet type 1 (e.g., A-103 for the third plan sheet)."
+        },
+        {
+          "id": "c",
+          "text": "The first architectural detail sheet",
+          "explanation": "Details use sheet type 5 (e.g., A-501)."
+        },
+        {
+          "id": "d",
+          "text": "An architectural site plan for building 3",
+          "explanation": "UDS sheet numbers encode discipline, sheet type and sequence, not building numbers."
+        }
       ],
       "explanation": "UDS: discipline letter + sheet-type digit + sequence (0 general, 1 plans, 2 elevations, 3 sections, 4 large-scale, 5 details, 6 schedules)."
     },
@@ -47,12 +119,39 @@
       "cognitiveLevel": "A/E",
       "stem": "A firm with frequent coordination errors between architectural and MEP documents wants firm-wide process improvements. Which measures are most effective?",
       "options": [
-        { "id": "a", "text": "Adopt a BIM execution plan defining model responsibilities, exchange schedule and LOD by milestone", "correct": true, "explanation": "Correct. Clear modeling responsibilities and exchange timing reduce coordination gaps." },
-        { "id": "b", "text": "Hold scheduled clash-detection and coordination reviews before major issues", "correct": true, "explanation": "Correct. Routine clash detection catches conflicts before documents are issued." },
-        { "id": "c", "text": "Use milestone QC checklists, with an independent reviewer before permit and bid sets", "correct": true, "explanation": "Correct. Structured QC by a fresh reviewer finds errors the team misses." },
-        { "id": "d", "text": "Eliminate consultant meetings to save fee", "explanation": "Less coordination increases errors." },
-        { "id": "e", "text": "Let each consultant use its own sheet numbering and layer standards", "explanation": "Inconsistent standards make coordination and review harder." },
-        { "id": "f", "text": "Delay all coordination until construction RFIs reveal the conflicts", "explanation": "Finding conflicts in the field is the most expensive way to coordinate." }
+        {
+          "id": "a",
+          "text": "Adopt a BIM execution plan defining model responsibilities, exchange schedule and LOD by milestone",
+          "correct": true,
+          "explanation": "Correct. Clear modeling responsibilities and exchange timing reduce coordination gaps."
+        },
+        {
+          "id": "b",
+          "text": "Hold scheduled clash-detection and coordination reviews before major issues",
+          "correct": true,
+          "explanation": "Correct. Routine clash detection catches conflicts before documents are issued."
+        },
+        {
+          "id": "c",
+          "text": "Use milestone QC checklists, with an independent reviewer before permit and bid sets",
+          "correct": true,
+          "explanation": "Correct. Structured QC by a fresh reviewer finds errors the team misses."
+        },
+        {
+          "id": "d",
+          "text": "Eliminate consultant meetings to save fee",
+          "explanation": "Less coordination increases errors."
+        },
+        {
+          "id": "e",
+          "text": "Let each consultant use its own sheet numbering and layer standards",
+          "explanation": "Inconsistent standards make coordination and review harder."
+        },
+        {
+          "id": "f",
+          "text": "Delay all coordination until construction RFIs reveal the conflicts",
+          "explanation": "Finding conflicts in the field is the most expensive way to coordinate."
+        }
       ],
       "explanation": "Coordination quality = defined responsibilities + scheduled exchanges + systematic QC."
     },
@@ -62,10 +161,27 @@
       "cognitiveLevel": "A/E",
       "stem": "A historic warehouse will be converted into apartments. The owner wants to keep its character-defining features while adding modern systems and new interior layouts. Which Secretary of the Interior's treatment fits best?",
       "options": [
-        { "id": "a", "text": "Rehabilitation", "correct": true, "explanation": "Correct. Rehabilitation allows compatible alterations and additions for a new use while preserving historic character." },
-        { "id": "b", "text": "Restoration", "explanation": "Restoration returns a property to its appearance at a particular period and removes later features. It's not suited to a new use." },
-        { "id": "c", "text": "Reconstruction", "explanation": "Reconstruction recreates a vanished building with new construction." },
-        { "id": "d", "text": "Preservation", "explanation": "Preservation focuses on maintaining and repairing existing fabric with minimal change, which isn't enough for a conversion." }
+        {
+          "id": "a",
+          "text": "Rehabilitation",
+          "correct": true,
+          "explanation": "Correct. Rehabilitation allows compatible alterations and additions for a new use while preserving historic character."
+        },
+        {
+          "id": "b",
+          "text": "Restoration",
+          "explanation": "Restoration returns a property to its appearance at a particular period and removes later features. It's not suited to a new use."
+        },
+        {
+          "id": "c",
+          "text": "Reconstruction",
+          "explanation": "Reconstruction recreates a vanished building with new construction."
+        },
+        {
+          "id": "d",
+          "text": "Preservation",
+          "explanation": "Preservation focuses on maintaining and repairing existing fabric with minimal change, which isn't enough for a conversion."
+        }
       ],
       "explanation": "New use + compatible change = rehabilitation."
     },
@@ -75,10 +191,27 @@
       "cognitiveLevel": "A/E",
       "stem": "In a CSI three-part specification section, where are installation requirements and field quality control found?",
       "options": [
-        { "id": "a", "text": "Part 3: Execution", "correct": true, "explanation": "Correct. Part 3 covers examination, preparation, installation, field quality control, cleaning and protection." },
-        { "id": "b", "text": "Part 1: General", "explanation": "Part 1 covers administrative requirements: submittals, quality assurance, delivery, warranty." },
-        { "id": "c", "text": "Part 2: Products", "explanation": "Part 2 covers manufacturers, materials, products and fabrication." },
-        { "id": "d", "text": "Division 01", "explanation": "Division 01 has project-wide General Requirements, not section-specific installation." }
+        {
+          "id": "a",
+          "text": "Part 3: Execution",
+          "correct": true,
+          "explanation": "Correct. Part 3 covers examination, preparation, installation, field quality control, cleaning and protection."
+        },
+        {
+          "id": "b",
+          "text": "Part 1: General",
+          "explanation": "Part 1 covers administrative requirements: submittals, quality assurance, delivery, warranty."
+        },
+        {
+          "id": "c",
+          "text": "Part 2: Products",
+          "explanation": "Part 2 covers manufacturers, materials, products and fabrication."
+        },
+        {
+          "id": "d",
+          "text": "Division 01",
+          "explanation": "Division 01 has project-wide General Requirements, not section-specific installation."
+        }
       ],
       "explanation": "Part 1 General · Part 2 Products · Part 3 Execution."
     },
@@ -88,10 +221,27 @@
       "cognitiveLevel": "A/E",
       "stem": "A contractor needs model elements accurate enough for fabrication and installation. Which level of development is required?",
       "options": [
-        { "id": "a", "text": "LOD 400", "correct": true, "explanation": "Correct. LOD 400 includes the detail needed for fabrication, assembly and installation." },
-        { "id": "b", "text": "LOD 200", "explanation": "LOD 200 is approximate geometry, enough for design studies." },
-        { "id": "c", "text": "LOD 300", "explanation": "LOD 300 is precise design geometry, but it isn't fabrication-level detail." },
-        { "id": "d", "text": "LOD 100", "explanation": "LOD 100 is conceptual." }
+        {
+          "id": "a",
+          "text": "LOD 400",
+          "correct": true,
+          "explanation": "Correct. LOD 400 includes the detail needed for fabrication, assembly and installation."
+        },
+        {
+          "id": "b",
+          "text": "LOD 200",
+          "explanation": "LOD 200 is approximate geometry, enough for design studies."
+        },
+        {
+          "id": "c",
+          "text": "LOD 300",
+          "explanation": "LOD 300 is precise design geometry, but it isn't fabrication-level detail."
+        },
+        {
+          "id": "d",
+          "text": "LOD 100",
+          "explanation": "LOD 100 is conceptual."
+        }
       ],
       "explanation": "LOD 100 conceptual · 200 approximate · 300 precise · 350 interfaces · 400 fabrication · 500 as-built."
     },
@@ -102,12 +252,38 @@
       "cognitiveLevel": "A/E",
       "stem": "A firm is preparing its first project in an occupied hospital. Which process adjustments are most important?",
       "options": [
-        { "id": "a", "text": "Develop detailed construction phasing and infection-control requirements with the facility", "correct": true, "explanation": "Correct. Work in occupied healthcare facilities must protect patients and operations." },
-        { "id": "b", "text": "Coordinate early with the healthcare regulatory agencies and applicable healthcare design guidelines", "correct": true, "explanation": "Correct. Healthcare projects face more regulatory review than typical commercial work." },
-        { "id": "c", "text": "Use the firm's standard office-building details without review", "explanation": "Healthcare has specific requirements that standard commercial details may not meet." },
-        { "id": "d", "text": "Skip existing-conditions verification to save time", "explanation": "Occupied renovations need careful verification of existing conditions." },
-        { "id": "e", "text": "Rely solely on the contractor to plan phasing", "explanation": "Phasing affects the design documents and operations. The architect must help plan it." },
-        { "id": "f", "text": "Issue a single bid package with no phasing to simplify bidding", "explanation": "Occupied hospitals usually need phased work to keep operating." }
+        {
+          "id": "a",
+          "text": "Develop detailed construction phasing and infection-control requirements with the facility",
+          "correct": true,
+          "explanation": "Correct. Work in occupied healthcare facilities must protect patients and operations."
+        },
+        {
+          "id": "b",
+          "text": "Coordinate early with the healthcare regulatory agencies and applicable healthcare design guidelines",
+          "correct": true,
+          "explanation": "Correct. Healthcare projects face more regulatory review than typical commercial work."
+        },
+        {
+          "id": "c",
+          "text": "Use the firm's standard office-building details without review",
+          "explanation": "Healthcare has specific requirements that standard commercial details may not meet."
+        },
+        {
+          "id": "d",
+          "text": "Skip existing-conditions verification to save time",
+          "explanation": "Occupied renovations need careful verification of existing conditions."
+        },
+        {
+          "id": "e",
+          "text": "Rely solely on the contractor to plan phasing",
+          "explanation": "Phasing affects the design documents and operations. The architect must help plan it."
+        },
+        {
+          "id": "f",
+          "text": "Issue a single bid package with no phasing to simplify bidding",
+          "explanation": "Occupied hospitals usually need phased work to keep operating."
+        }
       ],
       "explanation": "Project type changes the process: healthcare means regulatory coordination, phasing and infection control."
     },
@@ -117,10 +293,27 @@
       "cognitiveLevel": "A/E",
       "stem": "Which specification method states required results and leaves the means of achieving them to the contractor?",
       "options": [
-        { "id": "a", "text": "Performance specification", "correct": true, "explanation": "Correct. Performance specs define required outcomes and test criteria." },
-        { "id": "b", "text": "Descriptive (prescriptive) specification", "explanation": "Descriptive specs detail materials and installation rather than results." },
-        { "id": "c", "text": "Closed proprietary specification", "explanation": "Closed proprietary specs name specific products with no substitutions." },
-        { "id": "d", "text": "Reference standard specification", "explanation": "Reference standard specs rely on cited industry standards, not stated outcomes." }
+        {
+          "id": "a",
+          "text": "Performance specification",
+          "correct": true,
+          "explanation": "Correct. Performance specs define required outcomes and test criteria."
+        },
+        {
+          "id": "b",
+          "text": "Descriptive (prescriptive) specification",
+          "explanation": "Descriptive specs detail materials and installation rather than results."
+        },
+        {
+          "id": "c",
+          "text": "Closed proprietary specification",
+          "explanation": "Closed proprietary specs name specific products with no substitutions."
+        },
+        {
+          "id": "d",
+          "text": "Reference standard specification",
+          "explanation": "Reference standard specs rely on cited industry standards, not stated outcomes."
+        }
       ],
       "explanation": "Performance = what it must do. Prescriptive = what it is and how to install it."
     },
@@ -130,10 +323,27 @@
       "cognitiveLevel": "A/E",
       "stem": "A firm wants a record-retention policy that best protects it against late claims. Which approach is most appropriate?",
       "options": [
-        { "id": "a", "text": "Keep key project records at least through the applicable statute of repose and contractual claim periods", "correct": true, "explanation": "Correct. Records are critical defense evidence. Keep them as long as claims can be brought." },
-        { "id": "b", "text": "Discard project records one year after substantial completion", "explanation": "Claims can arrive many years later. Early disposal leaves the firm unable to defend itself." },
-        { "id": "c", "text": "Keep only the final drawings and discard correspondence", "explanation": "Correspondence, meeting minutes and field reports are often the most important defense records." },
-        { "id": "d", "text": "Give all records to the owner at closeout", "explanation": "The firm needs its own records. Owners receive specified deliverables, not the firm's files." }
+        {
+          "id": "a",
+          "text": "Keep key project records at least through the applicable statute of repose and contractual claim periods",
+          "correct": true,
+          "explanation": "Correct. Records are critical defense evidence. Keep them as long as claims can be brought."
+        },
+        {
+          "id": "b",
+          "text": "Discard project records one year after substantial completion",
+          "explanation": "Claims can arrive many years later. Early disposal leaves the firm unable to defend itself."
+        },
+        {
+          "id": "c",
+          "text": "Keep only the final drawings and discard correspondence",
+          "explanation": "Correspondence, meeting minutes and field reports are often the most important defense records."
+        },
+        {
+          "id": "d",
+          "text": "Give all records to the owner at closeout",
+          "explanation": "The firm needs its own records. Owners receive specified deliverables, not the firm's files."
+        }
       ],
       "explanation": "Retention policy should match the claims exposure period (repose + contract limits)."
     },
@@ -143,28 +353,104 @@
       "cognitiveLevel": "A/E",
       "stem": "A retail client builds 30 stores a year from a prototype. Which practice-wide resource most improves efficiency and consistency?",
       "options": [
-        { "id": "a", "text": "A maintained prototype standards package with version control and a site-adaptation checklist", "correct": true, "explanation": "Correct. Controlled prototype documents and a site-adaptation process give consistency across many stores." },
-        { "id": "b", "text": "A custom design for each store to show creativity", "explanation": "Custom design for each store defeats the purpose of a prototype program." },
-        { "id": "c", "text": "Copying the last store's drawings without checking the local code", "explanation": "Each site has its own code, zoning and site conditions that must be reviewed." },
-        { "id": "d", "text": "Letting each project team keep its own version of the prototype", "explanation": "Multiple uncontrolled versions lead to errors and inconsistency." }
+        {
+          "id": "a",
+          "text": "A maintained prototype standards package with version control and a site-adaptation checklist",
+          "correct": true,
+          "explanation": "Correct. Controlled prototype documents and a site-adaptation process give consistency across many stores."
+        },
+        {
+          "id": "b",
+          "text": "A custom design for each store to show creativity",
+          "explanation": "Custom design for each store defeats the purpose of a prototype program."
+        },
+        {
+          "id": "c",
+          "text": "Copying the last store's drawings without checking the local code",
+          "explanation": "Each site has its own code, zoning and site conditions that must be reviewed."
+        },
+        {
+          "id": "d",
+          "text": "Letting each project team keep its own version of the prototype",
+          "explanation": "Multiple uncontrolled versions lead to errors and inconsistency."
+        }
       ],
       "explanation": "Repetitive programs → controlled standards + site-adaptation procedures."
     }
   ],
   "flashcards": [
-    { "id": "PcM-4.2-f01", "front": "MasterFormat organizes…", "back": "Specifications by work results into numbered divisions (e.g., 03 Concrete, 08 Openings, 09 Finishes)." },
-    { "id": "PcM-4.2-f02", "front": "UniFormat organizes…", "back": "Building elements and systems (A Substructure → G Sitework). Used for early estimates." },
-    { "id": "PcM-4.2-f03", "front": "Three parts of a CSI section", "back": "Part 1 General · Part 2 Products · Part 3 Execution." },
-    { "id": "PcM-4.2-f04", "front": "UDS sheet types", "back": "0 general · 1 plans · 2 elevations · 3 sections · 4 large-scale views · 5 details · 6 schedules & diagrams · 7–8 user-defined · 9 3D.", "confidence": "medium", "confidenceNote": "Confirm against the current NCS/UDS version." },
-    { "id": "PcM-4.2-f05", "front": "Sheet A-201", "back": "Architectural, elevations, first sheet." },
-    { "id": "PcM-4.2-f06", "front": "LOD scale", "back": "100 conceptual · 200 approximate · 300 precise · 350 interfaces · 400 fabrication · 500 field-verified." },
-    { "id": "PcM-4.2-f07", "front": "Four Secretary of the Interior treatments", "back": "Preservation, Rehabilitation, Restoration, Reconstruction." },
-    { "id": "PcM-4.2-f08", "front": "Rehabilitation", "back": "Compatible alterations and additions for a new or continued use while preserving historic character." },
-    { "id": "PcM-4.2-f09", "front": "Restoration", "back": "Returns a property to its appearance at a specific period; removes later features." },
-    { "id": "PcM-4.2-f10", "front": "Performance vs. prescriptive specification", "back": "Performance = required results. Prescriptive/descriptive = specific materials and methods." },
-    { "id": "PcM-4.2-f11", "front": "Proprietary specification: open vs. closed", "back": "Open allows 'or equal' substitutions. Closed names products with no substitutes." },
-    { "id": "PcM-4.2-f12", "front": "BIM execution plan", "back": "Who models what, when, to what LOD, and how models are exchanged and coordinated." },
-    { "id": "PcM-4.2-f13", "front": "Record retention period", "back": "At least through the statute of repose and the contractual claim limits (B101 outer limit: 10 years from substantial completion)." },
-    { "id": "PcM-4.2-f14", "front": "Section 106 (NHPA)", "back": "Federal undertakings must consider effects on historic properties." }
-  ]
+    {
+      "id": "PcM-4.2-f01",
+      "front": "MasterFormat organizes…",
+      "back": "Specifications by work results into numbered divisions (e.g., 03 Concrete, 08 Openings, 09 Finishes)."
+    },
+    {
+      "id": "PcM-4.2-f02",
+      "front": "UniFormat organizes…",
+      "back": "Building elements and systems (A Substructure → G Sitework). Used for early estimates."
+    },
+    {
+      "id": "PcM-4.2-f03",
+      "front": "Three parts of a CSI section",
+      "back": "Part 1 General · Part 2 Products · Part 3 Execution."
+    },
+    {
+      "id": "PcM-4.2-f04",
+      "front": "UDS sheet types",
+      "back": "0 general · 1 plans · 2 elevations · 3 sections · 4 large-scale views · 5 details · 6 schedules & diagrams · 7–8 user-defined · 9 3D.",
+      "confidence": "medium",
+      "confidenceNote": "Confirm against the current NCS/UDS version."
+    },
+    {
+      "id": "PcM-4.2-f05",
+      "front": "Sheet A-201",
+      "back": "Architectural, elevations, first sheet."
+    },
+    {
+      "id": "PcM-4.2-f06",
+      "front": "LOD scale",
+      "back": "100 conceptual · 200 approximate · 300 precise · 350 interfaces · 400 fabrication · 500 field-verified."
+    },
+    {
+      "id": "PcM-4.2-f07",
+      "front": "Four Secretary of the Interior treatments",
+      "back": "Preservation, Rehabilitation, Restoration, Reconstruction."
+    },
+    {
+      "id": "PcM-4.2-f08",
+      "front": "Rehabilitation",
+      "back": "Compatible alterations and additions for a new or continued use while preserving historic character."
+    },
+    {
+      "id": "PcM-4.2-f09",
+      "front": "Restoration",
+      "back": "Returns a property to its appearance at a specific period; removes later features."
+    },
+    {
+      "id": "PcM-4.2-f10",
+      "front": "Performance vs. prescriptive specification",
+      "back": "Performance = required results. Prescriptive/descriptive = specific materials and methods."
+    },
+    {
+      "id": "PcM-4.2-f11",
+      "front": "Proprietary specification: open vs. closed",
+      "back": "Open allows 'or equal' substitutions. Closed names products with no substitutes."
+    },
+    {
+      "id": "PcM-4.2-f12",
+      "front": "BIM execution plan",
+      "back": "Who models what, when, to what LOD, and how models are exchanged and coordinated."
+    },
+    {
+      "id": "PcM-4.2-f13",
+      "front": "Record retention period",
+      "back": "At least through the statute of repose and the contractual claim limits (B101 outer limit: 10 years from substantial completion)."
+    },
+    {
+      "id": "PcM-4.2-f14",
+      "front": "Section 106 (NHPA)",
+      "back": "Federal undertakings must consider effects on historic properties."
+    }
+  ],
+  "verified": "2026-11-23"
 }

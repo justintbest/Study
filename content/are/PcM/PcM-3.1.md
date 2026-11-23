@@ -20,11 +20,13 @@ Weigh these factors:
 
 Declining is a legitimate answer. A well-run firm says no to poor-fit or high-risk work.
 
+**Fee competition and free work.** Submitting competitive fees, discounting, or offering free services is *not, in itself,* unethical; the 2024 AIA Code's antitrust statement says so explicitly. Whether it's *wise* is a business-risk question.
+
 ### Types of requests
 - **RFQ (request for qualifications):** experience, team and approach. Usually no fee.
 - **RFP (request for proposal):** scope understanding, approach, schedule, and often a fee.
 - **Qualifications-based selection (QBS):** the owner picks the most qualified firm first, *then* negotiates a fair and reasonable fee. If they can't agree, the owner moves to the next-ranked firm.
-  - The **Brooks Act** requires QBS for federal A/E contracts (40 U.S.C. §§1101–1104).
+  - The **Brooks Act** requires QBS for federal A/E contracts (40 U.S.C. §§1101–1104). The agency ranks **at least three** most highly qualified firms in order of preference, then negotiates with the top one.
   - Many states and localities have similar laws for public work.
 - **Sole-source / direct negotiation:** typical with repeat private clients.
 
