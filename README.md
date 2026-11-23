@@ -38,10 +38,6 @@ cd Study
 ```
 
 ```powershell
-git checkout claude/fervent-shannon-gbj0m8
-```
-
-```powershell
 npm install
 ```
 
@@ -61,7 +57,6 @@ Other commands:
 | `npm test` | Unit tests (SM-2 scheduling, quiz weighting, grading) |
 | `npm run validate` | Checks every file in `/content` (add `-- --strict` to fail on warnings too) |
 
-> Once the branch is merged into `main`, you can skip the `git checkout` step.
 
 ## Deploy to Vercel
 1. Push the repo to GitHub (it's already there).
