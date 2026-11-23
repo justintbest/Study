@@ -39,311 +39,324 @@
   ],
   "questions": [
     {
-      "id": "PcM-3.1-q01",
+      "id": "PcM-3.1-q21",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A developer's RFP for a 120-unit apartment building lists a construction budget that, by the firm's experience, will cover only about 80 units of the stated quality. What is the most appropriate response?",
+      "stem": "A developer issues an RFP for a market-rate apartment building:\n\n- 120 units, mid-range finishes\n- Construction budget: $16,800,000\n\nThe firm's cost data for similar recent projects averages $210,000 per unit at that finish level.\n\nWhich response is most appropriate?",
       "options": [
         {
           "id": "a",
-          "text": "Submit a proposal based on the RFP and address the budget during schematic design.",
-          "explanation": "Waiting lets an unrealistic baseline set the client's expectations and drive the fee."
+          "text": "Propose per the RFP and address the budget in schematic design.",
+          "explanation": "Waiting lets an unrealistic baseline set expectations and the fee."
         },
         {
           "id": "b",
-          "text": "Raise the budget-to-program mismatch with the client before contracting, and propose services to reconcile program, quality and budget.",
-          "correct": true,
-          "explanation": "Correct. Flagging a fundamental feasibility issue up front protects the client and the firm, and defines the right scope."
+          "text": "Raise the budget gap with the developer before contracting.",
+          "explanation": "Correct. The budget supports about 80 units at the stated quality. Flagging a feasibility gap before contracting protects both parties and defines the right scope.",
+          "correct": true
         },
         {
           "id": "c",
-          "text": "Decline to respond, since the budget is unrealistic.",
-          "explanation": "The issue may be solvable. Raising it is better than walking away immediately."
+          "text": "Decline to respond because the budget is unrealistic.",
+          "explanation": "The gap may be solvable through program, quality or budget changes. Raising it comes first."
         },
         {
           "id": "d",
-          "text": "Lower the design quality in the proposal without telling the client, to fit the budget.",
+          "text": "Propose a lower finish level without discussing it.",
           "explanation": "Changing quality without the client's informed decision misrepresents the project."
         }
       ],
-      "explanation": "Assess the request's completeness and realism before finalizing a contract."
+      "explanation": "1. Expected cost = 120 units × $210,000 = $25,200,000\n2. Budget covers $16,800,000 ÷ $210,000 = 80 units\nAssess feasibility before contracting."
     },
     {
-      "id": "PcM-3.1-q02",
+      "id": "PcM-3.1-q22",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A federal agency is procuring architectural services for a new courthouse. How will the firm most likely be selected?",
+      "stem": "A federal agency announces a requirement for architectural services for a new courthouse.\n\nHow will the agency select the architect?",
       "options": [
         {
           "id": "a",
-          "text": "Lowest qualified fee bid",
-          "explanation": "Federal A/E procurement under the Brooks Act doesn't select on price competition."
+          "text": "Lowest fee among qualified firms",
+          "explanation": "Federal A/E selection under the Brooks Act isn't based on price competition."
         },
         {
           "id": "b",
-          "text": "Ranking on qualifications, then negotiating a fair and reasonable fee with the top-ranked firm",
-          "correct": true,
-          "explanation": "Correct. Under the Brooks Act the agency ranks at least three most highly qualified firms in order of preference and negotiates a fair and reasonable fee with the top-ranked firm (40 U.S.C. §§1103–1104)."
+          "text": "Qualifications ranking, then fee negotiation",
+          "explanation": "Correct. The agency ranks at least three most highly qualified firms, then negotiates fair and reasonable compensation with the first (40 U.S.C. §§1103–1104).",
+          "correct": true
         },
         {
           "id": "c",
-          "text": "A design competition with fee as the tiebreaker",
-          "explanation": "Competitions are possible but aren't the standard federal A/E method. Fee isn't the selection criterion."
+          "text": "Best value combining fee and qualifications",
+          "explanation": "Best-value tradeoffs are used for other procurements, but the Brooks Act requires qualifications first."
         },
         {
           "id": "d",
-          "text": "Sole-source award to the firm that designed the previous courthouse",
-          "explanation": "Federal contracts generally require public announcement and competition on qualifications."
+          "text": "Design competition with fee as the tiebreaker",
+          "explanation": "Competitions are possible, but they aren't the statutory selection method."
         }
       ],
-      "explanation": "QBS: qualifications first, fee negotiated after."
+      "explanation": "QBS: qualifications first, fee negotiated with the top-ranked firm; if no agreement, move to the next."
     },
     {
-      "id": "PcM-3.1-q03",
+      "id": "PcM-3.1-q23",
       "type": "cata",
-      "selectCount": 3,
       "cognitiveLevel": "A/E",
-      "stem": "An RFP for a library renovation gives no information on existing conditions, no program, and no budget. Which steps are appropriate before submitting a fee?",
+      "stem": "A county RFP for a library renovation includes a site address and a desired opening date, but no existing drawings, program or budget.\n\nWhich steps are appropriate before submitting a fee?",
       "options": [
         {
           "id": "a",
-          "text": "Submit written questions asking for available drawings, budget, and program information",
-          "correct": true,
-          "explanation": "Correct. Clarifying questions improve the accuracy of the scope and fee."
+          "text": "Submit written questions requesting drawings, program and budget",
+          "explanation": "Correct. Clarifying questions improve the accuracy of scope and fee.",
+          "correct": true
         },
         {
           "id": "b",
-          "text": "Include existing-conditions documentation and programming as defined services in the proposal",
-          "correct": true,
-          "explanation": "Correct. Missing information can become supplemental services rather than unpaid assumptions."
+          "text": "Include existing-conditions documentation as a defined service",
+          "explanation": "Correct. Missing information can become a paid service rather than an unpaid assumption.",
+          "correct": true
         },
         {
           "id": "c",
           "text": "State the assumptions on which the fee is based",
-          "correct": true,
-          "explanation": "Correct. Written assumptions make later changes recognizable as additional services."
+          "explanation": "Correct. Written assumptions make later changes recognizable as additional services.",
+          "correct": true
         },
         {
           "id": "d",
-          "text": "Assume the library has complete as-built drawings",
-          "explanation": "An unstated, optimistic assumption risks major unpaid work."
+          "text": "Base the fee on a typical budget for similar libraries",
+          "explanation": "An assumed budget creates a false baseline the county never agreed to."
         },
         {
           "id": "e",
-          "text": "Price the work as a percentage of an estimated construction cost you invent",
-          "explanation": "Inventing a budget creates a false baseline. Clarify or state the assumptions instead."
+          "text": "Assume complete as-built drawings will be provided",
+          "explanation": "Unstated, optimistic assumptions put major unpaid work at risk."
         },
         {
           "id": "f",
-          "text": "Promise a fixed construction cost to make the proposal more competitive",
-          "explanation": "Guaranteeing construction cost is beyond the architect's control and standard of care."
+          "text": "Defer setting a fee until after schematic design",
+          "explanation": "Counties generally require a fee or fee basis for selection and contracting."
         }
       ],
-      "explanation": "Incomplete request → ask, define services for the gaps, and state assumptions."
+      "selectCount": 3,
+      "explanation": "Incomplete request → ask questions, define services for the gaps, state assumptions."
     },
     {
-      "id": "PcM-3.1-q04",
-      "type": "numeric",
-      "cognitiveLevel": "U/A",
-      "stem": "A basic-services fee of $480,000 is allocated by phase: SD 15%, DD 20%, CD 40%, Procurement 5%, CA 20%. How much fee is allocated to construction documents, in dollars?",
-      "answer": {
-        "value": 192000,
-        "tolerance": 1,
-        "unit": "$"
-      },
-      "explanation": "$480,000 × 0.40 = $192,000."
-    },
-    {
-      "id": "PcM-3.1-q05",
+      "id": "PcM-3.1-q24",
       "type": "mc",
-      "cognitiveLevel": "A/E",
-      "stem": "A firm with no laboratory experience is invited to propose on a complex research lab. The firm is at full capacity for six months, and the owner requires an unusually broad indemnity. Which decision is most appropriate?",
+      "cognitiveLevel": "U/A",
+      "stem": "A basic-services fee of $480,000 is allocated by phase:\n\n- Schematic design: 15%\n- Design development: 20%\n- Construction documents: 40%\n- Procurement: 5%\n- Construction administration: 20%\n\nHow much fee is allocated to the construction documents phase?",
       "options": [
         {
           "id": "a",
-          "text": "Pursue it aggressively. Labs are a growth market.",
+          "text": "$96,000",
+          "explanation": "That's the design development allocation (20%)."
+        },
+        {
+          "id": "b",
+          "text": "$192,000",
+          "explanation": "Correct. $480,000 × 0.40 = $192,000.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "$360,000",
+          "explanation": "That's the cumulative fee through construction documents (75%)."
+        }
+      ],
+      "explanation": "Phase fee = total basic fee × phase percentage."
+    },
+    {
+      "id": "PcM-3.1-q25",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "A 30-person firm is invited to propose on a research laboratory. The facts are:\n\n- The firm has no laboratory experience.\n- The firm is at full capacity for the next six months.\n- The owner's form requires a broad-form indemnity.\n\nWhich decision is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pursue the project to enter a growth market.",
           "explanation": "Lack of expertise, lack of capacity and onerous terms together point to poor fit and high risk."
         },
         {
           "id": "b",
-          "text": "Decline, or pursue only by teaming with an experienced lab architect after negotiating the indemnity.",
-          "correct": true,
-          "explanation": "Correct. The go/no-go analysis shows a poor fit unless expertise and terms are addressed. Declining is legitimate."
+          "text": "Pursue only with a lab partner and revised indemnity.",
+          "explanation": "Correct. The go/no-go analysis shows poor fit unless expertise and terms are both addressed.",
+          "correct": true
         },
         {
           "id": "c",
-          "text": "Pursue it and hire new staff after award.",
-          "explanation": "Hiring after award doesn't solve the lack of expertise, and it compresses the timeline."
+          "text": "Pursue it and hire laboratory specialists after award.",
+          "explanation": "Hiring after award compresses the schedule and leaves the proposal misrepresenting current capability."
         },
         {
           "id": "d",
-          "text": "Pursue it but subcontract the entire design to another firm without telling the owner.",
-          "explanation": "Hiding who will do the work misrepresents the firm's qualifications."
+          "text": "Pursue it and price the indemnity risk into the fee.",
+          "explanation": "A higher fee doesn't make broad-form indemnity insurable, and it ignores the expertise gap."
         }
       ],
-      "explanation": "Go/no-go weighs fit, capacity, risk and terms. 'No' or 'team up' are valid answers."
+      "explanation": "Go/no-go weighs fit, capacity, risk and terms. Teaming or declining are valid outcomes."
     },
     {
-      "id": "PcM-3.1-q06",
+      "id": "PcM-3.1-q26",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "Which approach produces the most reliable fee proposal for a well-defined project?",
+      "stem": "A firm is preparing a fee for a well-defined fire station project similar to several it has completed.\n\nWhich approach produces the most reliable fee?",
       "options": [
         {
           "id": "a",
-          "text": "Apply a standard percentage of construction cost.",
+          "text": "Apply a typical percentage of construction cost.",
           "explanation": "Percentage benchmarks are useful checks but ignore project-specific effort."
         },
         {
           "id": "b",
-          "text": "Build a bottom-up staffing plan by phase and task, then check it against top-down benchmarks.",
-          "correct": true,
-          "explanation": "Correct. A task-based estimate reflects actual effort, and benchmarks catch outliers."
+          "text": "Build a task-based estimate and check benchmarks.",
+          "explanation": "Correct. A bottom-up estimate reflects actual effort, and top-down benchmarks catch outliers.",
+          "correct": true
         },
         {
           "id": "c",
-          "text": "Match the fee of the last firm the client hired.",
-          "explanation": "A competitor's fee doesn't reflect your effort, costs or scope."
+          "text": "Use the fee from the firm's most recent fire station.",
+          "explanation": "Past fees are a useful check, but scope, site and schedule differences must be estimated."
         },
         {
           "id": "d",
-          "text": "Use whatever fee the client offers.",
-          "explanation": "Accepting an arbitrary fee without analysis risks losing money."
+          "text": "Match the client's stated fee budget.",
+          "explanation": "Accepting a budget without analysis risks losing money on the project."
         }
       ],
       "explanation": "Bottom-up estimate + top-down check = reliable fee."
     },
     {
-      "id": "PcM-3.1-q07",
+      "id": "PcM-3.1-q27",
       "type": "cata",
-      "selectCount": 2,
       "cognitiveLevel": "A/E",
-      "stem": "Which situations present a conflict that the architect must disclose, and possibly resolve by declining or recusing, before contracting?",
+      "stem": "Before submitting a proposal to a university, the architect reviews possible conflicts of interest.\n\nWhich situations must be disclosed before contracting?",
       "options": [
         {
           "id": "a",
-          "text": "The architect's spouse sits on the owner's selection committee.",
-          "correct": true,
-          "explanation": "Correct. A personal relationship with a decision-maker is a conflict that must be disclosed."
+          "text": "The architect's spouse sits on the selection committee.",
+          "explanation": "Correct. A personal relationship with a decision-maker is a conflict that must be disclosed.",
+          "correct": true
         },
         {
           "id": "b",
-          "text": "The architect is already designing a competing project on an adjacent site for another developer.",
-          "correct": true,
-          "explanation": "Correct. Serving competing clients on related matters requires disclosure and consent, or declining."
+          "text": "The firm is designing a competing project on an adjacent site.",
+          "explanation": "Correct. Serving competing clients on related matters requires disclosure and consent.",
+          "correct": true
         },
         {
           "id": "c",
-          "text": "The architect previously designed a similar building type.",
-          "explanation": "Relevant experience isn't a conflict. It's a qualification."
+          "text": "The firm previously designed a similar building type.",
+          "explanation": "Relevant experience is a qualification, not a conflict."
         },
         {
           "id": "d",
-          "text": "The architect is licensed in the project's jurisdiction.",
-          "explanation": "Being licensed where the work is located is a requirement, not a conflict."
+          "text": "The firm's principal is a member of the university's alumni association.",
+          "explanation": "Alumni membership alone doesn't create a financial interest or influence over the decision."
         },
         {
           "id": "e",
-          "text": "The owner asks for references from past clients.",
-          "explanation": "Supplying references is routine."
+          "text": "The firm uses the same structural engineer on many projects.",
+          "explanation": "A long-standing consultant relationship isn't a conflict with the client."
         },
         {
           "id": "f",
-          "text": "The architect uses the same structural engineer as on past projects.",
-          "explanation": "Long-standing consultant relationships are normal and aren't conflicts with the client."
+          "text": "The firm has worked for the university's peer institutions.",
+          "explanation": "Experience with peer institutions isn't a conflict."
         }
       ],
-      "explanation": "Conflicts involve divided loyalty or influence. Disclose and resolve them before contracting."
+      "selectCount": 2,
+      "explanation": "Conflicts involve divided loyalty or influence. Disclose them and get consent, or decline."
     },
     {
-      "id": "PcM-3.1-q08",
+      "id": "PcM-3.1-q28",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A prospective client asks the architect to design a building that, as described, would need a zoning variance the client says it will \"handle quietly\" with a council member. What should the architect do?",
+      "stem": "A prospective client asks for a building that would require a zoning variance. The client says the variance will be 'handled quietly' through a friend on the city council.\n\nHow should the architect respond?",
       "options": [
         {
           "id": "a",
-          "text": "Accept the work, since approvals are the owner's responsibility.",
-          "explanation": "The architect can't take part in a scheme that appears to involve improperly influencing a public official."
+          "text": "Accept, since entitlements are the owner's responsibility.",
+          "explanation": "The architect can't assist conduct it knows, or should know, is improper (NCARB 4.3; AIA 2.106)."
         },
         {
           "id": "b",
-          "text": "Explain that approvals must go through the proper public process, and decline if the client intends otherwise.",
-          "correct": true,
-          "explanation": "Correct. Architects must not help a client with conduct that appears unlawful or contrary to the public interest."
+          "text": "Explain the public process; decline if the client won't use it.",
+          "explanation": "Correct. Redirect the client to the lawful process, and decline to take part in improper influence.",
+          "correct": true
         },
         {
           "id": "c",
-          "text": "Accept the work, but keep the council member's name out of the documents.",
-          "explanation": "Concealment makes the ethical problem worse."
+          "text": "Accept but exclude the variance work from the architect's scope.",
+          "explanation": "Excluding the task doesn't remove the architect from a project premised on improper influence."
         },
         {
           "id": "d",
-          "text": "Accept, and include a variance-application fee in the proposal.",
-          "explanation": "A fee for the variance application doesn't address the client's stated intent to bypass the public process."
+          "text": "Accept and prepare the variance application.",
+          "explanation": "Preparing the application ignores the client's stated intent to bypass the public process."
         }
       ],
-      "explanation": "Requests that conflict with law or the public interest: redirect to the proper process or decline."
+      "explanation": "Requests that conflict with law or the public interest: redirect to the proper process, or decline."
     },
     {
-      "id": "PcM-3.1-q09",
+      "id": "PcM-3.1-q29",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A repeat client asks for a quick proposal for a 'small addition.' On a site visit, the architect learns the client also wants the existing building brought up to current accessibility standards and a new roof. What should the proposal do?",
+      "stem": "A repeat client asks for a quick proposal for a 'small addition.' On a site visit, the architect learns the client also wants accessibility upgrades to the existing building and a new roof.\n\nWhat should the proposal do?",
       "options": [
         {
           "id": "a",
-          "text": "Price only the addition, as the client originally described.",
-          "explanation": "Ignoring known scope invites disputes later and underprices the effort."
+          "text": "Price only the addition as originally requested.",
+          "explanation": "Ignoring known scope underprices the work and invites disputes."
         },
         {
           "id": "b",
-          "text": "Define the full scope the client now describes (addition, accessibility upgrades, reroofing), with assumptions and any needed existing-conditions services.",
-          "correct": true,
-          "explanation": "Correct. The proposal must reflect the services the client actually needs."
+          "text": "Define the full scope now described, with assumptions.",
+          "explanation": "Correct. The proposal must reflect the services the client actually needs.",
+          "correct": true
         },
         {
           "id": "c",
-          "text": "Include the extra work at no charge, since this is a repeat client.",
-          "explanation": "Free services blur the scope and erode profitability, even for good clients."
+          "text": "Include the extra work at no charge for a repeat client.",
+          "explanation": "Free services blur scope and erode profitability, even with good clients."
         },
         {
           "id": "d",
-          "text": "Tell the client accessibility upgrades are the contractor's responsibility.",
-          "explanation": "Designing accessibility upgrades is a design service. The contractor builds what is designed."
+          "text": "Price the other work hourly as additional services after award.",
+          "explanation": "Deferring known scope to after award leaves the client without a clear picture of cost."
         }
       ],
-      "explanation": "Assess the real scope of services needed, not just the label on the request."
+      "explanation": "Assess the actual scope of services needed, not just the label on the request."
     },
     {
-      "id": "PcM-3.1-q10",
+      "id": "PcM-3.1-q30",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "Which information is most important to confirm about a new private developer client before signing an agreement?",
+      "stem": "A new developer client wants to sign an agreement for a speculative office building this week.\n\nBefore signing, what should the architect confirm first?",
       "options": [
         {
           "id": "a",
-          "text": "The client's financial capability and project funding status",
-          "correct": true,
-          "explanation": "Correct. A client's ability to pay is a primary risk factor, especially for speculative development."
+          "text": "The status of project financing",
+          "explanation": "Correct. A speculative client's ability to pay is the primary contracting risk.",
+          "correct": true
         },
         {
           "id": "b",
-          "text": "The client's preferred architectural style",
-          "explanation": "Style preferences matter for design, but they don't drive the business risk of contracting."
+          "text": "The developer's preferred contractor",
+          "explanation": "Useful later, but secondary to the client's ability to fund the project."
         },
         {
           "id": "c",
-          "text": "The contractor the client intends to hire",
-          "explanation": "Useful information, but it's secondary to the client's ability to fund the project and pay fees."
+          "text": "The developer's design preferences",
+          "explanation": "Design preferences are explored during programming and design."
         },
         {
           "id": "d",
-          "text": "The client's social media presence",
-          "explanation": "Irrelevant to contractual risk."
+          "text": "The project's marketing schedule",
+          "explanation": "Marketing timing doesn't establish whether the client can pay."
         }
       ],
-      "explanation": "Client due diligence: can they pay, and is the project funded?"
+      "explanation": "Client due diligence starts with financial capability and funding."
     }
   ],
   "flashcards": [
@@ -420,5 +433,6 @@
       "back": "Not in itself. The AIA Code's antitrust statement permits competitive bids, discounts and free services. Watch the business risk, though."
     }
   ],
-  "verified": "2026-11-23"
+  "verified": "2026-11-23",
+  "itemStyle": "ncarb-v2"
 }

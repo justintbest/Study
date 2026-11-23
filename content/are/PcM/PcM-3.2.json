@@ -4,166 +4,461 @@
   "division": "PcM",
   "generated": "2026-11-23",
   "references": [
-    { "kind": "AIA", "citation": "B101-2017; A101-2017; A201-2017", "topic": "Design-bid-build family: owner–architect, owner–contractor (stipulated sum), general conditions. All three are on NCARB's ARE list." },
-    { "kind": "AIA", "citation": "A133-2019", "topic": "Owner–construction manager as constructor; cost of the work plus a fee with a GMP. On NCARB's ARE list." },
-    { "kind": "AIA", "citation": "A141-2014; B143-2014", "topic": "Design-build: owner–design-builder; design-builder–architect. On NCARB's ARE list." },
-    { "kind": "AIA", "citation": "A195-2008; B195-2008", "topic": "Integrated project delivery (transitional) agreements. On NCARB's ARE list." },
-    { "kind": "AIA", "citation": "C401-2017", "topic": "Architect–consultant agreement. On NCARB's ARE list." },
-    { "kind": "AIA", "citation": "A701-2018", "topic": "Instructions to Bidders. On NCARB's ARE list." },
-    { "kind": "AIA", "citation": "B102-2017, B103-2017, B104-2017, B105-2017, B132-2019, B133-2019, A102-2017, A103-2017, A132-2019, A134-2019, C132-2019, C191-2009", "topic": "Other members of the owner–architect and delivery-method families referenced in the note.", "confidence": "medium", "confidenceNote": "Not on NCARB's ARE list; document numbers and edition years from my knowledge. Confirm on aiacontracts.com." }
+    {
+      "kind": "AIA",
+      "citation": "B101-2017; A101-2017; A201-2017",
+      "topic": "Design-bid-build family: owner–architect, owner–contractor (stipulated sum), general conditions. All three are on NCARB's ARE list."
+    },
+    {
+      "kind": "AIA",
+      "citation": "A133-2019",
+      "topic": "Owner–construction manager as constructor; cost of the work plus a fee with a GMP. On NCARB's ARE list."
+    },
+    {
+      "kind": "AIA",
+      "citation": "A141-2014; B143-2014",
+      "topic": "Design-build: owner–design-builder; design-builder–architect. On NCARB's ARE list."
+    },
+    {
+      "kind": "AIA",
+      "citation": "A195-2008; B195-2008",
+      "topic": "Integrated project delivery (transitional) agreements. On NCARB's ARE list."
+    },
+    {
+      "kind": "AIA",
+      "citation": "C401-2017",
+      "topic": "Architect–consultant agreement. On NCARB's ARE list."
+    },
+    {
+      "kind": "AIA",
+      "citation": "A701-2018",
+      "topic": "Instructions to Bidders. On NCARB's ARE list."
+    },
+    {
+      "kind": "AIA",
+      "citation": "B102-2017, B103-2017, B104-2017, B105-2017, B132-2019, B133-2019, A102-2017, A103-2017, A132-2019, A134-2019, C132-2019, C191-2009",
+      "topic": "Other members of the owner–architect and delivery-method families referenced in the note.",
+      "confidence": "medium",
+      "confidenceNote": "Not on NCARB's ARE list; document numbers and edition years from my knowledge. Confirm on aiacontracts.com."
+    }
   ],
   "questions": [
     {
-      "id": "PcM-3.2-q01",
+      "id": "PcM-3.2-q21",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A hospital system wants early contractor input on cost and constructability, a guaranteed maximum price before construction documents are complete, and the ability to start site work early. Which delivery method best fits?",
+      "stem": "A hospital system describes its goals for a new patient tower:\n\n- Contractor input on cost and constructability during design\n- A guaranteed maximum price before construction documents are complete\n- Early site work while design continues\n- A direct contract with its own architect\n\nWhich delivery method best meets these goals?",
       "options": [
-        { "id": "a", "text": "Design-bid-build with a stipulated sum", "explanation": "DBB prices the work only after documents are complete and offers no early contractor input or fast-track." },
-        { "id": "b", "text": "Construction manager as constructor with a GMP", "correct": true, "explanation": "Correct. A CMc gives preconstruction input, sets a GMP before the documents are complete, and supports phased early starts." },
-        { "id": "c", "text": "Construction manager as adviser", "explanation": "A CM adviser gives input but carries no cost risk and offers no GMP." },
-        { "id": "d", "text": "Multiple prime contracts with no CM", "explanation": "Multiple primes put coordination risk on the owner and offer no GMP." }
+        {
+          "id": "a",
+          "text": "Design-bid-build",
+          "explanation": "DBB prices the work only after documents are complete, with no early contractor input."
+        },
+        {
+          "id": "b",
+          "text": "Construction manager as constructor",
+          "explanation": "Correct. A CMc provides preconstruction input, a GMP before CDs are complete, and phased early starts, while the owner contracts directly with the architect.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Construction manager as adviser",
+          "explanation": "A CM adviser provides input but carries no cost risk and offers no GMP."
+        },
+        {
+          "id": "d",
+          "text": "Design-build",
+          "explanation": "Design-build puts the architect under the design-builder, so the owner loses a direct contract with its architect."
+        }
       ],
-      "explanation": "Early cost input + GMP + fast-track → CM at risk (A133 with B133)."
+      "explanation": "Early cost input + GMP + fast-track + direct owner–architect contract → CMc (A133 with B133)."
     },
     {
-      "id": "PcM-3.2-q02",
+      "id": "PcM-3.2-q22",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "An architect is retained by a design-build contractor under AIA B143-2014. To whom does the architect owe its primary contractual obligations?",
+      "stem": "An architect is retained by a design-build entity under AIA B143-2014 to design a distribution center for an owner.\n\nTo whom does the architect owe its contractual obligations?",
       "options": [
-        { "id": "a", "text": "The owner", "explanation": "The architect has no direct contract with the owner under B143. The owner contracts with the design-builder (A141)." },
-        { "id": "b", "text": "The design-builder", "correct": true, "explanation": "Correct. B143 is the agreement between the design-builder and the architect, so the architect's duties run to the design-builder." },
-        { "id": "c", "text": "The building official", "explanation": "Code-compliance duties to the public exist regardless, but they aren't the contractual relationship." },
-        { "id": "d", "text": "The subcontractors", "explanation": "Subcontractors contract with the design-builder, not the architect." }
+        {
+          "id": "a",
+          "text": "The owner",
+          "explanation": "The owner contracts with the design-builder (A141). The architect has no direct agreement with the owner."
+        },
+        {
+          "id": "b",
+          "text": "The design-builder",
+          "explanation": "Correct. B143 is the agreement between the design-builder and the architect.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "The owner and the design-builder equally",
+          "explanation": "Contractual duties run only to the party the architect contracts with."
+        },
+        {
+          "id": "d",
+          "text": "The building official",
+          "explanation": "Code-compliance duties to the public exist, but they aren't the contractual relationship."
+        }
       ],
-      "explanation": "In design-build, the architect is often a consultant to the design-builder, not the owner's independent agent."
+      "explanation": "In design-build, the architect is often the design-builder's consultant, not the owner's independent agent."
     },
     {
-      "id": "PcM-3.2-q03",
+      "id": "PcM-3.2-q23",
       "type": "cata",
-      "selectCount": 3,
       "cognitiveLevel": "A/E",
-      "stem": "A public agency must award construction contracts competitively to the lowest responsible bidder and wants the architect as its independent representative during construction. Which documents fit this project?",
+      "stem": "A city must award construction to the lowest responsive, responsible bidder and wants the architect as its independent representative during construction.\n\nWhich AIA documents fit this project?",
       "options": [
-        { "id": "a", "text": "B101-2017", "correct": true, "explanation": "Correct. Standard owner–architect agreement for traditional delivery." },
-        { "id": "b", "text": "A101-2017", "correct": true, "explanation": "Correct. Owner–contractor agreement, stipulated sum, suited to low-bid award." },
-        { "id": "c", "text": "A701-2018", "correct": true, "explanation": "Correct. Instructions to Bidders for the competitive bid process." },
-        { "id": "d", "text": "A141-2014", "explanation": "A141 is for design-build, where design and construction are combined in one contract." },
-        { "id": "e", "text": "B143-2014", "explanation": "B143 is the design-builder–architect agreement and doesn't apply to design-bid-build." },
-        { "id": "f", "text": "A195-2008", "explanation": "A195 is for integrated project delivery, not low-bid DBB." }
+        {
+          "id": "a",
+          "text": "B101-2017",
+          "explanation": "Correct. The standard owner–architect agreement for design-bid-build.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "A101-2017",
+          "explanation": "Correct. The owner–contractor stipulated-sum agreement, suited to low-bid award.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "A701-2018",
+          "explanation": "Correct. Instructions to Bidders for the competitive bid process.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "A133-2019",
+          "explanation": "A133 is for a construction manager as constructor with a GMP, not low-bid award."
+        },
+        {
+          "id": "e",
+          "text": "B143-2014",
+          "explanation": "B143 is the design-builder–architect agreement."
+        },
+        {
+          "id": "f",
+          "text": "A195-2008",
+          "explanation": "A195 is for integrated project delivery."
+        }
       ],
-      "explanation": "Competitive low-bid + independent architect → design-bid-build (B101, A101/A201, A701)."
+      "selectCount": 3,
+      "explanation": "Competitive low bid + independent architect → design-bid-build (B101, A101/A201, A701)."
     },
     {
-      "id": "PcM-3.2-q04",
+      "id": "PcM-3.2-q24",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "Under which arrangement does the construction manager provide advice but carry no responsibility for construction cost?",
+      "stem": "An owner plans to hire a construction manager but wants to keep all construction cost risk with separate trade contractors.\n\nWhich arrangement fits this goal?",
       "options": [
-        { "id": "a", "text": "Construction manager as adviser (agency CM)", "correct": true, "explanation": "Correct. A CMa is a consultant to the owner. The trade or general contracts carry the cost risk." },
-        { "id": "b", "text": "Construction manager as constructor with a GMP", "explanation": "A CMc with a GMP takes on cost risk above the GMP." },
-        { "id": "c", "text": "Design-build", "explanation": "The design-builder is responsible for both design and construction cost." },
-        { "id": "d", "text": "General contractor under a stipulated sum", "explanation": "A stipulated-sum contractor carries the cost risk of its contract price." }
+        {
+          "id": "a",
+          "text": "Construction manager as adviser",
+          "explanation": "Correct. A CMa advises the owner without contracting for construction or taking cost risk.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Construction manager as constructor",
+          "explanation": "A CMc holds the trade contracts and takes cost risk above its GMP."
+        },
+        {
+          "id": "c",
+          "text": "Design-build",
+          "explanation": "The design-builder takes responsibility for both design and construction cost."
+        },
+        {
+          "id": "d",
+          "text": "General contractor with a stipulated sum",
+          "explanation": "The general contractor takes cost risk on its contract price."
+        }
       ],
       "explanation": "CMa = adviser, no cost risk. CMc = constructor, GMP risk."
     },
     {
-      "id": "PcM-3.2-q05",
+      "id": "PcM-3.2-q25",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "An owner's attorney revises B101-2017 to require 'weekly site visits' but doesn't change A201-2017 or the architect's fee. What is the most significant consequence?",
+      "stem": "An owner's attorney revises a B101-2017 to require weekly site visits but makes no change to A201-2017 or to the architect's fee.\n\nWhat is the most significant consequence for the architect?",
       "options": [
-        { "id": "a", "text": "None. Site-visit frequency is the contractor's concern.", "explanation": "Site-visit frequency defines the architect's services and fee." },
-        { "id": "b", "text": "The architect's scope rises without compensation, and the coordinated documents may conflict on construction-phase roles.", "correct": true, "explanation": "Correct. More services need a matching fee change, and B101 and A201 should describe the architect's construction role consistently." },
-        { "id": "c", "text": "The architect becomes responsible for construction means and methods.", "explanation": "More frequent visits don't by themselves transfer means and methods, which remain the contractor's responsibility." },
-        { "id": "d", "text": "The A201 automatically updates to match.", "explanation": "Each document must be modified deliberately. Nothing updates automatically." }
+        {
+          "id": "a",
+          "text": "Uncompensated scope and conflicting documents",
+          "explanation": "Correct. More services need a matching fee, and the A201 provisions on the architect's construction-phase role should be coordinated.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Responsibility for construction means and methods",
+          "explanation": "More frequent visits don't by themselves transfer means and methods, which stay with the contractor."
+        },
+        {
+          "id": "c",
+          "text": "Automatic updating of the A201 to match",
+          "explanation": "Each document has to be modified deliberately. Nothing updates automatically."
+        },
+        {
+          "id": "d",
+          "text": "No consequence, since site visits are discretionary",
+          "explanation": "The number of visits defines the architect's services and fee."
+        }
       ],
-      "explanation": "When modifying contracts, check the scope/fee impact and coordination across the document family."
+      "explanation": "When modifying contracts, check the scope and fee impact and coordination across the document family."
     },
     {
-      "id": "PcM-3.2-q06",
+      "id": "PcM-3.2-q26",
       "type": "cata",
-      "selectCount": 2,
       "cognitiveLevel": "A/E",
-      "stem": "Which statements about integrated project delivery (IPD) are generally true?",
+      "stem": "An owner considering integrated project delivery asks how IPD differs from traditional delivery.\n\nWhich characteristics generally describe IPD?",
       "options": [
-        { "id": "a", "text": "Key participants are engaged early and share project risk and reward.", "correct": true, "explanation": "Correct. Shared risk and reward with early collaboration defines IPD." },
-        { "id": "b", "text": "It relies heavily on collaboration tools such as shared BIM.", "correct": true, "explanation": "Correct. IPD typically depends on integrated digital workflows." },
-        { "id": "c", "text": "It is best suited to owners who want minimal involvement.", "explanation": "IPD needs an engaged owner who actively participates in decision-making." },
-        { "id": "d", "text": "It is required on federal projects.", "explanation": "No federal requirement mandates IPD." },
-        { "id": "e", "text": "The architect acts as the owner's independent agent against the contractor.", "explanation": "IPD aligns parties as collaborators. It isn't the adversarial agency role of DBB." },
-        { "id": "f", "text": "It guarantees the lowest first cost.", "explanation": "IPD aims at overall value and reduced waste, not guaranteed lowest first cost." }
+        {
+          "id": "a",
+          "text": "Early involvement of key participants",
+          "explanation": "Correct. Designers, constructors and key trades join early.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Shared project risk and reward",
+          "explanation": "Correct. Compensation is tied to shared outcomes.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Heavy reliance on shared BIM and collaboration tools",
+          "explanation": "Correct. IPD typically depends on integrated digital workflows.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Minimal owner involvement after contract execution",
+          "explanation": "IPD requires an engaged owner throughout."
+        },
+        {
+          "id": "e",
+          "text": "Competitive low-bid selection of the constructor",
+          "explanation": "IPD teams are selected for collaboration and qualifications."
+        },
+        {
+          "id": "f",
+          "text": "The architect as the owner's agent against the contractor",
+          "explanation": "IPD aligns parties as collaborators rather than adversaries."
+        }
       ],
-      "explanation": "IPD = early involvement, shared risk/reward, collaboration, an engaged owner."
+      "selectCount": 3,
+      "explanation": "IPD = early involvement, shared risk and reward, collaboration, an engaged owner."
     },
     {
-      "id": "PcM-3.2-q07",
+      "id": "PcM-3.2-q27",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "Which owner priority most strongly favors design-build over design-bid-build?",
+      "stem": "A franchise owner wants a new restaurant open before peak season and has little in-house design or construction staff.\n\nWhich priority most strongly favors design-build?",
       "options": [
-        { "id": "a", "text": "A single point of responsibility and a compressed schedule", "correct": true, "explanation": "Correct. Design-build combines responsibility in one entity and overlaps design and construction." },
-        { "id": "b", "text": "Maximum control over design details by the owner's own architect", "explanation": "DBB (or bridging) keeps more owner control through an independent architect." },
-        { "id": "c", "text": "An independent professional to judge the contractor's performance", "explanation": "In DB, the designer is part of the design-builder team, not independent of the contractor." },
-        { "id": "d", "text": "Competitive bids on complete construction documents", "explanation": "Competitive bidding on complete documents is DBB." }
+        {
+          "id": "a",
+          "text": "Single-point responsibility and speed",
+          "explanation": "Correct. Design-build combines responsibility in one entity and overlaps design and construction.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Detailed owner control over design decisions",
+          "explanation": "An independent owner's architect (DBB or bridging) gives more design control."
+        },
+        {
+          "id": "c",
+          "text": "Independent oversight of the contractor's work",
+          "explanation": "In design-build, the designer is part of the contractor's team."
+        },
+        {
+          "id": "d",
+          "text": "Competitive bids on complete documents",
+          "explanation": "Competitive bidding on complete documents is design-bid-build."
+        }
       ],
-      "explanation": "DB trades owner control and independent oversight for speed and single-source responsibility."
+      "explanation": "Design-build trades owner control and independent oversight for speed and single-source responsibility."
     },
     {
-      "id": "PcM-3.2-q08",
+      "id": "PcM-3.2-q28",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "Which AIA document is the standard agreement between an architect and its consultants, such as structural or MEP engineers?",
+      "stem": "An architect is engaging a structural engineer and an MEP engineer for a school project.\n\nWhich AIA document is intended for these agreements?",
       "options": [
-        { "id": "a", "text": "C401-2017", "correct": true, "explanation": "Correct. C401 is the architect–consultant agreement. It aligns the consultants' obligations with the architect's prime agreement." },
-        { "id": "b", "text": "B101-2017", "explanation": "B101 is the owner–architect agreement." },
-        { "id": "c", "text": "A201-2017", "explanation": "A201 is the general conditions of the construction contract." },
-        { "id": "d", "text": "G704-2017", "explanation": "G704 is the Certificate of Substantial Completion." }
+        {
+          "id": "a",
+          "text": "C401-2017",
+          "explanation": "Correct. C401 is the architect–consultant agreement and aligns consultants' obligations with the prime agreement.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "B101-2017",
+          "explanation": "B101 is the owner–architect agreement."
+        },
+        {
+          "id": "c",
+          "text": "C106-2013",
+          "explanation": "C106 is a digital data licensing agreement."
+        },
+        {
+          "id": "d",
+          "text": "A201-2017",
+          "explanation": "A201 is the general conditions of the construction contract."
+        }
       ],
       "explanation": "Architect–consultant → C401."
     },
     {
-      "id": "PcM-3.2-q09",
+      "id": "PcM-3.2-q29",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "An owner using a CMc wants to set the GMP at 50% design development to secure financing. What risk should the architect explain?",
+      "stem": "Under a CMc agreement, the owner wants the guaranteed maximum price set at 50% design development to secure financing.\n\nWhich risk should the architect explain?",
       "options": [
-        { "id": "a", "text": "The GMP will be based on incomplete documents, so later design development may lead to disputes over what the GMP includes and how the contingency is used.", "correct": true, "explanation": "Correct. An early GMP relies on assumptions. Clarifying assumptions and allowances is critical." },
-        { "id": "b", "text": "The architect will become liable for the GMP.", "explanation": "The CMc, not the architect, commits to the GMP." },
-        { "id": "c", "text": "An early GMP eliminates the need for construction documents.", "explanation": "Construction documents are still required to build and permit the project." },
-        { "id": "d", "text": "There is no risk; early GMPs are always lower.", "explanation": "Early GMPs often include larger contingencies, and scope assumptions can cause disputes." }
+        {
+          "id": "a",
+          "text": "Scope disputes over the incomplete documents",
+          "explanation": "Correct. An early GMP rests on assumptions. Later design development may be disputed as a change or absorbed by contingency.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Architect liability for any amount over the GMP",
+          "explanation": "The construction manager, not the architect, commits to the GMP."
+        },
+        {
+          "id": "c",
+          "text": "Loss of the CM's preconstruction role",
+          "explanation": "Preconstruction services continue after the GMP is set."
+        },
+        {
+          "id": "d",
+          "text": "Exclusion of contingencies from the GMP",
+          "explanation": "Early GMPs typically include contingencies for design completion."
+        }
       ],
-      "explanation": "Early GMPs speed up cost commitment but depend on clearly written assumptions."
+      "explanation": "Early GMPs speed cost commitment but depend on clearly written assumptions and allowances."
     },
     {
-      "id": "PcM-3.2-q10",
-      "type": "mc",
+      "id": "PcM-3.2-q30",
+      "type": "cata",
       "cognitiveLevel": "A/E",
-      "stem": "Which statement best describes fast-track scheduling?",
+      "stem": "A general contractor is preparing a bid under A101-2017 with A201-2017.\n\nWhich items are part of the Contract Documents once the agreement is signed, unless the agreement enumerates otherwise?",
       "options": [
-        { "id": "a", "text": "Overlapping design and construction by releasing work in sequential packages", "correct": true, "explanation": "Correct. Fast-track overlaps phases to shorten overall duration." },
-        { "id": "b", "text": "A delivery method in which the contractor designs and builds", "explanation": "That's design-build. Fast-track is a scheduling approach usable within several methods." },
-        { "id": "c", "text": "Skipping design development to save time", "explanation": "Fast-track overlaps phases. It doesn't eliminate design work." },
-        { "id": "d", "text": "Awarding construction to the fastest bidder", "explanation": "Award criteria are separate from the fast-track scheduling concept." }
+        {
+          "id": "a",
+          "text": "The owner–contractor agreement",
+          "explanation": "Correct. The Agreement is a Contract Document.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "The general conditions",
+          "explanation": "Correct. The Conditions of the Contract are Contract Documents.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "The drawings and specifications",
+          "explanation": "Correct. Drawings and specifications are Contract Documents.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Addenda issued before execution",
+          "explanation": "Correct. Addenda issued before execution become part of the Contract Documents.",
+          "correct": true
+        },
+        {
+          "id": "e",
+          "text": "Instructions to bidders",
+          "explanation": "Bidding requirements aren't Contract Documents unless specifically enumerated."
+        },
+        {
+          "id": "f",
+          "text": "The contractor's bid",
+          "explanation": "The bid isn't a Contract Document unless specifically enumerated in the agreement."
+        }
       ],
-      "explanation": "Fast-track = phased overlap. It works best with CMc or DB and needs careful coordination."
+      "selectCount": 4,
+      "explanation": "Contract Documents = agreement, conditions, drawings, specifications, addenda issued before execution, other listed documents, and modifications (A201-2017 §1.1.1).",
+      "confidence": "medium",
+      "confidenceNote": "Summarizes A201-2017 §1.1.1 as I understand it; confirm against your copy."
     }
   ],
   "flashcards": [
-    { "id": "PcM-3.2-f01", "front": "Design-bid-build documents", "back": "B101 (owner–architect) + A101/A201 (owner–contractor) + A701 (instructions to bidders)." },
-    { "id": "PcM-3.2-f02", "front": "CMc / CM at risk documents", "back": "A133-2019 (with GMP) or A134 (without); owner–architect B133." },
-    { "id": "PcM-3.2-f03", "front": "CMa (adviser) documents", "back": "C132 (owner–CM), B132 (owner–architect), A132 (owner–contractor).", "confidence": "medium", "confidenceNote": "Not on NCARB's ARE list; confirm edition years." },
-    { "id": "PcM-3.2-f04", "front": "Design-build documents", "back": "A141-2014 (owner–design-builder) + B143-2014 (design-builder–architect)." },
-    { "id": "PcM-3.2-f05", "front": "IPD documents on the ARE list", "back": "A195-2008 and B195-2008 (transitional IPD)." },
-    { "id": "PcM-3.2-f06", "front": "Architect–consultant agreement", "back": "C401-2017." },
-    { "id": "PcM-3.2-f07", "front": "CMa vs. CMc", "back": "CMa = adviser, no cost risk. CMc = constructor with a GMP, holds the trade contracts." },
-    { "id": "PcM-3.2-f08", "front": "Design-build: whose agent is the architect?", "back": "Usually the design-builder's (under B143), not the owner's." },
-    { "id": "PcM-3.2-f09", "front": "Fast-track", "back": "Overlapping design and construction via sequential packages. A schedule strategy, not a delivery method." },
-    { "id": "PcM-3.2-f10", "front": "Bridging", "back": "The owner's architect prepares preliminary design and performance criteria; a design-builder completes and builds it." },
-    { "id": "PcM-3.2-f11", "front": "Main DBB drawback", "back": "Longest schedule; cost unknown until bids; no early contractor input." },
-    { "id": "PcM-3.2-f12", "front": "Risk of an early GMP", "back": "It's based on incomplete documents, which leads to disputes over scope, allowances and contingency." },
-    { "id": "PcM-3.2-f13", "front": "Payment bases (owner–contractor)", "back": "Stipulated sum; cost plus fee with GMP; cost plus fee without GMP; unit price." },
-    { "id": "PcM-3.2-f14", "front": "Before modifying one AIA document…", "back": "Check the risk shift, insurability, the fee and scope impact, and coordination with the related documents (e.g., B101 ↔ A201)." }
-  ]
+    {
+      "id": "PcM-3.2-f01",
+      "front": "Design-bid-build documents",
+      "back": "B101 (owner–architect) + A101/A201 (owner–contractor) + A701 (instructions to bidders)."
+    },
+    {
+      "id": "PcM-3.2-f02",
+      "front": "CMc / CM at risk documents",
+      "back": "A133-2019 (with GMP) or A134 (without); owner–architect B133."
+    },
+    {
+      "id": "PcM-3.2-f03",
+      "front": "CMa (adviser) documents",
+      "back": "C132 (owner–CM), B132 (owner–architect), A132 (owner–contractor).",
+      "confidence": "medium",
+      "confidenceNote": "Not on NCARB's ARE list; confirm edition years."
+    },
+    {
+      "id": "PcM-3.2-f04",
+      "front": "Design-build documents",
+      "back": "A141-2014 (owner–design-builder) + B143-2014 (design-builder–architect)."
+    },
+    {
+      "id": "PcM-3.2-f05",
+      "front": "IPD documents on the ARE list",
+      "back": "A195-2008 and B195-2008 (transitional IPD)."
+    },
+    {
+      "id": "PcM-3.2-f06",
+      "front": "Architect–consultant agreement",
+      "back": "C401-2017."
+    },
+    {
+      "id": "PcM-3.2-f07",
+      "front": "CMa vs. CMc",
+      "back": "CMa = adviser, no cost risk. CMc = constructor with a GMP, holds the trade contracts."
+    },
+    {
+      "id": "PcM-3.2-f08",
+      "front": "Design-build: whose agent is the architect?",
+      "back": "Usually the design-builder's (under B143), not the owner's."
+    },
+    {
+      "id": "PcM-3.2-f09",
+      "front": "Fast-track",
+      "back": "Overlapping design and construction via sequential packages. A schedule strategy, not a delivery method."
+    },
+    {
+      "id": "PcM-3.2-f10",
+      "front": "Bridging",
+      "back": "The owner's architect prepares preliminary design and performance criteria; a design-builder completes and builds it."
+    },
+    {
+      "id": "PcM-3.2-f11",
+      "front": "Main DBB drawback",
+      "back": "Longest schedule; cost unknown until bids; no early contractor input."
+    },
+    {
+      "id": "PcM-3.2-f12",
+      "front": "Risk of an early GMP",
+      "back": "It's based on incomplete documents, which leads to disputes over scope, allowances and contingency."
+    },
+    {
+      "id": "PcM-3.2-f13",
+      "front": "Payment bases (owner–contractor)",
+      "back": "Stipulated sum; cost plus fee with GMP; cost plus fee without GMP; unit price."
+    },
+    {
+      "id": "PcM-3.2-f14",
+      "front": "Before modifying one AIA document…",
+      "back": "Check the risk shift, insurability, the fee and scope impact, and coordination with the related documents (e.g., B101 ↔ A201)."
+    }
+  ],
+  "itemStyle": "ncarb-v2"
 }

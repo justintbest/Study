@@ -12,3 +12,5 @@ sources/are/*.pdf
 sources/are/ethics/*.pdf
 # AIA contract documents from your NCARB Record: never commit (copyrighted, licensed to you)
 sources/are/aia/
+# NCARB practice exam PDFs: copyrighted, licensed for personal study only (no derivative works)
+sources/are/practice-exams/

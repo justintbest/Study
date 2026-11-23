@@ -4,6 +4,8 @@ import { grade } from '../lib/quiz';
 import { ConfidenceBadge } from './bits';
 import { OBJECTIVE_BY_ID } from '../content';
 import { Link } from 'react-router-dom';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 const LETTERS = 'ABCDEFGH';
 
@@ -55,13 +57,10 @@ export function QuestionView({ question: q, response, onChange, revealed, option
         <ConfidenceBadge confidence={q.confidence} note={q.confidenceNote} />
       </div>
       <div className="q-stem">
-        {q.stem}
-        {q.type === 'cata' && (
-          <>
-            {' '}
-            <strong>Check the {numberWord(q.selectCount ?? 0)} that apply.</strong>
-          </>
-        )}
+        {/* Stems are Markdown so they can carry small exhibits (tables). */}
+        <ReactMarkdown remarkPlugins={[remarkGfm]}>
+          {q.type === 'cata' ? `${q.stem} **Check the ${numberWord(q.selectCount ?? 0)} that apply.**` : q.stem}
+        </ReactMarkdown>
       </div>
 
       {q.type !== 'numeric' && (
@@ -130,7 +129,7 @@ export function QuestionView({ question: q, response, onChange, revealed, option
               {q.answer.tolerance ? ` (±${q.answer.tolerance})` : ''}.{' '}
             </span>
           )}
-          {q.explanation}
+          {q.explanation.includes('\n') ? <div style={{ marginTop: '0.35rem' }}>{q.explanation}</div> : q.explanation}
           {q.confidenceNote && (
             <div style={{ marginTop: '0.5rem' }}>
               <small>⚠ {q.confidenceNote}</small>

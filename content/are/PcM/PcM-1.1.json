@@ -32,323 +32,371 @@
   ],
   "questions": [
     {
-      "id": "PcM-1.1-q01",
+      "id": "PcM-1.1-q21",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A 25-person firm just won two school projects. Its production workload will be about 30% above current capacity for the next four months, then drop back to normal. Cash reserves are modest. Which staffing approach is most appropriate?",
+      "stem": "XYZ Architects, a 30-person firm, reviews the following staffing data:\n\n| Role | Utilization | Weekly overtime |\n|---|---|---|\n| Principals | 45% | None |\n| Project managers | 78% | Minimal |\n| Project architects | 92% | About 6 hours each |\n| Designers | 95% | About 6 hours each |\n\nBacklog is nine months and growing. Two hospital projects will start in three months and last about two years. Cash reserves are healthy.\n\nWhich of the following is the most appropriate action?",
       "options": [
         {
           "id": "a",
-          "text": "Hire four permanent production staff immediately.",
-          "explanation": "Permanent hires for a four-month peak leave the firm over-staffed and paying salaries and benefits once the workload falls. That's a poor fit with modest reserves."
+          "text": "Engage contract staff for six months, then reassess.",
+          "explanation": "Contract staff suit short peaks. This need lasts about two years and calls for healthcare expertise that temporary production staff are unlikely to bring."
         },
         {
           "id": "b",
-          "text": "Use a combination of short-term contract staff and limited, planned overtime.",
-          "correct": true,
-          "explanation": "Correct. Contract staff and limited overtime add capacity only for as long as the peak lasts, so the firm avoids long-term salary commitments and doesn't overwork the team for months."
+          "text": "Hire two permanent project architects with healthcare experience.",
+          "explanation": "Correct. Production staff are already overloaded, the new workload is long-term and specialized, and the firm has the cash to support permanent hires.",
+          "correct": true
         },
         {
           "id": "c",
-          "text": "Decline one of the school projects to stay within current capacity.",
-          "explanation": "Turning away profitable, strategic work is a last resort when flexible capacity is readily available."
+          "text": "Shift principals onto production work to raise their utilization.",
+          "explanation": "Principals' non-billable time supports leadership, business development and quality review. Moving them to production adds no healthcare expertise."
         },
         {
           "id": "d",
-          "text": "Require all staff to work 30% overtime for the four months.",
-          "explanation": "Sustained heavy overtime costs a premium for non-exempt staff and risks burnout, errors and turnover. It's not a sound plan for four months."
+          "text": "Continue the current overtime until the hospital projects begin.",
+          "explanation": "Production staff are already working sustained overtime. Two years of added work on top of that invites burnout and errors."
         }
       ],
-      "explanation": "Match the type of resource to how long the need lasts: flex resources for a temporary peak, permanent hires for lasting growth."
+      "explanation": "Match the resource to the duration and nature of the need. A long-term, specialized workload with healthy cash calls for permanent hires with the right experience."
     },
     {
-      "id": "PcM-1.1-q02",
+      "id": "PcM-1.1-q22",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A firm wants to expand from office work into healthcare projects. Which action best positions it to deliver these projects competently?",
+      "stem": "A 25-person firm needs about 30% more production capacity for the next four months while two school projects complete construction documents. Workload is expected to return to normal afterward. Cash reserves are modest.\n\nWhich staffing approach is most appropriate?",
       "options": [
         {
           "id": "a",
-          "text": "Buy healthcare-specific planning software and market the new service right away.",
-          "explanation": "Tools without experienced people don't create competence. Marketing a service the firm can't yet deliver also raises ethical concerns about representing qualifications."
+          "text": "Hire four permanent production staff.",
+          "explanation": "Permanent hires would leave the firm overstaffed, and carrying their salaries, once the four-month peak ends."
         },
         {
           "id": "b",
-          "text": "Hire or partner with experienced healthcare architects, and train existing staff on the relevant guidelines and regulations.",
-          "correct": true,
-          "explanation": "Correct. Bringing in experienced people (by hiring, joint venture or consultant) and training current staff builds real capability in a highly regulated building type."
+          "text": "Engage contract staff for the four-month peak.",
+          "explanation": "Correct. Contract staff add capacity only for as long as it's needed, without long-term salary and benefit commitments.",
+          "correct": true
         },
         {
           "id": "c",
-          "text": "Assign the firm's most senior office-building designer to lead the first healthcare project alone.",
-          "explanation": "Seniority in another building type isn't healthcare expertise. One person working alone is a key-person and quality risk."
+          "text": "Ask the school district to extend the document schedule.",
+          "explanation": "School schedules are usually tied to bid dates and funding. The firm should first try to meet its commitments with flexible capacity."
         },
         {
           "id": "d",
-          "text": "Lower fees on the first healthcare project to win it, and learn on the job.",
-          "explanation": "Low fees don't build competence and leave less money for the extra effort a new building type demands. Learning on the job alone risks a standard-of-care failure."
+          "text": "Outsource the complete document set for one school.",
+          "explanation": "Handing off an entire set weakens the firm's control over documents it must seal. Outsourcing works better for discrete tasks."
         }
       ],
-      "explanation": "Moving into a new practice area takes people, knowledge and tools together. The ARE favors the answer that protects quality and the public."
+      "explanation": "Short, defined peaks → flexible capacity. Sustained growth → permanent staff."
     },
     {
-      "id": "PcM-1.1-q03",
+      "id": "PcM-1.1-q23",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "A firm that designs office buildings plans to pursue outpatient clinic projects within the next year. None of its staff has healthcare experience.\n\nWhich initial step best positions the firm to deliver this work competently?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Purchase healthcare planning software for the design team.",
+          "explanation": "Tools don't provide the regulatory and clinical-planning knowledge healthcare projects require."
+        },
+        {
+          "id": "b",
+          "text": "Team with a firm experienced in healthcare on initial projects.",
+          "explanation": "Correct. Teaming brings proven expertise right away and shares risk while the firm's staff gain experience.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Assign the firm's strongest designer to lead the first clinic.",
+          "explanation": "Design talent in another building type isn't healthcare expertise. Competence requires knowledge of the specific technical areas involved."
+        },
+        {
+          "id": "d",
+          "text": "Offer reduced fees to secure a first healthcare commission.",
+          "explanation": "A lower fee doesn't build competence, and it leaves less budget for the added effort of an unfamiliar building type."
+        }
+      ],
+      "explanation": "Practice only where you, together with those you engage, have the needed knowledge and skill (NCARB Model Rule 1.3)."
+    },
+    {
+      "id": "PcM-1.1-q24",
       "type": "cata",
-      "selectCount": 3,
       "cognitiveLevel": "A/E",
-      "stem": "A principal is evaluating a firm-wide switch to a new BIM platform. Which costs belong in a total-cost-of-ownership analysis?",
+      "stem": "A principal is preparing a total-cost-of-ownership analysis before switching the firm to a new BIM platform.\n\nWhich of the following costs should be included?",
       "options": [
         {
           "id": "a",
           "text": "Staff training time and course fees",
-          "correct": true,
-          "explanation": "Correct. Training is often a large share of the cost of a technology change."
+          "explanation": "Correct. Training is often one of the largest costs of a technology change.",
+          "correct": true
         },
         {
           "id": "b",
-          "text": "Reduced productivity on active projects during the learning curve",
-          "correct": true,
-          "explanation": "Correct. Lost productivity while staff learn the new tool is a real cost and affects project fees."
+          "text": "Reduced productivity during the learning period",
+          "explanation": "Correct. Slower production while staff learn the tool is a real cost to active projects.",
+          "correct": true
         },
         {
           "id": "c",
-          "text": "Annual subscription or maintenance fees",
-          "correct": true,
-          "explanation": "Correct. Recurring software costs are part of owning the platform over time."
+          "text": "Annual subscription and support fees",
+          "explanation": "Correct. Recurring license and support costs are part of owning the platform.",
+          "correct": true
         },
         {
           "id": "d",
-          "text": "The construction cost of projects that will be designed with the software",
-          "explanation": "Construction cost belongs to the client's project budget, not the firm's cost of owning a tool."
+          "text": "Construction cost savings expected for clients",
+          "explanation": "Client savings may be a benefit to market, but they aren't a cost the firm bears to own the platform."
         },
         {
           "id": "e",
-          "text": "The consultants' fees on current projects",
-          "explanation": "Consultant fees are project pass-through costs. They don't depend on the firm's software choice."
+          "text": "Consultants' upgrades to the same platform",
+          "explanation": "Consultants bear their own software costs. Coordination needs may affect timing, but not the firm's ownership cost."
         },
         {
           "id": "f",
-          "text": "The owner's contingency for future projects",
-          "explanation": "The owner's contingency is part of the client's budget and has nothing to do with the firm's investment decision."
+          "text": "Fees billed to clients for BIM coordination",
+          "explanation": "Billed fees are revenue, not a cost of ownership."
         }
       ],
-      "explanation": "Total cost of ownership = acquisition + implementation + training + productivity loss + ongoing fees and support."
+      "selectCount": 3,
+      "explanation": "Total cost of ownership = acquisition + implementation + training + productivity loss + ongoing fees."
     },
     {
-      "id": "PcM-1.1-q04",
-      "type": "numeric",
-      "cognitiveLevel": "U/A",
-      "stem": "A firm is considering a $36,000 reality-capture system. It expects the system to save $15,000 a year in field-survey labor and bring in $9,000 a year in added profit from new renovation work. What is the simple payback period, in years?",
-      "answer": {
-        "value": 1.5,
-        "tolerance": 0.01,
-        "unit": "years"
-      },
-      "explanation": "Annual net benefit = $15,000 + $9,000 = $24,000. Payback = $36,000 ÷ $24,000 = 1.5 years."
-    },
-    {
-      "id": "PcM-1.1-q05",
+      "id": "PcM-1.1-q25",
       "type": "mc",
-      "cognitiveLevel": "A/E",
-      "stem": "Firm-wide utilization has climbed from 78% to 93% over two quarters. Overtime is rising and two project architects have resigned. What should management conclude first?",
+      "cognitiveLevel": "U/A",
+      "stem": "A firm is evaluating a $36,000 reality-capture system. It expects the system to save $15,000 per year in field-survey labor and to add $9,000 per year in profit from new renovation work.\n\nWhat is the simple payback period?",
       "options": [
         {
           "id": "a",
-          "text": "The firm is operating at peak efficiency and should keep current staffing.",
-          "explanation": "Very high utilization combined with rising overtime and resignations signals overload, not healthy efficiency."
+          "text": "0.67 years",
+          "explanation": "This inverts the formula (annual benefit ÷ investment)."
         },
         {
           "id": "b",
-          "text": "The firm needs added capacity, and staff workload should be rebalanced.",
-          "correct": true,
-          "explanation": "Correct. Sustained over-utilization, turnover and overtime together show the firm is under-staffed for its workload."
+          "text": "1.5 years",
+          "explanation": "Correct. $36,000 ÷ ($15,000 + $9,000) = 1.5 years.",
+          "correct": true
         },
         {
           "id": "c",
-          "text": "The firm should cut marketing time to raise utilization further.",
-          "explanation": "Cutting non-billable activities like marketing and training gets the firm a little more billable time now but starves the future pipeline, and it makes burnout worse."
+          "text": "2.4 years",
+          "explanation": "This counts only the labor savings and omits the added profit."
         },
         {
           "id": "d",
-          "text": "The firm should raise billing rates to reduce demand.",
-          "explanation": "Raising rates may be appropriate for other reasons, but it doesn't address burnout and turnover now."
+          "text": "4.0 years",
+          "explanation": "This counts only the added profit and omits the labor savings."
         }
       ],
-      "explanation": "Read utilization together with other indicators. Too high is as much a warning sign as too low."
+      "explanation": "Payback = investment ÷ total annual net benefit."
     },
     {
-      "id": "PcM-1.1-q06",
+      "id": "PcM-1.1-q26",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "Over two quarters, firm-wide utilization at a 40-person firm has risen from 76% to 91%. Overtime has doubled, and two project architects have resigned. Backlog is stable.\n\nWhat should management do first?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Raise billing rates to moderate incoming work.",
+          "explanation": "Rate changes may be warranted later, but they don't address the current overload or its cause."
+        },
+        {
+          "id": "b",
+          "text": "Compare staffing levels with the projected workload.",
+          "explanation": "Correct. The data points to under-staffing. Quantifying the gap between capacity and workload is the first step toward hiring or rebalancing.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Reduce time allocated to marketing and training.",
+          "explanation": "Cutting non-billable time raises utilization further and harms the future pipeline. It deepens the problem."
+        },
+        {
+          "id": "d",
+          "text": "Offer retention bonuses to the remaining project architects.",
+          "explanation": "Bonuses may help retention, but they treat a symptom without fixing the workload that's driving resignations."
+        }
+      ],
+      "explanation": "High and rising utilization, overtime and turnover together signal overload. Diagnose capacity before acting."
+    },
+    {
+      "id": "PcM-1.1-q27",
       "type": "cata",
-      "selectCount": 2,
       "cognitiveLevel": "U/A",
-      "stem": "Which practices make staff performance evaluations most useful and most defensible?",
+      "stem": "A firm is redesigning its annual performance review process.\n\nWhich practices make reviews both useful for development and defensible if an employment decision is challenged?",
       "options": [
         {
           "id": "a",
-          "text": "Evaluate against written expectations established in advance",
-          "correct": true,
-          "explanation": "Correct. Clear, pre-set expectations make reviews fair and measurable."
+          "text": "Measure performance against expectations set at the start of the period",
+          "explanation": "Correct. Pre-set expectations make the review fair and measurable.",
+          "correct": true
         },
         {
           "id": "b",
-          "text": "Document reviews and agreed development goals in writing",
-          "correct": true,
-          "explanation": "Correct. Written records support development planning and protect the firm if a personnel decision is challenged."
+          "text": "Document the review and the agreed development goals",
+          "explanation": "Correct. Written records support development plans and personnel decisions.",
+          "correct": true
         },
         {
           "id": "c",
-          "text": "Hold reviews only when there is a performance problem",
-          "explanation": "Problem-only reviews feel punitive and miss development opportunities. Regular reviews are better practice."
+          "text": "Base ratings primarily on each employee's utilization rate",
+          "explanation": "Utilization is one input. It ignores quality, leadership and growth."
         },
         {
           "id": "d",
-          "text": "Base the review mainly on the employee's billable hours",
-          "explanation": "Utilization is one data point. Quality, leadership and growth also matter."
+          "text": "Hold reviews only when performance concerns arise",
+          "explanation": "Problem-only reviews feel punitive and miss development opportunities."
         },
         {
           "id": "e",
-          "text": "Share peers' salaries so the employee can compare",
-          "explanation": "Disclosing other employees' compensation raises confidentiality concerns and isn't part of a sound evaluation process."
+          "text": "Use identical goals for every employee regardless of role",
+          "explanation": "Goals should reflect each role's responsibilities and the employee's development path."
         },
         {
           "id": "f",
-          "text": "Keep the evaluation verbal to encourage candor",
-          "explanation": "Verbal-only reviews leave no record for development tracking or defense of employment actions."
+          "text": "Let project managers set each employee's salary increase",
+          "explanation": "Compensation decisions need consistent firm-wide criteria, not project-by-project judgment."
         }
       ],
-      "explanation": "Good evaluations are regular, based on clear criteria, documented, and tied to development."
+      "selectCount": 2,
+      "explanation": "Effective reviews are regular, criteria-based, documented and development-focused."
     },
     {
-      "id": "PcM-1.1-q07",
+      "id": "PcM-1.1-q28",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A small firm relies on one senior technical architect for all specifications and code reviews. Which resource strategy most directly reduces the firm's risk?",
+      "stem": "A 12-person firm relies on one senior architect for all specifications and code reviews. She has given no sign of leaving.\n\nWhich action most directly reduces the firm's risk?",
       "options": [
         {
           "id": "a",
-          "text": "Give the architect a retention bonus.",
-          "explanation": "A bonus may delay a departure, but the firm still depends on one person."
+          "text": "Provide the architect with a retention bonus.",
+          "explanation": "A bonus may delay a departure, but the firm still depends on one person's knowledge."
         },
         {
           "id": "b",
-          "text": "Cross-train other staff and document the architect's procedures in office standards.",
-          "correct": true,
-          "explanation": "Correct. Cross-training and written procedures spread the knowledge, which directly reduces key-person risk."
+          "text": "Document her procedures and cross-train two staff members.",
+          "explanation": "Correct. Spreading the knowledge reduces key-person risk no matter what happens to the individual.",
+          "correct": true
         },
         {
           "id": "c",
-          "text": "Outsource all specification writing permanently.",
-          "explanation": "Outsourcing moves the dependence to an outside party and may lower quality-control oversight. It doesn't spread the knowledge inside the firm."
+          "text": "Outsource specification writing to a specifications consultant.",
+          "explanation": "This moves the dependency to an outside party, and code reviews would still rest on one person."
         },
         {
           "id": "d",
-          "text": "Buy key-person life insurance on the architect.",
-          "explanation": "Insurance pays money if the person dies. It doesn't keep the knowledge in the firm or cover a resignation."
+          "text": "Purchase key-person life insurance on the architect.",
+          "explanation": "Insurance pays money if she dies. It doesn't preserve the knowledge or cover a resignation or disability."
         }
       ],
-      "explanation": "Key-person risk is best handled by spreading knowledge: cross-training, written standards, and succession planning."
+      "explanation": "Key-person risk is reduced by spreading knowledge: documentation, cross-training, succession planning."
     },
     {
-      "id": "PcM-1.1-q08",
+      "id": "PcM-1.1-q29",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "A firm has six projects moving from construction documents into construction over the next quarter. Which staffing adjustment is most appropriate?",
+      "stem": "Six of a firm's projects will move from construction documents into construction over the next quarter.\n\nWhich staffing adjustment is most appropriate?",
       "options": [
         {
           "id": "a",
-          "text": "Reassign staff with field and contract-administration experience to the projects entering construction.",
-          "correct": true,
-          "explanation": "Correct. Construction-phase services call for people who can review submittals, answer RFIs and observe the work."
+          "text": "Shift experienced CA staff onto those projects.",
+          "explanation": "Correct. Submittal review, RFIs, site observation and pay applications call for contract-administration skills.",
+          "correct": true
         },
         {
           "id": "b",
-          "text": "Keep the original design teams on all projects at full staffing.",
-          "explanation": "Construction administration usually needs fewer hours than CDs, and different skills. Full design teams would overspend the fee."
+          "text": "Keep each full design team intact through construction.",
+          "explanation": "Continuity of a project lead helps, but full design teams would overspend the smaller construction-phase fee."
         },
         {
           "id": "c",
-          "text": "Hire additional designers to handle submittals.",
-          "explanation": "Submittal review is a technical and contract-administration task, not a design task."
+          "text": "Assign submittal review to each project's designers.",
+          "explanation": "Submittal review is a technical, contract-administration task. Designers may lack the needed construction experience."
         },
         {
           "id": "d",
-          "text": "Assign construction administration to the most junior staff to save fee.",
-          "explanation": "CA involves contractual judgment and liability exposure. Junior staff need supervision, not sole responsibility."
+          "text": "Assign construction administration to junior staff to conserve fee.",
+          "explanation": "CA involves contractual judgment and liability. Junior staff need supervision, not sole responsibility."
         }
       ],
-      "explanation": "Staffing should change with each project phase, matching both the skills required and the fee available."
+      "explanation": "Staffing should change with each project phase, matching both the skills needed and the fee available."
     },
     {
-      "id": "PcM-1.1-q09",
+      "id": "PcM-1.1-q30",
       "type": "cata",
-      "selectCount": 2,
       "cognitiveLevel": "A/E",
-      "stem": "A firm's strategic plan calls for offering energy-performance and sustainability consulting within two years. Which investments best support that goal?",
+      "stem": "A firm's strategic plan calls for offering energy-performance consulting within two years.\n\nWhich investments best support this goal?",
       "options": [
         {
           "id": "a",
-          "text": "Energy-modeling software with training for a core group of staff",
-          "correct": true,
-          "explanation": "Correct. A tool plus trained people gives the firm a deliverable capability for the new service."
+          "text": "Energy-modeling software with training for a core group",
+          "explanation": "Correct. Tools plus trained people create a deliverable capability.",
+          "correct": true
         },
         {
           "id": "b",
-          "text": "Funding staff to earn relevant sustainability credentials and continuing education",
-          "correct": true,
-          "explanation": "Correct. Credentials and education build expertise and credibility in the new market."
+          "text": "Sustainability credentials and continuing education for staff",
+          "explanation": "Correct. Expertise and recognized credentials build both competence and credibility in the new service.",
+          "correct": true
         },
         {
           "id": "c",
-          "text": "Upgrading the office's furniture",
-          "explanation": "Office comfort may matter, but it doesn't advance the new service line."
+          "text": "A larger office to accommodate future growth",
+          "explanation": "Adding overhead ahead of revenue doesn't build the needed capability."
         },
         {
           "id": "d",
-          "text": "Larger-format plotters",
-          "explanation": "Printing capacity has nothing to do with energy-performance services."
+          "text": "High-capacity plotters for faster document production",
+          "explanation": "Production equipment doesn't advance energy-performance services."
         },
         {
           "id": "e",
-          "text": "Hiring a second receptionist",
-          "explanation": "Administrative staffing doesn't build technical sustainability capability."
+          "text": "Expanded marketing of the firm's existing services",
+          "explanation": "Marketing current services doesn't develop the new capability."
         },
         {
           "id": "f",
-          "text": "Moving to a larger office before any sustainability projects are signed",
-          "explanation": "Adding overhead ahead of revenue increases risk without building the required skills."
+          "text": "Rendering workstation upgrades for design staff",
+          "explanation": "Visualization hardware isn't central to energy-performance analysis."
         }
       ],
-      "explanation": "Capital spending should map to strategic goals. Here that means people and tools that deliver the new service."
+      "selectCount": 2,
+      "explanation": "Capital spending should map directly to strategic goals."
     },
     {
-      "id": "PcM-1.1-q10",
+      "id": "PcM-1.1-q31",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A firm can lease or buy a set of high-end workstations. It has strong profits but tight cash, because several large clients pay slowly. Which choice is generally most appropriate?",
+      "stem": "A profitable firm needs eight high-performance workstations now to support current BIM projects. Several large clients pay slowly, and cash on hand is tight.\n\nWhich approach is most appropriate?",
       "options": [
         {
           "id": "a",
-          "text": "Buy the workstations outright to minimize lifetime cost.",
-          "explanation": "Buying may cost less over the equipment's life, but it uses scarce cash the firm needs while receivables are slow."
+          "text": "Lease the workstations.",
+          "explanation": "Correct. Leasing gets the equipment now while keeping scarce cash available for payroll and operations.",
+          "correct": true
         },
         {
           "id": "b",
-          "text": "Lease the workstations to preserve working capital.",
-          "correct": true,
-          "explanation": "Correct. When cash is tight, leasing spreads the cost over time and keeps cash available for payroll and operations."
+          "text": "Purchase the workstations outright with available cash.",
+          "explanation": "Buying may cost less over time, but it drains the cash the firm needs while receivables are slow."
         },
         {
           "id": "c",
-          "text": "Delay the purchase until profits increase.",
-          "explanation": "Profits are already strong. The constraint is cash, not profitability, so waiting for more profit misreads the problem."
+          "text": "Defer the purchase until slow receivables are collected.",
+          "explanation": "The equipment is needed now for current projects. Waiting hurts production on work in hand."
         },
         {
           "id": "d",
-          "text": "Finance the purchase by delaying payments to consultants.",
-          "explanation": "Delaying consultant payments harms relationships and may breach agreements. It isn't a legitimate financing strategy."
+          "text": "Purchase them and bill the cost to projects as reimbursables.",
+          "explanation": "Equipment is a firm overhead cost, not a project reimbursable expense under typical agreements."
         }
       ],
-      "explanation": "Profit and cash are different. Here a cash constraint, not a profit problem, drives the decision."
+      "explanation": "Profit and cash are different. A cash constraint favors leasing even when the firm is profitable."
     }
   ],
   "flashcards": [
@@ -418,5 +466,6 @@
       "back": "No time left for marketing, training or QC; predicts overtime, burnout and turnover."
     }
   ],
-  "verified": "2026-11-23"
+  "verified": "2026-11-23",
+  "itemStyle": "ncarb-v2"
 }

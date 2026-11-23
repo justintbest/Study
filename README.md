@@ -9,7 +9,7 @@ It's a static site: no backend and no account. Progress is saved in your browser
 **Status**
 | Exam | Content |
 |---|---|
-| **PcM** | ✅ 12 objectives: notes, 121 questions, 167 flashcards |
+| **PcM** | ✅ 12 objectives: notes, 125 NCARB-style questions, 173 flashcards |
 | PjM, PA, PPD, PDD, CE | Official objectives loaded; content comes next, one division at a time |
 | CSE | ⏳ Waiting for the CSE Handbook PDF (see `sources/README.md`) |
 
@@ -95,7 +95,9 @@ The app uses hash URLs (`/#/study/PcM-2.1`), so deep links work on any static ho
 - **Confidence flags.** Anything not yet checked against a source carries a **⚠ Verify** badge with a note on what to check. Each objective page lists its flagged items and shows when its facts were last checked. See `content/VERIFICATION.md` for what has been verified against the NCARB Model Rules, the AIA Code of Ethics and federal law, and what's waiting on the AIA contract PDFs.
 
 ### Notes on question formats
-The October 2026 ARE 5.0 Guidelines list three item types: **multiple choice**, **check-all-that-apply**, and **hotspot**. **Fill-in-the-blank/quantitative is no longer an ARE item type.** The bank still includes a few `numeric` items (finance math, fee splits) as a study aid, labelled "Numeric entry · study aid". Hotspot items need images and aren't included yet. The CSE is multiple choice only.
+- **Formats match the real exam.** The October 2026 ARE 5.0 Guidelines list three item types: **multiple choice**, **check-all-that-apply**, and **hotspot**. Fill-in-the-blank is no longer an ARE format, so calculations appear as multiple choice. The wrong options are the results of common mistakes, and the explanation shows each step.
+- **Writing style matches NCARB's.** Questions are calibrated against NCARB's official practice exams (`content/schema/ITEM-STYLE.md`): scenario stems with bulleted facts or small tables, short parallel options, plausible wrong answers, and correct answers that don't stand out by length. The validator enforces the measurable parts.
+- **What's not included:** hotspot items need images. Case studies are approximated with exhibits in the question stem. The CSE is multiple choice only.
 
 ## How the content is organized
 ```
@@ -185,6 +187,19 @@ here's my exported progress file: C:\Users\me\Downloads\are-study-progress-2026-
 ```
 
 Claude asks one question at a time, never reveals the answer early, explains why each wrong option is wrong, and keeps score. It can also write new questions grounded in a study note; those are labelled "new: not in the bank", and you can ask it to add good ones to the JSON.
+
+## Studying NCARB's official practice exams
+NCARB publishes a free official practice exam for each division. These are the closest thing to real exam questions.
+
+- **Best way:** your NCARB Record → Exams → Practice Exam Dashboard. Take it in **test mode** (timed) to gauge readiness, or **practice mode** to see NCARB's explanations. NCARB's passing score on its practice exams is **68%**.
+- **In Claude Code:** `npm run fetch:sources` downloads NCARB's PDF versions into `sources/are/practice-exams/`. They stay on your machine and are never committed. Then say:
+
+  ```text
+  quiz me on the NCARB PcM practice exam, one question at a time
+  ```
+
+  Claude asks NCARB's exact questions, gives NCARB's answer and explanation, adds commentary on the wrong options, links the relevant study note, and scores you against 68%. The PDF leaves out the case-study documents and hotspot images, so use the NCARB Record version for those.
+- **Why the questions aren't in the app:** NCARB's license allows using the PDF as is for study, but not reassembling its questions into another tool. This repo and site are also public. The app's own bank is written in NCARB's style instead (`content/schema/ITEM-STYLE.md`), and `npm run validate` blocks any question that repeats NCARB's wording.
 
 ## Backing up progress
 Progress lives in your browser's localStorage under `are-study-progress-v1`. It won't follow you to another browser or computer, and clearing site data erases it.

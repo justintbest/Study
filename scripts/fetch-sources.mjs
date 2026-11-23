@@ -14,6 +14,10 @@ const FILES = [
   ['sources/are/ethics/NCARB-Model-Rules-of-Conduct.pdf', 'https://www.ncarb.org/sites/default/files/Rules_of_Conduct.pdf'],
   ['sources/are/ethics/AIA-Code-of-Ethics-2024.pdf', 'https://www.aia.org/sites/default/files/2024-04/aia-code-of-ethics-april-2024.pdf'],
   ['sources/are/ethics/AIA-Code-of-Ethics-2026-proposed.pdf', 'https://www.aia.org/sites/default/files/2026-07/Code%20of%20Ethics.pdf'],
+  ...['Practice-Management', 'Project-Management', 'Programming-and-Analysis', 'Project-Planning-and-Design', 'Project-Development-and-Documentation', 'Construction-and-Evaluation'].map((n) => [
+    `sources/are/practice-exams/ARE-Practice-Exam-${n}.pdf`,
+    `https://www.ncarb.org/sites/default/files/ARE-Practice-Exam-${n}.pdf`,
+  ]),
   ['sources/cse/architects-practice-act.pdf', 'https://www.cab.ca.gov/docs/publications/architects-practice-act.pdf'],
   ['sources/cse/coastal-act.pdf', 'https://www.coastal.ca.gov/coastact.pdf'],
 ];

@@ -5,6 +5,7 @@
 import { readFileSync, readdirSync, statSync, existsSync } from 'node:fs';
 import { join, relative, basename } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { execFileSync } from 'node:child_process';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const C = join(ROOT, 'content');
@@ -146,9 +147,30 @@ for (const f of jsonFiles) {
         if (right < 2 || right > 4) err(rel, `${where}: check-all-that-apply needs 2–4 correct, has ${right}`);
         if (q.selectCount !== right) err(rel, `${where}: selectCount ${q.selectCount} ≠ ${right} correct options`);
       }
+      // NCARB-style lint (see content/schema/ITEM-STYLE.md)
+      const allText = [q.stem, ...ops.map((o) => o.text)].join(' ');
+      if (/\b(all|none) of the above\b/i.test(allText)) err(rel, `${where}: don't use "all/none of the above"`);
+      if (/\b(NOT|EXCEPT)\b/.test(q.stem)) warn(rel, `${where}: avoid negative stems (NOT/EXCEPT)`);
+      if (q.type === 'mc' && right === 1) {
+        const c = ops.find((o) => o.correct).text.length;
+        const others = ops.filter((o) => !o.correct).map((o) => o.text.length);
+        const avg = others.reduce((a, b) => a + b, 0) / (others.length || 1);
+        if (c > 40 && c > avg * 1.6) warn(rel, `${where}: correct option is much longer than the distractors (${c} vs avg ${Math.round(avg)} chars), a giveaway`);
+      }
     } else if (q.type === 'numeric') {
       if (!q.answer || typeof q.answer.value !== 'number') err(rel, `${where}: numeric needs answer.value`);
     } else err(rel, `${where}: unknown type "${q.type}"`);
+  }
+
+  // bank-level cue: correct answer shouldn't be the longest option much more often than chance
+  {
+    const mcs = qs.filter((q) => q.type === 'mc' && (q.options ?? []).filter((o) => o.correct).length === 1);
+    const longest = mcs.filter((q) => {
+      const c = q.options.find((o) => o.correct).text.length;
+      return q.options.filter((o) => !o.correct).every((o) => c >= o.text.length);
+    }).length;
+    if (mcs.length >= 5 && longest / mcs.length > 0.5)
+      warn(rel, `correct answer is the longest option in ${longest}/${mcs.length} multiple-choice items, which is a pattern test-takers can exploit`);
   }
 
   // flashcards
@@ -166,6 +188,39 @@ for (const f of jsonFiles) {
     const text = JSON.stringify(doc) + (mdFiles.has(md) ? readFileSync(md, 'utf8') : '');
     const hits = caHits(text);
     if (hits.length) err(rel, `ARE content mentions California-specific code/law (${hits.join(', ')}). Move it to CSE content.`);
+  }
+}
+
+// ---------- guard: never copy NCARB practice-exam items (license forbids derivative works) ----------
+// Runs only where the PDFs and poppler's pdftotext are available locally; otherwise skipped.
+{
+  const peDir = join(ROOT, 'sources', 'are', 'practice-exams');
+  const pdfs = existsSync(peDir) ? readdirSync(peDir).filter((n) => n.endsWith('.pdf')) : [];
+  let peText = '';
+  try {
+    for (const n of pdfs) peText += execFileSync('pdftotext', [join(peDir, n), '-'], { encoding: 'utf8', maxBuffer: 64e6 }) + '\n';
+  } catch {
+    peText = '';
+  }
+  if (peText) {
+    const words = (s) => s.toLowerCase().match(/[a-z0-9$%]+/g) ?? [];
+    const N = 9; // long enough that stock phrases ("which of the following is the most") don't trip it
+    const pw = words(peText);
+    const shingles = new Set();
+    for (let i = 0; i + N <= pw.length; i++) shingles.add(pw.slice(i, i + N).join(' '));
+    for (const f of jsonFiles) {
+      const doc = JSON.parse(readFileSync(f, 'utf8'));
+      for (const q of doc.questions ?? []) {
+        const w = words([q.stem, ...(q.options ?? []).map((o) => o.text)].join(' '));
+        for (let i = 0; i + N <= w.length; i++) {
+          if (shingles.has(w.slice(i, i + N).join(' '))) {
+            err(relative(ROOT, f), `question ${q.id} repeats NCARB practice-exam wording ("${w.slice(i, i + N).join(' ')}"). Write it in your own words.`);
+            break;
+          }
+        }
+      }
+    }
+    console.log(`checked ${jsonFiles.length} files against ${pdfs.length} NCARB practice exams for copied wording`);
   }
 }
 

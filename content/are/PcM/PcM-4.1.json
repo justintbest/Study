@@ -36,10 +36,10 @@
   ],
   "questions": [
     {
-      "id": "PcM-4.1-q01",
+      "id": "PcM-4.1-q21",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "Two architects want to form a firm. They want protection from each other's professional mistakes and from the firm's general debts, and they want to avoid entity-level income tax. Which structure best meets these goals, where permitted?",
+      "stem": "Two architects are forming a firm. Their goals:\n\n- Protect each owner from the firm's debts and from the other's professional errors\n- Avoid entity-level income tax\n- Split profits 60/40 in favor of the partner who brings in most clients, while owning the firm 50/50\n\nWhich structure best meets these goals, where permitted?",
       "options": [
         {
           "id": "a",
@@ -48,39 +48,39 @@
         },
         {
           "id": "b",
-          "text": "Professional limited liability company (PLLC) or LLC",
-          "correct": true,
-          "explanation": "Correct. An LLC/PLLC generally shields members from business debts and from other members' acts, and it's taxed as a pass-through by default."
+          "text": "S corporation",
+          "explanation": "An S corp is pass-through with a liability shield, but its single class of stock requires distributions in proportion to ownership."
         },
         {
           "id": "c",
-          "text": "C corporation",
-          "explanation": "A C corporation provides a liability shield but is subject to double taxation."
+          "text": "Limited liability company",
+          "explanation": "Correct. An LLC shields members, is pass-through by default, and lets the operating agreement allocate profits differently from ownership.",
+          "correct": true
         },
         {
           "id": "d",
-          "text": "Sole proprietorship",
-          "explanation": "A sole proprietorship has one owner and unlimited personal liability."
+          "text": "C corporation",
+          "explanation": "A C corporation shields owners but is taxed at the entity level."
         }
       ],
-      "explanation": "Liability shield + pass-through taxation → LLC/PLLC (or LLP or S corp, depending on other goals)."
+      "explanation": "Shield + pass-through + flexible profit allocation → LLC (or PLLC where required)."
     },
     {
-      "id": "PcM-4.1-q02",
+      "id": "PcM-4.1-q22",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "An architect who owns 50% of a PLLC personally made the design error that caused a structural failure. Which statement is correct?",
+      "stem": "An architect owns 50% of a professional LLC. A design error she personally made leads to a structural failure and a large claim.\n\nWhich statement is correct?",
       "options": [
         {
           "id": "a",
-          "text": "The PLLC structure protects the architect's personal assets from the claim.",
-          "explanation": "Entity structures don't shield professionals from liability for their own negligence."
+          "text": "The LLC protects her personal assets from the claim.",
+          "explanation": "No entity shields professionals from liability for their own negligence."
         },
         {
           "id": "b",
-          "text": "The architect may be personally liable for their own negligence, though the other member is generally shielded from personal liability for it.",
-          "correct": true,
-          "explanation": "Correct. The entity protects owners from others' acts and business debts, not from their own professional negligence."
+          "text": "She may be liable; the other member generally isn't.",
+          "explanation": "Correct. The entity protects owners from others' acts and the firm's debts, not from their own professional negligence.",
+          "correct": true
         },
         {
           "id": "c",
@@ -89,238 +89,238 @@
         },
         {
           "id": "d",
-          "text": "Only the client's insurer is responsible.",
-          "explanation": "The architect and firm (and their insurer) face the claim. The client's insurer doesn't take on the architect's liability."
+          "text": "Only the firm's insurer can be held responsible.",
+          "explanation": "The firm and the individual architect face the claim. Insurance funds the defense and any payment within limits."
         }
       ],
-      "explanation": "No entity protects you from your own malpractice. That's why professional liability insurance matters."
+      "explanation": "No structure protects you from your own malpractice. Keep adequate professional liability insurance."
     },
     {
-      "id": "PcM-4.1-q03",
+      "id": "PcM-4.1-q23",
       "type": "cata",
-      "selectCount": 2,
       "cognitiveLevel": "A/E",
-      "stem": "Which statements about a general partnership are correct?",
+      "stem": "Two architects are considering a general partnership for their new practice.\n\nWhich statements about a general partnership are correct?",
       "options": [
         {
           "id": "a",
-          "text": "Each partner can be personally liable for the partnership's obligations, including those caused by other partners.",
-          "correct": true,
-          "explanation": "Correct. Joint and several liability is the defining risk of a general partnership."
+          "text": "Each partner can be liable for obligations caused by the other.",
+          "explanation": "Correct. Joint and several liability is the defining risk of a general partnership.",
+          "correct": true
         },
         {
           "id": "b",
-          "text": "Profits pass through to the partners' personal tax returns.",
-          "correct": true,
-          "explanation": "Correct. Partnerships aren't taxed at the entity level."
+          "text": "Profits pass through to the partners' personal returns.",
+          "explanation": "Correct. Partnerships aren't taxed at the entity level.",
+          "correct": true
         },
         {
           "id": "c",
-          "text": "Partners are shielded from all business debts.",
-          "explanation": "There's no liability shield in a general partnership."
+          "text": "Partners are shielded from the firm's business debts.",
+          "explanation": "A general partnership provides no liability shield."
         },
         {
           "id": "d",
-          "text": "It is subject to corporate double taxation.",
-          "explanation": "Double taxation applies to C corporations."
+          "text": "The firm pays corporate income tax on its profits.",
+          "explanation": "Entity-level tax applies to C corporations."
         },
         {
           "id": "e",
-          "text": "It needs a board of directors and corporate minutes.",
+          "text": "A board of directors and corporate minutes are required.",
           "explanation": "Those formalities apply to corporations."
         },
         {
           "id": "f",
-          "text": "Ownership interests trade freely like public stock.",
-          "explanation": "Partnership interests usually can't be transferred without the other partners' consent."
+          "text": "Interests transfer freely without the other partner's consent.",
+          "explanation": "Partnership interests usually can't be transferred without consent."
         }
       ],
+      "selectCount": 2,
       "explanation": "General partnership = pass-through + unlimited joint and several liability."
     },
     {
-      "id": "PcM-4.1-q04",
+      "id": "PcM-4.1-q24",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A 60-person firm's founding principals want to retire over the next decade and transfer ownership to a broad base of employees, with possible tax advantages. Which approach best fits?",
+      "stem": "The three founding principals of a 60-person firm plan to retire over the next ten years. They want to transfer ownership gradually to a broad base of employees, with potential tax advantages.\n\nWhich approach best fits these goals?",
       "options": [
         {
           "id": "a",
-          "text": "Employee stock ownership plan (ESOP)",
-          "correct": true,
-          "explanation": "Correct. An ESOP transfers ownership to employees over time through a qualified retirement plan and can offer tax advantages."
+          "text": "Employee stock ownership plan",
+          "explanation": "Correct. An ESOP transfers ownership to employees over time through a qualified retirement plan and can offer tax advantages.",
+          "correct": true
         },
         {
           "id": "b",
-          "text": "Dissolving the firm and having employees start a new one",
-          "explanation": "Dissolution destroys firm value and client relationships."
+          "text": "Sale to an outside design firm",
+          "explanation": "An external sale doesn't create broad employee ownership."
         },
         {
           "id": "c",
-          "text": "Converting to a sole proprietorship",
-          "explanation": "A sole proprietorship has a single owner, the opposite of broad employee ownership."
+          "text": "Internal sale to two key principals",
+          "explanation": "An internal sale to a few successors doesn't reach a broad employee base."
         },
         {
           "id": "d",
-          "text": "Forming a joint venture with a competitor",
-          "explanation": "A JV is a project-specific arrangement, not an ownership-transition tool."
+          "text": "Conversion to an S corporation",
+          "explanation": "A tax election alone doesn't transfer ownership."
         }
       ],
-      "explanation": "Broad-based internal succession → ESOP (or staged internal sale)."
+      "explanation": "Broad-based internal succession → ESOP (or a staged internal sale)."
     },
     {
-      "id": "PcM-4.1-q05",
+      "id": "PcM-4.1-q25",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "Two firms want to pursue a large airport project together, each sharing management, profits and risk. Which statement is correct about forming a joint venture?",
+      "stem": "Two firms plan to pursue a large airport terminal together, sharing management, profits and risk under a single owner agreement.\n\nWhich statement about forming a joint venture is correct?",
       "options": [
         {
           "id": "a",
-          "text": "Each venturer may be jointly and severally liable to the client for the JV's obligations, so the firms need a JV agreement and insurance covering JV work.",
-          "correct": true,
-          "explanation": "Correct. JV partners typically share liability to the client. A written JV agreement and suitable insurance are essential."
+          "text": "Each venturer may be jointly and severally liable.",
+          "explanation": "Correct. JV partners typically share liability to the client, so they need a JV agreement and coverage for JV work.",
+          "correct": true
         },
         {
           "id": "b",
           "text": "Each firm is liable only for its own drawings.",
-          "explanation": "Internal allocations between venturers don't limit their liability to the client."
+          "explanation": "Internal allocations between venturers don't limit liability to the owner."
         },
         {
           "id": "c",
-          "text": "The firms' existing practice policies automatically cover JV work.",
+          "text": "Each firm's practice policy automatically covers JV work.",
           "explanation": "Many practice policies exclude or limit JV coverage unless it's specifically endorsed."
         },
         {
           "id": "d",
-          "text": "A JV requires the firms to merge.",
+          "text": "The firms must merge before signing the agreement.",
           "explanation": "A JV is a limited-purpose association. The firms stay separate."
         }
       ],
-      "explanation": "JV = shared control and profit, shared liability. Use a JV agreement and confirm the insurance."
+      "explanation": "Joint venture = shared control, profit and liability. Use a JV agreement and confirm insurance."
     },
     {
-      "id": "PcM-4.1-q06",
+      "id": "PcM-4.1-q26",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A firm's departmental structure (design → production → construction administration) is causing missed details and complaints that the client 'never sees the same person twice.' Which change best addresses this?",
+      "stem": "A firm organized in design, production and construction administration departments is seeing missed details at hand-offs. Clients complain that they 'never see the same person twice.'\n\nWhich organizational change best addresses these problems?",
       "options": [
         {
           "id": "a",
-          "text": "Move to a studio or team structure where one team carries each project through all phases.",
-          "correct": true,
-          "explanation": "Correct. Studio teams provide continuity and accountability, which reduces hand-off losses."
+          "text": "Adopt studio teams that work through all phases.",
+          "explanation": "Correct. Studio teams provide continuity and accountability, reducing what gets lost at hand-offs.",
+          "correct": true
         },
         {
           "id": "b",
-          "text": "Add another department for quality control between production and CA.",
+          "text": "Add a quality control department between each phase.",
           "explanation": "Another hand-off doesn't fix the continuity problem."
         },
         {
           "id": "c",
-          "text": "Convert the firm to an S corporation.",
-          "explanation": "Tax and legal structure don't affect how project work is organized."
+          "text": "Assign a client liaison to attend all meetings.",
+          "explanation": "A liaison adds a contact person but doesn't fix knowledge lost between departments."
         },
         {
           "id": "d",
-          "text": "Reduce the number of client meetings.",
-          "explanation": "Fewer meetings make the communication problem worse."
+          "text": "Reorganize into a matrix by market sector.",
+          "explanation": "A market matrix shares expertise across projects but can still route work through departmental hand-offs."
         }
       ],
-      "explanation": "Organizational structure should fit the problem: continuity → studio/team model."
+      "explanation": "Structure should fit the problem: continuity → studio or team model."
     },
     {
-      "id": "PcM-4.1-q07",
+      "id": "PcM-4.1-q27",
       "type": "cata",
-      "selectCount": 3,
       "cognitiveLevel": "A/E",
-      "stem": "A firm plans to open a branch office in a new jurisdiction. Which requirements should it confirm with that jurisdiction's licensing board?",
+      "stem": "A firm plans to open a branch office in another jurisdiction.\n\nWhich requirements should the firm confirm with that jurisdiction's licensing board?",
       "options": [
         {
           "id": "a",
           "text": "Firm registration or certificate of authorization",
-          "correct": true,
-          "explanation": "Correct. Many jurisdictions require firms offering architectural services to register."
+          "explanation": "Correct. Many jurisdictions require firms offering architectural services to register.",
+          "correct": true
         },
         {
           "id": "b",
-          "text": "Requirements for a licensed architect in responsible control of the work",
-          "correct": true,
-          "explanation": "Correct. Boards typically require a locally licensed architect to be in responsible control."
+          "text": "A licensed architect in responsible control",
+          "explanation": "Correct. Boards typically require a locally licensed architect in responsible control of the work.",
+          "correct": true
         },
         {
           "id": "c",
-          "text": "Any ownership or director licensure requirements for the firm",
-          "correct": true,
-          "explanation": "Correct. Some jurisdictions restrict who may own or direct a firm practicing architecture."
+          "text": "Ownership or director licensure rules",
+          "explanation": "Correct. Some jurisdictions restrict who may own or direct a firm practicing architecture.",
+          "correct": true
         },
         {
           "id": "d",
-          "text": "Whether the branch may use the AIA Code of Ethics",
-          "explanation": "The AIA Code is a membership matter, not a board requirement."
+          "text": "Approval from the local AIA chapter",
+          "explanation": "AIA chapters don't regulate firm practice."
         },
         {
           "id": "e",
-          "text": "Whether the ARE must be retaken for the new jurisdiction",
-          "explanation": "The ARE is national. Individuals typically get reciprocal licensure, often with an NCARB Certificate."
+          "text": "Retaking the ARE for the new jurisdiction",
+          "explanation": "The ARE is national. Licensure is usually obtained by reciprocity."
         },
         {
           "id": "f",
-          "text": "Federal approval of the branch name",
-          "explanation": "There's no federal approval of architecture firm names. Name rules, if any, are set by the jurisdiction."
+          "text": "NCARB approval of the office location",
+          "explanation": "NCARB doesn't approve firm offices. Boards regulate firm practice."
         }
       ],
+      "selectCount": 3,
       "explanation": "Firm practice is regulated locally: registration, responsible control, ownership rules."
     },
     {
-      "id": "PcM-4.1-q08",
+      "id": "PcM-4.1-q28",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "What is the primary purpose of a buy-sell agreement among a firm's owners?",
+      "stem": "The four owners of a firm are drafting an agreement to govern what happens when an owner dies, becomes disabled, retires or leaves.\n\nWhich document serves this purpose?",
       "options": [
         {
           "id": "a",
-          "text": "To set how, and at what price, an owner's interest will be bought upon death, disability, retirement or departure",
-          "correct": true,
-          "explanation": "Correct. Buy-sell agreements provide orderly ownership transfer and valuation."
+          "text": "Buy-sell agreement",
+          "explanation": "Correct. It sets how, and at what price, an owner's interest is bought in those events, often funded by key-person insurance.",
+          "correct": true
         },
         {
           "id": "b",
-          "text": "To set billing rates for each owner",
-          "explanation": "Billing rates are an operations matter."
+          "text": "Operating budget",
+          "explanation": "A budget plans revenue and expenses. It doesn't govern ownership transfer."
         },
         {
           "id": "c",
-          "text": "To allocate professional liability among owners",
-          "explanation": "Professional liability is set by law and insurance, not by a buy-sell agreement."
+          "text": "Joint venture agreement",
+          "explanation": "A JV agreement governs a specific project association between firms."
         },
         {
           "id": "d",
-          "text": "To establish the firm as a corporation",
-          "explanation": "Formation documents create the entity. A buy-sell agreement governs transfer of interests."
+          "text": "Employment agreement",
+          "explanation": "Employment agreements govern roles and compensation, not the purchase of ownership interests."
         }
       ],
-      "explanation": "Buy-sell = orderly transfer of ownership, often funded by key-person insurance."
+      "explanation": "Buy-sell agreement = orderly ownership transfer and valuation."
     },
     {
-      "id": "PcM-4.1-q09",
+      "id": "PcM-4.1-q29",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A growing firm plans to bring in outside investors and eventually go public. Which structure is most compatible?",
+      "stem": "A growing firm wants to bring in outside investors, issue different classes of ownership, and possibly go public someday.\n\nWhich structure is most compatible, assuming the board's ownership rules are satisfied?",
       "options": [
         {
           "id": "a",
           "text": "C corporation",
-          "correct": true,
-          "explanation": "Correct. C corporations can have unlimited shareholders and multiple classes of stock, which suits outside investment, subject to any jurisdictional ownership rules for architecture firms."
+          "explanation": "Correct. A C corporation allows unlimited shareholders and multiple classes of stock.",
+          "correct": true
         },
         {
           "id": "b",
           "text": "S corporation",
-          "explanation": "S corps limit the number and type of shareholders and allow only one class of stock."
+          "explanation": "S corps are limited to 100 shareholders and one class of stock (26 U.S.C. §1361(b))."
         },
         {
           "id": "c",
           "text": "General partnership",
-          "explanation": "Partnerships don't lend themselves to outside equity investment or public trading."
+          "explanation": "Partnerships aren't suited to outside equity investment or public trading."
         },
         {
           "id": "d",
@@ -328,39 +328,41 @@
           "explanation": "A sole proprietorship can have only one owner."
         }
       ],
-      "explanation": "Outside capital and many shareholders → C corporation (check board ownership rules).",
+      "explanation": "Outside capital and multiple share classes → C corporation, subject to the board's ownership rules.",
       "confidence": "medium",
-      "confidenceNote": "Some jurisdictions restrict non-architect ownership of firms practicing architecture; the ARE item would assume such rules are satisfied."
+      "confidenceNote": "Some jurisdictions restrict non-architect ownership of firms practicing architecture; the item assumes those rules are met."
     },
     {
-      "id": "PcM-4.1-q10",
+      "id": "PcM-4.1-q30",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A design-focused firm wants to build a national reputation for innovative cultural buildings. Which organizational emphasis best supports that goal?",
+      "stem": "A firm's strategic plan is to build a national reputation for innovative cultural buildings.\n\nWhich organizational emphasis best supports that goal?",
       "options": [
         {
           "id": "a",
-          "text": "A strong-idea, design-led practice structure with senior design leadership on every project",
-          "correct": true,
-          "explanation": "Correct. The structure should support the firm's positioning, here design innovation."
+          "text": "A design-led practice with senior design leadership",
+          "explanation": "Correct. The structure should support the firm's positioning, here design innovation.",
+          "correct": true
         },
         {
           "id": "b",
-          "text": "A highly departmentalized production model aimed at repeatable prototypes",
-          "explanation": "Repeatable delivery fits a delivery-focused strategy, not innovation-led positioning."
+          "text": "A departmental production model focused on efficiency",
+          "explanation": "Efficient repeatable production suits a delivery-focused strategy."
         },
         {
           "id": "c",
-          "text": "A structure that minimizes principal involvement to raise utilization",
-          "explanation": "Removing senior design leadership undermines a design-led strategy."
+          "text": "A market-sector matrix emphasizing client service",
+          "explanation": "Client-service emphasis suits a service-focused strategy."
         },
         {
           "id": "d",
-          "text": "Converting to a sole proprietorship",
-          "explanation": "Legal form doesn't create design positioning."
+          "text": "A prototype program for repeat institutional clients",
+          "explanation": "Prototype programs suit delivery-focused, repeatable work."
         }
       ],
-      "explanation": "Structure follows strategy: ideas, service, or delivery."
+      "explanation": "Structure follows strategy: ideas, service, or delivery.",
+      "confidence": "medium",
+      "confidenceNote": "Positioning framework terminology varies by source."
     }
   ],
   "flashcards": [
@@ -437,5 +439,6 @@
       "confidenceNote": "Classic practice-management framework; terminology varies by source."
     }
   ],
-  "verified": "2026-11-23"
+  "verified": "2026-11-23",
+  "itemStyle": "ncarb-v2"
 }

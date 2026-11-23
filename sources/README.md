@@ -16,6 +16,9 @@ Official documents that the study content is based on. These are untouched downl
 | `AIA-Code-of-Ethics-2024.pdf` | AIA *Code of Ethics and Professional Conduct*, 2024 (the edition on the ARE). https://www.aia.org/sites/default/files/2024-04/aia-code-of-ethics-april-2024.pdf |
 | `AIA-Code-of-Ethics-2026-proposed.pdf` | AIA *Proposed 2026 Code of Ethics* redlines (reference only). https://www.aia.org/sites/default/files/2026-07/Code%20of%20Ethics.pdf |
 
+### `sources/are/practice-exams/` (not committed: fetch with `npm run fetch:sources`)
+NCARB's official ARE 5.0 practice exam PDFs, one per division (Feb 2026 editions), from https://www.ncarb.org/pass-the-are/prepare/practice-exams. They're licensed for personal study use as is; no derivative works. Use them in Claude Code study sessions (see CLAUDE.md). The app's questions are original and only match NCARB's *style* (`content/schema/ITEM-STYLE.md`).
+
 ### `sources/are/law/` (public domain, committed)
 Text of every federal statute and regulation cited in ARE content, from govinfo.gov (U.S. Code, 2024 edition) and ecfr.gov (current): FLSA, Title VII, ADA Title I, ADEA, FMLA, COBRA, the ACA employer mandate, OSHA, Copyright Act sections, the Brooks Act, IRC §1361, NHPA §106, 29 C.F.R. §§541.300/.600, and 36 C.F.R. Part 68. Each file starts with its source URL.
 

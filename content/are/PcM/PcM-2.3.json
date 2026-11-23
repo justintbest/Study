@@ -4,167 +4,487 @@
   "division": "PcM",
   "generated": "2026-11-23",
   "references": [
-    { "kind": "AIA", "citation": "B101-2017 Article 1 (Initial Information)", "topic": "Records the program, budget, schedule, delivery method and other assumptions the services and fee are based on." },
-    { "kind": "AIA", "citation": "B101-2017 §4.2 (Additional Services), incl. §4.2.2–4.2.4", "topic": "Some additional services need the owner's prior written authorization; others proceed on notice; basic services limits (submittal reviews, site visits, inspections).", "confidence": "medium", "confidenceNote": "Confirm which services fall under each sub-paragraph in your copy." },
-    { "kind": "AIA", "citation": "B101-2017 §11.6", "topic": "Equitable adjustment of compensation when the scope of the project or services changes materially.", "confidence": "medium", "confidenceNote": "Confirm paragraph number." },
-    { "kind": "AIA", "citation": "B101-2017 Article 7 (Copyrights and Licenses), §11.9", "topic": "Architect keeps copyright; owner receives a nonexclusive license for the project; licensing fee if terminated for convenience.", "confidence": "medium", "confidenceNote": "Confirm §11.9 as the licensing-fee paragraph." },
-    { "kind": "AIA", "citation": "E203-2013 Building Information Modeling and Digital Data Exhibit; G201-2013 Project Digital Data Protocol; G202-2013 Project BIM Protocol", "topic": "Agree on transmission, permitted uses, reliance and model element authors for digital data and BIM.", "confidence": "medium", "confidenceNote": "Not on NCARB's ARE contract list; confirm current editions." },
-    { "kind": "AIA", "citation": "C106-2013 Digital Data Licensing Agreement", "topic": "License for sharing digital data with a party you have no other agreement with (e.g., releasing CAD files to a contractor).", "confidence": "medium", "confidenceNote": "Confirm current edition." }
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 Article 1 (Initial Information)",
+      "topic": "Records the program, budget, schedule, delivery method and other assumptions the services and fee are based on."
+    },
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 §4.2 (Additional Services), incl. §4.2.2–4.2.4",
+      "topic": "Some additional services need the owner's prior written authorization; others proceed on notice; basic services limits (submittal reviews, site visits, inspections).",
+      "confidence": "medium",
+      "confidenceNote": "Confirm which services fall under each sub-paragraph in your copy."
+    },
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 §11.6",
+      "topic": "Equitable adjustment of compensation when the scope of the project or services changes materially.",
+      "confidence": "medium",
+      "confidenceNote": "Confirm paragraph number."
+    },
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 Article 7 (Copyrights and Licenses), §11.9",
+      "topic": "Architect keeps copyright; owner receives a nonexclusive license for the project; licensing fee if terminated for convenience.",
+      "confidence": "medium",
+      "confidenceNote": "Confirm §11.9 as the licensing-fee paragraph."
+    },
+    {
+      "kind": "AIA",
+      "citation": "E203-2013 Building Information Modeling and Digital Data Exhibit; G201-2013 Project Digital Data Protocol; G202-2013 Project BIM Protocol",
+      "topic": "Agree on transmission, permitted uses, reliance and model element authors for digital data and BIM.",
+      "confidence": "medium",
+      "confidenceNote": "Not on NCARB's ARE contract list; confirm current editions."
+    },
+    {
+      "kind": "AIA",
+      "citation": "C106-2013 Digital Data Licensing Agreement",
+      "topic": "License for sharing digital data with a party you have no other agreement with (e.g., releasing CAD files to a contractor).",
+      "confidence": "medium",
+      "confidenceNote": "Confirm current edition."
+    }
   ],
   "questions": [
     {
-      "id": "PcM-2.3-q01",
+      "id": "PcM-2.3-q21",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "During design development, the client asks the architect to study two additional site layouts not included in the agreed scope. What should the architect do first?",
+      "stem": "During design development of a library under B101-2017, the owner asks the architect to study two additional site layouts. The agreed scope includes only the layout approved in schematic design.\n\nWhat should the architect do next?",
       "options": [
-        { "id": "a", "text": "Prepare the layouts to maintain goodwill, then bill for them at the end of the phase.", "explanation": "Doing work first and billing later invites disputes. The client never agreed to pay." },
-        { "id": "b", "text": "Notify the client in writing that this is an additional service, state the fee and schedule impact, and get written authorization before proceeding.", "correct": true, "explanation": "Correct. Prompt written notice and authorization prevent scope creep and payment disputes." },
-        { "id": "c", "text": "Refuse, since the work isn't in the contract.", "explanation": "The architect can provide additional services. Refusing outright is unnecessary and harms the relationship." },
-        { "id": "d", "text": "Absorb the cost but reduce construction administration hours later to compensate.", "explanation": "Secretly cutting other services to recover fee risks breaching the agreement and the standard of care." }
+        {
+          "id": "a",
+          "text": "Prepare the layouts and bill them at the end of the phase.",
+          "explanation": "Billing after the fact invites disputes. The owner hasn't agreed to pay."
+        },
+        {
+          "id": "b",
+          "text": "Request written authorization for an additional service.",
+          "explanation": "Correct. Out-of-scope work should be authorized in writing, with its fee and schedule impact, before it starts.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Prepare the layouts and absorb the cost as goodwill.",
+          "explanation": "Unacknowledged extra work sets expectations and erodes the fee."
+        },
+        {
+          "id": "d",
+          "text": "Decline the request as outside the agreement.",
+          "explanation": "Additional services are permitted. Declining outright is unnecessary."
+        }
       ],
-      "explanation": "Scope creep control: recognize → notify in writing → state the impact → get authorization → then proceed."
+      "explanation": "Scope creep control: recognize → notify in writing → state the impact → authorize → proceed (B101-2017 §4.2)."
     },
     {
-      "id": "PcM-2.3-q02",
+      "id": "PcM-2.3-q22",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "A client's maximum design fee is 15% below the architect's proposal for full services. Which negotiation strategy is most appropriate?",
+      "stem": "A firm's proposal for a community center is $420,000 for full services. The client replies:\n\n- Maximum design fee: $360,000\n- Project scope and schedule: unchanged\n\nWhich response is most appropriate?",
       "options": [
-        { "id": "a", "text": "Accept the lower fee and keep the full scope to win the project.", "explanation": "Discounting without changing scope puts the project's profitability, and possibly its quality, at risk." },
-        { "id": "b", "text": "Adjust the scope to match the fee, for example by moving construction administration to hourly or removing renderings.", "correct": true, "explanation": "Correct. Trading scope for fee keeps the fee aligned with the services provided." },
-        { "id": "c", "text": "Accept the fee and plan to make up the difference through additional services.", "explanation": "Planning to recover fee through change requests is poor faith dealing and damages trust." },
-        { "id": "d", "text": "Lower the standard of care in the agreement.", "explanation": "The standard of care can't be bargained down to save fee." }
+        {
+          "id": "a",
+          "text": "Accept the fee and maintain the full scope.",
+          "explanation": "Discounting without changing scope puts profitability, and possibly quality, at risk."
+        },
+        {
+          "id": "b",
+          "text": "Reduce the scope of services to match the fee.",
+          "explanation": "Correct. Trading scope for fee keeps compensation aligned with the services actually provided.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Accept the fee and plan to recover it through additional services.",
+          "explanation": "Planning to recover fee through change requests damages trust and invites disputes."
+        },
+        {
+          "id": "d",
+          "text": "Propose a percentage-of-construction-cost fee instead.",
+          "explanation": "Changing the fee method doesn't resolve the gap between scope and the client's budget."
+        }
       ],
-      "explanation": "Negotiate scope and fee together. If the fee moves, the scope moves."
+      "explanation": "Negotiate scope and fee together. If the fee moves, scope moves."
     },
     {
-      "id": "PcM-2.3-q03",
+      "id": "PcM-2.3-q23",
       "type": "cata",
-      "selectCount": 2,
       "cognitiveLevel": "U/A",
-      "stem": "A contractor asks for the architect's native BIM model to help prepare shop drawings. Which measures protect the architect?",
+      "stem": "A contractor asks for the architect's native BIM model to prepare coordination and shop drawings.\n\nWhich conditions should the architect place on releasing it?",
       "options": [
-        { "id": "a", "text": "Releasing the model under a digital data license that limits use to this project", "correct": true, "explanation": "Correct. A license (e.g., AIA C106) defines permitted use and protects the architect's IP." },
-        { "id": "b", "text": "Stating that the model isn't a contract document and that the contractor is responsible for verifying dimensions", "correct": true, "explanation": "Correct. A reliance disclaimer keeps the sealed contract documents controlling and puts the duty to verify on the contractor." },
-        { "id": "c", "text": "Transferring the model's copyright to the contractor", "explanation": "There's no reason to give up ownership. A license is enough." },
-        { "id": "d", "text": "Releasing the model with no agreement to save time", "explanation": "Releasing files without terms invites misuse and reliance claims." },
-        { "id": "e", "text": "Agreeing that shop drawings made from the model need no architect review", "explanation": "The architect still reviews submittals under the contract documents." },
-        { "id": "f", "text": "Warranting that the model is free of errors", "explanation": "A warranty creates uninsurable exposure and contradicts the reliance disclaimer." }
+        {
+          "id": "a",
+          "text": "A license limiting use to this project",
+          "explanation": "Correct. A digital data license defines permitted use and protects the architect's IP.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "A statement that the sealed documents govern",
+          "explanation": "Correct. The model isn't a contract document. The contractor must rely on and verify against the sealed set.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Transfer of model ownership during construction",
+          "explanation": "There's no need to give up ownership. A license is enough."
+        },
+        {
+          "id": "d",
+          "text": "Release in native format with no restrictions",
+          "explanation": "Unrestricted release invites misuse and reliance claims."
+        },
+        {
+          "id": "e",
+          "text": "Waiver of shop drawing submittals for modeled elements",
+          "explanation": "Submittals remain required regardless of the data source."
+        },
+        {
+          "id": "f",
+          "text": "Warranty of the model's dimensional accuracy",
+          "explanation": "A warranty creates uninsurable exposure and contradicts the reliance disclaimer."
+        }
       ],
+      "selectCount": 2,
       "explanation": "Digital files: license the use, disclaim reliance, keep ownership."
     },
     {
-      "id": "PcM-2.3-q04",
+      "id": "PcM-2.3-q24",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "Which fee method is most appropriate for a renovation feasibility study where the existing conditions and the scope are very uncertain?",
+      "stem": "A client asks for a feasibility study for converting a 1950s warehouse. The project facts are:\n\n- No existing drawings\n- Unknown structural condition\n- Program still being defined\n\nWhich compensation method is most appropriate?",
       "options": [
-        { "id": "a", "text": "Stipulated sum", "explanation": "A fixed fee for an unclear scope puts the architect at risk of significant overruns." },
-        { "id": "b", "text": "Hourly, possibly with a not-to-exceed amount agreed with the client", "correct": true, "explanation": "Correct. Hourly billing matches fee to effort when the scope is uncertain. A cap gives the client some cost control." },
-        { "id": "c", "text": "Percentage of construction cost", "explanation": "There's no reliable construction cost yet for a feasibility study." },
-        { "id": "d", "text": "Unit cost per square foot", "explanation": "Unit pricing suits repetitive, predictable work, not uncertain studies." }
+        {
+          "id": "a",
+          "text": "Stipulated sum",
+          "explanation": "A fixed fee on an undefined scope puts the architect at risk of large overruns."
+        },
+        {
+          "id": "b",
+          "text": "Hourly with a not-to-exceed amount",
+          "explanation": "Correct. Hourly billing matches fee to effort when scope is uncertain, and the cap gives the client cost control.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Percentage of construction cost",
+          "explanation": "There's no reliable construction cost at the feasibility stage."
+        },
+        {
+          "id": "d",
+          "text": "Unit cost per square foot",
+          "explanation": "Unit pricing suits repetitive, predictable work."
+        }
       ],
       "explanation": "Uncertain scope → time-based compensation."
     },
     {
-      "id": "PcM-2.3-q05",
+      "id": "PcM-2.3-q25",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "Midway through construction documents, the owner doubles the project's size. Under B101-2017, what generally applies?",
+      "stem": "Midway through construction documents for a medical office building under a stipulated-sum B101-2017, the owner decides to add two floors, increasing the building area by 50%.\n\nWhat generally applies?",
       "options": [
-        { "id": "a", "text": "The architect must absorb the change, since the fee is a stipulated sum.", "explanation": "A material change in project scope calls for an equitable adjustment, even under a stipulated sum." },
-        { "id": "b", "text": "The architect's compensation and schedule should be equitably adjusted for the material change in scope.", "correct": true, "explanation": "Correct. B101-2017 provides for adjusting compensation when the project's or the services' scope changes materially." },
-        { "id": "c", "text": "The agreement terminates automatically.", "explanation": "The agreement continues. The change is handled by adjusting compensation and schedule." },
-        { "id": "d", "text": "The contractor pays the additional design fee.", "explanation": "The design fee is owed by the owner under the owner–architect agreement." }
+        {
+          "id": "a",
+          "text": "The architect absorbs the change under the stipulated sum.",
+          "explanation": "A material change in project scope calls for an adjustment even under a stipulated sum."
+        },
+        {
+          "id": "b",
+          "text": "Compensation and schedule are equitably adjusted.",
+          "explanation": "Correct. B101-2017 provides for equitable adjustment when the scope of the project or services changes materially.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "The agreement must be terminated and re-executed.",
+          "explanation": "The agreement continues. It's adjusted, not terminated."
+        },
+        {
+          "id": "d",
+          "text": "The fee increases automatically by 50%.",
+          "explanation": "The adjustment is equitable, based on the actual impact, not automatically proportional."
+        }
       ],
-      "explanation": "Material scope change → equitable adjustment of fee and schedule."
-    },
-    {
-      "id": "PcM-2.3-q06",
-      "type": "mc",
-      "cognitiveLevel": "U/A",
-      "stem": "An owner terminates the B101-2017 agreement for convenience after construction documents are complete and wants to use the documents to build the project with another architect. What does B101-2017 provide?",
-      "options": [
-        { "id": "a", "text": "The owner automatically owns the documents upon termination.", "explanation": "The architect keeps the copyright. The owner holds a license whose terms depend on the circumstances of termination." },
-        { "id": "b", "text": "The owner may use the documents if it pays the licensing fee set in the agreement and other amounts owed, and it releases the architect from liability for their use.", "correct": true, "explanation": "Correct. Under B101-2017, continued use after termination for convenience is conditioned on the licensing fee. Use without the architect is at the owner's risk." },
-        { "id": "c", "text": "The owner may never use the documents after termination.", "explanation": "The agreement provides a path, via the licensing fee, for the owner to keep using them." },
-        { "id": "d", "text": "The new architect becomes the copyright owner by sealing the documents.", "explanation": "Sealing someone else's documents doesn't transfer copyright, and it raises responsible-control issues." }
-      ],
-      "explanation": "Copyright stays with the architect; the license is conditioned on payment; a licensing fee applies after termination for convenience.",
+      "explanation": "Material scope change → equitable adjustment (B101-2017 §11.6).",
       "confidence": "medium",
-      "confidenceNote": "Summarizes B101-2017 Article 7 / §11.9 as I understand them. Confirm the exact conditions in your copy."
+      "confidenceNote": "Paragraph number per my knowledge of B101-2017; confirm in your copy."
     },
     {
-      "id": "PcM-2.3-q07",
+      "id": "PcM-2.3-q26",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "An owner terminates a B101-2017 agreement for convenience after construction documents are complete and plans to have another architect finish the project using the documents.\n\nWhat does B101-2017 provide?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The owner owns the documents upon termination.",
+          "explanation": "The architect keeps the copyright. The owner's rights come from the license."
+        },
+        {
+          "id": "b",
+          "text": "The owner may use them upon paying the licensing fee.",
+          "explanation": "Correct. Continued use after termination for convenience is conditioned on the licensing fee, and use without the architect is at the owner's risk.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "The owner may never use the documents.",
+          "explanation": "The agreement provides a path, through the licensing fee, for continued use."
+        },
+        {
+          "id": "d",
+          "text": "The new architect acquires the copyright by sealing them.",
+          "explanation": "Sealing doesn't transfer copyright, and it raises responsible-control issues."
+        }
+      ],
+      "explanation": "Copyright stays with the architect, and the license depends on payment.",
+      "confidence": "medium",
+      "confidenceNote": "Summarizes B101-2017 Article 7 / §11.9 as I understand them; confirm in your copy."
+    },
+    {
+      "id": "PcM-2.3-q27",
       "type": "cata",
+      "cognitiveLevel": "U/A",
+      "stem": "After losing money on three projects to unbilled extra work, a firm wants firm-wide controls on scope creep.\n\nWhich practices should the firm adopt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Define deliverables and assumptions in every agreement",
+          "explanation": "Correct. A clear baseline makes changes recognizable.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Train project managers to route changes through a change process",
+          "explanation": "Correct. Most scope creep starts at the project-team level.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Set quantified limits for site visits and submittal reviews",
+          "explanation": "Correct. Quantified limits make additional services objective (B101-2017 §4.2.4).",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Offer unlimited revisions to differentiate the firm",
+          "explanation": "Unlimited revisions invite unbounded scope."
+        },
+        {
+          "id": "e",
+          "text": "Provide minor extra services without comment",
+          "explanation": "Small favors set expectations and add up to real scope creep."
+        },
+        {
+          "id": "f",
+          "text": "Document changes only at the end of each phase",
+          "explanation": "Late documentation makes it hard to get authorization and payment."
+        }
+      ],
       "selectCount": 3,
-      "cognitiveLevel": "U/A",
-      "stem": "Which practices help a firm control scope creep across its projects?",
-      "options": [
-        { "id": "a", "text": "Defining scope, deliverables and assumptions clearly in the agreement", "correct": true, "explanation": "Correct. A clear baseline makes changes recognizable." },
-        { "id": "b", "text": "Training project managers to identify out-of-scope requests and route them through a change process", "correct": true, "explanation": "Correct. Most scope creep happens at the project-team level." },
-        { "id": "c", "text": "Setting basic-service limits, such as the number of site visits and submittal reviews", "correct": true, "explanation": "Correct. Quantified limits make additional services objective." },
-        { "id": "d", "text": "Agreeing to 'unlimited revisions' in the proposal", "explanation": "Unlimited revisions invite unbounded scope." },
-        { "id": "e", "text": "Avoiding written meeting minutes so the client feels less constrained", "explanation": "Documentation is how changes are recognized and authorized." },
-        { "id": "f", "text": "Providing minor extra services without comment to build goodwill", "explanation": "Unacknowledged favors set expectations and add up to real scope creep." }
-      ],
-      "explanation": "Define the baseline, set limits, train teams, and document."
+      "explanation": "Define the baseline, set limits, train teams, document promptly."
     },
     {
-      "id": "PcM-2.3-q08",
+      "id": "PcM-2.3-q28",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "Which fee method most clearly creates an appearance of conflict of interest about project cost?",
+      "stem": "A school district asks which compensation method might create an appearance of conflict about the cost of construction.\n\nWhich method should the architect identify?",
       "options": [
-        { "id": "a", "text": "Percentage of construction cost", "correct": true, "explanation": "Correct. The architect's fee rises as construction cost rises, which can appear to reward more expensive design." },
-        { "id": "b", "text": "Stipulated sum", "explanation": "A fixed fee doesn't change with construction cost." },
-        { "id": "c", "text": "Hourly with a not-to-exceed amount", "explanation": "Hourly fees track effort, not construction cost." },
-        { "id": "d", "text": "Unit cost per apartment unit", "explanation": "Per-unit fees track unit count, not cost." }
+        {
+          "id": "a",
+          "text": "Percentage of construction cost",
+          "explanation": "Correct. The fee rises with construction cost, which can appear to reward more expensive design.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Stipulated sum",
+          "explanation": "A fixed fee doesn't change with construction cost."
+        },
+        {
+          "id": "c",
+          "text": "Hourly with a not-to-exceed amount",
+          "explanation": "Hourly fees track effort, not construction cost."
+        },
+        {
+          "id": "d",
+          "text": "Multiple of direct personnel expense",
+          "explanation": "DPE multiples track labor, not construction cost."
+        }
       ],
-      "explanation": "Percentage-of-cost fees are simple, but they tie compensation to construction cost."
+      "explanation": "Percentage-of-cost fees are simple but tie the architect's fee to construction cost."
     },
     {
-      "id": "PcM-2.3-q09",
+      "id": "PcM-2.3-q29",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "A firm has developed a proprietary curtain-wall detail library that gives it a competitive edge. Which protection is most appropriate for keeping it confidential?",
+      "stem": "A firm has developed a proprietary library of curtain-wall details that gives it an edge on competitive pursuits. It wants to keep the library out of competitors' hands.\n\nWhich protection is most appropriate?",
       "options": [
-        { "id": "a", "text": "Treat it as a trade secret, with access controls and confidentiality agreements for staff and consultants.", "correct": true, "explanation": "Correct. Trade-secret protection depends on reasonable measures to keep the information confidential." },
-        { "id": "b", "text": "Publish it to establish copyright.", "explanation": "Publishing destroys confidentiality, and copyright exists without publication." },
-        { "id": "c", "text": "Register it as a trademark.", "explanation": "Trademarks protect brand identifiers such as names and logos, not technical details." },
-        { "id": "d", "text": "Rely on the AIA Code of Ethics to stop departing employees from using it.", "explanation": "The Code guides members but isn't a substitute for contractual and security protections." }
+        {
+          "id": "a",
+          "text": "Trade-secret controls and NDAs",
+          "explanation": "Correct. Trade-secret protection depends on reasonable steps to keep information confidential.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Publication to establish copyright",
+          "explanation": "Publishing destroys confidentiality, and copyright exists without publication."
+        },
+        {
+          "id": "c",
+          "text": "Trademark registration of the library",
+          "explanation": "Trademarks protect brand identifiers, not technical content."
+        },
+        {
+          "id": "d",
+          "text": "A copyright notice on each detail",
+          "explanation": "A notice marks ownership but doesn't keep the content confidential or stop others from learning from it."
+        }
       ],
-      "explanation": "Match the IP tool to the asset: copyright for expression, trademark for brand, trade secret for confidential know-how."
+      "explanation": "Match the tool to the asset: copyright for expression, trademark for brand, trade secret for confidential know-how."
     },
     {
-      "id": "PcM-2.3-q10",
+      "id": "PcM-2.3-q30",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "During negotiations, an owner wants to cut the architect's construction-phase services entirely to save fee. What is the architect's most appropriate response?",
+      "stem": "During negotiations for a warehouse, the owner proposes removing all construction-phase services to reduce the architect's fee by 20%.\n\nWhat is the most appropriate response?",
       "options": [
-        { "id": "a", "text": "Agree, since the owner controls the scope.", "explanation": "The owner decides, but the architect should first explain the risks so the decision is informed." },
-        { "id": "b", "text": "Explain the risks of losing construction-phase services (submittal review, RFIs, observation, payment certification) and offer alternatives such as a limited or hourly CA scope.", "correct": true, "explanation": "Correct. Informing the owner of the consequences and offering scaled options protects the project and clarifies responsibility." },
-        { "id": "c", "text": "Agree, and offer to answer contractor questions for free.", "explanation": "Informal free services create liability without the protections of a defined scope." },
-        { "id": "d", "text": "Refuse to sign any agreement without full CA.", "explanation": "Refusing outright may be unnecessary. A limited, defined scope can be appropriate if the risks are understood and documented." }
+        {
+          "id": "a",
+          "text": "Agree, since the owner controls the scope.",
+          "explanation": "The owner decides, but the decision should be informed by the risks."
+        },
+        {
+          "id": "b",
+          "text": "Explain the risks and offer a limited CA scope.",
+          "explanation": "Correct. Explaining the consequences and offering scaled options protects the project and clarifies responsibility.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Agree, and answer contractor questions informally as needed.",
+          "explanation": "Informal services create liability without a defined scope or compensation."
+        },
+        {
+          "id": "d",
+          "text": "Decline to proceed without full construction-phase services.",
+          "explanation": "A limited, defined scope can be appropriate if the risks are understood and documented."
+        }
       ],
       "explanation": "When scope is cut, explain the consequences, offer alternatives, and document the owner's choice."
+    },
+    {
+      "id": "PcM-2.3-q31",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "An owner authorizes three additional exterior renderings as an additional service. The agreement provides:\n\n- Designer billing rate: $95 per hour\n- Reimbursable expenses billed at 1.1 times cost\n\nEach rendering will take 16 hours, and printing will cost $400. What should the architect invoice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$4,560",
+          "explanation": "This leaves out the reimbursable printing cost."
+        },
+        {
+          "id": "b",
+          "text": "$4,960",
+          "explanation": "This bills the printing at cost, without the 1.1 multiple."
+        },
+        {
+          "id": "c",
+          "text": "$5,000",
+          "explanation": "Correct. Labor 3 × 16 × $95 = $4,560, plus printing $400 × 1.1 = $440.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "$5,456",
+          "explanation": "This applies the 1.1 multiple to the labor as well as the reimbursable."
+        }
+      ],
+      "explanation": "1. Labor = 3 renderings × 16 hours × $95 = $4,560\n2. Reimbursables = $400 × 1.1 = $440\n3. Invoice = $4,560 + $440 = $5,000"
     }
   ],
   "flashcards": [
-    { "id": "PcM-2.3-f01", "front": "Negotiation principle: scope vs. fee", "back": "Define scope first. If the fee must drop, reduce or restructure scope; don't just discount." },
-    { "id": "PcM-2.3-f02", "front": "Scope creep", "back": "Gradual, unacknowledged growth of services beyond the agreed scope." },
-    { "id": "PcM-2.3-f03", "front": "How to handle an out-of-scope request", "back": "Notify in writing → state the fee and schedule impact → get written authorization → then proceed." },
-    { "id": "PcM-2.3-f04", "front": "Basic-service limits in B101-2017 (§4.2.4)", "back": "Agreed numbers of submittal reviews, site visits, and inspections for substantial and final completion. Beyond them is an additional service.", "confidence": "medium", "confidenceNote": "Confirm the sub-paragraph number." },
-    { "id": "PcM-2.3-f05", "front": "Material change in project scope", "back": "Equitable adjustment of compensation and schedule (B101-2017 §11.6)." },
-    { "id": "PcM-2.3-f06", "front": "Best fee type for uncertain scope", "back": "Hourly (time-based), optionally with a not-to-exceed cap." },
-    { "id": "PcM-2.3-f07", "front": "Stipulated sum: risk", "back": "The architect absorbs overruns, so it's best when scope is well defined." },
-    { "id": "PcM-2.3-f08", "front": "Percentage-of-construction-cost fee: drawback", "back": "The fee rises with cost (appearance of conflict) and falls when cost is cut." },
-    { "id": "PcM-2.3-f09", "front": "Owner's rights in instruments of service (B101-2017)", "back": "A nonexclusive license for the project, conditioned on meeting obligations including payment. The architect keeps copyright." },
-    { "id": "PcM-2.3-f10", "front": "Licensing fee (B101-2017)", "back": "Payable for continued use of the documents if the owner terminates for convenience (§11.9).", "confidence": "medium", "confidenceNote": "Confirm paragraph number." },
-    { "id": "PcM-2.3-f11", "front": "AIA E203", "back": "BIM and Digital Data Exhibit. Sets protocols for digital data and BIM (used with G201/G202).", "confidence": "medium", "confidenceNote": "Confirm the current edition year." },
-    { "id": "PcM-2.3-f12", "front": "AIA C106", "back": "Digital Data Licensing Agreement, for sharing files with a party you have no other contract with.", "confidence": "medium", "confidenceNote": "Confirm the current edition year." },
-    { "id": "PcM-2.3-f13", "front": "Trade secret", "back": "Confidential business know-how, protected by keeping it secret (access controls, NDAs)." },
-    { "id": "PcM-2.3-f14", "front": "Hybrid fee example", "back": "Stipulated sum for design phases + hourly for construction administration and additional services." }
-  ]
+    {
+      "id": "PcM-2.3-f01",
+      "front": "Negotiation principle: scope vs. fee",
+      "back": "Define scope first. If the fee must drop, reduce or restructure scope; don't just discount."
+    },
+    {
+      "id": "PcM-2.3-f02",
+      "front": "Scope creep",
+      "back": "Gradual, unacknowledged growth of services beyond the agreed scope."
+    },
+    {
+      "id": "PcM-2.3-f03",
+      "front": "How to handle an out-of-scope request",
+      "back": "Notify in writing → state the fee and schedule impact → get written authorization → then proceed."
+    },
+    {
+      "id": "PcM-2.3-f04",
+      "front": "Basic-service limits in B101-2017 (§4.2.4)",
+      "back": "Agreed numbers of submittal reviews, site visits, and inspections for substantial and final completion. Beyond them is an additional service.",
+      "confidence": "medium",
+      "confidenceNote": "Confirm the sub-paragraph number."
+    },
+    {
+      "id": "PcM-2.3-f05",
+      "front": "Material change in project scope",
+      "back": "Equitable adjustment of compensation and schedule (B101-2017 §11.6)."
+    },
+    {
+      "id": "PcM-2.3-f06",
+      "front": "Best fee type for uncertain scope",
+      "back": "Hourly (time-based), optionally with a not-to-exceed cap."
+    },
+    {
+      "id": "PcM-2.3-f07",
+      "front": "Stipulated sum: risk",
+      "back": "The architect absorbs overruns, so it's best when scope is well defined."
+    },
+    {
+      "id": "PcM-2.3-f08",
+      "front": "Percentage-of-construction-cost fee: drawback",
+      "back": "The fee rises with cost (appearance of conflict) and falls when cost is cut."
+    },
+    {
+      "id": "PcM-2.3-f09",
+      "front": "Owner's rights in instruments of service (B101-2017)",
+      "back": "A nonexclusive license for the project, conditioned on meeting obligations including payment. The architect keeps copyright."
+    },
+    {
+      "id": "PcM-2.3-f10",
+      "front": "Licensing fee (B101-2017)",
+      "back": "Payable for continued use of the documents if the owner terminates for convenience (§11.9).",
+      "confidence": "medium",
+      "confidenceNote": "Confirm paragraph number."
+    },
+    {
+      "id": "PcM-2.3-f11",
+      "front": "AIA E203",
+      "back": "BIM and Digital Data Exhibit. Sets protocols for digital data and BIM (used with G201/G202).",
+      "confidence": "medium",
+      "confidenceNote": "Confirm the current edition year."
+    },
+    {
+      "id": "PcM-2.3-f12",
+      "front": "AIA C106",
+      "back": "Digital Data Licensing Agreement, for sharing files with a party you have no other contract with.",
+      "confidence": "medium",
+      "confidenceNote": "Confirm the current edition year."
+    },
+    {
+      "id": "PcM-2.3-f13",
+      "front": "Trade secret",
+      "back": "Confidential business know-how, protected by keeping it secret (access controls, NDAs)."
+    },
+    {
+      "id": "PcM-2.3-f14",
+      "front": "Hybrid fee example",
+      "back": "Stipulated sum for design phases + hourly for construction administration and additional services."
+    }
+  ],
+  "itemStyle": "ncarb-v2"
 }
