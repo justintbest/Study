@@ -1,0 +1,166 @@
+{
+  "objectiveId": "PcM-3.3",
+  "exam": "ARE",
+  "division": "PcM",
+  "generated": "2026-11-23",
+  "references": [
+    { "kind": "AIA", "citation": "B101-2017 Article 5 (Owner's Responsibilities)", "topic": "Owner furnishes program, budget, surveys, geotechnical services, tests and reports, which shifts information risk to the owner." },
+    { "kind": "AIA", "citation": "B101-2017 §9.1", "topic": "Suspension or termination by the architect for the owner's nonpayment (seven days' written notice).", "confidence": "medium", "confidenceNote": "Confirm paragraph number." },
+    { "kind": "AIA", "citation": "B101-2017 §11.10.1", "topic": "Initial payment / retainer credited to the final invoice.", "confidence": "medium", "confidenceNote": "Confirm paragraph number." },
+    { "kind": "AIA", "citation": "B101-2017 §§8.1.3–8.1.4", "topic": "Negligence-based indemnity; mutual waiver of consequential damages.", "confidence": "medium", "confidenceNote": "Confirm paragraph numbers." },
+    { "kind": "AIA", "citation": "C401-2017", "topic": "Architect–consultant agreement; flows prime-agreement obligations to consultants." },
+    { "kind": "NCARB", "citation": "ARE 5.0 Guidelines (Oct 2026), PcM Objective 3.3", "topic": "Current wording: 'Understand potential project risks and how a practice can mitigate those risks.'" }
+  ],
+  "questions": [
+    {
+      "id": "PcM-3.3-q01",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "A first-time developer asks the firm to design a 40-unit for-sale condominium. The developer has no financing commitment yet and wants work to start immediately. Which approach best manages the firm's risk?",
+      "options": [
+        { "id": "a", "text": "Start full design immediately to secure the client relationship.", "explanation": "Full services with an unfunded, inexperienced client and a high-risk building type maximizes the firm's exposure." },
+        { "id": "b", "text": "Require a retainer, phase the authorization (feasibility and schematic design first), confirm financing before later phases, and negotiate protective contract terms.", "correct": true, "explanation": "Correct. Phasing, a retainer and financing checks limit financial exposure. Contract terms address condo claim risk." },
+        { "id": "c", "text": "Decline, because condominiums are prohibited for small firms.", "explanation": "Nothing prohibits it. Risk can be managed, or the project declined, after analysis." },
+        { "id": "d", "text": "Accept, and buy an umbrella policy for the project.", "explanation": "Umbrella policies generally don't sit above professional liability, and insurance doesn't address nonpayment." }
+      ],
+      "explanation": "Layer mitigations: client financial safeguards, phased commitment, and contract protections."
+    },
+    {
+      "id": "PcM-3.3-q02",
+      "type": "cata",
+      "selectCount": 3,
+      "cognitiveLevel": "A/E",
+      "stem": "A firm is considering a renovation of a 1920s building with no existing drawings. Which actions mitigate the firm's risk from unknown conditions?",
+      "options": [
+        { "id": "a", "text": "Include an existing-conditions survey as a defined service", "correct": true, "explanation": "Correct. Documenting the existing building reduces the unknowns and is paid work." },
+        { "id": "b", "text": "Recommend that the owner commission hazardous-materials testing and structural evaluation", "correct": true, "explanation": "Correct. These are owner-furnished investigations under B101 Article 5." },
+        { "id": "c", "text": "Recommend an owner's construction contingency sized for renovation uncertainty", "correct": true, "explanation": "Correct. A contingency absorbs conditions discovered during construction." },
+        { "id": "d", "text": "Assume conditions match typical 1920s construction and say nothing", "explanation": "Silent assumptions leave the firm exposed when conditions differ." },
+        { "id": "e", "text": "Guarantee the owner that no concealed conditions will affect cost", "explanation": "A guarantee is uninsurable and beyond the architect's control." },
+        { "id": "f", "text": "Make the contractor responsible for all design changes caused by concealed conditions", "explanation": "Design responsibility stays with the architect. Concealed conditions are handled through the change process." }
+      ],
+      "explanation": "Unknowns → services, owner investigations, and contingency."
+    },
+    {
+      "id": "PcM-3.3-q03",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "A 12-person firm is offered a project whose fee would equal 70% of its annual revenue. The schedule is aggressive. What is the primary practice-level risk?",
+      "options": [
+        { "id": "a", "text": "Over-concentration: the project could overwhelm capacity, crowd out other clients, and threaten the firm if it goes wrong", "correct": true, "explanation": "Correct. A single project this large relative to the firm creates capacity, cash flow and concentration risk." },
+        { "id": "b", "text": "Copyright infringement", "explanation": "Nothing in the scenario suggests an IP risk." },
+        { "id": "c", "text": "Professional liability insurance becomes unnecessary", "explanation": "A large project increases, not removes, the need for adequate coverage." },
+        { "id": "d", "text": "The fee will be too low to be profitable", "explanation": "The scenario doesn't indicate an inadequate fee. The size relative to the firm is the issue." }
+      ],
+      "explanation": "Look at the risk to the whole firm: capacity, concentration, cash flow."
+    },
+    {
+      "id": "PcM-3.3-q04",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "A firm with no hospital experience wants to pursue a small hospital addition. Which strategy best mitigates the expertise risk?",
+      "options": [
+        { "id": "a", "text": "Team with a firm experienced in healthcare through an association or joint venture.", "correct": true, "explanation": "Correct. Teaming brings in proven expertise and shares risk while the firm builds experience." },
+        { "id": "b", "text": "Buy additional professional liability limits.", "explanation": "Insurance pays claims. It doesn't provide the expertise to avoid them." },
+        { "id": "c", "text": "Lower the fee to account for the learning curve.", "explanation": "A lower fee leaves less money for the extra effort a new building type demands." },
+        { "id": "d", "text": "Rely on the hospital's facilities staff to catch errors.", "explanation": "The architect can't hand its standard of care to the owner's staff." }
+      ],
+      "explanation": "Expertise gaps → team, hire, or decline; insurance is not a substitute."
+    },
+    {
+      "id": "PcM-3.3-q05",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "Which mitigation strategy is an example of risk transfer?",
+      "options": [
+        { "id": "a", "text": "Declining a high-risk project", "explanation": "That's avoidance." },
+        { "id": "b", "text": "Adding peer review of construction documents", "explanation": "That's reduction (quality control)." },
+        { "id": "c", "text": "Requiring the owner to furnish the geotechnical investigation under the agreement", "correct": true, "explanation": "Correct. Assigning responsibility to another party by contract transfers the risk." },
+        { "id": "d", "text": "Pricing a larger fee contingency", "explanation": "That's accepting the risk and pricing it." }
+      ],
+      "explanation": "Avoid, reduce, transfer, share, accept. Know which is which."
+    },
+    {
+      "id": "PcM-3.3-q06",
+      "type": "cata",
+      "selectCount": 2,
+      "cognitiveLevel": "A/E",
+      "stem": "A firm is asked to design a project in a state where none of its architects is licensed, eight hours away. Which risks should it evaluate?",
+      "options": [
+        { "id": "a", "text": "Licensure and firm-registration requirements in that jurisdiction", "correct": true, "explanation": "Correct. Practicing without the required license or firm registration is unlawful." },
+        { "id": "b", "text": "Unfamiliar local codes, amendments, and site conditions, plus the cost and practicality of construction-phase visits", "correct": true, "explanation": "Correct. Distance and unfamiliar requirements raise both standard-of-care and fee risks." },
+        { "id": "c", "text": "Whether the federal copyright term differs in that state", "explanation": "Copyright is federal law and doesn't vary by state." },
+        { "id": "d", "text": "Whether AIA contracts are legal in that state", "explanation": "AIA documents are private forms usable nationwide. Governing law is set in the agreement." },
+        { "id": "e", "text": "Whether the firm's staff need new passports", "explanation": "Domestic travel doesn't require passports." },
+        { "id": "f", "text": "Whether the client's state uses a different ARE", "explanation": "The ARE is national. That isn't a project risk." }
+      ],
+      "explanation": "Out-of-area work: licensure, local requirements, and logistics."
+    },
+    {
+      "id": "PcM-3.3-q07",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "A prestigious client insists on an agreement with a broad indemnity, uncapped liquidated damages for design delays, and a warranty of fitness for purpose. What is the most appropriate response?",
+      "options": [
+        { "id": "a", "text": "Sign. The prestige outweighs the risk.", "explanation": "These terms create large uninsurable exposure, which could be disastrous for the firm." },
+        { "id": "b", "text": "Negotiate to remove or limit the uninsurable terms, and be prepared to decline if they remain.", "correct": true, "explanation": "Correct. Negotiate toward negligence-based terms. Walking away is a legitimate result." },
+        { "id": "c", "text": "Sign, and rely on the insurer to cover the claims.", "explanation": "Professional liability policies generally exclude warranties, broad indemnities and liquidated damages." },
+        { "id": "d", "text": "Sign, but secretly reduce services to lower exposure.", "explanation": "Undisclosed service reductions breach the agreement and the standard of care." }
+      ],
+      "explanation": "Onerous terms: negotiate, transfer, or decline. Don't assume insurance covers them."
+    },
+    {
+      "id": "PcM-3.3-q08",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "The owner plans to hire its own landscape and audiovisual consultants directly. Which mitigation is most appropriate for the architect?",
+      "options": [
+        { "id": "a", "text": "Clarify in the agreement that the architect coordinates but isn't responsible for the owner's consultants' work, and is entitled to rely on their information.", "correct": true, "explanation": "Correct. B101 lets the architect rely on owner-furnished information. Defining coordination versus responsibility limits exposure." },
+        { "id": "b", "text": "Require the owner's consultants to become the architect's subconsultants without changing the fee.", "explanation": "Taking responsibility for them adds risk and work with no compensation." },
+        { "id": "c", "text": "Refuse to coordinate with any owner consultant.", "explanation": "Coordinating with the owner's consultants is a normal part of services." },
+        { "id": "d", "text": "Seal the consultants' drawings to keep the set uniform.", "explanation": "Sealing work not prepared under your responsible control is prohibited." }
+      ],
+      "explanation": "Owner's consultants: coordinate, rely, and define responsibility clearly."
+    },
+    {
+      "id": "PcM-3.3-q09",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "A new client's references reveal two prior lawsuits against architects over unpaid fees. What is the best risk response if the firm still wants the project?",
+      "options": [
+        { "id": "a", "text": "Require a meaningful retainer, bill monthly, and enforce suspension rights promptly if payments lapse.", "correct": true, "explanation": "Correct. These measures directly address the client's demonstrated payment risk." },
+        { "id": "b", "text": "Bill only at project completion to build trust.", "explanation": "Deferred billing increases exposure to a client with a nonpayment history." },
+        { "id": "c", "text": "Increase professional liability limits.", "explanation": "Professional liability doesn't cover fee collection risk." },
+        { "id": "d", "text": "Agree to a contingency fee payable only if the project is built.", "explanation": "That puts the entire fee at risk on a client with a history of not paying." }
+      ],
+      "explanation": "Client payment risk → retainer, frequent billing, and enforcement of contract remedies."
+    },
+    {
+      "id": "PcM-3.3-q10",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "A waterfront project sits in an area with documented increases in storm surge. Which action best mitigates the practice's risk while serving the client?",
+      "options": [
+        { "id": "a", "text": "Identify the hazard, advise the owner on resilience options and costs, document the owner's decisions, and confirm the owner's flood-related investigations.", "correct": true, "explanation": "Correct. Informing and documenting the owner's choices about a foreseeable climate risk protects both the public and the firm." },
+        { "id": "b", "text": "Exclude flooding from the architect's scope in the agreement and stay silent.", "explanation": "Silence about a known hazard falls short of reasonable care, whatever the contract says." },
+        { "id": "c", "text": "Guarantee that the building will not flood.", "explanation": "A guarantee is uninsurable and beyond the architect's control." },
+        { "id": "d", "text": "Transfer the risk entirely to the contractor.", "explanation": "Design decisions about flood resilience belong to the owner and design team, not the contractor." }
+      ],
+      "explanation": "Climate-related project risk: identify, advise, document, assign investigations."
+    }
+  ],
+  "flashcards": [
+    { "id": "PcM-3.3-f01", "front": "Five risk responses", "back": "Avoid, reduce, transfer, share, accept (and price)." },
+    { "id": "PcM-3.3-f02", "front": "Risk transfer examples", "back": "Contract terms (owner-furnished surveys and geotech, negligence-based indemnity, LoL), insurance, consultants under C401." },
+    { "id": "PcM-3.3-f03", "front": "Risk sharing examples", "back": "Joint venture, teaming or association with another firm; IPD risk/reward pools." },
+    { "id": "PcM-3.3-f04", "front": "Client financial-risk mitigations", "back": "Confirm funding, retainer, monthly billing, enforce suspension for nonpayment." },
+    { "id": "PcM-3.3-f05", "front": "Unknown existing conditions: mitigations", "back": "Existing-conditions survey (service), owner investigations (Art. 5), stated assumptions, owner contingency." },
+    { "id": "PcM-3.3-f06", "front": "Expertise gap mitigation", "back": "Team, hire, or decline. Insurance doesn't substitute for competence." },
+    { "id": "PcM-3.3-f07", "front": "Practice-level concentration risk", "back": "One project too large relative to the firm: capacity, cash flow and survival exposure." },
+    { "id": "PcM-3.3-f08", "front": "High-risk project types", "back": "For-sale condos, healthcare/labs, old-building renovations, building types new to the firm, fast-track." },
+    { "id": "PcM-3.3-f09", "front": "Out-of-jurisdiction project risks", "back": "Licensure and firm registration, local code amendments and conditions, the cost of CA travel." },
+    { "id": "PcM-3.3-f10", "front": "Owner's separately hired consultants", "back": "Define coordination vs. responsibility; the architect may rely on their information." },
+    { "id": "PcM-3.3-f11", "front": "Phased authorization", "back": "Authorize feasibility or SD first; proceed only after funding and approvals. Limits exposure on uncertain projects." },
+    { "id": "PcM-3.3-f12", "front": "April 2026 change to PcM 3.3 (reported)", "back": "'Rewards' removed. The focus is on understanding risks and how a practice mitigates them.", "confidence": "medium", "confidenceNote": "Third-party report; the Guidelines' current wording is consistent but NCARB's change list wasn't found." }
+  ]
+}

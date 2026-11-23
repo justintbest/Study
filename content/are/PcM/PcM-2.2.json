@@ -1,0 +1,170 @@
+{
+  "objectiveId": "PcM-2.2",
+  "exam": "ARE",
+  "division": "PcM",
+  "generated": "2026-11-23",
+  "references": [
+    { "kind": "AIA", "citation": "B101-2017 §8.1.1", "topic": "Claims must be commenced within the applicable legal period and in any case not more than 10 years after substantial completion.", "confidence": "medium", "confidenceNote": "Confirm paragraph number." },
+    { "kind": "AIA", "citation": "B101-2017 §8.1.3", "topic": "Architect's indemnification of the owner for third-party claims, to the extent caused by the architect's negligence.", "confidence": "medium", "confidenceNote": "Indemnity was added to B101 in 2017; confirm paragraph number." },
+    { "kind": "AIA", "citation": "B101-2017 §8.1.4", "topic": "Mutual waiver of consequential damages.", "confidence": "medium", "confidenceNote": "Confirm paragraph number." },
+    { "kind": "AIA", "citation": "B101-2017 §8.2 (Mediation), §8.2.4 (binding dispute resolution selection), §8.3 (Arbitration)", "topic": "Mediation as condition precedent; checkbox for arbitration / litigation / other; litigation is the default if none is selected." },
+    { "kind": "AIA", "citation": "B101-2017 §10.3, §10.5", "topic": "Assignment requires consent (owner may assign to lender); no third-party beneficiaries.", "confidence": "medium", "confidenceNote": "Confirm paragraph numbers." },
+    { "kind": "AIA", "citation": "A201-2017 §15.2 (Initial Decision Maker), §15.3 (Mediation), §15.4 (Arbitration)", "topic": "Owner–contractor claims process; architect serves as Initial Decision Maker unless another is named." },
+    { "kind": "AIA", "citation": "A201-2017 §3.18", "topic": "Contractor's indemnification of owner and architect for claims arising from the contractor's negligent performance." }
+  ],
+  "questions": [
+    {
+      "id": "PcM-2.2-q01",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "An owner's draft agreement requires the architect to \"defend, indemnify and hold harmless the Owner from any and all claims arising out of the Project.\" Which revision best aligns the clause with insurable risk?",
+      "options": [
+        { "id": "a", "text": "Limit indemnification to damages to the extent caused by the architect's negligent acts or omissions, and delete the duty to defend.", "correct": true, "explanation": "Correct. Negligence-based indemnity matches professional liability coverage. Duty to defend is typically uninsurable contractual liability." },
+        { "id": "b", "text": "Accept the clause but raise the professional liability limits.", "explanation": "Higher limits don't cover liability the policy excludes, such as broad-form indemnity and duty to defend." },
+        { "id": "c", "text": "Replace \"any and all claims\" with \"all claims\".", "explanation": "That's a cosmetic change. The indemnity is still broad and still includes a defense duty." },
+        { "id": "d", "text": "Add a guarantee that the design will be free of defects in exchange for the indemnity.", "explanation": "Adding a guarantee increases uninsurable exposure." }
+      ],
+      "explanation": "Keep indemnities proportional to your negligence and avoid duties to defend."
+    },
+    {
+      "id": "PcM-2.2-q02",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "An owner and architect cannot resolve a fee dispute by negotiation. B101-2017 has no box checked for binding dispute resolution. What happens next?",
+      "options": [
+        { "id": "a", "text": "Binding arbitration under AAA rules", "explanation": "Arbitration applies only if it's selected. It isn't the B101-2017 default." },
+        { "id": "b", "text": "Mediation, and then litigation if mediation fails", "correct": true, "explanation": "Correct. Mediation is a condition precedent, and litigation is the default binding method when none is selected." },
+        { "id": "c", "text": "The architect, as Initial Decision Maker, decides the dispute", "explanation": "The Initial Decision Maker role belongs to owner–contractor claims under A201, not owner–architect disputes." },
+        { "id": "d", "text": "Litigation immediately, skipping mediation", "explanation": "B101-2017 requires mediation before binding dispute resolution." }
+      ],
+      "explanation": "B101-2017: mediate first; then whatever binding method is checked, with litigation as the default."
+    },
+    {
+      "id": "PcM-2.2-q03",
+      "type": "cata",
+      "selectCount": 3,
+      "cognitiveLevel": "U/A",
+      "stem": "Which contract provisions generally reduce the architect's risk exposure?",
+      "options": [
+        { "id": "a", "text": "A mutual waiver of consequential damages", "correct": true, "explanation": "Correct. It removes exposure to indirect losses such as the owner's lost profits or rent." },
+        { "id": "b", "text": "A negotiated limitation of liability tied to the fee or a fixed amount", "correct": true, "explanation": "Correct. It caps total exposure, subject to state enforceability." },
+        { "id": "c", "text": "A statement that the agreement creates no third-party beneficiary rights", "correct": true, "explanation": "Correct. It limits who can claim rights under the contract." },
+        { "id": "d", "text": "A warranty that the design will meet the owner's energy targets", "explanation": "A performance warranty increases exposure and is typically uninsurable." },
+        { "id": "e", "text": "Liquidated damages payable by the architect for late drawings", "explanation": "Liquidated damages are contractual liability that professional liability insurance generally doesn't cover." },
+        { "id": "f", "text": "An unlimited duty to defend the owner", "explanation": "A defense duty creates immediate, often uninsured costs regardless of fault." }
+      ],
+      "explanation": "Risk-reducing terms limit the kinds of damages, the amount, and who can claim. Warranties and LDs add risk."
+    },
+    {
+      "id": "PcM-2.2-q04",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "Which statement about mediation is correct?",
+      "options": [
+        { "id": "a", "text": "The mediator issues a binding award after hearing evidence.", "explanation": "That describes arbitration." },
+        { "id": "b", "text": "A neutral facilitates negotiation, and any settlement is voluntary.", "correct": true, "explanation": "Correct. Mediation is facilitated, non-binding negotiation." },
+        { "id": "c", "text": "Mediation results can be appealed to a court.", "explanation": "There's nothing to appeal. Mediation produces no decision, only a voluntary settlement." },
+        { "id": "d", "text": "Mediation is public and creates legal precedent.", "explanation": "Mediation is confidential and creates no precedent." }
+      ],
+      "explanation": "Mediation = facilitated, voluntary, confidential. Arbitration = binding award."
+    },
+    {
+      "id": "PcM-2.2-q05",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "A building's roof leaks 12 years after substantial completion. The owner discovers the cause, a design detail, only this year. Assuming B101-2017 governs, what is the most likely outcome of a claim against the architect?",
+      "options": [
+        { "id": "a", "text": "The claim is timely because the statute of limitations runs from discovery.", "explanation": "Even if the statute runs from discovery, B101-2017 sets an outer limit of 10 years after substantial completion." },
+        { "id": "b", "text": "The claim is barred by the agreement's 10-year outer limit from substantial completion.", "correct": true, "explanation": "Correct. B101-2017 requires claims to be started no later than 10 years after substantial completion, whatever the discovery date." },
+        { "id": "c", "text": "The claim must go to the contractor's one-year correction period.", "explanation": "The correction period is a contractor obligation under A201. It doesn't govern claims against the architect." },
+        { "id": "d", "text": "The claim is automatically covered by the architect's current insurance.", "explanation": "Coverage doesn't create a right to sue if the claim is time-barred." }
+      ],
+      "explanation": "Statute of repose and contractual limits cut off claims regardless of discovery."
+    },
+    {
+      "id": "PcM-2.2-q06",
+      "type": "cata",
+      "selectCount": 2,
+      "cognitiveLevel": "U/A",
+      "stem": "A client's attorney sends a letter alleging that the architect's design caused water damage. Which steps should the architect take first?",
+      "options": [
+        { "id": "a", "text": "Notify the professional liability insurer promptly", "correct": true, "explanation": "Correct. Prompt notice is a policy condition. Late notice can jeopardize coverage." },
+        { "id": "b", "text": "Preserve project records and correspondence", "correct": true, "explanation": "Correct. Records are essential to the defense and must not be altered or destroyed." },
+        { "id": "c", "text": "Apologize in writing and admit the detail was wrong", "explanation": "Admitting liability can prejudice the defense and breach policy conditions." },
+        { "id": "d", "text": "Offer to pay for the repairs to preserve the relationship", "explanation": "Settling without insurer consent can void coverage for the claim." },
+        { "id": "e", "text": "Revise the project drawings to correct the record", "explanation": "Altering records after a claim is improper and damages credibility." },
+        { "id": "f", "text": "Ignore the letter until a lawsuit is filed", "explanation": "A demand letter is a claim or potential claim and must be reported." }
+      ],
+      "explanation": "On a claim: notify the insurer, preserve records, don't admit fault or settle on your own."
+    },
+    {
+      "id": "PcM-2.2-q07",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "Which project is generally considered the highest professional liability risk for an architect?",
+      "options": [
+        { "id": "a", "text": "A for-sale residential condominium for a speculative developer", "correct": true, "explanation": "Correct. Condominiums have high claim frequency. Homeowner associations often sue after the developer has left." },
+        { "id": "b", "text": "A tenant fit-out for a long-term repeat corporate client", "explanation": "A repeat client and limited scope generally mean lower risk." },
+        { "id": "c", "text": "A single-story warehouse with a design-build contractor the firm knows well", "explanation": "Simple building types with experienced partners are typically lower risk." },
+        { "id": "d", "text": "A feasibility study for a nonprofit", "explanation": "Studies have limited construction exposure." }
+      ],
+      "explanation": "Project type and client type drive risk. For-sale residential is a classic high-risk category."
+    },
+    {
+      "id": "PcM-2.2-q08",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "What is the difference between quality assurance (QA) and quality control (QC) in an architecture firm?",
+      "options": [
+        { "id": "a", "text": "QA is the firm's processes, standards and training that prevent errors. QC is checking specific deliverables for errors.", "correct": true, "explanation": "Correct. QA is process-oriented and preventive; QC is product-oriented checking." },
+        { "id": "b", "text": "QA is performed by the contractor and QC by the architect.", "explanation": "Both terms apply within the architect's practice. Contractors have their own QA/QC programs." },
+        { "id": "c", "text": "They are interchangeable terms for drawing checks.", "explanation": "They're related but distinct: process vs. product." },
+        { "id": "d", "text": "QC happens only during construction administration.", "explanation": "QC reviews happen at every design milestone." }
+      ],
+      "explanation": "QA prevents (process). QC detects (checks)."
+    },
+    {
+      "id": "PcM-2.2-q09",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "A client wants the architect to pay $1,000 per day if construction documents are late. What is the main concern?",
+      "options": [
+        { "id": "a", "text": "Liquidated damages are contractual liability that professional liability insurance generally doesn't cover.", "correct": true, "explanation": "Correct. Liquidated damages create exposure regardless of negligence and are typically excluded from coverage." },
+        { "id": "b", "text": "Liquidated damages are illegal in architectural agreements.", "explanation": "They're generally lawful if reasonable. The concern is uninsured risk, not legality." },
+        { "id": "c", "text": "The clause only matters if the architect is negligent.", "explanation": "Liquidated damages apply on delay itself, whether or not the architect was negligent." },
+        { "id": "d", "text": "The clause shifts risk to the contractor.", "explanation": "The clause is in the owner–architect agreement and binds the architect." }
+      ],
+      "explanation": "Avoid or limit liquidated damages on design services. They're an uninsured contractual risk."
+    },
+    {
+      "id": "PcM-2.2-q10",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "Which characteristic is generally an advantage of arbitration over litigation for construction disputes?",
+      "options": [
+        { "id": "a", "text": "Broad rights of appeal", "explanation": "Arbitration awards have very limited grounds for appeal. That's a key disadvantage." },
+        { "id": "b", "text": "Decision-makers with construction expertise, in a private proceeding", "correct": true, "explanation": "Correct. Parties can choose arbitrators with industry knowledge, and the proceedings are private." },
+        { "id": "c", "text": "Automatic joinder of all project participants", "explanation": "Joinder depends on the parties' agreements. It's often a problem in arbitration." },
+        { "id": "d", "text": "Jury determination of the standard of care", "explanation": "Arbitration has no jury." }
+      ],
+      "explanation": "Arbitration: private, expert decision-makers, binding, and very limited appeal."
+    }
+  ],
+  "flashcards": [
+    { "id": "PcM-2.2-f01", "front": "Insurable indemnity", "back": "Indemnify to the extent caused by your own negligence. Avoid broad-form indemnity and duty to defend." },
+    { "id": "PcM-2.2-f02", "front": "Why avoid a duty to defend?", "back": "It requires paying the owner's defense before fault is decided. It's contractual liability and often uninsured." },
+    { "id": "PcM-2.2-f03", "front": "Consequential damages", "back": "Indirect losses: lost profits, lost rent, financing costs. B101-2017 includes a mutual waiver." },
+    { "id": "PcM-2.2-f04", "front": "Limitation of liability", "back": "A negotiated cap on the architect's total liability (fee or a dollar amount). Enforceability varies by state." },
+    { "id": "PcM-2.2-f05", "front": "B101-2017 dispute path", "back": "Mediation (condition precedent) → binding method checked (arbitration / litigation / other). Default = litigation." },
+    { "id": "PcM-2.2-f06", "front": "Mediation", "back": "A neutral facilitates negotiation. Non-binding, voluntary settlement, confidential. Fees shared equally." },
+    { "id": "PcM-2.2-f07", "front": "Arbitration", "back": "Private, binding award, limited appeal; arbitrators can be industry experts; joinder can be an issue." },
+    { "id": "PcM-2.2-f08", "front": "Statute of limitations vs. statute of repose", "back": "Limitations runs from accrual or discovery. Repose is an absolute cutoff from substantial completion." },
+    { "id": "PcM-2.2-f09", "front": "B101-2017 outer time limit for claims", "back": "No more than 10 years after substantial completion (§8.1.1)." },
+    { "id": "PcM-2.2-f10", "front": "Liquidated damages on design services", "back": "Contractual liability, generally uninsured. Avoid or tightly limit." },
+    { "id": "PcM-2.2-f11", "front": "First steps when a claim arrives", "back": "Notify the insurer, preserve records. Don't admit fault, don't settle on your own, don't alter documents." },
+    { "id": "PcM-2.2-f12", "front": "QA vs. QC", "back": "QA = preventive processes and standards. QC = checking deliverables." },
+    { "id": "PcM-2.2-f13", "front": "Classic high-risk project type", "back": "For-sale residential condominiums (HOA claims)." },
+    { "id": "PcM-2.2-f14", "front": "Initial Decision Maker (A201-2017 §15.2)", "back": "Decides owner–contractor claims first. The architect, unless another person is named." },
+    { "id": "PcM-2.2-f15", "front": "Certificate of merit", "back": "In some states, an expert affidavit is required before suing a design professional. It varies by jurisdiction.", "confidence": "medium", "confidenceNote": "State-specific requirement; know the concept." }
+  ]
+}

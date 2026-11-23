@@ -1,0 +1,172 @@
+{
+  "objectiveId": "PcM-1.3",
+  "exam": "ARE",
+  "division": "PcM",
+  "generated": "2026-11-23",
+  "references": [
+    { "kind": "AIA Code of Ethics", "citation": "2024 AIA Code of Ethics and Professional Conduct, Canons I–VI", "topic": "Obligations: general, public, client, profession, colleagues, environment. Binds AIA members only. The 2024 edition is listed in the ARE Guidelines.", "confidence": "medium", "confidenceNote": "Six-canon structure is current to my knowledge; confirm individual rule numbers in the 2024 edition." },
+    { "kind": "NCARB", "citation": "NCARB Model Rules of Conduct: Rule 1 (Competence), Rule 2 (Conflict of Interest), Rule 3 (Full Disclosure), Rule 4 (Compliance with Laws), Rule 5 (Professional Conduct)", "topic": "Model conduct rules adopted by many licensing boards: competence, disclosure of conflicts, reporting unsafe overridden decisions, sealing under responsible control.", "confidence": "medium", "confidenceNote": "Rule headings are stable; subsection numbering changes between editions. Confirm in the latest version (ARE Guidelines say 'Latest Version')." },
+    { "kind": "Federal law", "citation": "17 U.S.C. §102(a)(8); §101 (definition of 'architectural work')", "topic": "Copyright protection for architectural works (Architectural Works Copyright Protection Act of 1990)." },
+    { "kind": "Federal law", "citation": "17 U.S.C. §120(a)", "topic": "Pictures and photographs of buildings visible from public places are not infringement." },
+    { "kind": "Federal law", "citation": "17 U.S.C. §411(a), §412", "topic": "Registration required before suing (U.S. works); timing of registration determines eligibility for statutory damages and attorneys' fees." },
+    { "kind": "Federal law", "citation": "17 U.S.C. §101 (definition of 'work made for hire'), §201(b)", "topic": "Employer owns employees' work within the scope of employment; freelancers' work needs a written assignment." },
+    { "kind": "AIA", "citation": "B101-2017 Article 7 (Copyrights and Licenses)", "topic": "Architect retains copyright in instruments of service; owner receives a limited, nonexclusive license for the project." }
+  ],
+  "questions": [
+    {
+      "id": "PcM-1.3-q01",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "An architect who recently joined a new firm wants to include in the firm's proposal a museum she worked on as project architect at her previous firm. What is the appropriate way to present it?",
+      "options": [
+        { "id": "a", "text": "List the museum as a firm project, since she contributed significantly.", "explanation": "Presenting another firm's project as your current firm's work misrepresents its experience." },
+        { "id": "b", "text": "List the museum under her personal experience, identify her role as project architect, and name the previous firm as architect of record.", "correct": true, "explanation": "Correct. Accurately stating her role and crediting the firm of record is truthful representation of qualifications." },
+        { "id": "c", "text": "Leave the museum out entirely. Work done at a previous firm can never be referenced.", "explanation": "Individuals may describe their own past experience, as long as they do it accurately." },
+        { "id": "d", "text": "Include it only if the previous firm is no longer in business.", "explanation": "Whether the previous firm still exists doesn't change the duty to describe her role and credit accurately." }
+      ],
+      "explanation": "Credit must be accurate: say what your role was and who the architect of record was."
+    },
+    {
+      "id": "PcM-1.3-q02",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "During construction documents, the owner instructs the architect to delete required fire-rated corridor walls to save money. The architect has advised that this violates the building code and would endanger occupants. The owner insists. Under the NCARB Model Rules approach, what must the architect do?",
+      "options": [
+        { "id": "a", "text": "Revise the drawings as directed and document the owner's instruction in writing.", "explanation": "Documenting an unsafe, unlawful direction doesn't make it acceptable. The architect can't knowingly design in violation of the code." },
+        { "id": "b", "text": "Refuse to consent, report the decision to the building official, and withdraw from the project if the owner persists.", "correct": true, "explanation": "Correct. When a client overrules the architect on a code violation that materially endangers public safety, the model rules call for refusing, reporting and, if needed, withdrawing." },
+        { "id": "c", "text": "Have the owner sign an indemnification agreement and then proceed.", "explanation": "An indemnity shifts money, not the duty to protect public safety. The design would still be unlawful." },
+        { "id": "d", "text": "Ask the contractor to install the walls anyway during construction.", "explanation": "Going around the owner by directing the contractor is not the architect's role, and it doesn't resolve the conflict with the owner." }
+      ],
+      "explanation": "Public health, safety and welfare outrank client direction when building laws and safety are at stake.",
+      "confidence": "medium",
+      "confidenceNote": "The refuse / report / withdraw sequence is the NCARB Model Rules approach (Rule 3, Full Disclosure). Confirm the exact rule number and any jurisdiction-specific wording."
+    },
+    {
+      "id": "PcM-1.3-q03",
+      "type": "cata",
+      "selectCount": 2,
+      "cognitiveLevel": "U/A",
+      "stem": "Which statements about copyright in architectural work are correct?",
+      "options": [
+        { "id": "a", "text": "Copyright protects a building's design as an architectural work, in addition to the drawings.", "correct": true, "explanation": "Correct. Since 1990, U.S. law protects the overall form and arrangement of spaces and elements of a building." },
+        { "id": "b", "text": "Registration is generally required before an architect can sue for infringement of a U.S. work.", "correct": true, "explanation": "Correct. Protection exists without registration, but registration is a prerequisite to suit and affects available remedies." },
+        { "id": "c", "text": "A building's design is protected only after it is registered with the Copyright Office.", "explanation": "Protection attaches when the work is fixed in tangible form, not when it is registered." },
+        { "id": "d", "text": "Photographing a building visible from a public street infringes the architect's copyright.", "explanation": "U.S. law specifically permits pictures of buildings visible from public places." },
+        { "id": "e", "text": "General architectural styles, such as Craftsman details, can be owned by the first architect to use them.", "explanation": "Styles, ideas and standard features aren't protected. Only original expression is." },
+        { "id": "f", "text": "An owner who pays the full fee automatically owns the copyright in the drawings.", "explanation": "Under B101-2017, the architect keeps the copyright and the owner receives a license. Ownership transfers only by written agreement." }
+      ],
+      "explanation": "Know what's protected (expression, buildings), when (on fixation), and what registration changes (the right to sue, remedies)."
+    },
+    {
+      "id": "PcM-1.3-q04",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "A firm hires a freelance designer to produce a custom façade concept. No written agreement addresses ownership. Who most likely owns the copyright in the concept?",
+      "options": [
+        { "id": "a", "text": "The firm, because it paid for the work", "explanation": "Payment alone doesn't transfer copyright from an independent contractor. A written assignment is needed." },
+        { "id": "b", "text": "The freelance designer", "correct": true, "explanation": "Correct. Work by an independent contractor is generally not a work made for hire for architectural designs. The freelancer keeps the copyright unless it's assigned in writing." },
+        { "id": "c", "text": "The project owner", "explanation": "The owner has no claim to the freelancer's copyright without a written transfer." },
+        { "id": "d", "text": "No one, because unregistered work is not protected", "explanation": "Copyright exists on fixation. Registration isn't a condition of protection." }
+      ],
+      "explanation": "Use written copyright assignments with freelancers and consultants."
+    },
+    {
+      "id": "PcM-1.3-q05",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "A flooring manufacturer offers an architect a 3% commission on product sales for every project where the architect specifies its product. What is the appropriate response?",
+      "options": [
+        { "id": "a", "text": "Accept, but disclose the arrangement in the specifications.", "explanation": "Taking supplier compensation in exchange for specifying products is prohibited. Disclosure doesn't cure it." },
+        { "id": "b", "text": "Decline the arrangement.", "correct": true, "explanation": "Correct. Architects must not solicit or accept compensation from suppliers for specifying or endorsing their products." },
+        { "id": "c", "text": "Accept, and pass the commission to the client as a credit.", "explanation": "The arrangement still compromises the architect's independent judgment in selecting products." },
+        { "id": "d", "text": "Accept only on private projects.", "explanation": "The prohibition doesn't depend on whether a project is public or private." }
+      ],
+      "explanation": "Product selection must reflect professional judgment, not payments from suppliers."
+    },
+    {
+      "id": "PcM-1.3-q06",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "In a public interview, a competitor's principal falsely tells a school board that your firm's last school \"failed its structural inspection.\" Which term describes this conduct?",
+      "options": [
+        { "id": "a", "text": "Libel", "explanation": "Libel is written or published defamation. This statement was spoken." },
+        { "id": "b", "text": "Slander", "correct": true, "explanation": "Correct. A spoken false statement of fact that harms reputation is slander." },
+        { "id": "c", "text": "Plagiarism", "explanation": "Plagiarism is passing off someone else's work as your own. It isn't a false statement about a competitor." },
+        { "id": "d", "text": "Copyright infringement", "explanation": "No protected work was copied. The issue is a false statement about a competitor's work." }
+      ],
+      "explanation": "Defamation = false statement of fact harming reputation. Libel is written; slander is spoken. Truth is a defense."
+    },
+    {
+      "id": "PcM-1.3-q07",
+      "type": "cata",
+      "selectCount": 3,
+      "cognitiveLevel": "U/A",
+      "stem": "Which actions are consistent with accepted professional conduct standards?",
+      "options": [
+        { "id": "a", "text": "Disclosing in writing to the client that the architect owns a share of a company that would supply windows for the project", "correct": true, "explanation": "Correct. A financial interest that could affect judgment must be disclosed. If the client objects, the architect gives up the interest or the work." },
+        { "id": "b", "text": "Sealing only drawings prepared under the architect's responsible control", "correct": true, "explanation": "Correct. Signing and sealing work you didn't control (plan stamping) is prohibited." },
+        { "id": "c", "text": "Deciding a contractor's claim impartially while administering the construction contract", "correct": true, "explanation": "Correct. When interpreting the contract documents, the architect must favor neither party." },
+        { "id": "d", "text": "Offering a city plan reviewer tickets to a sporting event to speed up the permit", "explanation": "Gifts to officials meant to influence a project decision are prohibited." },
+        { "id": "e", "text": "Taking the firm's detail library to a new employer without permission", "explanation": "Departing employees shouldn't take firm designs or documents without permission." },
+        { "id": "f", "text": "Telling a prospective client that you are licensed in their state while your application is still pending", "explanation": "Misrepresenting licensure status is false and also violates licensing law." }
+      ],
+      "explanation": "Disclose conflicts, seal only what you control, decide impartially, never bribe, never misrepresent."
+    },
+    {
+      "id": "PcM-1.3-q08",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "An architect who is not an AIA member violates an AIA Code of Ethics rule. Which statement is correct?",
+      "options": [
+        { "id": "a", "text": "The AIA National Ethics Council can suspend the architect's license.", "explanation": "Only the state licensing board can discipline a license. The AIA governs its own membership." },
+        { "id": "b", "text": "The AIA Code does not bind the architect, but the architect remains subject to the licensing board's rules.", "correct": true, "explanation": "Correct. The AIA Code applies only to AIA members. Every licensee is bound by the jurisdiction's laws and rules of conduct." },
+        { "id": "c", "text": "NCARB will revoke the architect's NCARB Certificate automatically.", "explanation": "NCARB doesn't enforce the AIA Code. Certificate actions depend on board discipline and NCARB's own policies." },
+        { "id": "d", "text": "The AIA Code binds all architects as a matter of federal law.", "explanation": "The AIA Code is a private association's code, not law." }
+      ],
+      "explanation": "AIA Code = members only (membership sanctions). Licensing board rules = all licensees (license discipline)."
+    },
+    {
+      "id": "PcM-1.3-q09",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "A client asks an architect to copy a house designed by another architect, from plans published online, \"with a few tweaks.\" What should the architect do?",
+      "options": [
+        { "id": "a", "text": "Proceed, because published plans are in the public domain.", "explanation": "Publishing plans doesn't place them in the public domain. They stay protected by copyright." },
+        { "id": "b", "text": "Proceed, as long as the tweaks change at least 10% of the design.", "explanation": "There's no percentage rule. A design substantially similar to protected expression can still infringe." },
+        { "id": "c", "text": "Decline to copy the design, or get a license from the copyright owner, and offer to create an original design that meets the client's goals.", "correct": true, "explanation": "Correct. Copying protected work without permission is infringement. An original design or a license avoids it." },
+        { "id": "d", "text": "Proceed, and have the client indemnify the architect.", "explanation": "Indemnity doesn't make infringement lawful, and the architect would still be a direct infringer." }
+      ],
+      "explanation": "Copying protected designs requires permission. 'Small changes' don't cure infringement."
+    },
+    {
+      "id": "PcM-1.3-q10",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "An architect serves on a city planning commission. Her firm is retained by a developer whose project will come before the commission. What is the most appropriate action?",
+      "options": [
+        { "id": "a", "text": "Vote on the project, since she is the most qualified commissioner to judge it.", "explanation": "Voting on a matter in which she has a financial interest is a clear conflict of interest." },
+        { "id": "b", "text": "Disclose the conflict and recuse herself from reviewing and voting on the project.", "correct": true, "explanation": "Correct. In a public capacity, an architect must avoid acting on matters in which she or her firm has an interest." },
+        { "id": "c", "text": "Have a different principal at her firm sign the drawings so that she can vote.", "explanation": "The firm's financial interest stays the same no matter who signs." },
+        { "id": "d", "text": "Resign from the commission permanently.", "explanation": "Disclosure and recusal on this matter resolve the conflict. Permanent resignation isn't required." }
+      ],
+      "explanation": "Public-service conflicts: disclose and recuse."
+    }
+  ],
+  "flashcards": [
+    { "id": "PcM-1.3-f01", "front": "Who is bound by the AIA Code of Ethics?", "back": "AIA members only. Sanctions affect membership, not licensure." },
+    { "id": "PcM-1.3-f02", "front": "Who disciplines an architect's license?", "back": "The state (jurisdictional) licensing board, under its law and rules of conduct." },
+    { "id": "PcM-1.3-f03", "front": "NCARB Model Rules of Conduct are…", "back": "A model set of conduct rules that licensing boards adopt in whole or in part. They have no force until a board adopts them." },
+    { "id": "PcM-1.3-f04", "front": "The six AIA Code canons", "back": "I General Obligations · II Public · III Client · IV Profession · V Colleagues · VI Environment", "confidence": "medium", "confidenceNote": "Confirm the canon titles in the 2024 edition." },
+    { "id": "PcM-1.3-f05", "front": "Client overrules you on an unsafe code violation: model-rule response", "back": "Refuse to consent → report to the building official → withdraw if it continues." },
+    { "id": "PcM-1.3-f06", "front": "Supplier offers a commission for specifying its product", "back": "Decline. Architects may not accept supplier compensation for specifying or endorsing products." },
+    { "id": "PcM-1.3-f07", "front": "Libel vs. slander", "back": "Libel = written or published defamation. Slander = spoken. Both need a false statement of fact. Truth is a defense." },
+    { "id": "PcM-1.3-f08", "front": "Plagiarism vs. copyright infringement", "back": "Plagiarism is an honesty issue: passing off others' work as yours. Infringement is a legal violation of exclusive rights. They can overlap." },
+    { "id": "PcM-1.3-f09", "front": "When does copyright protection begin?", "back": "When the work is fixed in tangible form. Registration isn't required for protection." },
+    { "id": "PcM-1.3-f10", "front": "Why register a copyright?", "back": "It's required before suing (U.S. works), and timely registration allows statutory damages and attorneys' fees." },
+    { "id": "PcM-1.3-f11", "front": "Architectural Works Copyright Protection Act (1990)", "back": "Added buildings (overall form, arrangement of spaces and elements) as protected works; 17 U.S.C. §102(a)(8)." },
+    { "id": "PcM-1.3-f12", "front": "Freelancer's design: who owns the copyright?", "back": "The freelancer, unless there's a written assignment. Employees' work within the scope of employment belongs to the employer." },
+    { "id": "PcM-1.3-f13", "front": "Claiming credit for work done at a prior firm", "back": "Allowed as personal experience if you state your actual role and credit the firm of record." },
+    { "id": "PcM-1.3-f14", "front": "Plan stamping", "back": "Sealing documents not prepared under your responsible control. Prohibited." },
+    { "id": "PcM-1.3-f15", "front": "Serving on a public board that reviews your firm's project", "back": "Disclose the conflict and recuse yourself from that matter." }
+  ]
+}

@@ -1,0 +1,1477 @@
+{
+  "exam": "ARE 5.0",
+  "source": {
+    "title": "Architect Registration Examination 5.0 Guidelines",
+    "publisher": "National Council of Architectural Registration Boards (NCARB)",
+    "edition": "October 2026",
+    "effective": "2026-10-01",
+    "url": "https://www.ncarb.org/sites/default/files/ARE-5-Guidelines.pdf",
+    "localFile": "sources/are/ARE-5-Guidelines.pdf",
+    "pages": "70-110 (Exam Content)"
+  },
+  "itemTypes": [
+    "multiple-choice",
+    "check-all-that-apply",
+    "hotspot"
+  ],
+  "cognitiveLevels": {
+    "U/A": "Understand/Apply",
+    "A/E": "Analyze/Evaluate"
+  },
+  "divisions": [
+    {
+      "code": "PcM",
+      "name": "Practice Management",
+      "overview": "This division will assess objectives related to the management of architectural practice, including professional ethics, fiduciary responsibilities, and the regulations governing the practice of architecture. The division will focus on issues related to pre-contract tasks including negotiation, human resource management, and consultant development. Candidates must demonstrate an understanding of and abilities in business structure, business development, and asset development and protection.",
+      "details": {
+        "totalItems": 65,
+        "scoredItems": 59,
+        "pretestItems": 6,
+        "caseStudies": "Up to 6",
+        "caseStudyItems": "Up to 14",
+        "testDuration": "2 hr 40 min",
+        "breakDuration": "30 min",
+        "appointmentDuration": "3 hr 20 min"
+      },
+      "sections": [
+        {
+          "id": "PcM-S1",
+          "number": "1",
+          "name": "Business Operations",
+          "intro": "In this section you will need to understand that running a business requires attention to staffing, regulations, insurance, ethics, and the appropriate Standard of Care.",
+          "expectedItems": "13-17",
+          "targetPercent": {
+            "min": 20,
+            "max": 26
+          },
+          "objectives": [
+            {
+              "id": "PcM-1.1",
+              "number": "1.1",
+              "title": "Assess resources within the practice",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 8,
+                "max": 12
+              },
+              "description": "You will need to analyze the staffing needs of a practice and recommend criteria and protocols for hiring, staffing assignments, staff evaluations, staff scheduling, and professional development. You will also need to evaluate capital expenditures, such as hardware, software, or training. These are items that support a firm’s current business model or allow a firm to expand into a new practice area, evolve to offer more environmental design, or address other changing needs."
+            },
+            {
+              "id": "PcM-1.2",
+              "number": "1.2",
+              "title": "Apply the regulations and requirements governing the work environment",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 4,
+                "max": 8
+              },
+              "description": "You will need to demonstrate your understanding of laws, regulations, and insurance that apply to running a practice, including health insurance, worker’s compensation, general liability, and labor laws."
+            },
+            {
+              "id": "PcM-1.3",
+              "number": "1.3",
+              "title": "Apply ethical standards to comply with accepted principles within a given situation",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 2,
+                "max": 6
+              },
+              "description": "You will determine the appropriate responses to given situations which demonstrate your understanding of laws, rules of conduct, and ethics in responding to client requests and business practices. This could include issues such as plagiarism, copyright or intellectual property infringement, exaggeration, and libel or slander."
+            },
+            {
+              "id": "PcM-1.4",
+              "number": "1.4",
+              "title": "Apply appropriate Standard of Care within a given situation",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 1,
+                "max": 5
+              },
+              "description": "You will need to understand the Standard of Care and its implications on providing professional services, the impact of errors and omissions, the responsibility to appropriately address vulnerabilities and risks associated with climate change, and how to appropriately respond to unknown conditions in order to protect the health, safety, and welfare of the public."
+            }
+          ]
+        },
+        {
+          "id": "PcM-S2",
+          "number": "2",
+          "name": "Finances, Risk, & Development of Practice",
+          "intro": "This section is about how running and developing a practice requires attention to finances, mitigating risk and liability, and negotiating services and contracts. This is the largest section within the Practice Management division.",
+          "expectedItems": "19-23",
+          "targetPercent": {
+            "min": 29,
+            "max": 35
+          },
+          "objectives": [
+            {
+              "id": "PcM-2.1",
+              "number": "2.1",
+              "title": "Evaluate the financial well-being of the practice",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 11,
+                "max": 15
+              },
+              "description": "You will need to be able to analyze financial data, business strategies, and the firm’s strategic priorities to identify actions that position the practice appropriately."
+            },
+            {
+              "id": "PcM-2.2",
+              "number": "2.2",
+              "title": "Identify practice policies and methodologies for risk, legal exposures, and resolutions",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 10,
+                "max": 14
+              },
+              "description": "You will need to understand the implications of various types of projects, client types, and contract terms as they relate to risk, legal exposure, and insurance coverage. The application of conflict resolution and quality management techniques to various situations that arise within a practice is also a necessary component."
+            },
+            {
+              "id": "PcM-2.3",
+              "number": "2.3",
+              "title": "Select and apply practice strategies for a given business situation and policy",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 5,
+                "max": 9
+              },
+              "description": "You will need to make decisions, and understand the impact of those decisions, related to negotiations of services, contracts, scope creep, and scope adjustments, as well as protecting intellectual property in a given business situation."
+            }
+          ]
+        },
+        {
+          "id": "PcM-S3",
+          "number": "3",
+          "name": "Practice-Wide Delivery of Services",
+          "intro": "In this section you will need to look at projects in the context of their impact on the overall running of a practice.",
+          "expectedItems": "14-18",
+          "targetPercent": {
+            "min": 22,
+            "max": 28
+          },
+          "objectives": [
+            {
+              "id": "PcM-3.1",
+              "number": "3.1",
+              "title": "Analyze and determine response for client services requests",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 3,
+                "max": 7
+              },
+              "description": "One of the most important things you will need to do as an architect is assess the scope of services needed, completeness of requests, public interest conflicts, and fee proposals based on client requests, prior to finalizing a contract with a client."
+            },
+            {
+              "id": "PcM-3.2",
+              "number": "3.2",
+              "title": "Analyze applicability of contract types and delivery methods",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 10,
+                "max": 14
+              },
+              "description": "You will also need to differentiate between the appropriate types of contracts and agreements, estimate the impact and risk of changes to contracts, and understand the impact of various delivery options for a given project."
+            },
+            {
+              "id": "PcM-3.3",
+              "number": "3.3",
+              "title": "Understand potential project risks and how a practice can mitigate those risks",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 6,
+                "max": 10
+              },
+              "description": "You must be able to evaluate a potential project to assess the risk it may bring to the practice and how that risk can be mitigated to reduce its impact."
+            }
+          ]
+        },
+        {
+          "id": "PcM-S4",
+          "number": "4",
+          "name": "Practice Methodologies",
+          "intro": "In this section you will need to analyze how a practice is structured to achieve its goals and how to coordinate various projects and services within a practice. This section is the smallest of the four sections in the Practice Management division.",
+          "expectedItems": "11-15",
+          "targetPercent": {
+            "min": 17,
+            "max": 23
+          },
+          "objectives": [
+            {
+              "id": "PcM-4.1",
+              "number": "4.1",
+              "title": "Identify and compare practice and business structures relevant to an architectural practice",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 8,
+                "max": 12
+              },
+              "description": "Architects must be able to examine various ways to structure a practice to achieve the firm goals."
+            },
+            {
+              "id": "PcM-4.2",
+              "number": "4.2",
+              "title": "Identify and compare processes, policies, and resources used in the design, coordination, and documentation of different project types",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 8,
+                "max": 12
+              },
+              "description": "You must also be able to examine the various ways a firm completes a project. This may include practice-wide policies that guide a firm’s design principles, standard processes for project documentation, and resources for coordinating project components."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PjM",
+      "name": "Project Management",
+      "overview": "This division will assess objectives related to the management of architectural projects, including organizing principles, contract management, and consultant management. The division will focus on issues related to office standards, development of project teams, and overall project control of client, fee, and risk management. Candidates must demonstrate an understanding of and abilities in quality control, project team configuration, and project scheduling. In addition, candidates must demonstrate the ability to establish and deliver project services per contractual requirements in collaboration with consultants.",
+      "details": {
+        "totalItems": 75,
+        "scoredItems": 68,
+        "pretestItems": 7,
+        "caseStudies": "Up to 7",
+        "caseStudyItems": "Up to 16",
+        "testDuration": "3 hr",
+        "breakDuration": "30 min",
+        "appointmentDuration": "3 hr 40 min"
+      },
+      "sections": [
+        {
+          "id": "PjM-S1",
+          "number": "1",
+          "name": "Resource Management",
+          "intro": "Once you have a signed contract, it’s time to determine what resources will be needed to execute the project. In this section, you will need to determine the composition of the project team and how each team member’s time will be managed and allocated in order to execute the project.",
+          "expectedItems": "5-10",
+          "targetPercent": {
+            "min": 7,
+            "max": 13
+          },
+          "objectives": [
+            {
+              "id": "PjM-1.1",
+              "number": "1.1",
+              "title": "Determine criteria required to assemble team",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 3,
+                "max": 7
+              },
+              "description": "You will need to determine what internal staff and outside consultants will be needed to complete the project and fulfill the contract. This will include understanding fees related to the project and consultants. You will need to anticipate the specific responsibilities of the team being assembled."
+            },
+            {
+              "id": "PjM-1.2",
+              "number": "1.2",
+              "title": "Assess criteria required to allocate and manage project resources",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 3,
+                "max": 7
+              },
+              "description": "As the project proceeds, you will also need to assess appropriate levels of staffing relative to the project needs and fees. This will require tracking the progress of the project based on personnel, hours, fees, and schedule."
+            }
+          ]
+        },
+        {
+          "id": "PjM-S2",
+          "number": "2",
+          "name": "Project Work Planning",
+          "intro": "In this section, you will evaluate effective ways to develop and communicate a work plan with the assembled project team in order to complete the project.",
+          "expectedItems": "13-17",
+          "targetPercent": {
+            "min": 17,
+            "max": 23
+          },
+          "objectives": [
+            {
+              "id": "PjM-2.1",
+              "number": "2.1",
+              "title": "Develop and maintain project work plan",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 5,
+                "max": 9
+              },
+              "description": "You will need to use resources such as Gantt charts or critical path schedules, to identify key activities and milestones in a project and how they can be achieved. You will also need to be able to modify schedules and work plans to incorporate feedback or changes to the project."
+            },
+            {
+              "id": "PjM-2.2",
+              "number": "2.2",
+              "title": "Determine criteria required to develop and maintain project schedule",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 5,
+                "max": 9
+              },
+              "description": "Prioritizing tasks and evaluating their impact on a balanced workload is a critical aspect of this section. You will need to assess how outside factors, like client reviews, regulatory submissions, and testing, impact work plans and schedules."
+            },
+            {
+              "id": "PjM-2.3",
+              "number": "2.3",
+              "title": "Determine appropriate communication to project team – owner, contractor, consultants and internal staff",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 4,
+                "max": 8
+              },
+              "description": "Architects must also determine the type and content of documents needed to communicate during the work planning phase of a project. These include documents such as agendas, meeting minutes, emails, and memos."
+            }
+          ]
+        },
+        {
+          "id": "PjM-S3",
+          "number": "3",
+          "name": "Contracts",
+          "intro": "In this section, you will analyze the contracts that establish relationships between the architect, owner, contractors, and consultants.",
+          "expectedItems": "19-23",
+          "targetPercent": {
+            "min": 25,
+            "max": 31
+          },
+          "objectives": [
+            {
+              "id": "PjM-3.1",
+              "number": "3.1",
+              "title": "Evaluate and verify adherence to owner/architect agreement",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 10,
+                "max": 14
+              },
+              "description": "AIA Document B101 is the primary document in this relationship. With a clear understanding of each article, you should be able to differentiate between basic, supplemental, and additional services; determine requisite billing for each phase; and recognize when a phase is completed. You will need to select the appropriate delivery method based on standard contract requirements."
+            },
+            {
+              "id": "PjM-3.2",
+              "number": "3.2",
+              "title": "Interpret key elements of, and verify adherence to architect/consultant agreement",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 5,
+                "max": 9
+              },
+              "description": "AIA Document C401 is the primary document in this relationship. You will need to identify contract requirements related to completing a project, additional services, and payment schedules."
+            },
+            {
+              "id": "PjM-3.3",
+              "number": "3.3",
+              "title": "Interpret key elements of the owner/contractor agreement",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 4,
+                "max": 8
+              },
+              "description": "AIA Documents A101 and A201 are the primary documents for this relationship. You will need to understand the architect’s role relative to the owner when working with a contractor across various delivery methods."
+            },
+            {
+              "id": "PjM-3.4",
+              "number": "3.4",
+              "title": "Interpret key elements of the owner/architect agreement to integrate an owner’s consultant’s work into the project",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 1,
+                "max": 5
+              },
+              "description": "You will need to understand how an owner’s consultant’s work affects project deliverables. This requires identifying how to sequence, integrate, and coordinate an owner’s consultant’s work in the overall project."
+            }
+          ]
+        },
+        {
+          "id": "PjM-S4",
+          "number": "4",
+          "name": "Project Execution",
+          "intro": "This section assesses management of the project’s execution. It is not about the design-related decisions, but rather the necessary administrative procedures throughout the project.",
+          "expectedItems": "13-17",
+          "targetPercent": {
+            "min": 17,
+            "max": 23
+          },
+          "objectives": [
+            {
+              "id": "PjM-4.1",
+              "number": "4.1",
+              "title": "Monitor the project throughout its design and documentation for compliance with the construction budget",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 3,
+                "max": 7
+              },
+              "description": "As the project is designed and documented, architects must review and assess each new or revised construction estimate to ensure the project aligns with the construction budget."
+            },
+            {
+              "id": "PjM-4.2",
+              "number": "4.2",
+              "title": "Evaluate and address changes in scope of work and scope creep",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 3,
+                "max": 7
+              },
+              "description": "You will need to be able to analyze changes in scope to determine the impact on fees, schedules, and owner financing."
+            },
+            {
+              "id": "PjM-4.3",
+              "number": "4.3",
+              "title": "Implement appropriate policies and procedures to document a project for a specified delivery method",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 5,
+                "max": 9
+              },
+              "description": "In the Practice Management division, you looked at practice-wide policies and procedures that provide guidelines and instructions for project documentation. Now, you must be able to implement the appropriate policy or procedure for a project based on its delivery method so that project information is conveyed in a clear and coordinated manner."
+            },
+            {
+              "id": "PjM-4.4",
+              "number": "4.4",
+              "title": "Identify and conform with the requirements set forth by authorities having jurisdiction in order to obtain approvals for the project",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 1,
+                "max": 5
+              },
+              "description": "Lastly, you will need to be able to identify which authorities have jurisdiction over projects and determine what submittals are required for project approvals. This includes properly responding to questions or feedback from these authorities. Authorities could include zoning commissions, neighborhood review boards, or plan reviewers."
+            }
+          ]
+        },
+        {
+          "id": "PjM-S5",
+          "number": "5",
+          "name": "Project Quality Control",
+          "intro": "The last section in this division analyzes quality control methods, procedures, and review processes in order to maintain the proper Standard of Care throughout the entire project. As with the previous sections, this section is not about the design-related decisions, but rather the necessary administrative procedures throughout the project.",
+          "expectedItems": "14-19",
+          "targetPercent": {
+            "min": 19,
+            "max": 25
+          },
+          "objectives": [
+            {
+              "id": "PjM-5.1",
+              "number": "5.1",
+              "title": "Apply procedures required for adherence to laws and regulations relating to the project",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 2,
+                "max": 6
+              },
+              "description": "You will need to be able to identify the government agencies who have jurisdiction on the project and determine what permits and procedures will be required throughout the project duration. This also includes establishing protocols to maintain compliance on the project site. In addition, you’ll need to know the requirements for performing a code analysis and understand the impact of building, zoning, and other jurisdictional codes on design and construction."
+            },
+            {
+              "id": "PjM-5.2",
+              "number": "5.2",
+              "title": "Identify processes, policies, and resources for quality control and risk reduction in the project",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 4,
+                "max": 8
+              },
+              "description": "You will need to establish review processes to be utilized throughout the project to evaluate quality control, assess risk and liabilities, and identify level of completion at each phase of the project. Understanding the different types of insurance related to architectural practice and understanding strategies for conflict resolution are also critical ways to manage risks and liabilities."
+            },
+            {
+              "id": "PjM-5.3",
+              "number": "5.3",
+              "title": "Implement quality control processes to ensure project coordination and constructability",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 5,
+                "max": 9
+              },
+              "description": "You will need to implement and manage the review process and procedures identified in the previous objective. This includes ensuring a sound process is in place for assessing the project documentation in regards to coordination and constructability."
+            },
+            {
+              "id": "PjM-5.4",
+              "number": "5.4",
+              "title": "Implement quality control processes to maintain integrity of design objectives",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 3,
+                "max": 7
+              },
+              "description": "As an architect, you must ensure design objectives are continually monitored and met across all phases of design. In this division, it is not about the design details, but the process of communicating the design objectives through regular collaboration with project stakeholders."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PA",
+      "name": "Programming & Analysis",
+      "overview": "This division will assess objectives related to the evaluation of project requirements, constraints, and opportunities. The division will focus on issues related to programming, site analysis, and zoning and code requirements. Candidates must demonstrate an understanding of and abilities in project type analysis, the establishment of qualitative and quantitative project requirements, evaluation of project site and context, and assessment of economic issues.",
+      "details": {
+        "totalItems": 75,
+        "scoredItems": 68,
+        "pretestItems": 7,
+        "caseStudies": "Up to 7",
+        "caseStudyItems": "Up to 16",
+        "testDuration": "3 hr",
+        "breakDuration": "30 min",
+        "appointmentDuration": "3 hr 40 min"
+      },
+      "sections": [
+        {
+          "id": "PA-S1",
+          "number": "1",
+          "name": "Environmental & Contextual Conditions",
+          "intro": "In this section, you’ll evaluate a project site and identify both the opportunities and constraints that may impact future development.",
+          "expectedItems": "11-16",
+          "targetPercent": {
+            "min": 14,
+            "max": 21
+          },
+          "objectives": [
+            {
+              "id": "PA-1.1",
+              "number": "1.1",
+              "title": "Evaluate site-specific environmental and socio-cultural opportunities",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 2,
+                "max": 6
+              },
+              "description": "You will need to analyze a project site and assess opportunities that could be incorporated into future site and building development. These opportunities may include alternative energy resources, natural landscape features, microclimates, and neighborhood context, along with other environmental, social, and cultural conditions."
+            },
+            {
+              "id": "PA-1.2",
+              "number": "1.2",
+              "title": "Evaluate site-specific environmental constraints",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 7,
+                "max": 11
+              },
+              "description": "You will need to analyze a project site and assess constraints and hazardous conditions that could limit a building’s location and future site development. These constraints may include issues like a floodplain, unstable soil, radon, lead, a brownfield, abandoned structures, environmental policies and regulations, or vulnerabilities and risks associated with climate change. You will also need to identify strategies that could mitigate adverse site conditions."
+            },
+            {
+              "id": "PA-1.3",
+              "number": "1.3",
+              "title": "Determine optimal use of onsite resources by incorporating sustainability principles",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 2,
+                "max": 6
+              },
+              "description": "After evaluating a site for both opportunities and constraints, you must be able to identify appropriate design responses for a building’s location, orientation, massing, footprint, and passive energy use in order to minimize the project’s negative environmental impacts and make use of existing natural features."
+            }
+          ]
+        },
+        {
+          "id": "PA-S2",
+          "number": "2",
+          "name": "Codes & Regulations",
+          "intro": "In this section, you’ll look at the codes and regulations appropriate to the initial analysis and programming phase of a project.",
+          "expectedItems": "12-17",
+          "targetPercent": {
+            "min": 16,
+            "max": 22
+          },
+          "objectives": [
+            {
+              "id": "PA-2.1",
+              "number": "2.1",
+              "title": "Identify relevant code requirements for building and site types",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 5,
+                "max": 9
+              },
+              "description": "As an architect, you need to be able to determine and understand the codes and regulations that govern a specific project type and geographic region. This includes distinguishing relevant accessibility and ADA requirements, applicable building and energy codes, and sustainability-related standards and guidelines. It’s important to conduct an initial code analysis to understand how the codes will affect a project’s design."
+            },
+            {
+              "id": "PA-2.2",
+              "number": "2.2",
+              "title": "Identify relevant zoning and land use requirements",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 5,
+                "max": 9
+              },
+              "description": "You need to be able to determine and understand requirements that limit the extent of site and building development. This includes issues like setbacks, footprint limitations, maximum building heights, FAR, parking requirements, easements, and other zoning and land use regulations. Recognizing situations where a special exception or variance is suitable and understanding the process for approval are also included in this objective."
+            },
+            {
+              "id": "PA-2.3",
+              "number": "2.3",
+              "title": "Identify relevant local and site-specific requirements",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 3,
+                "max": 7
+              },
+              "description": "You will need to determine and understand specialty regulations that apply to a particular site. These may include requirements about wetlands, flood plains, design overlay districts, or historic preservation."
+            }
+          ]
+        },
+        {
+          "id": "PA-S3",
+          "number": "3",
+          "name": "Site Analysis & Programming",
+          "intro": "In this section, you’ll need to analyze a project site relative to the program and project requirements.",
+          "expectedItems": "16-20",
+          "targetPercent": {
+            "min": 21,
+            "max": 27
+          },
+          "objectives": [
+            {
+              "id": "PA-3.1",
+              "number": "3.1",
+              "title": "Evaluate relevant qualitative and quantitative attributes of a site as they relate to a program",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 6,
+                "max": 10
+              },
+              "description": "This objective assesses your ability to analyze a project site relative to the requirements in the program to determine if it is appropriate and feasible for development. You will need to consider the climate, topography, drainage, soil, built and natural features, utilities, access points, traffic patterns, easements, and other attributes relevant to the project and program."
+            },
+            {
+              "id": "PA-3.2",
+              "number": "3.2",
+              "title": "Synthesize site reports with other documentation and analysis",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 8,
+                "max": 12
+              },
+              "description": "In addition to analyzing the attributes of the site, you will also need to review and interpret site documentation such as geotechnical reports, landscape reports, archaeological studies, utility surveys, topographic maps, demographics, traffic studies, environmental data, historic reports, and other site related reports. This is used to determine the feasibility of a project and verify the selection of site related consultants needed to execute the project."
+            },
+            {
+              "id": "PA-3.3",
+              "number": "3.3",
+              "title": "Analyze graphical representations regarding site analysis and site programming",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 4,
+                "max": 8
+              },
+              "description": "You must be able to evaluate and understand diagrammatic graphics and how they are used to represent and communicate site conditions, relationships, and program requirements. These graphics include topographic, programming, circulation, adjacency, environmental, view, and vegetation diagrams, which communicate site information and relationships."
+            }
+          ]
+        },
+        {
+          "id": "PA-S4",
+          "number": "4",
+          "name": "Building Analysis & Programming",
+          "intro": "In this section, you’ll analyze new or existing buildings relative to the program requirements, cost, and schedule. This is the largest section in the Programming & Analysis division.",
+          "expectedItems": "28-32",
+          "targetPercent": {
+            "min": 37,
+            "max": 43
+          },
+          "objectives": [
+            {
+              "id": "PA-4.1",
+              "number": "4.1",
+              "title": "Evaluate relevant qualitative and quantitative attributes of a new or existing building as they relate to the program",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 3,
+                "max": 7
+              },
+              "description": "As an architect, you will need to review an existing or new building to determine if the design addresses views, daylight, spatial organization, and other program requirements. You will also need to analyze an existing building to determine if renovation, adaptive reuse, preservation, or demolition are appropriate and feasible to meet project needs. Relevant factors may include a building’s MEP systems, structural stability, hazardous materials, historic features, or eligibility for tax credits."
+            },
+            {
+              "id": "PA-4.2",
+              "number": "4.2",
+              "title": "Evaluate documentation, reports, assessments, and analyses to inform the building program",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 3,
+                "max": 7
+              },
+              "description": "In addition to analyzing the attributes of a building, you will need to review and interpret technical documentation such as structural assessments, geotechnical reports, neighborhood and regional context, and condition assessment reports. These are used to consider the feasibility of a project and how the building program may be positively or negatively affected."
+            },
+            {
+              "id": "PA-4.3",
+              "number": "4.3",
+              "title": "Identify and prioritize components of the building program",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 8,
+                "max": 12
+              },
+              "description": "As an architect, you must be able to review and understand the building program relative to the client’s requirements. This includes the consideration of primary vs. subsidiary, back of house vs. front of house, occupied vs. unoccupied, as well as phasing and major circulation components. Understanding the area requirements of a building type relative to the program, including net square footage and gross square footage, is very important, as are how they relate to each other and the overall program requirements."
+            },
+            {
+              "id": "PA-4.4",
+              "number": "4.4",
+              "title": "Assess spatial and functional relationships for the building program",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 8,
+                "max": 12
+              },
+              "description": "Spatial organization is an important aspect of architecture, so reviewing and analyzing the building program relative to both horizontal and vertical spatial and functional relationships is an important assessment. You must consider the vertical relationships of shafts, stairs, conveying systems, atriums, and other multi-level spaces, as well as the horizontal relationships including circulation, entry, loading, assembly, MEP spaces, and other programmed spaces."
+            },
+            {
+              "id": "PA-4.5",
+              "number": "4.5",
+              "title": "Review and assess the feasibility of the project budget and schedule to meet the project scope",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 2,
+                "max": 6
+              },
+              "description": "As an architect, you must be able to compare available project information (master plans, existing documentation, program requirements, site information, etc.) to the client’s budget and schedule in order to determine the feasibility of the project and provide appropriate recommendations."
+            },
+            {
+              "id": "PA-4.6",
+              "number": "4.6",
+              "title": "Identify alternatives for building and structural systems for given programmatic requirements, preliminary budget, and schedule",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 1,
+                "max": 5
+              },
+              "description": "You will need to understand various building materials as well as civil, structural, and MEP systems to determine the appropriateness of each to meet project needs, based on factors such as building type, function, program, availability, cost, and sustainability goals. Even before the selection of each system, you will need to be able to identify alternative systems that could fulfill the project requirements."
+            },
+            {
+              "id": "PA-4.7",
+              "number": "4.7",
+              "title": "Analyze graphical representations regarding building analysis and building programming",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 2,
+                "max": 6
+              },
+              "description": "You will need to understand diagrammatic graphics and evaluate how they are used to communicate building relationships and other requirements. These may include diagrams that depict horizontal and vertical circulation, space adjacencies, solar path, or views."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PPD",
+      "name": "Project Planning & Design",
+      "overview": "This division will assess objectives related to the preliminary design of sites and buildings. The division will focus on issues related to the generation or evaluation of design alternatives that synthesize environmental, cultural, behavioral, technical, and economic issues. Candidates must demonstrate an understanding of and abilities in design concepts, sustainability/environmental design, universal design, and other forms of governing codes and regulations.",
+      "details": {
+        "totalItems": 100,
+        "scoredItems": 91,
+        "pretestItems": 9,
+        "caseStudies": "Up to 9",
+        "caseStudyItems": "Up to 20",
+        "testDuration": "4 hr 5 min",
+        "breakDuration": "45 min",
+        "appointmentDuration": "5 hr"
+      },
+      "sections": [
+        {
+          "id": "PPD-S1",
+          "number": "1",
+          "name": "Environmental Conditions & Context",
+          "intro": "In this section, you’ll use the site information gathered in the programming and analysis phase of a project to plan the site and environmental aspects of a project.",
+          "expectedItems": "10-16",
+          "targetPercent": {
+            "min": 10,
+            "max": 16
+          },
+          "objectives": [
+            {
+              "id": "PPD-1.1",
+              "number": "1.1",
+              "title": "Determine location of building and site improvements based on site analysis",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 4,
+                "max": 8
+              },
+              "description": "Based on views, wind, solar path, topography, adjacencies, planning concepts, and vulnerabilities and risks associated with climate change, you will need to locate a new built project on its site. This can include the orientation of one building, the arrangement of multiple buildings, the configuration of an addition to an existing building, or the layout of site improvements."
+            },
+            {
+              "id": "PPD-1.2",
+              "number": "1.2",
+              "title": "Determine sustainable principles to apply to design",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 2,
+                "max": 6
+              },
+              "description": "An architect must use sun, wind, temperature, precipitation, and other climatic data to determine building orientation and shape, building envelope design, site features, and active and/or passive building systems. Sustainable principles also include considering recycled content, identifying opportunities to minimize waste when selecting building materials, and other strategies to increase the project’s resilience and reduce its negative impact on the environment."
+            },
+            {
+              "id": "PPD-1.3",
+              "number": "1.3",
+              "title": "Determine impact of neighborhood context on the project design",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 1,
+                "max": 5
+              },
+              "description": "You will need to consider the character of a site’s neighborhood, including proximity to various modes of transit, nearby amenities and public services, utilities, noise pollution, the scale of adjacent buildings, surrounding façade materials, historic precedent, and historic preservation requirements. Understanding how these impact a project is necessary as you determine an appropriate design response for a given architectural context."
+            }
+          ]
+        },
+        {
+          "id": "PPD-S2",
+          "number": "2",
+          "name": "Codes & Regulations",
+          "intro": "In this section, you’ll look at the codes and regulations relevant to the planning phase of a project.",
+          "expectedItems": "16-22",
+          "targetPercent": {
+            "min": 16,
+            "max": 22
+          },
+          "objectives": [
+            {
+              "id": "PPD-2.1",
+              "number": "2.1",
+              "title": "Apply zoning and environmental regulations to site and building design",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 3,
+                "max": 7
+              },
+              "description": "It is important to understand the regulations that govern the outside of a building, including standard and accessible parking requirements, allowable building size based on FAR, site coverage, property line setbacks, and requirements for managing stormwater runoff."
+            },
+            {
+              "id": "PPD-2.2",
+              "number": "2.2",
+              "title": "Apply building codes to building design",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 8,
+                "max": 12
+              },
+              "description": "It is also important to assess the building code requirements that impact a project. This includes building height and area limits, maximum occupant load, fire separation, required egress, accessibility, plumbing fixture counts, and energy usage. Architects must be able to compile this information into a code analysis and incorporate it into the design."
+            },
+            {
+              "id": "PPD-2.3",
+              "number": "2.3",
+              "title": "Integrate multiple codes to a project design",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 2,
+                "max": 6
+              },
+              "description": "Multiple codes may govern a project, depending on the jurisdiction, funding stream, or other factors. You will need to understand the use of related codes, like energy, mechanical, and universal design; determine how multiple codes are used together; and discern which code governs when a conflict arises."
+            }
+          ]
+        },
+        {
+          "id": "PPD-S3",
+          "number": "3",
+          "name": "Building Systems, Materials, & Assemblies",
+          "intro": "In this section, you’ll focus on other disciplines with which an architect must be familiar, along with the various components that make up the building.",
+          "expectedItems": "19-25",
+          "targetPercent": {
+            "min": 19,
+            "max": 25
+          },
+          "objectives": [
+            {
+              "id": "PPD-3.1",
+              "number": "3.1",
+              "title": "Determine mechanical, electrical, and plumbing systems",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 5,
+                "max": 9
+              },
+              "description": "You will need to evaluate mechanical, electrical, and plumbing systems, including their impact on building and site design. Based on function, cost, size, availability, programmatic needs, and energy/water usage, you will need to select the appropriate systems for a building."
+            },
+            {
+              "id": "PPD-3.2",
+              "number": "3.2",
+              "title": "Determine structural systems",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 4,
+                "max": 8
+              },
+              "description": "You will need to evaluate different structural systems, including their cost, availability, load capacity, and impact on building design and configuration. Based on these factors, as well as building size and function, you will need to select the appropriate structural system and layout for a building."
+            },
+            {
+              "id": "PPD-3.3",
+              "number": "3.3",
+              "title": "Determine special systems such as acoustics, communications, lighting, security, conveying, and fire suppression",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 1,
+                "max": 5
+              },
+              "description": "You will need to evaluate specialty systems and select the appropriate systems for a building based on the building type, function, and programmatic requirements. You will also need to assess the impact of these specialty systems on the overall design of a building."
+            },
+            {
+              "id": "PPD-3.4",
+              "number": "3.4",
+              "title": "Determine materials and assemblies to meet programmatic, budgetary, and regulatory requirements",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 4,
+                "max": 8
+              },
+              "description": "You will need to select a building’s envelope system, interior materials, and other assemblies based on cost, availability, program requirements, environmental conditions, sustainability requirements, or other factors. You will also need to evaluate the impact of those decisions on building design."
+            }
+          ]
+        },
+        {
+          "id": "PPD-S4",
+          "number": "4",
+          "name": "Project Integration of Program & Systems",
+          "intro": "In this section, you’ll pull together all the decisions from the previous three sections regarding environmental conditions, code, systems, and assemblies. This is the largest section in the Project Planning & Design division.",
+          "expectedItems": "32-38",
+          "targetPercent": {
+            "min": 32,
+            "max": 38
+          },
+          "objectives": [
+            {
+              "id": "PPD-4.1",
+              "number": "4.1",
+              "title": "Determine building configuration",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 8,
+                "max": 12
+              },
+              "description": "As an architect, you will need to resolve the building’s configuration based on program and code requirements, selected MEP and structural systems, site and environmental conditions, historic precedent, sustainability requirements, and principles of design logic."
+            },
+            {
+              "id": "PPD-4.2",
+              "number": "4.2",
+              "title": "Integrate building systems in the project design",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 10,
+                "max": 14
+              },
+              "description": "Within this division is the beginning of systems coordination. You must consider how the selected systems fit together, both spatially and functionally, and how they are coordinated into the architectural design. You will also need to evaluate how changes in one building system impact another system as well as the overall project design."
+            },
+            {
+              "id": "PPD-4.3",
+              "number": "4.3",
+              "title": "Integrate program requirements into a project design",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 6,
+                "max": 10
+              },
+              "description": "Architects must be able to reconcile the relationships between various program requirements, evaluate the program’s impact on cost and building systems, and assess how the program is affected by environmental factors. It’s important that you are able to create a building layout that incorporates program requirements for a project."
+            },
+            {
+              "id": "PPD-4.4",
+              "number": "4.4",
+              "title": "Integrate environmental and contextual conditions in the project design",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 3,
+                "max": 7
+              },
+              "description": "You will need to incorporate various design strategies, including those assessed in Section 1, into the project. This may include elements like view corridors, shading elements, building materials, and landscape design."
+            }
+          ]
+        },
+        {
+          "id": "PPD-S5",
+          "number": "5",
+          "name": "Project Costs & Budgeting",
+          "intro": "In this last section, you’ll consider the bottom line: how much does this project cost.",
+          "expectedItems": "8-14",
+          "targetPercent": {
+            "min": 8,
+            "max": 14
+          },
+          "objectives": [
+            {
+              "id": "PPD-5.1",
+              "number": "5.1",
+              "title": "Evaluate design alternatives based on the program",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 2,
+                "max": 6
+              },
+              "description": "The first design is not necessarily the best, so analyzing design alternatives against the program requirements, project goals, and project budget, as well as considering the various factors that affect costs, is critical as you determine the most appropriate design option that fits within the project budget."
+            },
+            {
+              "id": "PPD-5.2",
+              "number": "5.2",
+              "title": "Evaluate cost estimates based on the project design",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 1,
+                "max": 5
+              },
+              "description": "This division focuses on preliminary design decisions to meet the client’s program requirements and goals. As these initial decisions are made, you must be able to evaluate project cost estimates prepared by others. It’s important to understand how these estimates vary based on relevant cost estimating methods, as well as how to reconcile the estimates with the construction budget through the consideration of design alternatives."
+            },
+            {
+              "id": "PPD-5.3",
+              "number": "5.3",
+              "title": "Evaluate the project design based on cost considerations",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 2,
+                "max": 6
+              },
+              "description": "Building on the previous two objectives, architects must be able to evaluate the cost effectiveness of design decisions in meeting the client’s priorities, both for upfront costs covered by the construction budget as well as future maintenance and replacement costs after the project is completed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PDD",
+      "name": "Project Development & Documentation",
+      "overview": "This division will assess objectives related to the integration and documentation of building systems, material selection, and material assemblies into a project. The division will focus on issues related to the development of design concepts, evaluation of materials and technologies, selection of appropriate construction techniques, and appropriate construction documentation. Candidates must demonstrate an understanding of and abilities in integration of civil, structural, mechanical, electrical, plumbing, and specialty systems into overall project design and documentation.",
+      "details": {
+        "totalItems": 100,
+        "scoredItems": 91,
+        "pretestItems": 9,
+        "caseStudies": "Up to 9",
+        "caseStudyItems": "Up to 20",
+        "testDuration": "4 hr 5 min",
+        "breakDuration": "45 min",
+        "appointmentDuration": "5 hr"
+      },
+      "sections": [
+        {
+          "id": "PDD-S1",
+          "number": "1",
+          "name": "Integration of Building Materials & Systems",
+          "intro": "In this section, you’ll focus on resolving and detailing architectural systems and assemblies, building materials, and engineering systems.",
+          "expectedItems": "31-37",
+          "targetPercent": {
+            "min": 31,
+            "max": 37
+          },
+          "objectives": [
+            {
+              "id": "PDD-1.1",
+              "number": "1.1",
+              "title": "Analyze the integration of architectural systems and technologies to meet project goals",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 5,
+                "max": 9
+              },
+              "description": "As an architect you will first need to resolve and detail roof, curtain wall, cladding, window, floor, and other architectural systems, while also considering the detail requirements and capabilities of individual building materials."
+            },
+            {
+              "id": "PDD-1.2",
+              "number": "1.2",
+              "title": "Determine the size of mechanical, electrical, and plumbing systems and components to meet project goals",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 5,
+                "max": 9
+              },
+              "description": "You will need to identify and develop mechanical, electrical, and plumbing systems based on system type, system requirements, programmatic requirements, and other factors. This may include tasks such as calculating the size of system components, determining a lighting layout, or incorporating renewable energy systems into a design."
+            },
+            {
+              "id": "PDD-1.3",
+              "number": "1.3",
+              "title": "Determine the size of structural systems to meet project goals",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 5,
+                "max": 9
+              },
+              "description": "You will need to identify and develop structural systems, including detailing connections between standard horizontal and vertical structural components and calculating the size of some structural components based on the system type, system requirements, programmatic requirements, and other factors."
+            },
+            {
+              "id": "PDD-1.4",
+              "number": "1.4",
+              "title": "Integrate specialty systems such as acoustics, lighting, fire suppression, conveying, security, and communications to meet project goals",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 1,
+                "max": 5
+              },
+              "description": "You will need to be able to identify, develop, and integrate individual specialty system components based on system type, system requirements, programmatic requirements, and other factors."
+            },
+            {
+              "id": "PDD-1.5",
+              "number": "1.5",
+              "title": "Determine how to detail the integration of multiple building systems and technologies",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 3,
+                "max": 7
+              },
+              "description": "You must also be able to detail and resolve the intersection of roof, curtain wall, cladding, window, floor, structural, interior, and other architectural systems as they come together within a building project."
+            },
+            {
+              "id": "PDD-1.6",
+              "number": "1.6",
+              "title": "Coordinate mechanical, electrical, plumbing, structural, and specialty systems and technologies",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 3,
+                "max": 7
+              },
+              "description": "You must identify and resolve conflicts between engineering systems (mechanical, electrical, plumbing, and structural) and other specialty systems as they integrate into the project. This also includes coordinating engineering systems with the architectural design to fulfill programmatic, system, and other project requirements."
+            }
+          ]
+        },
+        {
+          "id": "PDD-S2",
+          "number": "2",
+          "name": "Construction Documentation",
+          "intro": "In this section, you’ll focus on project documentation necessary to assemble a set of drawings and update these drawings over the course of a project.",
+          "expectedItems": "32-38",
+          "targetPercent": {
+            "min": 32,
+            "max": 38
+          },
+          "objectives": [
+            {
+              "id": "PDD-2.1",
+              "number": "2.1",
+              "title": "Determine appropriate documentation of building design",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 7,
+                "max": 11
+              },
+              "description": "Architects must identify a drawing and documentation approach based on project complexity, materials and assemblies, delivery method, and other project or construction related requirements. Throughout project documentation, you must know how to refine, update, and make adjustments to the drawings to align with new or changing project requirements. Documentation must also indicate final selections of building materials, assemblies, and finishes."
+            },
+            {
+              "id": "PDD-2.2",
+              "number": "2.2",
+              "title": "Determine appropriate documentation of site features",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 2,
+                "max": 6
+              },
+              "description": "Architects must also coordinate with civil engineers, landscape architects, and other consultants to verify the documentation of site drainage, utilities, pedestrian and vehicular circulation paths, parking, grading, and other site features and structures, including those related to environmental sustainability and resilience. It is critical to ensure site documentation is coordinated with all project disciplines."
+            },
+            {
+              "id": "PDD-2.3",
+              "number": "2.3",
+              "title": "Determine appropriate documentation of detailed building drawings within individual architectural systems",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 8,
+                "max": 12
+              },
+              "description": "You will need to resolve, detail, and document individual architectural systems such as partition types, expansion joints, windows, doors, louvers, stairs, and other systems based on constructability, environmental, programmatic, and other building requirements."
+            },
+            {
+              "id": "PDD-2.4",
+              "number": "2.4",
+              "title": "Apply standards required to assemble a set of clear and coordinated construction documentation",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 5,
+                "max": 9
+              },
+              "description": "As an architect, you will also need to determine the necessary drawings required to communicate an architectural design based on the project delivery method. This requires assembling these drawings into a clear set of construction documents and ensuring the quality of the documentation meets the appropriate standard of care."
+            },
+            {
+              "id": "PDD-2.5",
+              "number": "2.5",
+              "title": "Determine impact of project changes on documentation requirements and methods to communicate those changes to owner and design team",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 3,
+                "max": 7
+              },
+              "description": "Architects must incorporate value engineering, changes in scope, and owner or project team comments into the drawing set, and determine the impact of these changes on the project delivery method and schedule. You will also need to recognize when changes in scope or owner/project team comments require the architect to perform additional services."
+            }
+          ]
+        },
+        {
+          "id": "PDD-S3",
+          "number": "3",
+          "name": "Project Manual & Specifications",
+          "intro": "In this section, you’ll focus on the development of documentation beyond construction drawings—the project manual and specifications.",
+          "expectedItems": "12-18",
+          "targetPercent": {
+            "min": 12,
+            "max": 18
+          },
+          "objectives": [
+            {
+              "id": "PDD-3.1",
+              "number": "3.1",
+              "title": "Identify and prioritize components required to write, maintain, and refine project manual",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 1,
+                "max": 5
+              },
+              "description": "You will need to be able to determine and assemble the content of a project manual, including the general conditions; instructions for procurement, bidding, and contracting; and project specific requirements. This also requires the identification and preparation of any additional exhibits or special conditions required for project execution."
+            },
+            {
+              "id": "PDD-3.2",
+              "number": "3.2",
+              "title": "Identify and prioritize components required to write, maintain, and refine project specifications",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 6,
+                "max": 10
+              },
+              "description": "You will need to determine the appropriate type of specifications to be used for a project, and you will need to identify which divisions are necessary based on project requirements. You will also need to analyze, select, and specify materials within a project in order to meet project requirements, testing protocols during construction, and common industry standards for materials and methods."
+            },
+            {
+              "id": "PDD-3.3",
+              "number": "3.3",
+              "title": "Coordinate specifications with construction documentation",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 2,
+                "max": 6
+              },
+              "description": "You must also coordinate the specifications with information found on the architectural construction drawings and consultant documents. This includes all materials, assemblies, hardware, methods, and other identified information."
+            }
+          ]
+        },
+        {
+          "id": "PDD-S4",
+          "number": "4",
+          "name": "Codes & Regulations",
+          "intro": "Codes and regulations appear in several divisions, but in this division, you’ll look at codes and regulations at a detail level and determine how they pertain to project documentation.",
+          "expectedItems": "8-14",
+          "targetPercent": {
+            "min": 8,
+            "max": 14
+          },
+          "objectives": [
+            {
+              "id": "PDD-4.1",
+              "number": "4.1",
+              "title": "Determine adherence to building regulatory requirements (IBC) at detail level",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 4,
+                "max": 8
+              },
+              "description": "It is critical to be able to apply the International Building Code to the design and documentation of a project, including means of egress, fire and smoke protection, material and assembly requirements, and the ways in which changes to occupancy, floor size, or other details can impact code requirements."
+            },
+            {
+              "id": "PDD-4.2",
+              "number": "4.2",
+              "title": "Determine adherence with specialty regulatory requirements at the detail level",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 3,
+                "max": 7
+              },
+              "description": "It is also important to be able to apply specialty regulations to the design and documentation of a project. This includes accessibility requirements, energy codes, standards for historic preservation, Fair Housing, environmental regulations, and other local or site specific regulations."
+            }
+          ]
+        },
+        {
+          "id": "PDD-S5",
+          "number": "5",
+          "name": "Construction Cost Estimates",
+          "intro": "In this last section, you’ll consider the construction cost of a project by analyzing an estimate. This section contains only one objective and is the smallest section in the division.",
+          "expectedItems": "2-8",
+          "targetPercent": {
+            "min": 2,
+            "max": 8
+          },
+          "objectives": [
+            {
+              "id": "PDD-5.1",
+              "number": "5.1",
+              "title": "Analyze construction cost estimates to confirm alignment with project design",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 2,
+                "max": 8
+              },
+              "description": "This division focuses on the integration of systems, materials, and assemblies into a coordinated set of project documents. As detailed design decisions are made, you must be able to evaluate construction cost estimates prepared by others. It’s important to understand how these estimates vary based on relevant cost estimating methods, and how to reconcile the estimates with the construction budget through the use of value engineering or material substitution."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CE",
+      "name": "Construction & Evaluation",
+      "overview": "This division will assess objectives related to construction contract administration and post-occupancy evaluation of projects. The division will focus on issues related to bidding and negotiation processes, support of the construction process, and evaluation of completed projects. Candidates must demonstrate an understanding of and abilities in construction contract execution, construction support services (including construction observation and shop drawing or submittal review), payment request processing, and project closeout. In addition, candidates must also demonstrate an understanding and abilities in project evaluation of integrated building systems and their performance.",
+      "details": {
+        "totalItems": 75,
+        "scoredItems": 68,
+        "pretestItems": 7,
+        "caseStudies": "Up to 7",
+        "caseStudyItems": "Up to 16",
+        "testDuration": "3 hr",
+        "breakDuration": "30 min",
+        "appointmentDuration": "3 hr 40 min"
+      },
+      "sections": [
+        {
+          "id": "CE-S1",
+          "number": "1",
+          "name": "Preconstruction Activities",
+          "intro": "In this section, you’ll focus on the construction planning and activities that occur prior to the start of construction.",
+          "expectedItems": "13-17",
+          "targetPercent": {
+            "min": 17,
+            "max": 23
+          },
+          "objectives": [
+            {
+              "id": "CE-1.1",
+              "number": "1.1",
+              "title": "Understand the architect’s role and responsibilities in advising the client during the bidding process based on project delivery method",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 8,
+                "max": 12
+              },
+              "description": "Understanding the key elements of bidding is an important aspect of preconstruction activities. This includes the required bidding documents, typical procedures for distributing documents and the pre-bid meeting, prequalification of bidders, selection of the contractor, and applicable standard AIA documents. The architect’s responsibilities for each of these may vary depending on the project delivery type."
+            },
+            {
+              "id": "CE-1.2",
+              "number": "1.2",
+              "title": "Analyze criteria for selecting contractors",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 3,
+                "max": 7
+              },
+              "description": "You will need to understand the criteria for reviewing contractors’ bids, including accuracy and completeness. Based on these criteria, you will then need to evaluate contractors’ bids and compare contractors’ qualifications to each other."
+            },
+            {
+              "id": "CE-1.3",
+              "number": "1.3",
+              "title": "Analyze aspects of the contract or design to adjust project costs",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 3,
+                "max": 7
+              },
+              "description": "You must understand the process through which changes can be made to the project cost, scope, or schedule during the bidding phase. This will include evaluation of the contractual implications of any changes and the impact on project design, timeline, and/or design and construction budgets."
+            }
+          ]
+        },
+        {
+          "id": "CE-S2",
+          "number": "2",
+          "name": "Construction Observation",
+          "intro": "This section addresses visiting the job site throughout the course of construction and the architect’s roles and responsibilities.",
+          "expectedItems": "24-29",
+          "targetPercent": {
+            "min": 32,
+            "max": 38
+          },
+          "objectives": [
+            {
+              "id": "CE-2.1",
+              "number": "2.1",
+              "title": "Evaluate the architect’s role during construction activities",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 13,
+                "max": 17
+              },
+              "description": "This objective assesses the architect’s responsibilities to the owner during construction site visits and subsequent documentation, including site observations and action items for project team members. You must recognize the contractor’s responsibilities to the architect, including change orders, applications for payments, shop drawings and other submittals, and the appropriate level of detail required for the schedule of values, based on project size, scope, phasing requirements, and schedule. You must also know the difference between the architect’s design intent and the contractor’s means and methods. Finally, you must identify the appropriate limits and extent of the architect’s authority and actions during construction."
+            },
+            {
+              "id": "CE-2.2",
+              "number": "2.2",
+              "title": "Evaluate construction conformance with contract documents, codes, regulations, and sustainability requirements",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 13,
+                "max": 17
+              },
+              "description": "You will need to be able to analyze the contractor’s completed work against the project requirements and identify non-conforming construction on site. This may also require evaluating the impacts of unforeseen conditions and material substitutions against code, quality, and program requirements. You will need to coordinate your evaluations of construction conformance with that of your consultants and the owner’s consultants."
+            },
+            {
+              "id": "CE-2.3",
+              "number": "2.3",
+              "title": "Determine construction progress",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 3,
+                "max": 7
+              },
+              "description": "Construction observation also requires the review of work in place against the contractor’s construction schedule and schedule of values, and understanding the impact of delays along the critical path."
+            }
+          ]
+        },
+        {
+          "id": "CE-S3",
+          "number": "3",
+          "name": "Administrative Procedures & Protocols",
+          "intro": "The previous section is about the onsite responsibilities of an architect. This section is about the documentation necessary to the construction process. Clear written communication is an essential aspect of the construction process.",
+          "expectedItems": "24-29",
+          "targetPercent": {
+            "min": 32,
+            "max": 38
+          },
+          "objectives": [
+            {
+              "id": "CE-3.1",
+              "number": "3.1",
+              "title": "Determine appropriate additional information to supplement contract documents",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 8,
+                "max": 12
+              },
+              "description": "As an architect, you will need to evaluate contractor requests for additional information and determine if a request, unexpected disruption, or other situation requires a change in the construction contract. You will need to determine the appropriate documents for communicating requested information and design revisions due to a scope change, schedule delay, or unforeseen condition."
+            },
+            {
+              "id": "CE-3.2",
+              "number": "3.2",
+              "title": "Evaluate submittals including shop drawings, samples, mock-ups, product data, and test results",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 8,
+                "max": 12
+              },
+              "description": "Architects must assess the contractor’s understanding of the project scope by reviewing the contractor’s submittals against the contract documents. They also must determine appropriate responses to the contractor and evaluate requests for substitutions."
+            },
+            {
+              "id": "CE-3.3",
+              "number": "3.3",
+              "title": "Evaluate the contractor’s application for payment",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 3,
+                "max": 7
+              },
+              "description": "Reviewing the contractor’s application for payment against the completed work is a critical component of the construction process. This is done based on observations during construction site visits and a concurrent review of the contractor’s schedule of values and approved change orders. You will also need to evaluate methods of retainage and their application throughout the project."
+            },
+            {
+              "id": "CE-3.4",
+              "number": "3.4",
+              "title": "Evaluate responses to non-conformance with contract documents",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 8,
+                "max": 12
+              },
+              "description": "After non-conforming work is identified during site observations, you must be able to determine the source of the non-conformance; analyze the cost, schedule, and design implications; evaluate possible resolutions of the non-conformance; and communicate the selected solution to the team. These steps will need to be taken in coordination with your consultants and the owner’s consultants."
+            }
+          ]
+        },
+        {
+          "id": "CE-S4",
+          "number": "4",
+          "name": "Project Closeout & Evaluation",
+          "intro": "In this section, you’ll focus on post-construction activities. This is the smallest section of the division but covers several important aspects of completing a project.",
+          "expectedItems": "5-10",
+          "targetPercent": {
+            "min": 7,
+            "max": 13
+          },
+          "objectives": [
+            {
+              "id": "CE-4.1",
+              "number": "4.1",
+              "title": "Apply procedural concepts to complete close-out activities",
+              "cognitiveLevel": "U/A",
+              "targetPercent": {
+                "min": 3,
+                "max": 7
+              },
+              "description": "As an architect, you will need to be familiar with project close-out documents, which may include warranties, record drawings, a punch list, and a final application for payment, submitted by the contractor. You will also need to review the contractor’s completed work and make determinations regarding substantial completion and final completion of a project, understanding the implications of each process."
+            },
+            {
+              "id": "CE-4.2",
+              "number": "4.2",
+              "title": "Evaluate building design and performance",
+              "cognitiveLevel": "A/E",
+              "targetPercent": {
+                "min": 3,
+                "max": 7
+              },
+              "description": "You will need to assess a building’s performance during its first year of use, with tools such as user surveys and building commissioning, which may include sustainability rating systems. It’s critical that you then determine a response to identified building performance issues."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

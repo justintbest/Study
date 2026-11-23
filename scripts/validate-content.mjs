@@ -1,0 +1,194 @@
+#!/usr/bin/env node
+// Validates everything under /content. Runs automatically before `npm run build`.
+//   node scripts/validate-content.mjs            → errors fail (exit 1), warnings print
+//   node scripts/validate-content.mjs --strict   → warnings fail too
+import { readFileSync, readdirSync, statSync, existsSync } from 'node:fs';
+import { join, relative, basename } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const ROOT = fileURLToPath(new URL('..', import.meta.url));
+const C = join(ROOT, 'content');
+const strict = process.argv.includes('--strict');
+const errors = [];
+const warnings = [];
+const err = (f, m) => errors.push(`${f}: ${m}`);
+const warn = (f, m) => warnings.push(`${f}: ${m}`);
+
+const readJSON = (p) => {
+  try {
+    return JSON.parse(readFileSync(p, 'utf8'));
+  } catch (e) {
+    err(relative(ROOT, p), `invalid JSON (${e.message})`);
+    return null;
+  }
+};
+
+// ---------- official objective IDs ----------
+const are = readJSON(join(C, 'are-objectives.json'));
+const cse = readJSON(join(C, 'cse-objectives.json'));
+const objectiveIds = new Set();
+const objectiveExam = new Map();
+for (const d of are?.divisions ?? []) {
+  for (const s of d.sections) for (const o of s.objectives) {
+    objectiveIds.add(o.id);
+    objectiveExam.set(o.id, 'ARE');
+  }
+}
+for (const a of cse?.contentAreas ?? []) {
+  for (const st of a.statements ?? []) {
+    objectiveIds.add(`CSE-${st.id}`);
+    objectiveExam.set(`CSE-${st.id}`, 'CSE');
+  }
+}
+if (are && objectiveIds.size < 91) err('content/are-objectives.json', `expected 91 ARE objectives, found ${objectiveIds.size}`);
+
+// ---------- California material must not appear in ARE content ----------
+// (ARE tests the national IBC; California code/statute belongs in the CSE.)
+const CA_PATTERNS = [
+  /\bCBC\b/,
+  /California Building Code/i,
+  /\bTitle 24\b/i,
+  /\bCCR\b/,
+  /California Code of Regulations/i,
+  /\bBPC\b/,
+  /Business (and|&) Professions Code/i,
+  /Architects Practice Act/i,
+  /California Architects Board/i,
+  /\bCALGreen\b/i,
+  /\bCEQA\b/,
+  /\bDSA\b/,
+  /Field Act/i,
+  /Coastal Act/i,
+  /\bCal\/OSHA\b/i,
+];
+const caHits = (text) => CA_PATTERNS.filter((re) => re.test(text)).map((re) => re.source);
+
+// ---------- walk content files ----------
+function walk(dir) {
+  if (!existsSync(dir)) return [];
+  return readdirSync(dir).flatMap((n) => {
+    const p = join(dir, n);
+    return statSync(p).isDirectory() ? walk(p) : [p];
+  });
+}
+
+const files = [...walk(join(C, 'are')), ...walk(join(C, 'cse'))];
+const jsonFiles = files.filter((f) => f.endsWith('.json'));
+const mdFiles = new Set(files.filter((f) => f.endsWith('.md')));
+const seenIds = new Map();
+const covered = new Set();
+const CONF = new Set(['high', 'medium', 'low']);
+let qTotal = 0,
+  cTotal = 0,
+  flagged = 0;
+
+for (const f of jsonFiles) {
+  const rel = relative(ROOT, f);
+  const doc = readJSON(f);
+  if (!doc) continue;
+  const id = doc.objectiveId;
+  if (!id || !objectiveIds.has(id)) {
+    err(rel, `objectiveId "${id}" is not an official objective/statement ID`);
+    continue;
+  }
+  if (covered.has(id)) err(rel, `duplicate content for ${id}`);
+  covered.add(id);
+  if (basename(f, '.json') !== id) warn(rel, `file name should be ${id}.json`);
+  const exam = objectiveExam.get(id);
+  if (doc.exam !== exam) err(rel, `exam is "${doc.exam}" but ${id} belongs to ${exam}`);
+
+  const md = f.replace(/\.json$/, '.md');
+  if (!mdFiles.has(md)) warn(rel, 'no matching .md study note');
+
+  const uniq = (x, kind) => {
+    if (!x.id) return err(rel, `${kind} missing id`);
+    if (seenIds.has(x.id)) err(rel, `duplicate id ${x.id} (also in ${seenIds.get(x.id)})`);
+    seenIds.set(x.id, rel);
+    if (!x.id.startsWith(id + '-')) err(rel, `${kind} id ${x.id} should start with "${id}-"`);
+  };
+  const conf = (x, where) => {
+    if (x.confidence !== undefined && !CONF.has(x.confidence)) err(rel, `${where}: confidence must be high|medium|low`);
+    if (x.confidence && x.confidence !== 'high') {
+      flagged++;
+      if (!x.confidenceNote) warn(rel, `${where}: flagged ${x.confidence} but no confidenceNote saying what to verify`);
+    }
+  };
+
+  // references
+  if (!Array.isArray(doc.references)) err(rel, 'references must be an array');
+  for (const [k, r] of (doc.references ?? []).entries()) {
+    if (!r.kind || !r.citation || !r.topic) err(rel, `reference #${k + 1} needs kind, citation, topic`);
+    conf(r, `reference ${r.citation}`);
+  }
+
+  // questions
+  const qs = doc.questions ?? [];
+  qTotal += qs.length;
+  if (exam === 'ARE' && (qs.length < 8 || qs.length > 12)) err(rel, `${qs.length} questions (expected 8–12)`);
+  if (exam === 'CSE' && (qs.length < 8 || qs.length > 12)) err(rel, `${qs.length} questions (expected 8–12)`);
+  for (const q of qs) {
+    uniq(q, 'question');
+    const where = `question ${q.id}`;
+    if (!q.stem || !q.explanation) err(rel, `${where}: needs stem and explanation`);
+    conf(q, where);
+    if (exam === 'CSE' && q.type !== 'mc') err(rel, `${where}: CSE questions must be multiple choice`);
+    if (q.type === 'mc' || q.type === 'cata') {
+      const ops = q.options ?? [];
+      const right = ops.filter((o) => o.correct).length;
+      const optIds = new Set(ops.map((o) => o.id));
+      if (optIds.size !== ops.length) err(rel, `${where}: duplicate option ids`);
+      for (const o of ops) if (!o.explanation || o.explanation.length < 15) err(rel, `${where}: option ${o.id} needs an explanation of why it is right/wrong`);
+      if (q.type === 'mc') {
+        if (ops.length < 3 || ops.length > 4) err(rel, `${where}: multiple choice needs 3–4 options (ARE format), has ${ops.length}`);
+        if (right !== 1) err(rel, `${where}: multiple choice needs exactly 1 correct option, has ${right}`);
+      } else {
+        if (ops.length !== 6) err(rel, `${where}: check-all-that-apply needs 6 options (ARE format), has ${ops.length}`);
+        if (right < 2 || right > 4) err(rel, `${where}: check-all-that-apply needs 2–4 correct, has ${right}`);
+        if (q.selectCount !== right) err(rel, `${where}: selectCount ${q.selectCount} ≠ ${right} correct options`);
+      }
+    } else if (q.type === 'numeric') {
+      if (!q.answer || typeof q.answer.value !== 'number') err(rel, `${where}: numeric needs answer.value`);
+    } else err(rel, `${where}: unknown type "${q.type}"`);
+  }
+
+  // flashcards
+  const cs = doc.flashcards ?? [];
+  cTotal += cs.length;
+  if (cs.length < 10 || cs.length > 20) err(rel, `${cs.length} flashcards (expected 10–20)`);
+  for (const c of cs) {
+    uniq(c, 'flashcard');
+    if (!c.front || !c.back) err(rel, `flashcard ${c.id}: needs front and back`);
+    conf(c, `flashcard ${c.id}`);
+  }
+
+  // ARE/CSE separation
+  if (exam === 'ARE') {
+    const text = JSON.stringify(doc) + (mdFiles.has(md) ? readFileSync(md, 'utf8') : '');
+    const hits = caHits(text);
+    if (hits.length) err(rel, `ARE content mentions California-specific code/law (${hits.join(', ')}). Move it to CSE content.`);
+  }
+}
+
+for (const md of mdFiles) {
+  if (!existsSync(md.replace(/\.md$/, '.json'))) warn(relative(ROOT, md), 'study note has no matching .json');
+}
+
+// ---------- report ----------
+const byDivision = {};
+for (const id of covered) {
+  const d = id.split('-')[0];
+  byDivision[d] = (byDivision[d] ?? 0) + 1;
+}
+console.log(
+  `content: ${covered.size} objectives with content (${Object.entries(byDivision)
+    .map(([d, n]) => `${d} ${n}`)
+    .join(', ') || 'none'}), ${qTotal} questions, ${cTotal} flashcards, ${flagged} items flagged for verification`,
+);
+if (cse?.status === 'awaiting-source') console.log('note: CSE objectives are awaiting the CSE Handbook (content/cse-objectives.json).');
+for (const w of warnings) console.warn(`warning: ${w}`);
+for (const e of errors) console.error(`error: ${e}`);
+if (errors.length || (strict && warnings.length)) {
+  console.error(`\n✗ content validation failed (${errors.length} errors, ${warnings.length} warnings)`);
+  process.exit(1);
+}
+console.log('✓ content valid');

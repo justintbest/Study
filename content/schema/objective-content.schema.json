@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Study content for one ARE objective or CSE task/knowledge statement",
+  "type": "object",
+  "required": ["objectiveId", "exam", "division", "references", "questions", "flashcards"],
+  "properties": {
+    "objectiveId": { "type": "string", "description": "Must exist in are-objectives.json (e.g. \"PcM-2.3\") or cse-objectives.json (\"CSE-<CAB id>\")." },
+    "exam": { "enum": ["ARE", "CSE"] },
+    "division": { "type": "string", "description": "PcM | PjM | PA | PPD | PDD | CE | CSE" },
+    "generated": { "type": "string", "format": "date" },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["kind", "citation", "topic"],
+        "properties": {
+          "kind": { "type": "string" },
+          "citation": { "type": "string", "description": "Section numbers only; never paste copyrighted text." },
+          "topic": { "type": "string" },
+          "confidence": { "$ref": "#/$defs/confidence" },
+          "confidenceNote": { "type": "string" }
+        }
+      }
+    },
+    "questions": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 12,
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "stem", "explanation"],
+        "properties": {
+          "id": { "type": "string", "description": "<objectiveId>-qNN" },
+          "type": { "enum": ["mc", "cata", "numeric"], "description": "CSE: mc only. ARE mc: 3-4 options, 1 correct. ARE cata: 6 options, 2-4 correct, selectCount = #correct." },
+          "stem": { "type": "string" },
+          "options": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "text", "explanation"],
+              "properties": {
+                "id": { "type": "string" },
+                "text": { "type": "string" },
+                "correct": { "type": "boolean" },
+                "explanation": { "type": "string", "description": "Why this option is right, or why it is wrong." }
+              }
+            }
+          },
+          "selectCount": { "type": "integer" },
+          "answer": {
+            "type": "object",
+            "required": ["value"],
+            "properties": { "value": { "type": "number" }, "tolerance": { "type": "number" }, "unit": { "type": "string" } }
+          },
+          "explanation": { "type": "string" },
+          "cognitiveLevel": { "enum": ["U/A", "A/E"] },
+          "confidence": { "$ref": "#/$defs/confidence" },
+          "confidenceNote": { "type": "string" }
+        }
+      }
+    },
+    "flashcards": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 20,
+      "items": {
+        "type": "object",
+        "required": ["id", "front", "back"],
+        "properties": {
+          "id": { "type": "string", "description": "<objectiveId>-fNN" },
+          "front": { "type": "string" },
+          "back": { "type": "string" },
+          "confidence": { "$ref": "#/$defs/confidence" },
+          "confidenceNote": { "type": "string" }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "confidence": { "enum": ["high", "medium", "low"], "description": "Omit or 'high' when sure. 'medium'/'low' show a ⚠ Verify badge; always add confidenceNote saying what to check." }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "note": "The October 2026 ARE 5.0 Guidelines (sources/are/ARE-5-Guidelines.pdf) already include the objective updates that took effect April 27, 2026, but the PDF does not say which 12 of the 91 objectives changed. NCARB's own change list was not found on ncarb.org during the build. The entries below come from third-party reporting and are unverified. Check them against NCARB's announcement or your NCARB Record before relying on them.",
+  "effective": "2026-04-27",
+  "changedObjectiveCount": 12,
+  "identified": [
+    {
+      "objectiveId": "PcM-3.3",
+      "summary": "The 'rewards' element was removed. The objective now covers understanding project risks and how a practice mitigates them.",
+      "confidence": "medium",
+      "evidence": "Third-party prep site (learnformula.com, 'NCARB's April 2026 ARE 5.0 update'). The current wording in the Guidelines matches this description."
+    },
+    {
+      "objectiveId": "PPD-5.2",
+      "summary": "Shifted from producing cost estimates to evaluating them ('Evaluate cost estimates based on the project design').",
+      "confidence": "medium",
+      "evidence": "Third-party prep site (learnformula.com). The current wording in the Guidelines matches this description."
+    }
+  ],
+  "unidentifiedCount": 10
+}

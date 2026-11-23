@@ -1,0 +1,169 @@
+{
+  "objectiveId": "PcM-1.4",
+  "exam": "ARE",
+  "division": "PcM",
+  "generated": "2026-11-23",
+  "references": [
+    { "kind": "AIA", "citation": "B101-2017 §2.2", "topic": "Contractual standard of care: skill and care ordinarily provided by architects in the same or similar locality and circumstances.", "confidence": "medium", "confidenceNote": "Paragraph number per my knowledge of B101-2017; confirm in your copy." },
+    { "kind": "AIA", "citation": "B101-2017 §10.4", "topic": "Architect not required to execute certificates or consents requiring knowledge or services beyond the scope of the agreement.", "confidence": "medium", "confidenceNote": "Confirm paragraph number in B101-2017." },
+    { "kind": "AIA", "citation": "B101-2017 §10.6", "topic": "Architect has no responsibility for discovery, presence, handling, removal or disposal of hazardous materials at the site.", "confidence": "medium", "confidenceNote": "Confirm paragraph number in B101-2017." },
+    { "kind": "AIA", "citation": "B101-2017 Article 5 (Owner's Responsibilities)", "topic": "Owner furnishes program, budget, surveys, geotechnical services, tests and reports; architect may rely on owner-furnished information." },
+    { "kind": "AIA", "citation": "B101-2017 Article 4, §4.2 (Additional Services)", "topic": "Services required by unforeseen conditions or changes are additional services, some requiring owner's prior written authorization." },
+    { "kind": "AIA Code of Ethics", "citation": "2024 AIA Code of Ethics, Canon VI (Obligations to the Environment)", "topic": "Environmentally responsible design and advocacy; supports advising clients on climate-related risk.", "confidence": "medium", "confidenceNote": "Confirm the Canon VI rule text in the 2024 edition." },
+    { "kind": "NCARB", "citation": "NCARB Model Rules of Conduct, Rule 1 (Competence)", "topic": "Act with reasonable care and competence; apply knowledge and skill ordinarily applied by architects in good standing." }
+  ],
+  "questions": [
+    {
+      "id": "PcM-1.4-q01",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "In a negligence claim against an architect, how is the standard of care usually established?",
+      "options": [
+        { "id": "a", "text": "By the building code in effect when the drawings were prepared", "explanation": "Code compliance is evidence, but codes are minimums. The professional standard is broader." },
+        { "id": "b", "text": "By expert testimony about what a reasonably prudent architect would have done in similar circumstances", "correct": true, "explanation": "Correct. Expert witnesses usually establish what ordinary professional care required." },
+        { "id": "c", "text": "By the owner's expectations described in the program", "explanation": "Owner expectations may define scope, but they don't set the legal standard of care." },
+        { "id": "d", "text": "By whether the project was completed without any errors", "explanation": "The standard isn't perfection. Some errors happen even with reasonable care." }
+      ],
+      "explanation": "Standard of care = ordinary, reasonable professional care, usually shown through expert testimony."
+    },
+    {
+      "id": "PcM-1.4-q02",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "An owner's draft agreement says the architect \"shall perform all services to the highest professional standards and guarantees the documents will be free of errors.\" What is the main concern?",
+      "options": [
+        { "id": "a", "text": "The language raises the architect's duty above the negligence standard and is likely uninsurable.", "correct": true, "explanation": "Correct. 'Highest standards' and 'guarantees' create an express warranty that professional liability insurance generally excludes." },
+        { "id": "b", "text": "The language is standard and matches B101-2017.", "explanation": "B101-2017 uses an 'ordinary skill and care' standard, not 'highest' or 'guarantees'." },
+        { "id": "c", "text": "The language only affects the contractor's obligations.", "explanation": "The clause is in the owner–architect agreement and binds the architect." },
+        { "id": "d", "text": "The language is unenforceable, so there is no risk in signing.", "explanation": "Courts may well enforce express promises. Never assume an onerous clause is harmless." }
+      ],
+      "explanation": "Avoid warranty words (guarantee, ensure, highest, certify). Keep the ordinary standard of care."
+    },
+    {
+      "id": "PcM-1.4-q03",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "During construction it's discovered that the architect omitted roof-access ladders required by code. Adding them now costs $9,000. Including them in the original bid would have cost $6,000. Under the concept of betterment, what is the architect's likely responsibility?",
+      "options": [
+        { "id": "a", "text": "$9,000", "explanation": "The owner would have paid for the ladders anyway. Charging the full cost to the architect would give the owner a windfall." },
+        { "id": "b", "text": "$3,000", "correct": true, "explanation": "Correct. The architect may be responsible for the added cost caused by the omission ($9,000 − $6,000). The owner pays the $6,000 that would have been paid originally." },
+        { "id": "c", "text": "$6,000", "explanation": "$6,000 is the value the owner would have paid in the bid, which is the betterment portion." },
+        { "id": "d", "text": "$0, because all omissions are covered by the owner's contingency", "explanation": "A contingency helps the owner manage costs, but it doesn't automatically excuse a negligent omission." }
+      ],
+      "explanation": "Betterment: the owner pays what the item would have cost originally. The architect may owe the premium caused by the late addition."
+    },
+    {
+      "id": "PcM-1.4-q04",
+      "type": "cata",
+      "selectCount": 2,
+      "cognitiveLevel": "U/A",
+      "stem": "An architect is renovating a 1962 school and suspects the pipe insulation contains asbestos. Which actions are appropriate?",
+      "options": [
+        { "id": "a", "text": "Notify the owner promptly in writing of the suspected hazardous material.", "correct": true, "explanation": "Correct. Prompt written notice lets the owner, who is responsible for testing and abatement, act." },
+        { "id": "b", "text": "Recommend that the owner retain a qualified environmental consultant to test and advise.", "correct": true, "explanation": "Correct. Hazardous-material investigation is typically an owner-furnished service by specialists." },
+        { "id": "c", "text": "Have firm staff take samples to save the owner money.", "explanation": "Sampling suspected asbestos exposes staff and the firm to liability. It's a specialist task." },
+        { "id": "d", "text": "Specify that the contractor remove the insulation as incidental demolition.", "explanation": "Treating suspected asbestos as ordinary demolition endangers workers and violates environmental rules." },
+        { "id": "e", "text": "Continue the design without mention, since hazardous materials are excluded from the architect's responsibility.", "explanation": "The architect isn't responsible for abatement, but ignoring a known concern is not reasonable care." },
+        { "id": "f", "text": "Guarantee to the owner that the building is asbestos-free after removal.", "explanation": "A guarantee is beyond the standard of care and outside the architect's expertise." }
+      ],
+      "explanation": "For suspected hazardous materials, notify the owner and recommend a specialist. Don't sample, ignore, or guarantee."
+    },
+    {
+      "id": "PcM-1.4-q05",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "A client wants a new community center on a coastal site. FEMA maps show the site just outside the current flood zone, but published regional projections show it will likely be in the floodplain within the building's service life. The client asks for code minimums only. What best reflects the standard of care?",
+      "options": [
+        { "id": "a", "text": "Design to code minimums without comment, because codes define the standard of care.", "explanation": "Codes are minimums. With a reasonably foreseeable risk, the architect should advise the client." },
+        { "id": "b", "text": "Inform the client of the projected flood risk, present resilience options with their costs, and document the client's decision.", "correct": true, "explanation": "Correct. Identifying foreseeable climate risk, advising on options, and recording the client's choice is the appropriate professional response." },
+        { "id": "c", "text": "Refuse the commission unless the client agrees to elevate the building.", "explanation": "The architect advises. A lawful code-compliant design chosen by an informed client doesn't require withdrawing." },
+        { "id": "d", "text": "Elevate the building on your own and absorb the added design fee.", "explanation": "Changing scope and cost without the client's informed decision overrides the client's authority." }
+      ],
+      "explanation": "Climate risk: identify it, advise the client, offer options, and document the decision. Codes are a floor, not a ceiling."
+    },
+    {
+      "id": "PcM-1.4-q06",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "Which item is best described as an omission rather than an error?",
+      "options": [
+        { "id": "a", "text": "A door schedule lists the wrong fire rating for a stair door.", "explanation": "Showing incorrect information is an error." },
+        { "id": "b", "text": "The drawings show two different ceiling heights for the same room.", "explanation": "Conflicting information is an error or coordination problem." },
+        { "id": "c", "text": "The specifications contain no section for required through-penetration firestopping.", "correct": true, "explanation": "Correct. Leaving out something required is an omission." },
+        { "id": "d", "text": "A beam is sized for the wrong span.", "explanation": "An incorrect calculation is an error." }
+      ],
+      "explanation": "Error = shown wrong. Omission = left out."
+    },
+    {
+      "id": "PcM-1.4-q07",
+      "type": "cata",
+      "selectCount": 3,
+      "cognitiveLevel": "U/A",
+      "stem": "A lender asks the architect to sign a certificate. Which revisions are appropriate to keep the certificate within the standard of care?",
+      "options": [
+        { "id": "a", "text": "Replace \"certifies\" with \"states, to the best of the architect's knowledge, information, and belief\"", "correct": true, "explanation": "Correct. Qualified language describes professional opinion instead of a guarantee." },
+        { "id": "b", "text": "Limit statements to matters within the architect's scope of services", "correct": true, "explanation": "Correct. The architect shouldn't certify matters outside its services or knowledge." },
+        { "id": "c", "text": "Base statements on the architect's observations at site visits, not continuous inspection", "correct": true, "explanation": "Correct. Statements should reflect what the architect actually observed under its agreement." },
+        { "id": "d", "text": "Certify that all work complies with the contract documents in every respect", "explanation": "An absolute certification is a warranty the architect can't support from periodic observation." },
+        { "id": "e", "text": "Guarantee the contractor's construction schedule", "explanation": "The architect doesn't control the contractor's schedule and can't guarantee it." },
+        { "id": "f", "text": "Certify the accuracy of the owner's financing documents", "explanation": "That's outside the architect's services and expertise." }
+      ],
+      "explanation": "Certificates: qualify the language, stay within scope, and tie statements to actual observations."
+    },
+    {
+      "id": "PcM-1.4-q08",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "During selective demolition in a renovation, the contractor uncovers deteriorated wood framing the architect could not reasonably have seen. Redesigning the affected area will take 40 hours. What is the most appropriate characterization?",
+      "options": [
+        { "id": "a", "text": "Basic services the architect must provide without added compensation", "explanation": "Concealed conditions that couldn't reasonably be discovered aren't a failure of the standard of care. Redesign is beyond basic services." },
+        { "id": "b", "text": "Additional services, after notifying the owner and getting authorization as the agreement requires", "correct": true, "explanation": "Correct. Services needed because of unforeseen conditions are generally additional services under B101-2017 Article 4." },
+        { "id": "c", "text": "The contractor's responsibility to redesign", "explanation": "Design responsibility stays with the architect. The contractor handles construction means and methods." },
+        { "id": "d", "text": "A matter to resolve only after construction is complete", "explanation": "The issue needs prompt resolution to avoid delay and protect safety." }
+      ],
+      "explanation": "Unknown conditions → notify, document, and resolve through the contract. Extra design work is usually an additional service."
+    },
+    {
+      "id": "PcM-1.4-q09",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "To recover against an architect for professional negligence, which set of elements must a claimant generally prove?",
+      "options": [
+        { "id": "a", "text": "Duty, breach of the standard of care, causation, and damages", "correct": true, "explanation": "Correct. These are the four elements of a negligence claim." },
+        { "id": "b", "text": "Intent to harm, breach, and damages", "explanation": "Negligence doesn't require intent." },
+        { "id": "c", "text": "An error in the drawings and nothing more", "explanation": "An error alone isn't enough. It must breach the standard and cause damages." },
+        { "id": "d", "text": "A building code violation and an injury", "explanation": "These may be evidence, but the claimant still must prove duty, breach, causation and damages." }
+      ],
+      "explanation": "Negligence = duty + breach + causation + damages."
+    },
+    {
+      "id": "PcM-1.4-q10",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "Which recommendation best helps an owner manage the cost impact of the errors and omissions that occur even with reasonable care?",
+      "options": [
+        { "id": "a", "text": "Require the architect to warrant error-free documents.", "explanation": "A warranty is uninsurable and doesn't change the reality that some errors occur." },
+        { "id": "b", "text": "Carry an owner's construction contingency in the project budget.", "correct": true, "explanation": "Correct. A contingency funds unforeseen conditions and ordinary document imperfections without derailing the project." },
+        { "id": "c", "text": "Eliminate construction-phase services to reduce fees.", "explanation": "Cutting CA services typically increases the risk and cost of problems." },
+        { "id": "d", "text": "Rely on the contractor to find and absorb all errors.", "explanation": "Contractors generally aren't responsible for design errors and will seek change orders." }
+      ],
+      "explanation": "Recommend an owner's contingency. Perfect documents aren't the standard."
+    }
+  ],
+  "flashcards": [
+    { "id": "PcM-1.4-f01", "front": "Standard of care (paraphrase)", "back": "The skill and care ordinarily provided by architects practicing in the same or similar locality under similar circumstances (B101-2017 §2.2)." },
+    { "id": "PcM-1.4-f02", "front": "Four elements of negligence", "back": "Duty, breach, causation, damages." },
+    { "id": "PcM-1.4-f03", "front": "How the standard of care is proven", "back": "Usually by expert testimony from other architects." },
+    { "id": "PcM-1.4-f04", "front": "Warranty words to avoid in contracts", "back": "Guarantee, warrant, ensure, certify (unqualified), highest, best, all." },
+    { "id": "PcM-1.4-f05", "front": "Why avoid express warranties?", "back": "They raise the duty above negligence and are generally excluded from professional liability insurance." },
+    { "id": "PcM-1.4-f06", "front": "Error vs. omission", "back": "Error = something shown or specified incorrectly. Omission = something required that was left out." },
+    { "id": "PcM-1.4-f07", "front": "Betterment", "back": "Owner pays what an omitted item would have cost originally. The architect may owe only the added cost caused by the late addition." },
+    { "id": "PcM-1.4-f08", "front": "Owner's contingency", "back": "Budget reserve for unforeseen conditions and ordinary document imperfections. Recommend it." },
+    { "id": "PcM-1.4-f09", "front": "Suspected hazardous materials: architect's response", "back": "Notify the owner in writing and recommend a qualified consultant. Don't sample, abate, ignore or guarantee." },
+    { "id": "PcM-1.4-f10", "front": "Who furnishes surveys, geotech and tests under B101?", "back": "The owner (Article 5). The architect may rely on them." },
+    { "id": "PcM-1.4-f11", "front": "Concealed condition found during construction", "back": "Notify, document, evaluate, and resolve via the change process. Redesign is usually an additional service." },
+    { "id": "PcM-1.4-f12", "front": "Climate risk and the standard of care", "back": "Identify foreseeable climate hazards, advise the client on resilience options beyond code minimums, and document decisions." },
+    { "id": "PcM-1.4-f13", "front": "Are codes the full measure of the architect's duty?", "back": "No. Codes are minimums. Reasonable care may call for advising beyond them when risks are known." },
+    { "id": "PcM-1.4-f14", "front": "Qualified certificate language", "back": "\"To the best of the architect's knowledge, information and belief,\" within the scope of services and based on site observations." }
+  ]
+}

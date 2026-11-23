@@ -1,0 +1,67 @@
+{
+  "exam": "CSE",
+  "name": "California Supplemental Examination",
+  "administeredBy": "California Architects Board (CAB)",
+  "status": "awaiting-source",
+  "statusNote": "CAB publishes the CSE Test Plan (content areas, weightings, task and knowledge statements) only inside the CSE Handbook, which is hosted by PSI at https://test-takers.psiexams.com/api/content/bulletin/2519 (linked from https://www.cab.ca.gov/cand/cse/test_plan.shtml). The Handbook could not be downloaded in the build session. contentAreas is intentionally empty: no CSE objectives have been invented. Put the Handbook PDF at sources/cse/CSE-Handbook.pdf and regenerate this file (see README).",
+  "source": {
+    "testPlanPage": "https://www.cab.ca.gov/cand/cse/test_plan.shtml",
+    "handbookUrl": "https://test-takers.psiexams.com/api/content/bulletin/2519",
+    "referenceMaterialPage": "https://www.cab.ca.gov/cand/cse/ref_mat.shtml",
+    "localFiles": [
+      "sources/cse/cab-cse-test-plan-page.html",
+      "sources/cse/cab-cse-reference-material.html",
+      "sources/cse/cab-cse-reference-material.txt",
+      "sources/cse/cab-cse-prepare.html",
+      "sources/cse/architects-practice-act.pdf",
+      "sources/cse/coastal-act.pdf"
+    ],
+    "retrieved": "2026-11-23"
+  },
+  "examFormat": {
+    "itemType": "multiple-choice",
+    "delivery": "computer-delivered",
+    "sourceNote": "Per cab.ca.gov/cand/cse/index.shtml. Item count and time limit are in the Handbook (not yet downloaded)."
+  },
+  "testPlanFacts": [
+    "The Test Plan is built from a periodic statewide occupational analysis (OA) of California architectural practice.",
+    "It focuses on California-specific practice and drops content already covered by the ARE, so it is not a full survey of architectural practice.",
+    "Task and knowledge statements keep the numbering assigned during the OA. Not every OA statement appears in the final Test Plan."
+  ],
+  "contentAreas": [],
+  "referenceMaterial": {
+    "publications": [
+      { "title": "The Architect's Handbook of Professional Practice", "author": "The American Institute of Architects (AIA)", "year": 2013, "edition": "15th", "publisher": "Wiley", "pertinentParts": "Chapters 9, 10, and 12-17" }
+    ],
+    "websites": [
+      { "title": "A101-2017 Contract Documents", "source": "AIA", "pertinentParts": "Standard Form of Agreement Between Owner and Contractor where the basis of payment is a Stipulated Sum (All)", "freePublicLaw": false },
+      { "title": "A201-2017 Contract Documents", "source": "AIA", "pertinentParts": "General Conditions of the Contract for Construction (All)", "freePublicLaw": false },
+      { "title": "B101-2017 Contract Documents", "source": "AIA", "pertinentParts": "Standard Form of Agreement Between Owner and Architect (All)", "freePublicLaw": false },
+      { "title": "B102-2017 Instructions", "source": "AIA", "pertinentParts": "Standard Form of Agreement Between Owner and Architect without a Predefined Scope of Architect's Services (All)", "freePublicLaw": false },
+      { "title": "California Clean Air Act", "source": "California Air Resources Board", "pertinentParts": "Air Quality and Climate Legislation, 2019 Annual Summary", "freePublicLaw": true, "localFile": null },
+      { "title": "Architects Practice Act: Practice of Architecture", "source": "California Architects Board", "pertinentParts": "BPC, Division 3, Chapter 3, Articles 1, 3, 5, and 6", "freePublicLaw": true, "localFile": "sources/cse/architects-practice-act.pdf" },
+      { "title": "Architects Practice Act: Professional Conduct", "source": "California Architects Board", "pertinentParts": "CCR, Title 16, Division 2, Article 9", "freePublicLaw": true, "localFile": "sources/cse/architects-practice-act.pdf", "localFileNote": "CAB's April 1, 2026 Practice Act publication includes the Title 16, Division 2 regulations; confirm Article 9 is present when extracting." },
+      { "title": "California Coastal Act (2026)", "source": "California Coastal Commission", "pertinentParts": "Public Resources Code, Division 20, California Coastal Act", "freePublicLaw": true, "localFile": "sources/cse/coastal-act.pdf" },
+      { "title": "California Building Code", "source": "California Building Standards Commission", "pertinentParts": "CCR, Title 24, Chapters 3, 5, 7, 9, 10, 11A, 11B, 14, 16, and 17", "freePublicLaw": false, "note": "Free read-only on codes.iccsafe.org (2025 edition linked by CAB); not downloadable." },
+      { "title": "California Energy Code", "source": "California Building Standards Commission", "pertinentParts": "CCR, Title 24, Part 6, Subchapters (commencing with Section 100.0) 1, 3, 4, and 5", "freePublicLaw": false, "note": "Free read-only on codes.iccsafe.org." },
+      { "title": "California Fire Code: Requirements for Wildland-Urban Interface Fire Areas", "source": "California Building Standards Commission", "pertinentParts": "CCR, Title 24, Part 9", "freePublicLaw": false },
+      { "title": "California Wildland-Urban Interface Code", "source": "California Building Standards Commission", "pertinentParts": "CCR, Title 24, Part 7", "freePublicLaw": false },
+      { "title": "California Green Building Standards Code (CALGreen)", "source": "California Building Standards Commission", "pertinentParts": "CCR, Title 24, Part 11, Chapters 1, 4, 5 (Divisions 5.1-5.5), and Appendix A5 (Divisions A5.1-A5.6)", "freePublicLaw": false },
+      { "title": "California Mechanical Code", "source": "California Building Standards Commission", "pertinentParts": "CCR, Title 24, Part 4, Chapters 4 and 5", "freePublicLaw": false },
+      { "title": "California Plumbing Code", "source": "California Building Standards Commission", "pertinentParts": "CCR, Title 24, Part 5, Chapter 4", "freePublicLaw": false },
+      { "title": "California Environmental Quality Act (CEQA): Guidelines for Implementation", "source": "California Natural Resources Agency", "pertinentParts": "CCR, Title 14, Division 6, Chapter 3", "freePublicLaw": true, "localFile": null },
+      { "title": "California Environmental Quality Act (CEQA): Guidelines Appendices", "source": "California Natural Resources Agency", "pertinentParts": "CCR, Title 14, Division 6", "freePublicLaw": true, "localFile": null },
+      { "title": "Field Act: School Facilities Approvals and Fitness for Occupancy", "source": "California Seismic Safety Commission", "pertinentParts": "EDC, Title 1, Division 1, Part 10.5, Chapter 3, Articles 3 and 6", "freePublicLaw": true, "localFile": null },
+      { "title": "Field Act: Community Colleges and Educational Facilities Approvals", "source": "California Seismic Safety Commission", "pertinentParts": "EDC, Title 3, Division 7, Part 49, Chapter 1, Article 7", "freePublicLaw": true, "localFile": null },
+      { "title": "California Retail Food Code", "source": "California Department of Public Health", "pertinentParts": "HSC, Division 104, Part 7, Chapters 7, 8, 9, and 13 (Article 1)", "freePublicLaw": true, "localFile": null },
+      { "title": "Administrative Procedure Act: Structural Safety", "source": "Division of the State Architect (DSA)", "pertinentParts": "CCR, Title 24, Part 1, Chapter 4", "freePublicLaw": false },
+      { "title": "Buildings Used by the Public", "source": "Division of the State Architect (DSA)", "pertinentParts": "HSC, Division 12.5", "freePublicLaw": true, "localFile": null },
+      { "title": "Alfred E. Alquist Hospital Facilities Seismic Safety Act: Hospital Owner Responsibilities", "source": "Department of Health Care Access and Information (HCAI)", "pertinentParts": "HSC, Division 107, Part 7, Chapter 1, Article 9", "freePublicLaw": true, "localFile": null },
+      { "title": "California Civil Code: Works of Improvement", "source": "State of California", "pertinentParts": "CIV, Division 4, Part 6 (General Provisions, Sections 8000-9566)", "freePublicLaw": true, "localFile": null },
+      { "title": "Local Agency Public Construction Act: Counties", "source": "State of California", "pertinentParts": "PCC, Division 2, Part 3, Chapter 1, Article 3.5", "freePublicLaw": true, "localFile": null },
+      { "title": "Americans with Disabilities Act: Public Accommodations and Commercial Facilities", "source": "U.S. Department of Justice, Civil Rights Division", "pertinentParts": "Title III", "freePublicLaw": true, "localFile": null },
+      { "title": "Davis-Bacon Act", "source": "U.S. Department of Labor", "pertinentParts": "Davis-Bacon Act, Wage and Hour Division (WHD)", "freePublicLaw": true, "localFile": null }
+    ],
+    "downloadNote": "Statutes on leginfo.legislature.ca.gov (BPC, EDC, HSC, CIV, PCC) sit behind a bot-check page and could not be downloaded automatically. Entries with localFile null still need downloading."
+  }
+}
