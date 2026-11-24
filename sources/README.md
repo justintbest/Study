@@ -20,7 +20,7 @@ Official documents that the study content is based on. These are untouched downl
 NCARB's official ARE 5.0 practice exam PDFs, one per division (Feb 2026 editions), from https://www.ncarb.org/pass-the-are/prepare/practice-exams. They're licensed for personal study use as is; no derivative works. Use them in Claude Code study sessions (see CLAUDE.md). The app's questions are original and only match NCARB's *style* (`content/schema/ITEM-STYLE.md`).
 
 ### `sources/are/law/` (public domain, committed)
-Text of every federal statute and regulation cited in ARE content, from govinfo.gov (U.S. Code, 2024 edition) and ecfr.gov (current): FLSA, Title VII, ADA Title I, ADEA, FMLA, COBRA, the ACA employer mandate, OSHA, Copyright Act sections, the Brooks Act, IRC §1361, NHPA §106, 29 C.F.R. §§541.300/.600, and 36 C.F.R. Part 68. Each file starts with its source URL.
+Text of every federal statute and regulation cited in ARE content, from govinfo.gov (U.S. Code, 2024 edition) and ecfr.gov (current): FLSA, Title VII, ADA Title I, ADEA, FMLA, COBRA, the ACA employer mandate, OSHA, Copyright Act sections, the Brooks Act, IRC §1361, NHPA §106, the Fair Housing Act design requirements (42 U.S.C. §3604), 24 C.F.R. §100.201, 28 C.F.R. §§35.151 and 36.406 (ADA new construction), 29 C.F.R. §§541.300/.600, 36 C.F.R. Part 68, and 40 C.F.R. §122.26 (NPDES construction stormwater). Each file starts with its source URL.
 
 ### `sources/are/aia/` (you add these; never committed)
 AIA contract documents downloaded from your NCARB Record (Exams tab → Additional Resources), e.g. `B101-2017.pdf`, `A201-2017.pdf`, `C401-2017.pdf`. They're licensed to you and copyrighted, so `.gitignore` excludes this folder. Claude Code uses them to verify AIA paragraph citations.

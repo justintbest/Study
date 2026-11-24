@@ -1,0 +1,426 @@
+{
+  "objectiveId": "PjM-5.3",
+  "exam": "ARE",
+  "division": "PjM",
+  "generated": "2026-11-24",
+  "itemStyle": "ncarb-v3-difficulty",
+  "references": [
+    {
+      "kind": "AIA",
+      "citation": "A201-2017 §1.2.1",
+      "topic": "Contract documents are complementary; what one requires is as binding as if required by all.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "AIA",
+      "citation": "E203-2013 / G202-2013",
+      "topic": "BIM exhibit and project BIM protocol: model coordination responsibilities.",
+      "confidence": "medium",
+      "confidenceNote": "Edition years per my knowledge; confirm."
+    },
+    {
+      "kind": "Code",
+      "citation": "IBC 2021 §714; §717",
+      "topic": "Penetrations of fire-resistance-rated assemblies; ducts and air transfer openings (dampers)."
+    },
+    {
+      "kind": "Reference book",
+      "citation": "The Architect's Handbook of Professional Practice (AIA), quality management",
+      "topic": "Coordination checklists, constructability reviews."
+    }
+  ],
+  "questions": [
+    {
+      "id": "PjM-5.3-q01",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "At 50% construction documents for a four-story medical office building, the BIM coordinator runs the first clash detection on the combined discipline models. The team has one coordination meeting this week, before the consultants' next background exchange. The results are summarized below.\n\n| Group | Clashes | Elements | Location |\n|---|---|---|---|\n| 1 | 42 | Sprinkler branch lines vs. light fixtures | Office ceilings |\n| 2 | 6 | Main supply duct vs. steel transfer girder | Level 2 corridor |\n| 3 | 18 | Conduit vs. ceiling grid | Office ceilings |\n| 4 | 3 | Plumbing riser vs. concrete shear wall | Core |\n\nWhich clashes should the team resolve first?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Group 1, which has the most clashes",
+          "explanation": "Many clashes doesn't mean they matter most. Sprinkler and fixture conflicts are easy to fix."
+        },
+        {
+          "id": "b",
+          "text": "Groups 2 and 4, which involve structure",
+          "explanation": "Correct. Structural elements are hard to move, and fixing them may change other systems.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Group 3, which is the cheapest group to fix",
+          "explanation": "Easy fixes can wait. Fixed elements drive the other solutions."
+        },
+        {
+          "id": "d",
+          "text": "All four groups, in numerical order",
+          "explanation": "Order should follow impact, not numbering."
+        }
+      ],
+      "explanation": "Prioritize clashes with fixed or hard-to-move elements (structure, cores, shafts)."
+    },
+    {
+      "id": "PjM-5.3-q02",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "During design development of an office building, the owner insists on a 9'-0\" finished ceiling in the open offices. The mechanical engineer reports that the main supply ducts in the corridor will be 18 inches deep. The project architect checks the space available under the beams using the data below.\n\n| Item | Dimension |\n|---|---|\n| Floor-to-floor height | 13'-0\" |\n| Slab and deck | 6 in |\n| Steel beam depth | 21 in |\n| Ceiling system and light fixtures | 6 in |\n\nWhat clear depth is available below the beams for ductwork?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "15 in",
+          "explanation": "Correct. 156 − 6 − 21 − 108 − 6 = 15 in, so an 18 in duct won't fit under the beams.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "21 in",
+          "explanation": "This leaves out the ceiling system and light fixtures."
+        },
+        {
+          "id": "c",
+          "text": "36 in",
+          "explanation": "This leaves out the beam depth."
+        }
+      ],
+      "explanation": "1. Floor-to-floor = 156 in\n2. Below beams = 156 − 6 − 21 = 129 in\n3. Ceiling height + ceiling system = 108 + 6 = 114 in\n4. Clear depth = 129 − 114 = 15 in"
+    },
+    {
+      "id": "PjM-5.3-q03",
+      "type": "cata",
+      "cognitiveLevel": "A/E",
+      "stem": "A firm is about to issue 95% construction documents for a 12-story hotel with a unitized curtain wall, rooftop cooling towers and a tight urban site with no laydown area. The principal asks the project architect to organize a constructability review before issue, because the firm's last high-rise had several costly field fixes.\n\nWhich items should the constructability review address? Check the three that apply.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Access and sequence for installing large rooftop equipment",
+          "explanation": "Correct. Getting the cooling towers in and installed affects the design of the structure and openings.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Tolerances between the curtain wall and slab edges",
+          "explanation": "Correct. Interfaces between trades often cause field problems.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Lead times for the specified curtain wall system",
+          "explanation": "Correct. Long lead times can affect the design choices and schedule.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "The contractor's crew sizes for each trade",
+          "explanation": "Crew sizes are the contractor's means and methods."
+        },
+        {
+          "id": "e",
+          "text": "The subcontractors' profit margins",
+          "explanation": "Margins aren't a constructability question."
+        },
+        {
+          "id": "f",
+          "text": "The owner's room-rate projections",
+          "explanation": "Revenue projections don't bear on whether the design can be built."
+        }
+      ],
+      "selectCount": 3,
+      "explanation": "Constructability: access and sequence, tolerances between trades, lead times, buildable details."
+    },
+    {
+      "id": "PjM-5.3-q04",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "On the firm's last laboratory project, the architect, structural and MEP consultants each worked in their own models. The models were combined only when CDs were submitted, and that's when dozens of conflicts were found. The project manager is setting up coordination for a similar lab now in schematic design.\n\nWhich approach should the project manager set up?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Combine the models only at each phase submittal",
+          "explanation": "Checking only at submittals leaves conflicts undiscovered for weeks."
+        },
+        {
+          "id": "b",
+          "text": "Regular clash reviews with a tracked issue log",
+          "explanation": "Correct. Regular coordination cycles with tracked issues catch conflicts early.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Have each consultant check its own model independently",
+          "explanation": "Self-checks don't find conflicts between disciplines."
+        },
+        {
+          "id": "d",
+          "text": "Leave clash detection to the contractor during construction",
+          "explanation": "Conflicts found during construction become RFIs and change orders."
+        }
+      ],
+      "explanation": "Coordinate on a regular schedule, with an issue log, not just at submittals."
+    },
+    {
+      "id": "PjM-5.3-q05",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "A QC reviewer checking 95% CDs for a library finds that several products in the specifications don't appear on the drawings. Some drawing keynotes refer to products that aren't specified, and the spec writer and the drafters use different names for the same materials. The issue date is three weeks away.\n\nWhich practice would best prevent these conflicts?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Add a note that the specifications govern over the drawings",
+          "explanation": "An order-of-precedence note doesn't fix the conflicts, and A201 treats the documents as complementary."
+        },
+        {
+          "id": "b",
+          "text": "Cross-check spec sections against keynotes",
+          "explanation": "Correct. A keynote-to-spec cross-check with shared terminology removes the mismatches.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Remove keynotes from the drawings to avoid duplication",
+          "explanation": "Keynotes link the drawings to the specs. Removing them makes coordination harder."
+        },
+        {
+          "id": "d",
+          "text": "Let the contractor resolve mismatches through RFIs",
+          "explanation": "Leaving known conflicts for RFIs creates cost and delay."
+        }
+      ],
+      "explanation": "Coordinate drawings and specs with a cross-check and shared terms (A201 §1.2.1: complementary documents).",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-5.3-q06",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "Late in construction documents for an office building, the architect moved several core walls and shafts. Two weeks later, the MEP engineer's 90% drawings still showed the old shaft locations, because the engineer was working from backgrounds issued a month earlier. The owner's issue date can't move.\n\nWhich practice would best prevent this on future projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Scheduled background exchanges with change logs",
+          "explanation": "Correct. Scheduled exchanges with logged changes keep consultants on current information.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Sending new backgrounds whenever any change is made",
+          "explanation": "Constant, untracked updates are hard for consultants to follow."
+        },
+        {
+          "id": "c",
+          "text": "Letting consultants request backgrounds when needed",
+          "explanation": "Consultants may not know a change happened."
+        },
+        {
+          "id": "d",
+          "text": "Freezing the architectural design at the end of DD",
+          "explanation": "A complete freeze is rarely realistic. Controlled exchanges handle changes."
+        }
+      ],
+      "explanation": "Exchange backgrounds on a schedule, with change logs and freeze dates before milestones."
+    },
+    {
+      "id": "PjM-5.3-q07",
+      "type": "cata",
+      "cognitiveLevel": "A/E",
+      "stem": "A firm is renovating a 1970s hospital wing. The original drawings are available but incomplete, and they don't show decades of changes. The renovation will add new MEP systems through existing floors and walls. On a past renovation, unknown conditions led to many change orders.\n\nWhich steps should the architect take during design? Check the three that apply.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Field-verify existing conditions with surveys",
+          "explanation": "Correct. Surveys confirm what was actually built.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Recommend probes and selective investigations",
+          "explanation": "Correct. Probes reveal concealed structure and MEP before design is set.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Coordinate with the owner's hazardous-materials survey",
+          "explanation": "Correct. Hazardous materials affect the scope, sequence and cost.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Rely on the original drawings as the base",
+          "explanation": "Old drawings miss later changes and often what was actually built."
+        },
+        {
+          "id": "e",
+          "text": "Let the contractor discover conditions during demolition",
+          "explanation": "Discoveries during demolition lead to change orders and delays."
+        },
+        {
+          "id": "f",
+          "text": "Assume the existing structure meets the current code",
+          "explanation": "Existing conditions may not meet current requirements and must be evaluated."
+        }
+      ],
+      "selectCount": 3,
+      "explanation": "Renovations: verify existing conditions, investigate concealed work, use the hazardous-materials survey."
+    },
+    {
+      "id": "PjM-5.3-q08",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "During design development of a 600-space parking structure under a CMc contract, the CM proposes switching from cast-in-place post-tensioned concrete to precast concrete. The CM says this will save six weeks and about $400,000. The owner's goals include a 50-year service life and an open, well-lit appearance.\n\nHow should the architect respond?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Accept the proposal, since it saves time and money",
+          "explanation": "Accepting without evaluating it against the owner's goals risks durability and appearance."
+        },
+        {
+          "id": "b",
+          "text": "Evaluate it with the engineer and advise the owner",
+          "explanation": "Correct. Evaluate durability, appearance, cost and schedule with the structural engineer, then let the owner decide.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Reject it, since the design is already in DD",
+          "explanation": "DD is a reasonable time to evaluate a system change, and the savings may be real."
+        },
+        {
+          "id": "d",
+          "text": "Ask the CM to redesign the structure itself",
+          "explanation": "The architect's team is responsible for the design. The CM gives constructability input."
+        }
+      ],
+      "explanation": "Evaluate CM proposals against the design intent with the consultant concerned. The owner decides."
+    },
+    {
+      "id": "PjM-5.3-q09",
+      "type": "cata",
+      "cognitiveLevel": "A/E",
+      "stem": "At the 50% CD coordination review for a five-story office building, the project architect compares the architectural and structural drawings. The firm's last project had a field problem where curtain wall anchors didn't align with the slab edges, and another where a rooftop unit had no structural support.\n\nWhich items require coordination between the architectural and structural drawings? Check the three that apply.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Slab edges and curtain wall attachments",
+          "explanation": "Correct. Slab-edge geometry and anchor locations must match.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Floor openings and shafts",
+          "explanation": "Correct. Openings must be framed in the structure.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Supports for rooftop equipment and screens",
+          "explanation": "Correct. Equipment and screens need structural support.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Interior paint colors",
+          "explanation": "Finishes don't affect the structure."
+        },
+        {
+          "id": "e",
+          "text": "Furniture layouts",
+          "explanation": "Furniture doesn't require structural coordination in an office building."
+        },
+        {
+          "id": "f",
+          "text": "Door hardware sets",
+          "explanation": "Hardware is coordinated with doors and frames, not structure."
+        }
+      ],
+      "selectCount": 3,
+      "explanation": "Coordinate the architectural and structural drawings at slab edges, openings and equipment supports."
+    },
+    {
+      "id": "PjM-5.3-q10",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "The QC reviewer for a school finds that the life-safety plan shows several 1-hour fire barriers, but the mechanical drawings show ducts crossing them with no fire dampers or penetration details. The mechanical engineer says the life-safety plan was never sent to the mechanical team.\n\nWhat should the architect do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Leave the damper locations to the contractor",
+          "explanation": "The design documents must show the required protection at rated assemblies."
+        },
+        {
+          "id": "b",
+          "text": "Overlay the life-safety plan with the MEP drawings",
+          "explanation": "Correct. The architect coordinates rated-assembly locations so the consultants show dampers and penetration protection.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Remove the fire ratings from those walls",
+          "explanation": "Removing required ratings to avoid coordination isn't acceptable."
+        },
+        {
+          "id": "d",
+          "text": "Rely on the plan reviewer to identify missing dampers",
+          "explanation": "The design team, not the reviewer, is responsible for compliance."
+        }
+      ],
+      "explanation": "Coordinate rated assemblies with MEP penetrations (IBC §714, §717)."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "PjM-5.3-f01",
+      "front": "Clash priority",
+      "back": "Fixed or hard-to-move elements (structure, cores, shafts, sloped piping) first. Soft clashes later."
+    },
+    {
+      "id": "PjM-5.3-f02",
+      "front": "Coordination schedule",
+      "back": "Background exchanges at set dates with change logs, freeze dates before milestones, an issue log."
+    },
+    {
+      "id": "PjM-5.3-f03",
+      "front": "Plenum depth",
+      "back": "Floor-to-floor − slab − beam − ceiling height − ceiling and fixtures = space for ducts."
+    },
+    {
+      "id": "PjM-5.3-f04",
+      "front": "Drawings vs. specs",
+      "back": "Cross-check keynotes and spec sections with shared terms. The documents are complementary (A201 §1.2.1).",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-5.3-f05",
+      "front": "Constructability review covers…",
+      "back": "Access and sequence, tolerances between trades, lead times, site logistics, buildable details. Not means and methods."
+    },
+    {
+      "id": "PjM-5.3-f06",
+      "front": "Renovation existing conditions",
+      "back": "Field surveys, probes, selective investigations, the owner's hazardous-materials survey."
+    },
+    {
+      "id": "PjM-5.3-f07",
+      "front": "CM's system-change proposal",
+      "back": "Evaluate against the design intent, cost and schedule with the consultant concerned. The owner decides."
+    },
+    {
+      "id": "PjM-5.3-f08",
+      "front": "Architectural ↔ structural coordination",
+      "back": "Slab edges and curtain wall, openings and shafts, roof equipment supports, depressed slabs."
+    },
+    {
+      "id": "PjM-5.3-f09",
+      "front": "Rated assemblies and MEP",
+      "back": "Overlay the life-safety plan with the MEP drawings. Show dampers and firestopping at penetrations."
+    },
+    {
+      "id": "PjM-5.3-f10",
+      "front": "When to run clash detection",
+      "back": "Regularly through design, not just at phase submittals."
+    }
+  ]
+}

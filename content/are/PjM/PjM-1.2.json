@@ -1,0 +1,412 @@
+{
+  "objectiveId": "PjM-1.2",
+  "exam": "ARE",
+  "division": "PjM",
+  "generated": "2026-11-24",
+  "itemStyle": "ncarb-v3-difficulty",
+  "references": [
+    {
+      "kind": "Reference book",
+      "citation": "The Architect's Handbook of Professional Practice (AIA), project management chapters",
+      "topic": "Staffing plans, earned value, project financial tracking. NCARB's primary PjM reference."
+    },
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 Article 4 (§4.2)",
+      "topic": "Out-of-scope work requires notice and, for many services, the owner's prior written authorization.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "Reference",
+      "citation": "ARE 5.0 Guidelines, PjM Common Case Study Resources",
+      "topic": "Staff labor rates, project budgets and cost estimates, design and construction schedules."
+    }
+  ],
+  "questions": [
+    {
+      "id": "PjM-1.2-q01",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "At the midpoint review for construction documents on a 40,000 sf laboratory, the project manager reports:\n\n- CD phase fee for the firm's services: $200,000\n- Fee spent to date: $130,000\n- Estimated percent complete: 50%\n\nIf the team continues at the same rate, what is the projected overrun for the phase?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "$30,000",
+          "explanation": "That's today's variance ($130,000 spent − $100,000 earned), not the projected overrun."
+        },
+        {
+          "id": "b",
+          "text": "$60,000",
+          "explanation": "Correct. At the current pace the phase will cost $260,000, which is $60,000 over budget.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "$70,000",
+          "explanation": "That's the remaining budget ($200,000 − $130,000), not an overrun."
+        },
+        {
+          "id": "d",
+          "text": "$130,000",
+          "explanation": "That's the amount spent, not the overrun."
+        }
+      ],
+      "explanation": "1. Projected cost = $130,000 ÷ 0.50 = $260,000\n2. Overrun = $260,000 − $200,000 = $60,000"
+    },
+    {
+      "id": "PjM-1.2-q02",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "For the same laboratory phase, the project manager wants a single index to report cost performance to the principal:\n\n- Phase budget: $200,000\n- Percent complete: 50%\n- Fee spent: $130,000\n\nWhat is the cost performance index?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "0.50",
+          "explanation": "That's the percent complete, not a cost index."
+        },
+        {
+          "id": "b",
+          "text": "0.65",
+          "explanation": "This divides the amount spent by the total budget."
+        },
+        {
+          "id": "c",
+          "text": "0.77",
+          "explanation": "Correct. Earned value $100,000 ÷ spent $130,000 = 0.77, below 1.0, so the phase is over budget.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "1.30",
+          "explanation": "This inverts the ratio (spent ÷ earned)."
+        }
+      ],
+      "explanation": "1. Earned value = 50% × $200,000 = $100,000\n2. CPI = earned ÷ spent = $100,000 ÷ $130,000 = 0.77"
+    },
+    {
+      "id": "PjM-1.2-q03",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "A project manager forecasts the remaining construction documents work on a fire station. The team estimates nine more weeks of work at the current staffing level, and the weekly cost of that staffing stays the same.\n\n- Remaining CD fee: $84,000\n- Team burn rate: $12,000 per week\n\nWhat shortfall should the project manager report?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "$12,000",
+          "explanation": "That's one week of burn, not the total shortfall."
+        },
+        {
+          "id": "b",
+          "text": "$24,000",
+          "explanation": "Correct. Nine weeks × $12,000 = $108,000, which is $24,000 more than the remaining fee.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "$84,000",
+          "explanation": "That's the remaining fee, not the shortfall."
+        },
+        {
+          "id": "d",
+          "text": "$108,000",
+          "explanation": "That's the cost of the remaining work, not the shortfall."
+        }
+      ],
+      "explanation": "1. Cost to finish = 9 × $12,000 = $108,000\n2. Shortfall = $108,000 − $84,000 = $24,000"
+    },
+    {
+      "id": "PjM-1.2-q04",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "To recover part of a fee overrun on a school project, the project manager plans to reassign 200 hours of door-hardware and finish-schedule work from the project architect to a designer, with the project architect reviewing the result.\n\n- Project architect billing rate: $150 per hour\n- Designer billing rate: $105 per hour\n\nHow much fee does the change free up, before review time?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "$4,500",
+          "explanation": "This takes only half of the rate difference."
+        },
+        {
+          "id": "b",
+          "text": "$9,000",
+          "explanation": "Correct. 200 hours × ($150 − $105) = $9,000.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "$21,000",
+          "explanation": "That's the designer's cost for the work, not the savings."
+        },
+        {
+          "id": "d",
+          "text": "$30,000",
+          "explanation": "That's the project architect's cost for the work, not the savings."
+        }
+      ],
+      "explanation": "Savings = hours × rate difference = 200 × $45 = $9,000. Budget some project architect review time against it."
+    },
+    {
+      "id": "PjM-1.2-q05",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "A project manager is building a staffing plan for a branch bank. The fee for the firm's own services is $420,000, allocated SD 15%, DD 20%, CD 40%, and bidding plus CA 25%. The firm plans with a blended billing rate of $140 per hour.\n\nHow many hours does the plan provide for construction documents?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "600 hours",
+          "explanation": "That's the design development allocation (20%)."
+        },
+        {
+          "id": "b",
+          "text": "1,200 hours",
+          "explanation": "Correct. 40% × $420,000 ÷ $140 = 1,200 hours.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "1,680 hours",
+          "explanation": "This divides the CD fee by $100 instead of the blended rate."
+        },
+        {
+          "id": "d",
+          "text": "3,000 hours",
+          "explanation": "That's the total hours for all phases."
+        }
+      ],
+      "explanation": "1. CD fee = 40% × $420,000 = $168,000\n2. Hours = $168,000 ÷ $140 = 1,200"
+    },
+    {
+      "id": "PjM-1.2-q06",
+      "type": "cata",
+      "cognitiveLevel": "A/E",
+      "stem": "At 60% completion of construction documents for a 120-unit housing project, the project manager finds that 75% of the CD fee has been spent. The client has asked for several layout studies the team has been absorbing, and two senior staff have been doing production tasks.\n\nWhich responses are appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Review hours by task to find where the overrun came from",
+          "explanation": "Correct. Diagnose before you act.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Submit additional-service requests for out-of-scope studies",
+          "explanation": "Correct. Requested out-of-scope work should be authorized and compensated.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Shift suitable production tasks to lower-rate staff",
+          "explanation": "Correct. Matching tasks to the right staff level recovers fee without cutting scope.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Cancel the planned quality-control review",
+          "explanation": "Skipping QC trades a small saving now for costly errors later."
+        },
+        {
+          "id": "e",
+          "text": "Bill the overrun to the client without notice",
+          "explanation": "Fees beyond the agreement require authorization. Surprise billing invites disputes."
+        },
+        {
+          "id": "f",
+          "text": "Add several staff immediately without a revised plan",
+          "explanation": "Adding people without a plan increases coordination load and may raise costs."
+        }
+      ],
+      "selectCount": 3,
+      "explanation": "Overruns: diagnose, separate scope growth from inefficiency, re-plan. Never cut QC."
+    },
+    {
+      "id": "PjM-1.2-q07",
+      "type": "cata",
+      "cognitiveLevel": "A/E",
+      "stem": "A firm is rolling out weekly project reports so project managers can catch problems early. The principal asks what each report should track for every active project.\n\nWhich data should the weekly reports track?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hours by staff member and task",
+          "explanation": "Correct. Task-level hours show where effort is going.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Percent complete by task, estimated by the PM",
+          "explanation": "Correct. Completion estimates let the PM calculate earned value.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Fee spent compared with the phase budget",
+          "explanation": "Correct. Spent versus budget shows the variance and supports forecasting.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Firm-wide marketing hours",
+          "explanation": "Marketing is overhead, not project performance."
+        },
+        {
+          "id": "e",
+          "text": "Number of drawing sheets printed",
+          "explanation": "Sheet output doesn't measure progress or cost reliably."
+        },
+        {
+          "id": "f",
+          "text": "Consultants' internal salary rates",
+          "explanation": "Consultants' internal costs aren't the architect's to track. Their fees are."
+        }
+      ],
+      "selectCount": 3,
+      "explanation": "Track hours, progress and fee against budget at task level."
+    },
+    {
+      "id": "PjM-1.2-q08",
+      "type": "cata",
+      "cognitiveLevel": "A/E",
+      "stem": "A new project manager is planning staffing for a 150,000 sf office building. The principal reviews the draft plan and comments that its staffing levels look the same in every phase.\n\nWhich staffing patterns are typical over a project's phases?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The team peaks during construction documents",
+          "explanation": "Correct. CDs require the most production hours.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "A smaller, specialized team handles construction administration",
+          "explanation": "Correct. CA needs submittal, RFI and field experience rather than a full production team.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Senior design involvement is heaviest in early phases",
+          "explanation": "Correct. Key design decisions happen in SD and DD.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "The largest team works during schematic design",
+          "explanation": "SD is usually a small, senior-heavy team."
+        },
+        {
+          "id": "e",
+          "text": "Staffing stays constant through all phases",
+          "explanation": "Workload changes a lot from phase to phase."
+        },
+        {
+          "id": "f",
+          "text": "The full CD team carries through construction",
+          "explanation": "CA's fee and tasks support a smaller team."
+        }
+      ],
+      "selectCount": 3,
+      "explanation": "Staffing curve: small SD, growing DD, peak CD, smaller specialized CA."
+    },
+    {
+      "id": "PjM-1.2-q09",
+      "type": "cata",
+      "cognitiveLevel": "A/E",
+      "stem": "A project architect is assigned to two projects whose deadlines now overlap. Her combined workload for the next six weeks is about 110% of her available hours, and both clients have firm submission dates. The project managers raise the issue with the studio principal.\n\nWhich actions are appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Shift suitable tasks to junior staff with her supervision",
+          "explanation": "Correct. Delegating appropriate tasks keeps her expertise where it matters.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Coordinate priorities across both projects with the principal",
+          "explanation": "Correct. Leadership should resolve competing demands on a key person.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Adjust milestone dates where a client allows",
+          "explanation": "Correct. Some milestones may have flexibility, and asking early preserves trust.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Have her work unlimited overtime",
+          "explanation": "Sustained overload invites errors and burnout."
+        },
+        {
+          "id": "e",
+          "text": "Reduce quality-control reviews on both projects",
+          "explanation": "Cutting QC shifts risk into the documents."
+        },
+        {
+          "id": "f",
+          "text": "Wait to tell the clients until a deadline is missed",
+          "explanation": "Late notice damages trust and removes options."
+        }
+      ],
+      "selectCount": 3,
+      "explanation": "Overloaded key staff: delegate with supervision, set priorities with leadership, communicate early."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "PjM-1.2-f01",
+      "front": "Fee earned",
+      "back": "% complete × phase fee."
+    },
+    {
+      "id": "PjM-1.2-f02",
+      "front": "Projected cost at completion",
+      "back": "Spent ÷ % complete (at the current pace)."
+    },
+    {
+      "id": "PjM-1.2-f03",
+      "front": "Cost performance index (CPI)",
+      "back": "Earned ÷ spent. Below 1.0 means over budget."
+    },
+    {
+      "id": "PjM-1.2-f04",
+      "front": "Burn rate",
+      "back": "Weekly spending (hours × rates). Use it to forecast when the fee runs out."
+    },
+    {
+      "id": "PjM-1.2-f05",
+      "front": "Hours a fee supports",
+      "back": "Fee ÷ blended billing rate."
+    },
+    {
+      "id": "PjM-1.2-f06",
+      "front": "Percent spent vs. percent complete",
+      "back": "Not the same. Estimate completion from the work remaining, task by task."
+    },
+    {
+      "id": "PjM-1.2-f07",
+      "front": "Staffing curve by phase",
+      "back": "Small SD → growing DD → peak CD → smaller specialized CA."
+    },
+    {
+      "id": "PjM-1.2-f08",
+      "front": "First response to an overrun",
+      "back": "Diagnose by task, then separate scope growth (additional services) from inefficiency."
+    },
+    {
+      "id": "PjM-1.2-f09",
+      "front": "Never cut to recover fee",
+      "back": "Quality-control reviews. Errors cost more later."
+    },
+    {
+      "id": "PjM-1.2-f10",
+      "front": "Savings from reassigning work",
+      "back": "Hours × (higher rate − lower rate), less any added review time."
+    },
+    {
+      "id": "PjM-1.2-f11",
+      "front": "Overloaded key staff",
+      "back": "Delegate with supervision, coordinate priorities with leadership, tell clients early. Overtime only briefly."
+    }
+  ]
+}

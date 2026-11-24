@@ -1,0 +1,390 @@
+{
+  "objectiveId": "PjM-5.4",
+  "exam": "ARE",
+  "division": "PjM",
+  "generated": "2026-11-24",
+  "itemStyle": "ncarb-v3-difficulty",
+  "references": [
+    {
+      "kind": "AIA",
+      "citation": "A201-2017 §3.4.2",
+      "topic": "Substitutions only with owner's consent after architect's evaluation, by change order or construction change directive.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 §3.2.2–§3.2.5",
+      "topic": "Architect's evaluation of program, schedule, budget; design alternatives including environmentally responsible design.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 Exhibit / E204-2017",
+      "topic": "Sustainable projects exhibit: sustainable objective, measures and documentation.",
+      "confidence": "medium",
+      "confidenceNote": "Per my knowledge of the 2017 AIA sustainable projects exhibit; confirm."
+    },
+    {
+      "kind": "Reference book",
+      "citation": "The Architect's Handbook of Professional Practice (AIA), design quality and value analysis",
+      "topic": "Basis of design, value analysis, goals tracking."
+    }
+  ],
+  "questions": [
+    {
+      "id": "PjM-5.4-q01",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "A school district's stated goals for a new high school are a 50-year building life, LEED Gold certification and daylit classrooms. The bids came in $500,000 over budget, and the CM has proposed the value-engineering items below. The district wants a recommendation that protects its goals.\n\n| Proposal | Savings | Effect |\n|---|---|---|\n| 1. EIFS in place of brick veneer | $420,000 | Lower durability, more maintenance |\n| 2. 40% less classroom window area | $260,000 | Less daylight |\n| 3. Standard-efficiency chillers | $310,000 | Higher energy use, LEED points at risk |\n| 4. Polished concrete in corridors in place of terrazzo | $180,000 | Similar durability and maintenance |\n\nWhich proposal is most consistent with the district's goals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Proposal 1",
+          "explanation": "EIFS saves the most but works against the 50-year durability goal."
+        },
+        {
+          "id": "b",
+          "text": "Proposal 2",
+          "explanation": "Less glazing works against the daylighting goal."
+        },
+        {
+          "id": "c",
+          "text": "Proposal 3",
+          "explanation": "Lower-efficiency chillers put LEED Gold at risk."
+        },
+        {
+          "id": "d",
+          "text": "Proposal 4",
+          "explanation": "Correct. Polished concrete saves cost with similar durability, and none of the stated goals is compromised.",
+          "correct": true
+        }
+      ],
+      "explanation": "Judge value engineering against the owner's stated objectives, not savings alone."
+    },
+    {
+      "id": "PjM-5.4-q02",
+      "type": "cata",
+      "cognitiveLevel": "A/E",
+      "stem": "During bidding for a museum, a bidder asks to substitute a different manufacturer's storefront system for the one specified. The bidder says it is \"equal and cheaper.\" The specifications allow substitution requests up to ten days before bids are due, and the request arrived on time with product literature.\n\nWhat should the architect evaluate before approving the substitution? Check the three that apply.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Performance data such as air, water and structural tests",
+          "explanation": "Correct. The substitute must meet the specified performance.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Effects on adjacent work, dimensions and details",
+          "explanation": "Correct. A different system may change openings, anchors or details.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Warranty and appearance compared with the specified product",
+          "explanation": "Correct. Equivalence includes the warranty and the design intent.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "The bidder's markup on the substitute",
+          "explanation": "Markup doesn't determine whether the product is equal."
+        },
+        {
+          "id": "e",
+          "text": "Price savings as the deciding factor",
+          "explanation": "A lower price doesn't make a product equal."
+        },
+        {
+          "id": "f",
+          "text": "The manufacturer's advertising claims",
+          "explanation": "Marketing claims aren't evidence of performance."
+        }
+      ],
+      "selectCount": 3,
+      "explanation": "Substitutions: evaluate performance, coordination, warranty and appearance, then approve by addendum if equal."
+    },
+    {
+      "id": "PjM-5.4-q03",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "The owner of a corporate office building set a goal of natural ventilation through operable windows, a key part of its sustainability plan and its pursuit of a certification credit. During construction documents, the owner's facilities manager asks to make all windows fixed to reduce maintenance and security concerns.\n\nHow should the architect respond?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Make the windows fixed, as the facilities manager asks",
+          "explanation": "Making the change without showing its effect on a stated goal undermines the owner's informed decision."
+        },
+        {
+          "id": "b",
+          "text": "Explain the effect on the goals and let the owner decide",
+          "explanation": "Correct. The owner decides, knowing the trade-offs, and the decision is recorded.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Refuse the change because it conflicts with the goals",
+          "explanation": "The architect advises, but the owner may change its goals."
+        },
+        {
+          "id": "d",
+          "text": "Keep the operable windows without telling the owner",
+          "explanation": "Ignoring the owner's request isn't appropriate."
+        }
+      ],
+      "explanation": "Changes that conflict with stated goals: show the effect, then let the owner decide and record it."
+    },
+    {
+      "id": "PjM-5.4-q04",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "During a site visit to a clinic, the architect finds that the contractor has installed a different brand of resilient flooring from the one specified, in two exam wings. No substitution request was submitted, and the architect had approved the specified product's submittal. The contractor says the installed product is \"just as good.\"\n\nWhat should the architect do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Accept the flooring if it looks similar",
+          "explanation": "A substitution needs evaluation and the owner's consent, not a visual match."
+        },
+        {
+          "id": "b",
+          "text": "Reject the flooring and notify both parties",
+          "explanation": "Correct. Unapproved substitutions don't conform to the documents and should be rejected.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Approve the substitution with a deductive change order",
+          "explanation": "Approving after the fact skips the required evaluation."
+        },
+        {
+          "id": "d",
+          "text": "Ask the owner to decide whether to keep it",
+          "explanation": "The architect first rejects the nonconforming work. The owner may later choose to accept it with an adjustment."
+        }
+      ],
+      "explanation": "Substitutions require the owner's consent after the architect's evaluation (A201 §3.4.2). Reject unapproved substitutions.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-5.4-q05",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "At the end of design development for an elementary school, the architect compares the design with the district's program. The district's program allows each space type to vary by up to ±5% from its programmed area. The summary of net areas is shown below.\n\n| Space type | Program (nsf) | Design (nsf) |\n|---|---|---|\n| Classrooms | 10,800 | 11,016 |\n| Library | 3,200 | 2,976 |\n| Gymnasium | 6,000 | 6,180 |\n| Administration | 1,800 | 1,764 |\n\nWhich space type is outside the program tolerance?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Classrooms",
+          "explanation": "Classrooms are 2% over, within tolerance."
+        },
+        {
+          "id": "b",
+          "text": "Library",
+          "explanation": "Correct. The library is 7% under program, outside ±5%.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Gymnasium",
+          "explanation": "The gymnasium is 3% over, within tolerance."
+        },
+        {
+          "id": "d",
+          "text": "Administration",
+          "explanation": "Administration is 2% under, within tolerance."
+        }
+      ],
+      "explanation": "1. Classrooms: 11,016 ÷ 10,800 = +2%\n2. Library: 2,976 ÷ 3,200 = −7%\n3. Gymnasium: 6,180 ÷ 6,000 = +3%\n4. Administration: 1,764 ÷ 1,800 = −2%\n5. Only the library is outside ±5%"
+    },
+    {
+      "id": "PjM-5.4-q06",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "Over a year of design for a new performing arts center, the owner's building committee has changed several times. New members keep questioning decisions made earlier, such as the hall's acoustic concept and the lobby's materials. The project manager wants a better way to test proposed changes against what the project is meant to achieve.\n\nWhich tool best serves this purpose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A basis of design approved by the owner",
+          "explanation": "Correct. A written basis of design, approved by the owner, gives a stable reference for testing changes.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "A complete set of design meeting recordings",
+          "explanation": "Recordings are hard to use and don't summarize objectives."
+        },
+        {
+          "id": "c",
+          "text": "A list of the architect's preferred materials",
+          "explanation": "Preferences aren't the owner's objectives."
+        },
+        {
+          "id": "d",
+          "text": "A detailed cost estimate updated monthly",
+          "explanation": "Cost is one objective, but it doesn't capture design and performance intent."
+        }
+      ],
+      "explanation": "Record the objectives and key decisions in a basis of design approved by the owner."
+    },
+    {
+      "id": "PjM-5.4-q07",
+      "type": "cata",
+      "cognitiveLevel": "A/E",
+      "stem": "A firm is writing the basis of design for a new research building at the start of design development, so the owner, consultants and future CM share one reference for the project's objectives. The owner has energy, acoustic and durability targets and a clear set of program priorities.\n\nWhich items should the basis of design contain? Check the three that apply.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Performance targets for energy and acoustics",
+          "explanation": "Correct. Measurable targets let the team test design choices.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Key materials and the aesthetic intent",
+          "explanation": "Correct. Recording the design intent helps protect it during VE and substitutions.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Program priorities and critical adjacencies",
+          "explanation": "Correct. Priorities guide trade-off decisions.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "The contractor's means and methods",
+          "explanation": "Construction means and methods belong to the contractor."
+        },
+        {
+          "id": "e",
+          "text": "The architect's staff billing rates",
+          "explanation": "Billing rates are part of the agreement, not the design objectives."
+        },
+        {
+          "id": "f",
+          "text": "The owner's financing terms",
+          "explanation": "Financing is the owner's matter, not a design objective."
+        }
+      ],
+      "selectCount": 3,
+      "explanation": "Basis of design: performance targets, design intent and program priorities."
+    },
+    {
+      "id": "PjM-5.4-q08",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "On a CMc project for a university building, the CM's GMP is $600,000 over the target. The CM proposes reducing the curtain wall's thermal performance specification. The owner's energy model shows the building would then miss its energy target, and the mechanical engineer warns of condensation risk at the mullions in winter.\n\nWhat should the architect recommend?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Accept the reduction to meet the GMP target",
+          "explanation": "Accepting it compromises a stated goal and adds condensation risk."
+        },
+        {
+          "id": "b",
+          "text": "Present the trade-offs and other savings options",
+          "explanation": "Correct. The owner needs the trade-offs and alternatives to make an informed choice.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Require the CM to absorb the $600,000 overage",
+          "explanation": "The CM's GMP reflects its pricing, and the architect can't require it to absorb the cost."
+        },
+        {
+          "id": "d",
+          "text": "Reduce the specification without telling the owner",
+          "explanation": "Changing performance without the owner's knowledge isn't acceptable."
+        }
+      ],
+      "explanation": "Under GMP pressure, present the trade-offs and alternatives. The owner decides."
+    },
+    {
+      "id": "PjM-5.4-q09",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "At 50% construction documents, the architect for a corporate headquarters updates the project goals matrix it reviews with the owner at each milestone. The CD phase can't proceed past 75% until any goal that is off target has a plan for getting back on track.\n\n| Goal | Target | Current status |\n|---|---|---|\n| Energy use intensity | 35 kBtu/sf/yr | 41 kBtu/sf/yr (model) |\n| Daylit regularly occupied area | 75% | 78% |\n| Construction cost | $62.0M | $61.4M (estimate) |\n| Program area | 180,000 gsf ±3% | 182,500 gsf |\n\nWhich goal needs a corrective plan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Energy use intensity",
+          "explanation": "Correct. The modeled EUI is about 17% above the target.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Daylit regularly occupied area",
+          "explanation": "Daylight exceeds its target."
+        },
+        {
+          "id": "c",
+          "text": "Construction cost",
+          "explanation": "The estimate is under the budget."
+        },
+        {
+          "id": "d",
+          "text": "Program area",
+          "explanation": "182,500 gsf is about 1.4% over, within ±3%."
+        }
+      ],
+      "explanation": "Track every objective against its target at each milestone, and act on the ones off target."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "PjM-5.4-f01",
+      "front": "Design objectives",
+      "back": "Program, budget, performance targets (energy, daylight, acoustics, durability, certification), and design intent."
+    },
+    {
+      "id": "PjM-5.4-f02",
+      "front": "Basis of design",
+      "back": "A written, owner-approved record of objectives and key decisions. The reference for testing changes."
+    },
+    {
+      "id": "PjM-5.4-f03",
+      "front": "Judging a VE proposal",
+      "back": "Does it cut first cost without hurting a stated objective? If not, it's scope reduction the owner must accept knowingly."
+    },
+    {
+      "id": "PjM-5.4-f04",
+      "front": "Owner change that conflicts with a goal",
+      "back": "Show the effect on the goal. The owner decides, and the decision is recorded."
+    },
+    {
+      "id": "PjM-5.4-f05",
+      "front": "Substitution during bidding",
+      "back": "Evaluate performance, coordination, warranty and appearance. Approve by addendum if equal."
+    },
+    {
+      "id": "PjM-5.4-f06",
+      "front": "Substitution during construction",
+      "back": "Only with the owner's consent after the architect evaluates it, by CO or CCD (A201 §3.4.2).",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-5.4-f07",
+      "front": "Unapproved substitution installed",
+      "back": "Reject it as nonconforming. The owner may later accept it with an adjustment."
+    },
+    {
+      "id": "PjM-5.4-f08",
+      "front": "Program check",
+      "back": "Compare design areas with the program each phase, against an agreed tolerance."
+    },
+    {
+      "id": "PjM-5.4-f09",
+      "front": "Goals matrix",
+      "back": "Each objective's target and status, reviewed at every milestone."
+    },
+    {
+      "id": "PjM-5.4-f10",
+      "front": "GMP over target",
+      "back": "Present the trade-offs and alternatives. Don't quietly downgrade performance."
+    }
+  ]
+}

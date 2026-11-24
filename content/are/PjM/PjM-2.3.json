@@ -1,0 +1,370 @@
+{
+  "objectiveId": "PjM-2.3",
+  "exam": "ARE",
+  "division": "PjM",
+  "generated": "2026-11-24",
+  "itemStyle": "ncarb-v3-difficulty",
+  "references": [
+    {
+      "kind": "AIA",
+      "citation": "A201-2017 §4.2.4",
+      "topic": "Communications: through the architect for consultants, the contractor for subcontractors, the owner for separate contractors.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 §3.1.1",
+      "topic": "Architect manages its services, attends meetings, communicates with the project team and reports progress to the owner.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 Article 5 (owner's designated representative)",
+      "topic": "Owner designates a representative authorized to act on the owner's behalf.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "Reference",
+      "citation": "ARE 5.0 Guidelines, PjM objective 2.3 description",
+      "topic": "Agendas, meeting minutes, emails, memos."
+    }
+  ],
+  "questions": [
+    {
+      "id": "PjM-2.3-q01",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "An architect chairs biweekly owner–architect–contractor meetings for a hospital renovation and distributes minutes within two days. The minutes state that corrections must be received within five days. Three days after the latest minutes went out, the contractor emails that item 4.2 records the wrong due date for the elevator submittal. The architect's notes confirm the contractor is right.\n\nWhat should the architect do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reply to the contractor confirming the corrected date",
+          "explanation": "A private reply leaves the other recipients with the wrong record."
+        },
+        {
+          "id": "b",
+          "text": "Record the correction in the next meeting's minutes",
+          "explanation": "Correct. The correction goes into the official record that everyone receives.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Leave the minutes as issued since they were distributed",
+          "explanation": "The correction came within the correction period, and the record is wrong."
+        },
+        {
+          "id": "d",
+          "text": "Ask the owner to decide whether the minutes are accurate",
+          "explanation": "The architect keeps the minutes and can correct them from its own notes."
+        }
+      ],
+      "explanation": "Correct minutes in the official record, distributed to everyone."
+    },
+    {
+      "id": "PjM-2.3-q02",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "During construction of a performing arts center, the mechanical subcontractor's project manager calls the architect's MEP engineer directly. The subcontractor wants to know whether a duct can be rerouted around a beam. The engineer asks the architect how to handle the call, because the contractor isn't aware of it.\n\nHow should the question be handled?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The engineer answers the subcontractor directly to avoid delay",
+          "explanation": "Direct answers bypass the contractor and the architect, so the documents and the record fall out of step."
+        },
+        {
+          "id": "b",
+          "text": "The subcontractor submits it through the contractor as an RFI",
+          "explanation": "Correct. Subcontractor communications go through the contractor, and consultant communications through the architect.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "The owner relays the question to the engineer",
+          "explanation": "The owner isn't the channel for subcontractor questions."
+        },
+        {
+          "id": "d",
+          "text": "The engineer meets the subcontractor on site to resolve it",
+          "explanation": "Field meetings without the contractor and architect bypass the contract channels."
+        }
+      ],
+      "explanation": "A201 channels: subcontractor → contractor → architect → consultant.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-2.3-q03",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "During a site walk at a corporate office project, the owner's representative tells the architect that the lobby wall tile should be changed to a different color from the same product line. The contractor's superintendent overhears and says the crew can make the change next week. The change doesn't affect the contract sum or time.\n\nWhat should the architect do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tell the superintendent to proceed based on the owner's word",
+          "explanation": "Verbal direction isn't a contract change and leaves no record."
+        },
+        {
+          "id": "b",
+          "text": "Confirm the change in writing and issue it as a minor change",
+          "explanation": "Correct. Confirming in writing and issuing the proper document (here a minor change, such as an ASI) records the decision and authorizes the work.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Wait until the next meeting to record it in the minutes",
+          "explanation": "Minutes record the decision, but they don't authorize the work. Waiting may also delay the crew."
+        },
+        {
+          "id": "d",
+          "text": "Ask the contractor to confirm the change by email to the owner",
+          "explanation": "The architect, not the contractor, documents changes to the work."
+        }
+      ],
+      "explanation": "Verbal direction: confirm in writing and issue the proper change document.",
+      "confidence": "medium",
+      "confidenceNote": "Under A201-2017 §7.4 the architect may order minor changes not involving adjustment of contract sum or time; confirm in your copy."
+    },
+    {
+      "id": "PjM-2.3-q04",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "At the 50% design development meeting for a research building, the owner's team must approve the mechanical system type and the exterior wall system so the consultants can continue. At the last meeting, no decisions were made because the owner's facilities staff saw the options for the first time at the table.\n\nWhich approach to the next agenda best supports getting the decisions?",
+      "options": [
+        {
+          "id": "a",
+          "text": "List the decisions needed and send background in advance",
+          "explanation": "Correct. Attendees can review the options beforehand and arrive ready to decide.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "List topics in the order of the drawing set",
+          "explanation": "Organizing by the drawing set doesn't make clear what must be decided."
+        },
+        {
+          "id": "c",
+          "text": "Send the full DD set the morning of the meeting",
+          "explanation": "A full set that morning can't be reviewed in time."
+        },
+        {
+          "id": "d",
+          "text": "Limit attendance to the principal and the owner's representative",
+          "explanation": "Leaving out facilities staff may delay decisions they need to inform."
+        }
+      ],
+      "explanation": "Agendas should identify the decisions needed and come with background in advance."
+    },
+    {
+      "id": "PjM-2.3-q05",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "A principal reviews draft minutes from an owner–architect meeting on a medical office building and returns them to the project manager, saying they won't help anyone follow through. The excerpt is below.\n\n| Item | Discussion |\n|---|---|\n| 3.1 Roof equipment screening | Owner prefers metal screen; cost to be checked. |\n| 3.2 Parking count | Zoning reviewer questioned the count; options discussed. |\n| 3.3 Door hardware | Owner's security staff to comment on access control. |\n\nWhich revision best improves these minutes?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Add a responsible party and due date to each item",
+          "explanation": "Correct. Action items need an owner and a deadline so they get done and can be tracked.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Add a verbatim record of the discussion",
+          "explanation": "Transcripts bury the decisions and actions."
+        },
+        {
+          "id": "c",
+          "text": "Remove the items that were not resolved",
+          "explanation": "Open issues must stay in the minutes until they're closed."
+        },
+        {
+          "id": "d",
+          "text": "Limit distribution to the attendees who spoke at the meeting",
+          "explanation": "Minutes go to all attendees and the agreed distribution list."
+        }
+      ],
+      "explanation": "Minutes record decisions and action items: who and when."
+    },
+    {
+      "id": "PjM-2.3-q06",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "During design development of a credit union branch, the owner adds a drive-through lane and a second vault. The architect's updated estimate shows construction cost will exceed the owner's budget by 9%, and the redesign will add three weeks. The next scheduled owner meeting is in four weeks.\n\nHow should the architect communicate this?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Raise it verbally at the next monthly meeting",
+          "explanation": "Four weeks of delay lets more design proceed on the wrong basis, and leaves no written record."
+        },
+        {
+          "id": "b",
+          "text": "Send a memo with the cost and schedule impacts and options",
+          "explanation": "Correct. A written memo documents the impacts and options, so the owner can decide promptly. A discussion can follow.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Note the change with revision clouds on the next drawing issue",
+          "explanation": "Clouds show what changed but don't explain the cost and schedule impacts."
+        },
+        {
+          "id": "d",
+          "text": "Wait for the full estimate at the end of DD",
+          "explanation": "Holding back a known budget problem limits the owner's options."
+        }
+      ],
+      "explanation": "Impacts on cost, schedule or scope get a prompt written memo with options."
+    },
+    {
+      "id": "PjM-2.3-q07",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "At the end of construction documents for a fire station, the owner says it never received the 95% CD set for review, and that the project's two-week slip is the architect's fault. The architect's project manager remembers posting the set to a shared folder and mentioning it in a phone call.\n\nWhich practice would have best prevented this dispute?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A transmittal listing the contents and date sent",
+          "explanation": "Correct. A transmittal records what was sent, to whom and when.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Saving the files on the firm's server",
+          "explanation": "Saving files internally doesn't show the owner received them."
+        },
+        {
+          "id": "c",
+          "text": "Telling the owner by phone that the set is ready",
+          "explanation": "A phone call leaves no record."
+        },
+        {
+          "id": "d",
+          "text": "Bringing the set to the next scheduled meeting",
+          "explanation": "This delays delivery and still leaves no record."
+        }
+      ],
+      "explanation": "Use transmittals to record what was delivered and when."
+    },
+    {
+      "id": "PjM-2.3-q08",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "During bidding for a public library, a general contractor's estimator calls the architect. The estimator says a wall section and the specifications disagree about the insulation thickness, and asks which one governs. Bids are due in nine days, and the bidding documents allow addenda up to five days before the bid date.\n\nHow should the architect respond?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Answer the caller by phone and note it in the file",
+          "explanation": "A private answer gives one bidder information the others don't have."
+        },
+        {
+          "id": "b",
+          "text": "Issue the clarification by addendum to all bidders",
+          "explanation": "Correct. Every bidder must get the same information, so the answer goes in an addendum.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Tell the caller to include a contingency in the bid",
+          "explanation": "This leaves the conflict unresolved and invites uneven bids."
+        },
+        {
+          "id": "d",
+          "text": "Refer the caller to the owner for an answer",
+          "explanation": "Interpreting the documents during bidding is the architect's role."
+        }
+      ],
+      "explanation": "Bidder questions: answer by addendum to all bidders."
+    },
+    {
+      "id": "PjM-2.3-q09",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "During design development for a corporate headquarters, the owner made dozens of decisions in weekly meetings. Several were later reversed by other members of the owner's team, and each reversal caused redesign. The architect's PM wants to reduce disputes over what was decided as the project moves into construction documents.\n\nWhich practice is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Keep a decision log and get written approval at phase end",
+          "explanation": "Correct. A log puts decisions in one place, and the owner's written approval at the end of the phase confirms them.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Record all meetings on video for future reference",
+          "explanation": "Recordings are hard to use and don't confirm who had authority."
+        },
+        {
+          "id": "c",
+          "text": "Limit owner decisions to formal presentations at the end of each phase",
+          "explanation": "Design needs decisions throughout the phase, not only at the end."
+        },
+        {
+          "id": "d",
+          "text": "Rely on the meeting minutes alone",
+          "explanation": "Minutes help, but decisions spread across dozens of minutes are hard to confirm."
+        }
+      ],
+      "explanation": "Decision log plus written owner approval at each phase."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "PjM-2.3-f01",
+      "front": "Communication plan contents",
+      "back": "Points of contact and decision authority, channels, meeting frequency, distribution lists."
+    },
+    {
+      "id": "PjM-2.3-f02",
+      "front": "A good agenda",
+      "back": "Decisions needed, background sent in advance, the right attendees."
+    },
+    {
+      "id": "PjM-2.3-f03",
+      "front": "Minutes should record…",
+      "back": "Decisions, action items (who and when) and open issues. Not a transcript."
+    },
+    {
+      "id": "PjM-2.3-f04",
+      "front": "Correcting minutes",
+      "back": "Record the correction in the next minutes, distributed to everyone."
+    },
+    {
+      "id": "PjM-2.3-f05",
+      "front": "When to use a memo or letter",
+      "back": "Decisions, cost/schedule/scope impacts, recommendations, anything needing a formal record."
+    },
+    {
+      "id": "PjM-2.3-f06",
+      "front": "Transmittal",
+      "back": "Records what was sent, to whom and when. Prevents receipt disputes."
+    },
+    {
+      "id": "PjM-2.3-f07",
+      "front": "Verbal owner direction",
+      "back": "Confirm in writing, then issue the proper document (ASI, CCD or change order)."
+    },
+    {
+      "id": "PjM-2.3-f08",
+      "front": "A201 communication channels",
+      "back": "Consultants through the architect; subcontractors through the contractor; separate contractors through the owner (§4.2.4).",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-2.3-f09",
+      "front": "Bidder question about the documents",
+      "back": "Answer by addendum to all bidders."
+    },
+    {
+      "id": "PjM-2.3-f10",
+      "front": "Decision log",
+      "back": "All owner decisions in one place, confirmed by the owner's written approval at the end of each phase."
+    },
+    {
+      "id": "PjM-2.3-f11",
+      "front": "Email on a project",
+      "back": "Good for quick coordination. File it by project, and confirm decisions formally."
+    }
+  ]
+}

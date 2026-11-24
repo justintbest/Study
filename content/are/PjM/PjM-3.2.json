@@ -1,0 +1,422 @@
+{
+  "objectiveId": "PjM-3.2",
+  "exam": "ARE",
+  "division": "PjM",
+  "generated": "2026-11-24",
+  "itemStyle": "ncarb-v3-difficulty",
+  "references": [
+    {
+      "kind": "AIA",
+      "citation": "C401-2017 Article 1 (relationship to the prime agreement)",
+      "topic": "Consultant assumes toward the architect the architect's obligations to the owner, to the extent applicable; architect provides relevant prime-agreement terms.",
+      "confidence": "medium",
+      "confidenceNote": "Flow-down structure per my knowledge of C401-2017; confirm wording and numbering."
+    },
+    {
+      "kind": "AIA",
+      "citation": "C401-2017 Articles 2–4 and 11",
+      "topic": "Consultant's responsibilities, insurance, scope, additional services and compensation/payment terms.",
+      "confidence": "medium",
+      "confidenceNote": "Article numbering not verified; confirm in your copy."
+    },
+    {
+      "kind": "AIA",
+      "citation": "C401-2017 Article 9 (termination)",
+      "topic": "Termination when the prime agreement is terminated; consultant compensation on termination.",
+      "confidence": "medium",
+      "confidenceNote": "Article numbering not verified; confirm in your copy."
+    },
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 §11.4",
+      "topic": "Additional services of the architect's consultants are compensated at a multiple of the amounts billed to the architect.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    }
+  ],
+  "questions": [
+    {
+      "id": "PjM-3.2-q01",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "An architect's prime agreement for a hospital expansion requires each of the architect's consultants to carry professional liability insurance of $2,000,000 per claim and to make two site visits a month during construction. The MEP engineer's proposed C401 shows $1,000,000 of coverage and site visits only on request.\n\nWhat should the architect do before signing the C401?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sign it and cover the gap with the architect's own policy",
+          "explanation": "The architect's policy may not respond the way the owner expects, and the consultant should carry its own required coverage."
+        },
+        {
+          "id": "b",
+          "text": "Require coverage and site visits that match the prime agreement",
+          "explanation": "Correct. Consultant terms should mirror what the architect promised the owner.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Ask the owner to waive the insurance requirement for the MEP engineer",
+          "explanation": "Changing the prime agreement isn't the first step when the consultant can meet it."
+        },
+        {
+          "id": "d",
+          "text": "Sign it and resolve the site visits during construction",
+          "explanation": "Leaving CA duties unresolved creates a gap in what the architect promised."
+        }
+      ],
+      "explanation": "Flow-down: the consultant's duties and insurance must match the prime agreement."
+    },
+    {
+      "id": "PjM-3.2-q02",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "A structural engineer is reviewing the architect's proposed C401 for a new performing arts center. The engineer asks why the C401 refers to the owner–architect agreement and asks for a copy, because the engineer has no contract with the owner. The architect is reluctant to share the agreement's compensation terms.\n\nWhat is the best explanation for the reference?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It aligns the engineer's duties with the architect's",
+          "explanation": "Correct. C401 flows the prime agreement's applicable obligations down to the consultant.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "It gives the owner a direct contract with the engineer",
+          "explanation": "The owner and the engineer have no contract with each other."
+        },
+        {
+          "id": "c",
+          "text": "It entitles the engineer to the architect's fee terms",
+          "explanation": "Sharing the relevant terms doesn't entitle the consultant to the architect's compensation."
+        },
+        {
+          "id": "d",
+          "text": "It makes the owner responsible for paying the engineer",
+          "explanation": "Payment flows from the architect to the consultant under C401."
+        }
+      ],
+      "explanation": "C401 ties the consultant's obligations to the relevant terms of the prime agreement.",
+      "confidence": "medium",
+      "confidenceNote": "Flow-down per my knowledge of C401-2017."
+    },
+    {
+      "id": "PjM-3.2-q03",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "During design development of a distribution center, the owner asks the architect to add a 20,000 sf cold-storage wing. The MEP engineer says the wing will need about $36,000 of additional engineering. The engineer is ready to start immediately because the owner wants the revised DD set in four weeks.\n\nWhat should the architect do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tell the engineer to proceed and settle the fee later",
+          "explanation": "Authorizing consultant work before the owner does leaves the architect exposed if the owner doesn't approve it."
+        },
+        {
+          "id": "b",
+          "text": "Get owner authorization, then authorize the engineer",
+          "explanation": "Correct. The owner authorizes the additional service, including the consultant's fee, and then the architect authorizes the consultant in writing.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Have the engineer bill the owner directly for the wing",
+          "explanation": "The consultant's contract is with the architect, not the owner."
+        },
+        {
+          "id": "d",
+          "text": "Absorb the engineer's fee within the architect's basic fee",
+          "explanation": "A new wing is an additional service and should be compensated."
+        }
+      ],
+      "explanation": "Additional services: owner authorization first, then written authorization to the consultant."
+    },
+    {
+      "id": "PjM-3.2-q04",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "An architect's C401 with its civil engineer provides that the architect pays the consultant within 10 days after receiving the owner's payment for the consultant's services, in proportion to the amount the owner paid. This month the civil engineer invoiced $24,000. The owner paid 75% of the amount billed for the civil engineer's services and disputes the rest.\n\nHow much should the architect pay the civil engineer?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "$6,000",
+          "explanation": "That's the disputed amount, not the amount paid."
+        },
+        {
+          "id": "b",
+          "text": "$16,200",
+          "explanation": "This also deducts 10% retainage, which the agreement doesn't call for."
+        },
+        {
+          "id": "c",
+          "text": "$18,000",
+          "explanation": "Correct. 75% × $24,000 = $18,000, paid within 10 days of receipt.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "$24,000",
+          "explanation": "Under these terms, payment is tied to what the owner paid for the consultant's services."
+        }
+      ],
+      "explanation": "1. Owner paid 75% of the civil engineer's billing\n2. Architect pays 75% × $24,000 = $18,000",
+      "confidence": "medium",
+      "confidenceNote": "Payment-timing terms are filled in by the parties; confirm C401-2017's default structure in your copy."
+    },
+    {
+      "id": "PjM-3.2-q05",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "The owner of a 12-story office building learns that the structural engineer's drawings omitted a transfer beam, and fixing it will cost $85,000 in construction. The owner says it will pursue the structural engineer, because the engineer prepared and sealed those drawings.\n\nWho is responsible to the owner for the omission?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The structural engineer, under its contract with the owner",
+          "explanation": "The engineer's contract is with the architect, not the owner."
+        },
+        {
+          "id": "b",
+          "text": "The architect, under the owner–architect agreement",
+          "explanation": "Correct. The owner contracts with the architect, who is responsible for its consultants' services. The architect can then look to the engineer under the C401.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "The contractor, who built from the drawings",
+          "explanation": "The contractor isn't responsible for design errors it didn't create."
+        },
+        {
+          "id": "d",
+          "text": "The owner, who approved the construction documents",
+          "explanation": "Approving the documents doesn't shift design responsibility to the owner."
+        }
+      ],
+      "explanation": "The architect is responsible to the owner for its consultants' work."
+    },
+    {
+      "id": "PjM-3.2-q06",
+      "type": "cata",
+      "cognitiveLevel": "U/A",
+      "stem": "An architect is preparing the C401 scope exhibit for the mechanical engineer on a new laboratory. On the last project, the firm and the engineer disagreed about what the engineer had agreed to do during construction, and the architect had to perform several tasks itself.\n\nWhich items should the scope exhibit define? Check the three that apply.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The number of site visits during construction",
+          "explanation": "Correct. CA site visits should be stated so they match the prime agreement.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "The deliverables required at each design phase",
+          "explanation": "Correct. Phase deliverables define the scope and the schedule.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Submittal reviews for the mechanical systems",
+          "explanation": "Correct. Submittal review duties in the discipline should be stated.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "The engineer's internal staff salaries",
+          "explanation": "Internal salaries are the consultant's business, not scope."
+        },
+        {
+          "id": "e",
+          "text": "The contractor's installation sequence",
+          "explanation": "Sequencing is the contractor's means and methods."
+        },
+        {
+          "id": "f",
+          "text": "The owner's financing arrangements",
+          "explanation": "Financing is the owner's matter and isn't part of consultant scope."
+        }
+      ],
+      "selectCount": 3,
+      "explanation": "Define consultant scope by phase, including CA duties."
+    },
+    {
+      "id": "PjM-3.2-q07",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "After a successful first building at a corporate campus, the owner plans an identical second building on another site and asks the architect for the MEP engineer's drawings so another firm can adapt them. Under the agreements, the architect and its consultants own their instruments of service and grant licenses for the original project only.\n\nWhat should the architect tell the owner?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The owner may reuse the drawings, since it paid for them",
+          "explanation": "Paying for services grants a license for the original project, not ownership."
+        },
+        {
+          "id": "b",
+          "text": "Reuse requires an agreement with the architect and the engineer",
+          "explanation": "Correct. Using the documents for another project needs a new license, typically with compensation.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Reuse is allowed if the new firm seals the drawings",
+          "explanation": "Sealing doesn't grant rights to someone else's instruments of service."
+        },
+        {
+          "id": "d",
+          "text": "Only the engineer must agree, since the drawings are mechanical",
+          "explanation": "The license passes through the architect's agreement, so the architect is also involved."
+        }
+      ],
+      "explanation": "Instruments of service are licensed for the project. Reuse needs a new agreement.",
+      "confidence": "medium",
+      "confidenceNote": "License and ownership per B101-2017 Art. 7 and C401-2017; confirm numbering."
+    },
+    {
+      "id": "PjM-3.2-q08",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "During construction documents for a retail center, the owner terminates its agreement with the architect for convenience. The architect has C401 agreements with four consultants, each partway through its CD work. The consultants ask what happens to their contracts and fees.\n\nWhat should the architect do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Keep the consultants working until the owner pays in full",
+          "explanation": "Continuing after termination adds cost the owner won't pay for."
+        },
+        {
+          "id": "b",
+          "text": "Terminate the C401s and pay under their terms",
+          "explanation": "Correct. C401 lets the architect terminate when the prime agreement ends, with the consultants paid under its terms.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Assign the consultants' contracts to the owner automatically",
+          "explanation": "Assignment needs agreement. It doesn't happen automatically."
+        },
+        {
+          "id": "d",
+          "text": "Tell the consultants to bill the owner directly",
+          "explanation": "The consultants have no contract with the owner."
+        }
+      ],
+      "explanation": "When the prime agreement ends, the architect terminates the consultants under C401.",
+      "confidence": "medium",
+      "confidenceNote": "C401-2017 termination provisions per my knowledge; confirm in your copy."
+    },
+    {
+      "id": "PjM-3.2-q09",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "The architect's approved schedule for a 150-unit apartment building requires 100% construction documents to go to the owner on May 30. The structural engineer's proposed C401 schedule shows its 100% documents due on June 13. The architect usually allows two weeks to coordinate and check consultant drawings before issuing a set.\n\nWhich structural milestone should the architect require?",
+      "options": [
+        {
+          "id": "a",
+          "text": "May 30, the same day as the owner's deadline",
+          "explanation": "That leaves no time to coordinate and check before issue."
+        },
+        {
+          "id": "b",
+          "text": "May 16, two weeks before the owner's deadline",
+          "explanation": "Correct. Consultant milestones should come before the architect's, with time for coordination and review.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "June 13, as the engineer proposes",
+          "explanation": "Two weeks after the owner's deadline would make the architect late."
+        },
+        {
+          "id": "d",
+          "text": "Whenever the engineer is able to complete them",
+          "explanation": "An open-ended milestone can't support a fixed owner deadline."
+        }
+      ],
+      "explanation": "Consultant milestones come before the architect's, with time to coordinate."
+    },
+    {
+      "id": "PjM-3.2-q10",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "The owner of a new corporate headquarters wants its MEP systems to guarantee a specific energy use intensity, and asks the architect to require the MEP engineer to warrant the result in the C401. The prime agreement doesn't contain such a guarantee, and the engineer's insurer excludes warranties.\n\nHow should the architect address the request?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Add the warranty to the C401 as the owner requests",
+          "explanation": "An uninsurable warranty creates risk the prime agreement doesn't require."
+        },
+        {
+          "id": "b",
+          "text": "Set energy targets within the standard of care",
+          "explanation": "Correct. Design targets and modeling within the normal standard of care meet the goal without an uninsured guarantee.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Have the architect alone guarantee the energy result",
+          "explanation": "The architect would take on an uninsured guarantee itself."
+        },
+        {
+          "id": "d",
+          "text": "Refuse to discuss energy performance with the owner",
+          "explanation": "The owner's goal is legitimate. The issue is how the risk is allocated."
+        }
+      ],
+      "explanation": "Hold consultants to the standard of care. Avoid uninsured guarantees the prime agreement doesn't require."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "PjM-3.2-f01",
+      "front": "C401-2017",
+      "back": "The architect–consultant agreement. It flows the prime agreement's applicable duties down to the consultant."
+    },
+    {
+      "id": "PjM-3.2-f02",
+      "front": "Flow-down",
+      "back": "The consultant assumes toward the architect the obligations the architect assumed toward the owner, to the extent they apply.",
+      "confidence": "medium",
+      "confidenceNote": "Per my knowledge of C401-2017."
+    },
+    {
+      "id": "PjM-3.2-f03",
+      "front": "Owner and consultant",
+      "back": "No contract between them. The architect is responsible to the owner for its consultants."
+    },
+    {
+      "id": "PjM-3.2-f04",
+      "front": "Consultant insurance",
+      "back": "At least what the prime agreement requires."
+    },
+    {
+      "id": "PjM-3.2-f05",
+      "front": "Consultant schedule",
+      "back": "Milestones before the architect's deadlines, with time to coordinate and check."
+    },
+    {
+      "id": "PjM-3.2-f06",
+      "front": "Consultant additional services",
+      "back": "Owner's written authorization first, then the architect authorizes the consultant in writing."
+    },
+    {
+      "id": "PjM-3.2-f07",
+      "front": "C401 scope exhibit",
+      "back": "Deliverables by phase plus CA duties: site visits, submittal reviews, punch lists."
+    },
+    {
+      "id": "PjM-3.2-f08",
+      "front": "Consultant's standard of care",
+      "back": "The ordinary skill and care of the discipline. No guarantees the prime agreement doesn't require."
+    },
+    {
+      "id": "PjM-3.2-f09",
+      "front": "Reusing consultant drawings",
+      "back": "Licensed for the original project only. Reuse needs agreement with the architect and the consultant."
+    },
+    {
+      "id": "PjM-3.2-f10",
+      "front": "Owner terminates the prime agreement",
+      "back": "The architect terminates the consultants under C401 and pays them under its terms.",
+      "confidence": "medium",
+      "confidenceNote": "Per my knowledge of C401-2017."
+    },
+    {
+      "id": "PjM-3.2-f11",
+      "front": "Paying consultants",
+      "back": "Per the C401 terms, often tied to when the owner pays the architect for the consultant's services."
+    }
+  ]
+}

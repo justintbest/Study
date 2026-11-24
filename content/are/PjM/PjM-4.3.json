@@ -1,0 +1,454 @@
+{
+  "objectiveId": "PjM-4.3",
+  "exam": "ARE",
+  "division": "PjM",
+  "generated": "2026-11-24",
+  "itemStyle": "ncarb-v3-difficulty",
+  "references": [
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 §3.4–§3.5; §4.1.1",
+      "topic": "CD phase deliverables, procurement documents; supplemental services incl. conformed documents, record drawings, multiple bid packages.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "AIA",
+      "citation": "A201-2017 §3.11; §3.12.10",
+      "topic": "Documents and samples at the site (as-built markups); delegated design by contractor's licensed professional.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "AIA",
+      "citation": "A201-2017 §3.8",
+      "topic": "Allowances.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "AIA",
+      "citation": "E203-2013 / G202-2013",
+      "topic": "BIM and digital data exhibit; project BIM protocol (levels of development).",
+      "confidence": "medium",
+      "confidenceNote": "Edition years per my knowledge; confirm."
+    },
+    {
+      "kind": "Reference",
+      "citation": "CSI Project Delivery Practice Guide; MasterFormat",
+      "topic": "Specification types and organization of the project manual."
+    }
+  ],
+  "questions": [
+    {
+      "id": "PjM-4.3-q01",
+      "type": "cata",
+      "cognitiveLevel": "A/E",
+      "stem": "A county has hired a construction manager as constructor for a 120,000 sf justice center. The CM will set a guaranteed maximum price at the end of design development. The county also wants site work and foundations to start three months before the rest of the construction documents are finished.\n\nWhich documentation should the architect plan for? Check the three that apply.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A GMP set of DD drawings and outline specifications",
+          "explanation": "Correct. The CM prices the GMP from the DD-level set.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Review of the CM's assumptions and clarifications list",
+          "explanation": "Correct. The assumptions define what the GMP includes and must be reconciled with the documents.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "An early-release site and foundation package",
+          "explanation": "Correct. The early start needs its own package, completed and permitted first.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "A complete hard-bid set before the CM is engaged",
+          "explanation": "CMc engages the CM during design. A full hard-bid set isn't the basis."
+        },
+        {
+          "id": "e",
+          "text": "Instructions to bidders for general contractors",
+          "explanation": "The CM is already selected, so no general contractors bid."
+        },
+        {
+          "id": "f",
+          "text": "Record drawings issued with the GMP",
+          "explanation": "Record drawings come after construction."
+        }
+      ],
+      "selectCount": 3,
+      "explanation": "CMc: GMP set, reconciled assumptions, early-release packages."
+    },
+    {
+      "id": "PjM-4.3-q02",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "A university plans to procure a new laboratory building through design-build. It has hired an architect as its bridging consultant to prepare the documents the design-builders will propose against. The university wants to control the program and quality but also wants competitive, innovative proposals.\n\nHow far should the bridging documents be developed?",
+      "options": [
+        {
+          "id": "a",
+          "text": "To full construction documents, so proposals are comparable",
+          "explanation": "Fully detailed documents remove the design-builder's role and shift design responsibility to the owner."
+        },
+        {
+          "id": "b",
+          "text": "Enough to define program, concept and performance",
+          "explanation": "Correct. Bridging documents define what the owner requires and leave the detailed design to the design-builder.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Only a one-page program summary",
+          "explanation": "Too little definition produces proposals that can't be compared and invites quality disputes."
+        },
+        {
+          "id": "d",
+          "text": "To the same level as a DBB bid set, without specifications",
+          "explanation": "A bid-set level of drawings has the same over-detailing problem."
+        }
+      ],
+      "explanation": "Bridging documents: program, concept and performance criteria, often about 30% design."
+    },
+    {
+      "id": "PjM-4.3-q03",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "For a design-build data center procured with bridging documents, the owner requires the cooling system to hold specific temperature and humidity ranges, with stated redundancy and a minimum efficiency. The owner doesn't want to dictate the equipment, and the design-builder's engineer will design the system.\n\nWhich type of specification should the bridging architect use for the cooling system?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Proprietary, naming the preferred manufacturer",
+          "explanation": "Naming products limits the design-builder's choices."
+        },
+        {
+          "id": "b",
+          "text": "Descriptive, defining components and installation",
+          "explanation": "Describing components dictates the design the owner wants to leave open."
+        },
+        {
+          "id": "c",
+          "text": "Performance, defining the required results",
+          "explanation": "Correct. Performance specifications state the required results and leave the design to the design-builder.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Reference standard, citing an industry test method",
+          "explanation": "Citing a standard alone doesn't define the owner's performance requirements."
+        }
+      ],
+      "explanation": "Design-build and delegated design use performance specifications."
+    },
+    {
+      "id": "PjM-4.3-q04",
+      "type": "cata",
+      "cognitiveLevel": "A/E",
+      "stem": "A school district is building a high school as a fast-track project, with three separately bid prime contracts: site and utilities, building shell, and interiors and MEP. On a past project like this, gaps between contracts led to several disputes over who furnished temporary power and who patched slabs after MEP rough-in.\n\nWhich documentation practices would best prevent these disputes? Check the three that apply.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A written scope description for each package",
+          "explanation": "Correct. Narrative scopes define each contract's responsibilities.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Drawings that show the limits of each package",
+          "explanation": "Correct. Graphic limits show where each contract starts and stops.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "A responsibility list for shared and interface items",
+          "explanation": "Correct. Shared items such as temporary power and patching need assigned owners.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "One combined specification with no package divisions",
+          "explanation": "A combined spec doesn't define what each prime contractor includes."
+        },
+        {
+          "id": "e",
+          "text": "Leaving interface items to the contractors to resolve",
+          "explanation": "Unassigned items become disputes and change orders."
+        },
+        {
+          "id": "f",
+          "text": "Issuing all packages at the same time",
+          "explanation": "Fast-tracking staggers the packages, and timing doesn't fix scope gaps."
+        }
+      ],
+      "selectCount": 3,
+      "explanation": "Multiple prime packages need defined scopes, graphic limits and assigned interface items."
+    },
+    {
+      "id": "PjM-4.3-q05",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "Construction documents for a performing arts center are complete and will be bid as a stipulated sum. The owner hasn't yet chosen its audiovisual and theatrical lighting equipment, and is still weighing two very different systems. It expects to decide within four months, well after the construction contract is awarded.\n\nHow should the bid documents handle the equipment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Include an allowance for the equipment",
+          "explanation": "Correct. An allowance carries a set amount in the bids for a decision that isn't final, and the contract sum is adjusted later.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Leave the equipment out and add it later by change order",
+          "explanation": "Leaving known scope out makes bids incomplete and invites premium pricing later."
+        },
+        {
+          "id": "c",
+          "text": "Specify one system now, to be confirmed later",
+          "explanation": "Specifying a system the owner may not choose invites a costly change."
+        },
+        {
+          "id": "d",
+          "text": "Ask each bidder to propose its own system",
+          "explanation": "Bidder-chosen systems make the bids impossible to compare."
+        }
+      ],
+      "explanation": "Use allowances for owner decisions that aren't final in a DBB bid set.",
+      "confidence": "medium",
+      "confidenceNote": "Allowance mechanics per A201-2017 §3.8."
+    },
+    {
+      "id": "PjM-4.3-q06",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "Bidding for a county office building produced six addenda that changed 40 drawing sheets and 12 specification sections. After award, the contractor asks for a single set of documents with all the addenda folded in, so its field staff and subcontractors work from one set. The owner agrees this would help.\n\nWhich deliverable is being requested?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Record drawings",
+          "explanation": "Record drawings document construction as built, after the work."
+        },
+        {
+          "id": "b",
+          "text": "Conformed documents",
+          "explanation": "Correct. Conformed documents incorporate the addenda into the contract set. B101 lists them as a supplemental service.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Shop drawings",
+          "explanation": "Shop drawings are prepared by the contractor for fabrication and installation."
+        },
+        {
+          "id": "d",
+          "text": "As-designed record drawings",
+          "explanation": "These document the design, not the bid addenda."
+        }
+      ],
+      "explanation": "Conformed set = bid documents + addenda, for construction.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-4.3-q07",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "At the end of construction of a hospital wing, the owner asks the architect for a set of drawings showing the final locations of concealed piping and duct changes made during construction. The architect's agreement includes record drawings as a supplemental service. The contractor kept marked-up drawings at the site throughout construction.\n\nHow should the architect prepare the record drawings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Survey the concealed work and certify its locations",
+          "explanation": "The architect can't verify concealed conditions and shouldn't certify them."
+        },
+        {
+          "id": "b",
+          "text": "Base them on the contractor's marked-up drawings",
+          "explanation": "Correct. Record drawings compile the changes the contractor reported in its as-built markups.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Reissue the construction documents unchanged",
+          "explanation": "That doesn't show the changes made during construction."
+        },
+        {
+          "id": "d",
+          "text": "Base them on the approved shop drawings",
+          "explanation": "Shop drawings show proposed work, not necessarily what was installed."
+        }
+      ],
+      "explanation": "Record drawings are based on the contractor's as-built markups and aren't verified by the architect.",
+      "confidence": "medium",
+      "confidenceNote": "Per A201-2017 §3.11 and B101 supplemental services list."
+    },
+    {
+      "id": "PjM-4.3-q08",
+      "type": "cata",
+      "cognitiveLevel": "A/E",
+      "stem": "During construction of a corporate office, the architect will issue several revision bulletins with revised drawing sheets. On the firm's last project, the contractor priced a change from an outdated sheet, and the owner and contractor argued about which version was current.\n\nWhich practices would help avoid a repeat of that problem? Check the three that apply.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Revision clouds and deltas on revised sheets",
+          "explanation": "Correct. They show exactly what changed.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Updated issue dates in each title block's log",
+          "explanation": "Correct. The issue log shows which version is current.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Transmittals listing the revised sheets",
+          "explanation": "Correct. They record what was issued, to whom and when.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Replacing sheets without marking the changes",
+          "explanation": "Unmarked changes are easy to miss and hard to price."
+        },
+        {
+          "id": "e",
+          "text": "Describing changes only in email text",
+          "explanation": "Email alone doesn't revise the contract documents."
+        },
+        {
+          "id": "f",
+          "text": "Reissuing the full set for every minor change",
+          "explanation": "Full reissues hide the few sheets that changed."
+        }
+      ],
+      "selectCount": 3,
+      "explanation": "Revisions: clouds and deltas, title-block log, transmittals."
+    },
+    {
+      "id": "PjM-4.3-q09",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "For a new museum, the architect wants the contractor's engineer to design the feature stair's steel stringers and connections. The architect will define the stair's geometry and finishes. The specifications must make clear what the contractor's engineer is responsible for and what the architect will review.\n\nWhat should the architect's documents provide for the stair?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Complete structural calculations for the stair",
+          "explanation": "Providing full calculations defeats the purpose of delegating the design."
+        },
+        {
+          "id": "b",
+          "text": "Performance and design criteria for the stair",
+          "explanation": "Correct. The documents state the criteria. The contractor's licensed engineer designs and seals the work, and the architect reviews it for conformance with the design concept.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "A note that the contractor is responsible for the stair",
+          "explanation": "A note without criteria leaves the requirements undefined."
+        },
+        {
+          "id": "d",
+          "text": "A manufacturer's catalog number for a stock stair",
+          "explanation": "A stock product doesn't meet a custom feature-stair design."
+        }
+      ],
+      "explanation": "Delegated design: state performance and design criteria. The contractor's professional seals the design.",
+      "confidence": "medium",
+      "confidenceNote": "A201-2017 §3.12.10; confirm in your copy."
+    },
+    {
+      "id": "PjM-4.3-q10",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "An owner, architect and contractor have signed an integrated project delivery agreement for a medical center. The team will share building information models, and the owner wants to know what the models will contain at each milestone, so the contractor can rely on them for estimating at the right times.\n\nWhat should define model content at each milestone?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Level-of-development definitions in the BIM plan",
+          "explanation": "Correct. LOD definitions set what each model element must contain, and how reliable it is, at each milestone.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "The architect's standard CAD layer conventions",
+          "explanation": "Layer standards organize files but don't define content or reliability."
+        },
+        {
+          "id": "c",
+          "text": "The software vendor's default model templates",
+          "explanation": "Vendor templates don't reflect the team's agreed deliverables."
+        },
+        {
+          "id": "d",
+          "text": "The contractor's estimating software requirements",
+          "explanation": "The contractor's needs are one input. The agreed plan governs."
+        }
+      ],
+      "explanation": "IPD/BIM: levels of development in the BIM execution plan define model content by milestone.",
+      "confidence": "medium",
+      "confidenceNote": "AIA E203/G202 BIM documents; confirm editions."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "PjM-4.3-f01",
+      "front": "DBB documentation",
+      "back": "Complete CDs and project manual, priceable as a fixed sum. Allowances and alternates for open decisions."
+    },
+    {
+      "id": "PjM-4.3-f02",
+      "front": "CMc documentation",
+      "back": "GMP set (often DD), reconciled assumptions and clarifications, early-release packages."
+    },
+    {
+      "id": "PjM-4.3-f03",
+      "front": "Bridging documents",
+      "back": "Program, concept and performance criteria (often about 30% design). Detailed design is left to the design-builder."
+    },
+    {
+      "id": "PjM-4.3-f04",
+      "front": "Performance specification",
+      "back": "States the required results and criteria. Used in design-build and delegated design."
+    },
+    {
+      "id": "PjM-4.3-f05",
+      "front": "Multiple prime packages",
+      "back": "Written scope for each package, graphic limits, responsibility list for interface items."
+    },
+    {
+      "id": "PjM-4.3-f06",
+      "front": "Allowance",
+      "back": "A set amount in the bid for an owner decision that isn't final. The contract sum is adjusted later."
+    },
+    {
+      "id": "PjM-4.3-f07",
+      "front": "Conformed documents",
+      "back": "The bid set with addenda incorporated, for construction (B101 supplemental service).",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-4.3-f08",
+      "front": "Record drawings",
+      "back": "Compiled from the contractor's as-built markups. Not verified by the architect."
+    },
+    {
+      "id": "PjM-4.3-f09",
+      "front": "Tracking revisions",
+      "back": "Clouds and deltas, title-block issue log, transmittals listing the revised sheets."
+    },
+    {
+      "id": "PjM-4.3-f10",
+      "front": "Delegated design",
+      "back": "The documents state the criteria. The contractor's licensed professional designs and seals. The architect reviews for design concept (A201 §3.12.10).",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-4.3-f11",
+      "front": "IPD model content",
+      "back": "Level of development (LOD) for each milestone, in the BIM execution plan."
+    }
+  ]
+}

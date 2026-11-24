@@ -1,0 +1,392 @@
+{
+  "objectiveId": "PjM-2.1",
+  "exam": "ARE",
+  "division": "PjM",
+  "generated": "2026-11-24",
+  "itemStyle": "ncarb-v3-difficulty",
+  "references": [
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 §3.1.3",
+      "topic": "Architect submits a schedule of services for owner approval, with allowances for owner review, owner's consultants and agency approvals.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "Reference book",
+      "citation": "The Architect's Handbook of Professional Practice (AIA), project scheduling",
+      "topic": "Work plans, WBS, Gantt and CPM scheduling."
+    },
+    {
+      "kind": "Reference",
+      "citation": "ARE 5.0 Guidelines, PjM objective 2.1 description",
+      "topic": "Work plan including deliverables, Gantt chart, critical path method."
+    }
+  ],
+  "questions": [
+    {
+      "id": "PjM-2.1-q01",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "A project manager is preparing the design schedule for a 60,000 sf middle school. The district has asked for the shortest realistic design duration so it can plan its bond sale. All relationships are finish-to-start, and the project is complete when both F and G are finished.\n\n| Activity | Duration (weeks) | Predecessor |\n|---|---|---|\n| A. Confirm program | 2 | — |\n| B. Schematic design | 6 | A |\n| C. Geotechnical investigation | 4 | A |\n| D. Owner review of SD | 2 | B |\n| E. Design development | 8 | C, D |\n| F. Update cost estimate | 2 | E |\n| G. Construction documents | 12 | E |\n\nWhat is the shortest duration for the design work?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "26 weeks",
+          "explanation": "That's the path through the geotechnical investigation (A–C–E–G). It's shorter, so it isn't critical."
+        },
+        {
+          "id": "b",
+          "text": "30 weeks",
+          "explanation": "Correct. A–B–D–E–G = 2 + 6 + 2 + 8 + 12 = 30 weeks is the longest path.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "32 weeks",
+          "explanation": "This adds F in series with G. F runs in parallel with G after E."
+        },
+        {
+          "id": "d",
+          "text": "36 weeks",
+          "explanation": "This adds every activity in sequence and ignores the parallel paths."
+        }
+      ],
+      "explanation": "1. A–B–D–E–G = 2 + 6 + 2 + 8 + 12 = 30 weeks\n2. A–C–E–G = 2 + 4 + 8 + 12 = 26 weeks\n3. E–F (2) is shorter than E–G (12)\n4. Critical path = 30 weeks"
+    },
+    {
+      "id": "PjM-2.1-q02",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "The owner of a 60,000 sf middle school will furnish the geotechnical report. Its consultant has asked how much the investigation can slip before the design schedule is affected. All relationships are finish-to-start, and the project is complete when both F and G are finished.\n\n| Activity | Duration (weeks) | Predecessor |\n|---|---|---|\n| A. Confirm program | 2 | — |\n| B. Schematic design | 6 | A |\n| C. Geotechnical investigation | 4 | A |\n| D. Owner review of SD | 2 | B |\n| E. Design development | 8 | C, D |\n| F. Update cost estimate | 2 | E |\n| G. Construction documents | 12 | E |\n\nHow much total float does activity C have?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "0 weeks",
+          "explanation": "C isn't on the critical path, so it has float."
+        },
+        {
+          "id": "b",
+          "text": "2 weeks",
+          "explanation": "That's the duration of the owner's SD review, not C's float."
+        },
+        {
+          "id": "c",
+          "text": "4 weeks",
+          "explanation": "Correct. E can't start until week 10. C can finish as early as week 6.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "6 weeks",
+          "explanation": "That's C's early finish, not its float."
+        }
+      ],
+      "explanation": "1. E starts at the later of D's finish (2 + 6 + 2 = 10) and C's finish (2 + 4 = 6) → week 10\n2. Float of C = 10 − 6 = 4 weeks"
+    },
+    {
+      "id": "PjM-2.1-q03",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "A medical office building is in design development. The owner has learned that its lease in another building ends six weeks earlier than planned and asks the architect to bring the move-in date forward. The program can't change. The owner has already engaged a construction manager as constructor, who can start site work as soon as a permit for that work is issued.\n\nWhich approach should the architect recommend?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Issue an early site and foundation package",
+          "explanation": "Correct. Fast-tracking an early package overlaps design and construction, which a CMc can use. Its risk is redesign if later decisions change the foundations.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Double the staff assigned to construction documents",
+          "explanation": "Adding staff (crashing) gives limited gains and adds coordination load."
+        },
+        {
+          "id": "c",
+          "text": "Remove the owner's review of the DD documents",
+          "explanation": "Owner reviews protect the owner's decisions. Removing them shifts risk, not time."
+        },
+        {
+          "id": "d",
+          "text": "Shorten the building department's review period",
+          "explanation": "The architect doesn't control agency review time."
+        }
+      ],
+      "explanation": "Fast-tracking overlaps phases. It suits CMc delivery but adds redesign risk."
+    },
+    {
+      "id": "PjM-2.1-q04",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "On a research laboratory, eleven consultants deliver work in an order that depends on each other's information. For example, the lab-planning consultant's equipment list drives the MEP loads. The owner wants to know which consultant deliverables would delay construction documents if they were late.\n\nWhich scheduling tool best answers that question?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A milestone list of phase completion dates",
+          "explanation": "Milestones show dates but no durations or dependencies."
+        },
+        {
+          "id": "b",
+          "text": "A Gantt chart of each consultant's design tasks",
+          "explanation": "Bar charts show timing but usually not the logic between tasks."
+        },
+        {
+          "id": "c",
+          "text": "A CPM network of the consultant deliverables",
+          "explanation": "Correct. CPM shows dependencies and float, so it identifies the deliverables on the critical path.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "A staffing histogram of hours by week",
+          "explanation": "A histogram shows resource loading, not schedule logic."
+        }
+      ],
+      "explanation": "Use CPM when you need to know which tasks drive the finish date."
+    },
+    {
+      "id": "PjM-2.1-q05",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "The project manager for a fire station tracks consultant deliverables in a CPM schedule. The table shows three deliverables and their total float. The structural engineer now reports that the foundation design will be 6 working days late because of a revised geotechnical recommendation. The other deliverables are on time.\n\n| Deliverable | Total float (working days) |\n|---|---|\n| Civil grading plan | 10 |\n| Foundation design | 4 |\n| Lighting fixture schedule | 15 |\n\nHow will this delay affect the project's completion?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "No delay to completion",
+          "explanation": "The delay is longer than the 4 days of float."
+        },
+        {
+          "id": "b",
+          "text": "2 working days of delay",
+          "explanation": "Correct. 6 days late − 4 days of float = 2 days of delay to completion.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "4 working days of delay",
+          "explanation": "That's the float, not the resulting delay."
+        },
+        {
+          "id": "d",
+          "text": "6 working days of delay",
+          "explanation": "This ignores the float."
+        }
+      ],
+      "explanation": "1. Delay = 6 days\n2. Float = 4 days\n3. Effect on completion = 6 − 4 = 2 days"
+    },
+    {
+      "id": "PjM-2.1-q06",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "A firm has just signed an agreement for a 30,000 sf corporate training center. The principal asks the new project manager to prepare the project work plan before the kickoff meeting next week, so staff can start on schematic design.\n\nWhat should the work plan be based on first?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The fee split used on the firm's last similar project",
+          "explanation": "Past projects help with estimating but don't define this project's scope."
+        },
+        {
+          "id": "b",
+          "text": "The scope of services and deliverables in the agreement",
+          "explanation": "Correct. The work plan breaks down the services and deliverables the firm has agreed to provide.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "The schedules the consultants proposed for their own work",
+          "explanation": "Consultant schedules have to fit the plan, not drive it."
+        },
+        {
+          "id": "d",
+          "text": "The contractor's anticipated construction sequence",
+          "explanation": "No contractor is engaged yet, and construction sequencing doesn't define design tasks."
+        }
+      ],
+      "explanation": "A work plan starts from the agreement: services, deliverables, milestones."
+    },
+    {
+      "id": "PjM-2.1-q07",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "An architect's approved design schedule for a branch library shows the following. Construction can start only after the building permit is issued and the construction contract is awarded.\n\n- SD complete: end of week 8\n- Owner review of SD: 2 weeks\n- Design development: 10 weeks\n- Owner review of DD: 2 weeks\n- Construction documents: 14 weeks\n- Permit review: 8 weeks, starting when CDs are complete\n- Bidding: 5 weeks, then 2 weeks to award, also starting when CDs are complete\n\nIn which week can construction start?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Week 36",
+          "explanation": "That's when CDs are complete."
+        },
+        {
+          "id": "b",
+          "text": "Week 43",
+          "explanation": "This uses the bidding-and-award path (7 weeks), which is shorter than the permit review."
+        },
+        {
+          "id": "c",
+          "text": "Week 44",
+          "explanation": "Correct. CDs are complete in week 36, and the longer of the two parallel paths is the 8-week permit review.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Week 51",
+          "explanation": "This runs permitting and bidding in sequence. They run at the same time."
+        }
+      ],
+      "explanation": "1. CDs complete = 8 + 2 + 10 + 2 + 14 = week 36\n2. Permit path = 8 weeks; bid and award path = 5 + 2 = 7 weeks\n3. Start = 36 + 8 = week 44"
+    },
+    {
+      "id": "PjM-2.1-q08",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "The owner of a 45-unit senior housing project took four weeks to review the design development documents. The schedule the owner approved allowed two weeks. The architect's CD phase is now forecast to finish two weeks later than the approved schedule shows. The owner hasn't asked about the schedule.\n\nWhat should the architect do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Compress the CD phase to hold the original milestones",
+          "explanation": "Compressing without discussion adds cost and risk, and it hides the owner's delay."
+        },
+        {
+          "id": "b",
+          "text": "Update the schedule and notify the owner in writing",
+          "explanation": "Correct. The owner needs to see the effect of the delay, and the record supports any later adjustment.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Invoice the owner now for two weeks of extended services",
+          "explanation": "Extended services may be compensable later, but they must first be identified and agreed under the agreement."
+        },
+        {
+          "id": "d",
+          "text": "Keep the original dates until the next phase review",
+          "explanation": "Waiting hides a known slip and limits the owner's options."
+        }
+      ],
+      "explanation": "Owner delays: update the schedule, show the impact, notify in writing."
+    },
+    {
+      "id": "PjM-2.1-q09",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "On a clinic, architectural design development is scheduled for 10 weeks. The MEP engineer's DD work takes 9 weeks and can start 3 weeks after architectural DD starts, once the room layouts are stable. Construction documents can start only when both architectural and MEP DD are complete.\n\nHow many weeks after the start of architectural DD can construction documents begin?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "10 weeks",
+          "explanation": "This is when architectural DD finishes, but MEP DD isn't done yet."
+        },
+        {
+          "id": "b",
+          "text": "12 weeks",
+          "explanation": "Correct. MEP DD runs from week 3 to week 12, which is later than the architectural finish at week 10.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "19 weeks",
+          "explanation": "This runs the MEP work after architectural DD. They overlap with a 3-week lag."
+        },
+        {
+          "id": "d",
+          "text": "22 weeks",
+          "explanation": "This adds the lag and the MEP duration after the architectural finish."
+        }
+      ],
+      "explanation": "1. Architectural DD: weeks 0–10\n2. MEP DD: starts week 3, finishes 3 + 9 = week 12\n3. CDs start at the later finish = week 12"
+    },
+    {
+      "id": "PjM-2.1-q10",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "Midway through construction documents for a parking structure, the project manager updates the CPM schedule every week. A new staff member suggests replacing the original dates in the file with the current forecast dates, so there is just one clean set of dates to work from.\n\nHow should the project manager respond?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Accept the change and archive the old file monthly",
+          "explanation": "An archived file isn't a working baseline. Variances become hard to track."
+        },
+        {
+          "id": "b",
+          "text": "Keep the baseline and track forecasts against it",
+          "explanation": "Correct. A baseline shows what slipped, when, and why, which supports owner discussions and any claim for extended services.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Reset the baseline whenever a milestone slips",
+          "explanation": "Resetting constantly erases the history the baseline exists to keep."
+        },
+        {
+          "id": "d",
+          "text": "Remove completed tasks to keep the file short",
+          "explanation": "Completed tasks show actual performance and support future estimates."
+        }
+      ],
+      "explanation": "Keep the baseline. Update forecasts against it."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "PjM-2.1-f01",
+      "front": "Starting point for a work plan",
+      "back": "The services, deliverables and milestones in the agreement, broken down into a WBS."
+    },
+    {
+      "id": "PjM-2.1-f02",
+      "front": "B101 schedule of services",
+      "back": "Submitted for the owner's approval early. It includes time for owner reviews, the owner's consultants and agency approvals (§3.1.3).",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-2.1-f03",
+      "front": "Critical path",
+      "back": "The longest-duration path through the network. It sets the shortest project duration and has zero float."
+    },
+    {
+      "id": "PjM-2.1-f04",
+      "front": "Total float",
+      "back": "Latest start − earliest start. How long a task can slip without delaying the finish."
+    },
+    {
+      "id": "PjM-2.1-f05",
+      "front": "A delay of D on a task with float F",
+      "back": "The project slips max(0, D − F)."
+    },
+    {
+      "id": "PjM-2.1-f06",
+      "front": "Gantt vs. CPM",
+      "back": "Gantt: timing at a glance, little logic. CPM: dependencies, critical path, float."
+    },
+    {
+      "id": "PjM-2.1-f07",
+      "front": "Start-to-start with lag",
+      "back": "B starts a set time after A starts. Its finish = A's start + lag + B's duration."
+    },
+    {
+      "id": "PjM-2.1-f08",
+      "front": "Fast-tracking",
+      "back": "Overlapping sequential work (e.g., early packages under a CMc). Big time savings, with redesign risk."
+    },
+    {
+      "id": "PjM-2.1-f09",
+      "front": "Crashing",
+      "back": "Adding resources to critical tasks. It costs more and returns diminish."
+    },
+    {
+      "id": "PjM-2.1-f10",
+      "front": "Baseline schedule",
+      "back": "The approved plan, kept unchanged so progress and slips can be measured against it."
+    },
+    {
+      "id": "PjM-2.1-f11",
+      "front": "Owner delay to the schedule",
+      "back": "Update the schedule, show the impact, notify the owner in writing. Extended services may be compensable."
+    }
+  ]
+}

@@ -1,0 +1,387 @@
+{
+  "objectiveId": "PjM-4.1",
+  "exam": "ARE",
+  "division": "PjM",
+  "generated": "2026-11-24",
+  "itemStyle": "ncarb-v3-difficulty",
+  "references": [
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 Article 6 (§6.1–§6.5)",
+      "topic": "Cost of the Work definition, owner's budget, architect's estimates, recommendations when an estimate exceeds the budget.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "Reference book",
+      "citation": "The Architect's Handbook of Professional Practice (AIA), construction cost management",
+      "topic": "Estimating by phase, contingencies, escalation, value analysis."
+    },
+    {
+      "kind": "Reference",
+      "citation": "ARE 5.0 Guidelines, PjM Common Case Study Resources",
+      "topic": "Project budgets and cost estimates."
+    }
+  ],
+  "questions": [
+    {
+      "id": "PjM-4.1-q01",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "The architect for a regional library has received an updated design development estimate of $10,000,000 in today's dollars. The owner's schedule shows construction starting 12 months from now and lasting 12 months. The cost consultant recommends escalating at a simple rate of 4% per year to the midpoint of construction before the estimate is compared with the owner's construction budget.\n\nWhat escalated cost should the architect report?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "$10,400,000",
+          "explanation": "This escalates only to the start of construction (12 months)."
+        },
+        {
+          "id": "b",
+          "text": "$10,600,000",
+          "explanation": "Correct. The midpoint is 18 months away: $10,000,000 × (1 + 0.04 × 1.5).",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "$10,800,000",
+          "explanation": "This escalates to the end of construction (24 months)."
+        },
+        {
+          "id": "d",
+          "text": "$11,200,000",
+          "explanation": "This applies 4% for each of three years."
+        }
+      ],
+      "explanation": "1. Midpoint of construction = 12 + 12 ÷ 2 = 18 months = 1.5 years\n2. Escalation = 4% × 1.5 = 6%\n3. Escalated cost = $10,000,000 × 1.06 = $10,600,000"
+    },
+    {
+      "id": "PjM-4.1-q02",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "At the end of design development for a medical office building, the architect compares the estimate with the owner's $8,500,000 construction budget. The cost consultant's summary is below. The owner wants to know whether the project is on budget before authorizing construction documents.\n\n| Item | Value |\n|---|---|\n| Estimated cost of the documented scope | $7,500,000 |\n| Design contingency | 10% |\n| Escalation to midpoint of construction | 4% |\n\nHow does the estimate compare with the budget?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "$700,000 under budget",
+          "explanation": "This applies escalation but leaves out the design contingency."
+        },
+        {
+          "id": "b",
+          "text": "$250,000 under budget",
+          "explanation": "This applies the contingency but leaves out escalation."
+        },
+        {
+          "id": "c",
+          "text": "$50,000 over budget",
+          "explanation": "This adds the two percentages (14%) instead of applying them in sequence."
+        },
+        {
+          "id": "d",
+          "text": "$80,000 over budget",
+          "explanation": "Correct. $7,500,000 × 1.10 × 1.04 = $8,580,000, which is $80,000 over.",
+          "correct": true
+        }
+      ],
+      "explanation": "1. With contingency = $7,500,000 × 1.10 = $8,250,000\n2. With escalation = $8,250,000 × 1.04 = $8,580,000\n3. Variance = $8,580,000 − $8,500,000 = $80,000 over"
+    },
+    {
+      "id": "PjM-4.1-q03",
+      "type": "cata",
+      "cognitiveLevel": "A/E",
+      "stem": "The updated estimate at 50% design development for a 64,000 sf high school addition is 7% over the owner's construction budget. The district has said the budget can't increase, and it wants the gymnasium and science labs kept as programmed. The architect is preparing recommendations for the next owner meeting.\n\nWhich recommendations are appropriate? Check the three that apply.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reduce area in lower-priority program spaces",
+          "explanation": "Correct. Scope reductions in lower-priority spaces respect the district's priorities.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Do a value analysis of building systems and materials",
+          "explanation": "Correct. Value analysis finds lower-cost options that still meet performance needs.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Add deductive alternates to the bid documents",
+          "explanation": "Correct. Alternates let the owner adjust scope based on actual bids.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Eliminate the design contingency from the estimate",
+          "explanation": "Removing contingency hides risk without lowering cost."
+        },
+        {
+          "id": "e",
+          "text": "Proceed with CDs unchanged and rely on bids",
+          "explanation": "Waiting for bids gives up the chance to fix the problem during design."
+        },
+        {
+          "id": "f",
+          "text": "Lower the escalation rate to match the budget",
+          "explanation": "Changing assumptions to hit a number doesn't change actual cost."
+        }
+      ],
+      "selectCount": 3,
+      "explanation": "§6.5: when the estimate exceeds the budget, recommend changes to size, quality or budget.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-4.1-q04",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "A nonprofit has a total project budget of $12,000,000 for a new community health center, and it asks the architect how much of that is available for construction. Its finance consultant lists the other project costs below. Fees and the owner's contingency are calculated as percentages of the construction cost.\n\n| Project cost | Amount |\n|---|---|\n| Land | $1,500,000 |\n| FF&E | $600,000 |\n| Permits and testing | $200,000 |\n| Design and consultant fees | 9% of construction |\n| Owner's contingency | 5% of construction |\n\nWhat is the maximum construction cost?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "$8,342,000",
+          "explanation": "This takes 14% of the $9,700,000 remainder instead of dividing by 1.14."
+        },
+        {
+          "id": "b",
+          "text": "$8,509,000",
+          "explanation": "Correct. ($12,000,000 − $2,300,000) ÷ 1.14 = $8,509,000.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "$9,700,000",
+          "explanation": "This leaves out the percentage-based fees and contingency."
+        },
+        {
+          "id": "d",
+          "text": "$9,825,000",
+          "explanation": "This leaves out the land cost."
+        }
+      ],
+      "explanation": "1. Fixed costs = $1,500,000 + $600,000 + $200,000 = $2,300,000\n2. Remaining = $12,000,000 − $2,300,000 = $9,700,000\n3. Construction × 1.14 = $9,700,000\n4. Construction = $8,509,000"
+    },
+    {
+      "id": "PjM-4.1-q05",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "Schematic design is complete for an elementary school. The documents include floor plans, building sections, massing studies and an outline narrative of the structural and mechanical systems. No details or specifications exist yet. The school board asks the architect to explain the estimating method, because a board member expects a detailed takeoff.\n\nWhich estimating method best suits this phase?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Quantity takeoff with unit prices",
+          "explanation": "A takeoff needs quantities from detailed documents that don't exist yet."
+        },
+        {
+          "id": "b",
+          "text": "Systems or assemblies estimate",
+          "explanation": "Assemblies estimates suit DD, once the systems are defined."
+        },
+        {
+          "id": "c",
+          "text": "Cost per square foot from comparable schools",
+          "explanation": "Correct. At SD, area-based costs from similar projects fit the information available.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Prices solicited from local contractors",
+          "explanation": "Contractor pricing needs documents that can be priced, and it isn't the architect's estimate."
+        }
+      ],
+      "explanation": "SD estimates use area-based (cost/sf) methods. DD uses assemblies. CD uses quantity takeoff."
+    },
+    {
+      "id": "PjM-4.1-q06",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "The lowest bid for a county recreation center is $6,450,000 against a $6,200,000 construction budget. The bid includes three deductive alternates. The county wants to keep as much scope as possible and accept only the alternates needed to bring the contract within budget.\n\n| Alternate | Deduct |\n|---|---|\n| 1. Entry canopy | $120,000 |\n| 2. Upgraded flooring | $90,000 |\n| 3. Photovoltaic array | $180,000 |\n\nWhich alternates should the architect recommend accepting?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Alternates 1 and 2",
+          "explanation": "These deduct $210,000, leaving the bid $40,000 over budget."
+        },
+        {
+          "id": "b",
+          "text": "Alternates 2 and 3",
+          "explanation": "Correct. They deduct $270,000, the smallest deduction that brings the bid ($6,180,000) within budget.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Alternates 1 and 3",
+          "explanation": "These meet the budget but deduct $300,000, more scope than needed."
+        },
+        {
+          "id": "d",
+          "text": "All three alternates",
+          "explanation": "Deducting $390,000 removes more scope than needed."
+        }
+      ],
+      "explanation": "1. Gap = $6,450,000 − $6,200,000 = $250,000\n2. 1 + 2 = $210,000 (short); 2 + 3 = $270,000; 1 + 3 = $300,000\n3. The smallest deduction that closes the gap is 2 + 3"
+    },
+    {
+      "id": "PjM-4.1-q07",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "At 95% construction documents for a museum, the owner's finance director asks to remove the design contingency from the estimate, since \"design is finished.\" She also proposes using whatever contingency is left to pay for changes the museum expects to make during construction. Bids are due in six weeks.\n\nWhich approach to contingencies should the architect recommend?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Remove all contingencies once CDs reach 95%",
+          "explanation": "Some design and bidding risk remains until bids are received."
+        },
+        {
+          "id": "b",
+          "text": "Keep a small design contingency and a separate construction contingency",
+          "explanation": "Correct. A reduced design contingency covers the remaining document and bid risk. A separate owner's contingency covers changes during construction.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Use the design contingency to fund construction changes",
+          "explanation": "Mixing the two hides the risk each one covers."
+        },
+        {
+          "id": "d",
+          "text": "Set one 20% contingency through construction",
+          "explanation": "An undifferentiated large contingency doesn't match risk at this stage."
+        }
+      ],
+      "explanation": "Design contingency shrinks to a few percent by the end of CDs. The owner's construction contingency is separate."
+    },
+    {
+      "id": "PjM-4.1-q08",
+      "type": "cata",
+      "cognitiveLevel": "A/E",
+      "stem": "On a CMc project for a 90,000 sf office building, the CM's design development estimate is 7% higher than the estimate from the architect's cost consultant. The owner must decide on scope reductions next week and asks the architect to explain the difference so it knows which number to rely on.\n\nWhich steps should the architect take? Check the three that apply.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Compare quantities line by line",
+          "explanation": "Correct. Quantity differences often explain a large share of the gap.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Confirm scope assumptions such as allowances and alternates",
+          "explanation": "Correct. The two estimates may price different scope.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Compare unit prices and escalation assumptions",
+          "explanation": "Correct. Market pricing and escalation dates often differ between estimators.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Average the two estimates for the owner",
+          "explanation": "Averaging hides the reasons for the difference."
+        },
+        {
+          "id": "e",
+          "text": "Adopt the lower estimate to protect the scope",
+          "explanation": "Choosing the convenient number exposes the owner to bid risk."
+        },
+        {
+          "id": "f",
+          "text": "Tell the owner the CM's estimate is unreliable",
+          "explanation": "Dismissing it without reconciling is unsupported. The CM prices current market conditions."
+        }
+      ],
+      "selectCount": 3,
+      "explanation": "Reconcile estimates line by line: quantities, scope assumptions, unit prices, escalation."
+    },
+    {
+      "id": "PjM-4.1-q09",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "The schematic design estimate for a 48,000 gross sf office building is $310 per gross sf, or $14,880,000. The owner's construction budget is $14,000,000, and the owner wants to close the gap entirely by reducing area, keeping the same unit cost. The building's gross-to-net ratio is 1.25, and the owner's program lists net assignable areas.\n\nAbout how many net assignable sf must be removed from the program?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "About 2,270",
+          "explanation": "Correct. The gap requires 2,839 gross sf ÷ 1.25 = about 2,270 net sf.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "About 2,840",
+          "explanation": "This is the gross area, not the net program area."
+        },
+        {
+          "id": "c",
+          "text": "About 3,550",
+          "explanation": "This multiplies by the gross-to-net ratio instead of dividing."
+        }
+      ],
+      "explanation": "1. Gap = $14,880,000 − $14,000,000 = $880,000\n2. Gross sf = $880,000 ÷ $310 = 2,839\n3. Net sf = 2,839 ÷ 1.25 = about 2,270"
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "PjM-4.1-f01",
+      "front": "Construction budget vs. project budget",
+      "back": "Construction = cost of the work. Project = construction + land, fees, FF&E, permits, financing, owner's contingency."
+    },
+    {
+      "id": "PjM-4.1-f02",
+      "front": "Cost of the Work (B101 Art. 6)",
+      "back": "Includes the contractor's general conditions, overhead and profit. Excludes the architect's fee, land, financing and owner contingencies.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-4.1-f03",
+      "front": "Escalate to when?",
+      "back": "The midpoint of construction."
+    },
+    {
+      "id": "PjM-4.1-f04",
+      "front": "Estimate to compare with the budget",
+      "back": "Scope × (1 + design contingency) × (1 + escalation), applied in sequence."
+    },
+    {
+      "id": "PjM-4.1-f05",
+      "front": "Design contingency over time",
+      "back": "About 10–15% at SD, shrinking to a few percent at the end of CDs."
+    },
+    {
+      "id": "PjM-4.1-f06",
+      "front": "Estimating method by phase",
+      "back": "SD: cost/sf. DD: systems or assemblies. CD: quantity takeoff × unit prices."
+    },
+    {
+      "id": "PjM-4.1-f07",
+      "front": "Max construction cost from a project budget",
+      "back": "(Budget − fixed soft costs) ÷ (1 + percentage-based soft costs)."
+    },
+    {
+      "id": "PjM-4.1-f08",
+      "front": "Estimate exceeds budget (§6.5)",
+      "back": "Recommend adjustments to size, quality or budget: scope cuts, value analysis, alternates, a budget increase.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-4.1-f09",
+      "front": "Choosing deductive alternates",
+      "back": "The smallest combination that closes the gap and keeps the owner's priorities."
+    },
+    {
+      "id": "PjM-4.1-f10",
+      "front": "Reconciling two estimates",
+      "back": "Line by line: quantities, scope assumptions, unit prices, escalation. Never just average."
+    },
+    {
+      "id": "PjM-4.1-f11",
+      "front": "Area cut to close a cost gap",
+      "back": "Gross sf = gap ÷ $/gsf. Net sf = gross ÷ gross-to-net ratio."
+    }
+  ]
+}

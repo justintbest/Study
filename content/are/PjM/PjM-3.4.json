@@ -1,0 +1,363 @@
+{
+  "objectiveId": "PjM-3.4",
+  "exam": "ARE",
+  "division": "PjM",
+  "generated": "2026-11-24",
+  "itemStyle": "ncarb-v3-difficulty",
+  "references": [
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 §3.1.2",
+      "topic": "Architect coordinates with the owner's consultants, may rely on their information, and gives prompt written notice of errors it becomes aware of.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 Article 5",
+      "topic": "Owner provides and coordinates its consultants and furnishes their scopes on request; furnishes surveys, geotechnical services and tests.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 §4.1.1",
+      "topic": "Architect's coordination of owner's consultants is a supplemental service.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 §10.6",
+      "topic": "Architect has no responsibility for hazardous materials.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "AIA",
+      "citation": "A201-2017 Article 6",
+      "topic": "Owner's separate contractors; owner coordinates them.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "NCARB",
+      "citation": "NCARB Model Rules of Conduct (rev. July 2023) Rule 5.1",
+      "topic": "Seal only documents prepared under the architect's responsible control. Checked against sources/are/ethics/."
+    }
+  ],
+  "questions": [
+    {
+      "id": "PjM-3.4-q01",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "For a new branch bank, the owner furnished a boundary and topographic survey prepared by its surveyor. During a site visit early in schematic design, the project architect notices that a large existing storm inlet near the entrance isn't on the survey, and the curb elevations there look about two feet different from the survey's spot grades.\n\nWhat should the architect do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Correct the survey on the architect's base drawings",
+          "explanation": "The architect shouldn't revise the owner's consultant's work."
+        },
+        {
+          "id": "b",
+          "text": "Notify the owner in writing of the inconsistency",
+          "explanation": "Correct. The architect may rely on the survey but must give prompt written notice of errors it becomes aware of.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Keep relying on the survey, as the agreement permits",
+          "explanation": "The right to rely ends when the architect becomes aware of an error."
+        },
+        {
+          "id": "d",
+          "text": "Hire a second surveyor and bill the owner",
+          "explanation": "Surveys are the owner's responsibility, and the owner must agree to more services."
+        }
+      ],
+      "explanation": "Reliance on owner information ends at awareness of an error. Notify the owner in writing.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.4-q02",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "The owner of a hotel has hired its own food-service consultant and audiovisual consultant. The owner now wants the architect to incorporate their drawings into the construction documents, run their coordination meetings and track their deliverables. The architect's B101 doesn't list coordination of owner's consultants as a supplemental service.\n\nHow should the architect handle the request?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Provide the coordination within basic services",
+          "explanation": "Coordinating the owner's consultants beyond the architect's own coordination is a supplemental or additional service."
+        },
+        {
+          "id": "b",
+          "text": "Propose it as an additional service",
+          "explanation": "Correct. Because it isn't in the agreement, the architect proposes it as an additional service.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Refuse to include their work in the documents",
+          "explanation": "The architect must still coordinate its own services with theirs."
+        },
+        {
+          "id": "d",
+          "text": "Have the consultants sign C401s with the architect",
+          "explanation": "Changing who contracts with the consultants is a bigger change than the owner asked for."
+        }
+      ],
+      "explanation": "Coordinating owner's consultants is a supplemental service. If it isn't listed, it's additional.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.4-q03",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "At 95% construction documents for a laboratory, the owner's commissioning agent issues comments based on the owner's project requirements. Several comments ask for redundant exhaust fans and a different control strategy than the MEP design the owner approved at DD. The changes would add about $180,000 and three weeks.\n\nWhat should the architect do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Incorporate every comment before issuing the construction documents",
+          "explanation": "Changes from the approved DD that affect cost and schedule need the owner's decision."
+        },
+        {
+          "id": "b",
+          "text": "Review them with the MEP engineer and refer cost items to the owner",
+          "explanation": "Correct. Respond in writing, and let the owner decide on changes that affect cost and schedule.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Disregard the comments because DD was approved",
+          "explanation": "Commissioning comments may reveal real conflicts with the owner's requirements."
+        },
+        {
+          "id": "d",
+          "text": "Ask the contractor to price the comments during bidding",
+          "explanation": "Deciding during bidding is too late and creates uncertainty in the bids."
+        }
+      ],
+      "explanation": "Commissioning comments: review them with consultants, respond in writing, and refer cost and schedule changes to the owner."
+    },
+    {
+      "id": "PjM-3.4-q04",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "A biotech owner has hired a lab-planning consultant to design the casework, fume hoods and lab gas layouts. To save effort, the owner asks the architect to put the lab planner's drawings in the construction documents under the architect's seal. The architect hasn't directed or supervised the lab planner's work.\n\nHow should the architect respond?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Seal the drawings after a detailed review",
+          "explanation": "A review after the fact isn't responsible control."
+        },
+        {
+          "id": "b",
+          "text": "Coordinate them into the set without sealing them",
+          "explanation": "Correct. The architect can coordinate them into the set but seals only what it prepared or controlled.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Redraw the lab drawings so the architect can seal them",
+          "explanation": "Redrawing duplicates the owner's consultant's work and takes on its responsibility."
+        },
+        {
+          "id": "d",
+          "text": "Seal them if the owner signs an indemnity",
+          "explanation": "An indemnity doesn't satisfy responsible control."
+        }
+      ],
+      "explanation": "Seal only work prepared under your responsible control (NCARB 5.1)."
+    },
+    {
+      "id": "PjM-3.4-q05",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "For a university building, the owner will hire separate contractors for telecommunications cabling and for movable furniture, both installed during the general contractor's work. The architect is planning its CA services and staffing. The owner asks who will coordinate these separate contractors with the general contractor.\n\nWhat should the architect tell the owner?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The architect coordinates them within basic CA services",
+          "explanation": "Coordinating the owner's separate contractors is the owner's duty under A201."
+        },
+        {
+          "id": "b",
+          "text": "The owner coordinates them with the architect's help",
+          "explanation": "Correct. A201 Art. 6 makes the owner responsible for coordinating its separate contractors.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "The general contractor coordinates them automatically",
+          "explanation": "The contractor cooperates, but coordination belongs to the owner unless the contract assigns it."
+        },
+        {
+          "id": "d",
+          "text": "Each separate contractor coordinates itself",
+          "explanation": "Someone must coordinate. A201 assigns it to the owner."
+        }
+      ],
+      "explanation": "The owner coordinates its separate contractors (A201 Art. 6).",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.4-q06",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "The owner of a corporate headquarters has hired a security consultant to design access control and cameras. At the kickoff, the architect is concerned that nobody has said who will design the conduit, the backboxes and the door hardware wiring for the security devices, which caused change orders on a past project.\n\nWhat should the architect request first?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The security consultant's scope of services",
+          "explanation": "Correct. Comparing the owner's consultant's scope with the architect's team shows the gaps to assign.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "The security consultant's insurance certificates",
+          "explanation": "Insurance is for the owner to require. It doesn't define who designs what."
+        },
+        {
+          "id": "c",
+          "text": "A fee proposal to design the security systems",
+          "explanation": "Taking over the consultant's work isn't the first step."
+        },
+        {
+          "id": "d",
+          "text": "The contractor's security subcontractor list",
+          "explanation": "There's no contractor yet, and design scope comes first."
+        }
+      ],
+      "explanation": "Get the owner's consultants' scopes early and assign the gaps.",
+      "confidence": "medium",
+      "confidenceNote": "B101 Art. 5 lets the architect request owner-consultant scopes; confirm paragraph."
+    },
+    {
+      "id": "PjM-3.4-q07",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "The owner's equipment planner for a hospital was due to deliver the imaging-equipment requirements at the start of design development. It's now four weeks late, and the architect's team can't finish the imaging suite's structural and MEP design without the data. The approved schedule included the planner's delivery date.\n\nWhat should the architect do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Design using assumed equipment and revise later",
+          "explanation": "Designing on assumptions risks rework the owner hasn't approved."
+        },
+        {
+          "id": "b",
+          "text": "Notify the owner in writing and update the schedule",
+          "explanation": "Correct. The owner is responsible for its consultant's timing. The owner needs to see the effect, and the record supports any additional services.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Contact the equipment manufacturer for the data directly",
+          "explanation": "Getting the owner's consultant's information is the owner's job."
+        },
+        {
+          "id": "d",
+          "text": "Remove the imaging suite from the DD submission",
+          "explanation": "Dropping the scope without the owner's decision isn't appropriate."
+        }
+      ],
+      "explanation": "Late owner's consultants: notify the owner in writing and update the schedule."
+    },
+    {
+      "id": "PjM-3.4-q08",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "For the renovation of a 1960s school, the owner furnished a hazardous-materials survey from its consultant. The survey excluded the crawl space because it wasn't accessible. During a later site visit, the architect's staff sees pipe insulation in the crawl space that looks like it may contain asbestos.\n\nWhat should the architect do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Specify asbestos abatement for the crawl space",
+          "explanation": "Without testing, the architect would be taking on hazardous-materials responsibility the agreement excludes."
+        },
+        {
+          "id": "b",
+          "text": "Notify the owner in writing and recommend testing",
+          "explanation": "Correct. The owner is responsible for testing. The architect has no responsibility for discovering or removing hazardous materials.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Take a sample for the owner's laboratory",
+          "explanation": "Sampling suspected asbestos is for qualified consultants."
+        },
+        {
+          "id": "d",
+          "text": "Note it for the contractor to investigate during construction",
+          "explanation": "Leaving it until construction risks exposure, delay and a change order."
+        }
+      ],
+      "explanation": "Suspected hazardous materials: notify the owner in writing. Testing is the owner's responsibility.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "PjM-3.4-f01",
+      "front": "Who contracts with and coordinates owner's consultants?",
+      "back": "The owner. The architect coordinates its own services with theirs.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.4-f02",
+      "front": "Relying on owner-furnished information",
+      "back": "Allowed, until the architect becomes aware of an error. Then give prompt written notice (B101 §3.1.2).",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.4-f03",
+      "front": "Coordinating owner's consultants",
+      "back": "A supplemental service (B101 §4.1.1). If it isn't listed, it's additional.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.4-f04",
+      "front": "An owner's consultant is late",
+      "back": "Notify the owner in writing and update the schedule."
+    },
+    {
+      "id": "PjM-3.4-f05",
+      "front": "Seal an owner's consultant's drawings?",
+      "back": "No. Seal only work under your responsible control. Identify theirs as theirs."
+    },
+    {
+      "id": "PjM-3.4-f06",
+      "front": "Separate contractors",
+      "back": "The owner coordinates them (A201 Art. 6).",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.4-f07",
+      "front": "Commissioning agent comments",
+      "back": "Based on the OPR. Review with consultants, respond in writing, and take cost and schedule changes to the owner."
+    },
+    {
+      "id": "PjM-3.4-f08",
+      "front": "Suspected hazardous materials",
+      "back": "Notify the owner in writing. Testing is the owner's responsibility (B101 §10.6).",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.4-f09",
+      "front": "First step to integrate an owner's consultant",
+      "back": "Get its scope of services, compare it with yours, and assign the gaps."
+    },
+    {
+      "id": "PjM-3.4-f10",
+      "front": "Typical owner's consultants",
+      "back": "Surveyor, geotechnical, hazardous materials, commissioning, kitchen, AV, security, IT, lab or equipment planner, cost consultant."
+    }
+  ]
+}

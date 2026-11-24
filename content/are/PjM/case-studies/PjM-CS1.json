@@ -1,0 +1,214 @@
+{
+  "id": "PjM-CS1",
+  "exam": "ARE",
+  "division": "PjM",
+  "title": "Harbor Point Medical Office Building: CD staffing and fee",
+  "scenario": "**Delmar Architects**, a 35-person firm, is designing the **Harbor Point Medical Office Building**, a 52,000 sf, three-story outpatient building. The owner is a physician group.\n\n- The owner–architect agreement is based on B101-2017. Basic compensation is a stipulated sum of **$780,000**, which includes **$210,000** for the structural and MEP consultants. Delmar's own share is **$570,000**, allocated SD 15%, DD 20%, CD 40%, procurement 5%, construction 20%.\n- Additional services are billed at the billing rates in the Staff Labor Rates resource. Additional services of Delmar's consultants are billed at **1.10 ×** the consultant's fee.\n- Design development was approved by the owner. Construction documents are now at the **end of week 6** of a 16-week phase.\n- In week 5, the owner emailed asking Delmar to add a **diagnostic imaging suite** with lead-lined walls and floor reinforcement. Delmar hasn't responded yet. The structural engineer estimates **$8,000** of added work. Delmar estimates M. Silva 40 hours, D. Patel 60 hours and L. Chen 10 hours.\n- The owner's lease in its current building ends 60 days after the planned construction completion, and the owner has said it wants no schedule delay.\n- Firm policy: an independent QC review of the 90% set, finished at least 2 weeks before documents are issued.",
+  "resources": [
+    {
+      "id": "r1",
+      "title": "Staff Labor Rates",
+      "kind": "Staff Labor Rates",
+      "body": "### Project team: billing rates and weekly hours\n| Staff | Role | Billing rate | Assigned to Harbor Point (h/wk) | Unassigned capacity (h/wk) |\n|---|---|---|---|---|\n| R. Okafor | Principal-in-charge | $230 | 3 | 0 |\n| L. Chen | Project manager | $175 | 12 | 4 |\n| M. Silva | Project architect | $150 | 32 | 0 |\n| D. Patel | Architect II | $125 | 32 | 4 |\n| J. Kim | Designer | $105 | 32 | 0 |\n| A. Novak | Designer | $105 | 16 | 16 |\n| T. Brooks | QC reviewer / specifications | $160 | As scheduled | — |\n\nUnassigned capacity is time not committed to any project."
+    },
+    {
+      "id": "r2",
+      "title": "CD Work Plan and Fee Status",
+      "kind": "Design and Construction Schedules",
+      "body": "### Construction documents phase: work plan\n| Milestone | End of week |\n|---|---|\n| 50% CD coordination set | 8 |\n| 90% CD set to QC review | 13 |\n| QC review complete (T. Brooks, 1 week) | 14 |\n| Corrections and back-check | 16 |\n| Issue CDs to owner | 16 |\n\n### Fee status at end of week 6\n| Item | Amount |\n|---|---|\n| Delmar CD phase fee (40% × $570,000) | $228,000 |\n| Fee spent to date | $104,000 |\n| PM's estimate of CD percent complete | 40% |"
+    }
+  ],
+  "questions": [
+    {
+      "id": "PjM-CS1-q01",
+      "objectiveId": "PjM-1.2",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "Refer to the CD Work Plan and Fee Status.\n\nThe principal asks the project manager to forecast the CD phase before discussing staffing. Assuming the team continues at the same rate of spending per unit of progress, and the imaging suite isn't added, what overrun should the project manager forecast for Delmar's CD phase fee?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "$12,800",
+          "explanation": "That's today's variance ($104,000 spent − $91,200 earned), not the forecast at completion."
+        },
+        {
+          "id": "b",
+          "text": "$32,000",
+          "explanation": "Correct. $104,000 ÷ 0.40 = $260,000 projected, which is $32,000 over the $228,000 fee.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "$124,000",
+          "explanation": "That's the fee remaining ($228,000 − $104,000), not an overrun."
+        },
+        {
+          "id": "d",
+          "text": "$156,000",
+          "explanation": "That's the projected cost of the remaining work ($260,000 − $104,000)."
+        }
+      ],
+      "explanation": "1. Projected cost = $104,000 ÷ 0.40 = $260,000\n2. Overrun = $260,000 − $228,000 = $32,000"
+    },
+    {
+      "id": "PjM-CS1-q02",
+      "objectiveId": "PjM-1.1",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "Refer to the Staff Labor Rates.\n\nTo recover part of the CD overrun, the project manager wants to move about 12 hours per week of door, hardware and finish-schedule work away from the project architect. The work must go to a team member with a lower billing rate who has enough unassigned capacity, and the project architect will review it.\n\nWho should take on the work?",
+      "options": [
+        {
+          "id": "a",
+          "text": "D. Patel",
+          "explanation": "Patel's rate is lower, but Patel has only 4 hours per week of unassigned capacity."
+        },
+        {
+          "id": "b",
+          "text": "J. Kim",
+          "explanation": "Kim has the lowest rate but no unassigned capacity."
+        },
+        {
+          "id": "c",
+          "text": "A. Novak",
+          "explanation": "Correct. Novak bills at $105 and has 16 hours per week unassigned, enough for the 12 hours.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L. Chen",
+          "explanation": "Chen's rate is higher than the project architect's, so moving work to Chen wouldn't save fee."
+        }
+      ],
+      "explanation": "Match reassigned work to a lower-rate person who has the capacity, with review by the project architect."
+    },
+    {
+      "id": "PjM-CS1-q03",
+      "objectiveId": "PjM-4.2",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "Refer to the scenario.\n\nA designer has started sketching layouts for the imaging suite so the team doesn't fall behind, and the owner has asked whether the suite will be in the CD set. The project manager wants to handle the request in a way that protects both the owner's schedule and Delmar's fee.\n\nWhat should the project manager do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Continue the design to protect the owner's lease deadline",
+          "explanation": "Proceeding before authorization risks unpaid work. The owner also needs to see the impacts first."
+        },
+        {
+          "id": "b",
+          "text": "Notify the owner of the fee and schedule impacts and get written authorization",
+          "explanation": "Correct. A change in the owner's instructions is an additional service. The owner needs the impacts in writing and must authorize the work first.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Absorb the suite within basic services to keep goodwill",
+          "explanation": "The suite is a significant addition and an additional service. Absorbing it adds to the overrun."
+        },
+        {
+          "id": "d",
+          "text": "Include the suite and bill it after the CDs are issued",
+          "explanation": "Billing afterward, without prior authorization, invites a dispute."
+        }
+      ],
+      "explanation": "§4.2.2 additional services: notify the owner with the impacts and get written authorization before proceeding.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-CS1-q04",
+      "objectiveId": "PjM-4.2",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "Refer to the scenario and the Staff Labor Rates.\n\nThe project manager is preparing the additional-services proposal for the imaging suite, using Delmar's estimated hours, the billing rates, and the agreement's terms for consultant additional services.\n\nWhat total should the proposal show?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "$15,250",
+          "explanation": "This is Delmar's labor only. It leaves out the structural engineer's work."
+        },
+        {
+          "id": "b",
+          "text": "$23,250",
+          "explanation": "This adds the structural fee without the 1.10 multiple."
+        },
+        {
+          "id": "c",
+          "text": "$24,050",
+          "explanation": "Correct. Delmar labor $15,250 + structural $8,000 × 1.10 = $8,800.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "$25,550",
+          "explanation": "This prices Patel's hours at the project architect's rate."
+        }
+      ],
+      "explanation": "1. Silva = 40 × $150 = $6,000\n2. Patel = 60 × $125 = $7,500\n3. Chen = 10 × $175 = $1,750\n4. Delmar labor = $15,250\n5. Structural = $8,000 × 1.10 = $8,800\n6. Total = $24,050"
+    },
+    {
+      "id": "PjM-CS1-q05",
+      "objectiveId": "PjM-2.1",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "Refer to the scenario and the CD Work Plan and Fee Status.\n\nThe owner authorizes the imaging suite. The team estimates the redesign adds 2 weeks to the CD critical path, so the issue date moves to the end of week 18. The QC policy and the 1-week QC duration don't change.\n\nBy the end of which week must the 90% set go to QC review?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Week 13",
+          "explanation": "That's the original date. It doesn't reflect the 2-week extension."
+        },
+        {
+          "id": "b",
+          "text": "Week 15",
+          "explanation": "Correct. QC must be complete by week 16 (2 weeks before issue at week 18), so it starts at the end of week 15.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Week 16",
+          "explanation": "That's when QC must be complete, not when it starts."
+        },
+        {
+          "id": "d",
+          "text": "Week 17",
+          "explanation": "This leaves only 1 week between QC and issue, against firm policy."
+        }
+      ],
+      "explanation": "1. New issue = end of week 18\n2. QC complete ≥ 2 weeks earlier = end of week 16\n3. QC takes 1 week → 90% set to QC at end of week 15"
+    },
+    {
+      "id": "PjM-CS1-q06",
+      "objectiveId": "PjM-2.3",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "Refer to the scenario.\n\nThe project manager now has the CD overrun forecast and a proposal for the imaging suite. The owner's representative has asked for an update on the CD schedule by the end of the week, and the principal hasn't yet heard about the overrun.\n\nWhich communication approach is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tell the owner about the overrun and ask it to fund the difference",
+          "explanation": "The overrun on basic services is Delmar's to manage, not a reason to ask the owner for more fee."
+        },
+        {
+          "id": "b",
+          "text": "Brief the principal on the overrun and send the owner a written proposal",
+          "explanation": "Correct. Internal performance goes to the principal. The owner gets a written additional-services proposal with fee and schedule impacts.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Raise both issues verbally at the next owner meeting",
+          "explanation": "Verbal updates don't document the request, and the authorization is time-sensitive."
+        },
+        {
+          "id": "d",
+          "text": "Email the consultants and wait for their input first",
+          "explanation": "The consultants' input is already in hand, and waiting delays the owner's decision."
+        }
+      ],
+      "explanation": "Keep internal fee performance internal. Send the owner a written proposal for the additional services."
+    }
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "objectiveId": "PjM-2.2",
+  "exam": "ARE",
+  "division": "PjM",
+  "generated": "2026-11-24",
+  "itemStyle": "ncarb-v3-difficulty",
+  "references": [
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 §3.1.3 and phase-approval provisions in §3.2–§3.4",
+      "topic": "Schedule allowances for owner review and agency approvals; owner approval before proceeding to the next phase.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 Article 5",
+      "topic": "Owner furnishes surveys, geotechnical engineering and tests, on a schedule that supports the architect's services.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "Code",
+      "citation": "IBC 2021 §105 and §107",
+      "topic": "Permit application and construction documents submittal requirements that drive regulatory review time."
+    }
+  ],
+  "questions": [
+    {
+      "id": "PjM-2.2-q01",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "The owner of a distribution warehouse needs construction to start by the end of week 40 of the project. The local building department's published review sequence is:\n\n- Initial plan review: 6 weeks\n- Architect's corrections: 2 weeks\n- Re-review of corrections: 3 weeks\n- Permit issued: 1 week after approval\n\nWhat is the latest week to submit the construction documents for permit?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Week 28",
+          "explanation": "Correct. 40 − (6 + 2 + 3 + 1) = week 28.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Week 29",
+          "explanation": "This leaves out the week for permit issuance."
+        },
+        {
+          "id": "c",
+          "text": "Week 31",
+          "explanation": "This leaves out the re-review."
+        },
+        {
+          "id": "d",
+          "text": "Week 34",
+          "explanation": "This counts only the initial review."
+        }
+      ],
+      "explanation": "1. Total permit time = 6 + 2 + 3 + 1 = 12 weeks\n2. Latest submittal = 40 − 12 = week 28"
+    },
+    {
+      "id": "PjM-2.2-q02",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "An architect is scheduling design for a new elementary school. The school board must approve the schematic design before design development starts. The board meets on the first Tuesday of each month, and agenda items must be posted two weeks before the meeting with the presentation materials attached.\n\nHow should the architect plan the SD approval?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Assume approval within one week of the SD submission",
+          "explanation": "A board can act only at its meetings, so a one-week assumption is unrealistic."
+        },
+        {
+          "id": "b",
+          "text": "Align SD completion with a board agenda deadline",
+          "explanation": "Correct. Working backward from the meeting and its posting deadline sets a realistic SD finish and approval date.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Start design development at risk while awaiting approval",
+          "explanation": "Proceeding without the required approval risks rework and isn't how B101 phases proceed."
+        },
+        {
+          "id": "d",
+          "text": "Ask the superintendent to approve the SD in place of the board",
+          "explanation": "The architect can't change who in the owner's organization has authority to approve."
+        }
+      ],
+      "explanation": "Schedule owner approvals around the owner's real decision process."
+    },
+    {
+      "id": "PjM-2.2-q03",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "A firm has signed an agreement for a three-story office building on a hillside site. Schematic design starts in two weeks, and the structural engineer will begin foundation design early in DD, about ten weeks from now. Under the agreement, the owner furnishes the geotechnical report. The owner hasn't engaged a geotechnical engineer yet, and a typical investigation with lab testing takes eight weeks.\n\nWhen should the architect advise the owner to engage the geotechnical engineer?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Now, so the report is done before foundation design",
+          "explanation": "Correct. The eight-week investigation must finish before the structural work that depends on it.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "At the start of DD, when the foundations are designed",
+          "explanation": "Starting then means the report arrives about eight weeks late."
+        },
+        {
+          "id": "c",
+          "text": "During CDs, after the foundation layout is fixed",
+          "explanation": "Foundation design needs the report, so this is too late."
+        },
+        {
+          "id": "d",
+          "text": "After permit submittal, if the plan reviewer asks for it",
+          "explanation": "Foundation design and permit review both depend on the report earlier than that."
+        }
+      ],
+      "explanation": "Owner-furnished information must be finished before the work that depends on it."
+    },
+    {
+      "id": "PjM-2.2-q04",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "An architect is preparing the design schedule for a county health clinic. The owner wants to know how long it will take from the start of schematic design until the bid documents are ready. A pre-application meeting with the planning department will take place during schematic design.\n\n| Activity | Duration |\n|---|---|\n| Schematic design | 6 weeks |\n| Pre-application meeting process (during SD) | 2 weeks |\n| Owner review of SD | 2 weeks |\n| Design development | 8 weeks |\n| Owner review of DD | 3 weeks |\n| Construction documents | 12 weeks |\n| Owner review of CDs | 2 weeks |\n\nHow long will the design work take?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "26 weeks",
+          "explanation": "This counts only the design phases and leaves out the owner reviews."
+        },
+        {
+          "id": "b",
+          "text": "31 weeks",
+          "explanation": "This leaves out the owner's review of the CDs."
+        },
+        {
+          "id": "c",
+          "text": "33 weeks",
+          "explanation": "Correct. 6 + 2 + 8 + 3 + 12 + 2 = 33 weeks. The pre-application meeting runs during SD.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "35 weeks",
+          "explanation": "This adds the pre-application meeting, which runs during SD."
+        }
+      ],
+      "explanation": "1. Design phases = 6 + 8 + 12 = 26 weeks\n2. Owner reviews = 2 + 3 + 2 = 7 weeks\n3. Pre-application runs during SD → 0 added\n4. Total = 33 weeks"
+    },
+    {
+      "id": "PjM-2.2-q05",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "An architect is writing the specifications for a laboratory with a custom curtain wall. The curtain wall requires a performance mock-up test for air, water and structural loads. Testing takes about eight weeks, and fabrication can't start until the test is passed. The owner's schedule depends on the building being enclosed before winter.\n\nWhich step should the architect take so testing doesn't delay the project?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Specify the test and its timing in the contractor's schedule",
+          "explanation": "Correct. The specifications should require the test, and its sequence before fabrication, in the contractor's schedule.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Schedule the testing lab directly for the contractor",
+          "explanation": "The architect defines requirements. Arranging the contractor's testing is the contractor's job."
+        },
+        {
+          "id": "c",
+          "text": "Remove the mock-up test to protect the enclosure date",
+          "explanation": "Removing a performance test trades schedule for envelope risk."
+        },
+        {
+          "id": "d",
+          "text": "Allow the test to be run after the curtain wall is installed",
+          "explanation": "Testing after installation defeats its purpose and makes corrections costly."
+        }
+      ],
+      "explanation": "Specify tests and their sequence so the contractor schedules them before fabrication."
+    },
+    {
+      "id": "PjM-2.2-q06",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "A project for a mixed-use building needs a zoning variance before a building permit can be issued. The jurisdiction's process is:\n\n- Staff review of a complete application: 30 days\n- Public notice: 15 days, starting after staff review\n- Hearing and decision at the end of the notice period\n- Appeal period after the decision: 10 days, before a permit may be issued\n\nHow many days after the application is complete can the building permit be issued?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "40 days",
+          "explanation": "This overlaps the public notice with staff review. Notice starts after the review."
+        },
+        {
+          "id": "b",
+          "text": "45 days",
+          "explanation": "This leaves out the appeal period."
+        },
+        {
+          "id": "c",
+          "text": "55 days",
+          "explanation": "Correct. 30 + 15 + 10 = 55 days.",
+          "correct": true
+        }
+      ],
+      "explanation": "1. Staff review = 30 days\n2. Public notice = 15 days\n3. Appeal period = 10 days\n4. Total = 55 days"
+    },
+    {
+      "id": "PjM-2.2-q07",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "An architect is reviewing the approvals needed before construction can start on a 200-bed hotel. Design development finishes 14 weeks before construction documents are complete, and each item below starts at the milestone shown.\n\n| Item | Starts at | Duration |\n|---|---|---|\n| Building permit review | CDs complete | 8 weeks |\n| Health department review (kitchen) | CDs complete | 6 weeks |\n| Fire marshal review | CDs complete | 4 weeks |\n| Utility transformer (order to delivery) | DD complete | 24 weeks |\n\nWhich item controls the earliest construction start?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Building permit review",
+          "explanation": "The permit finishes 8 weeks after CDs, which is 2 weeks before the transformer arrives."
+        },
+        {
+          "id": "b",
+          "text": "Health department review",
+          "explanation": "At 6 weeks after CDs, it's shorter than the permit review."
+        },
+        {
+          "id": "c",
+          "text": "Fire marshal review",
+          "explanation": "At 4 weeks after CDs, it's the shortest review."
+        },
+        {
+          "id": "d",
+          "text": "Transformer delivery",
+          "explanation": "Correct. 24 − 14 = 10 weeks after CDs, the latest of the four.",
+          "correct": true
+        }
+      ],
+      "explanation": "1. Transformer: 24 weeks from DD = 24 − 14 = 10 weeks after CDs\n2. Permit = 8, health = 6, fire = 4 weeks after CDs\n3. The transformer controls, at 10 weeks"
+    },
+    {
+      "id": "PjM-2.2-q08",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "A nonprofit's state grant for a new community center is lost unless a construction contract is signed by September 30. Today is early January. The architect's initial schedule, built forward from today, shows a contract signing on September 15, with no allowance for bid protests or a second round of bidding.\n\nHow should the architect revise the schedule?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Schedule backward from September 30 and build in float",
+          "explanation": "Correct. A fixed deadline should drive the schedule backward, with float for slips such as a rebid.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Keep the forward schedule and report the projected date",
+          "explanation": "Two weeks of margin with no allowance for a rebid puts the grant at risk."
+        },
+        {
+          "id": "c",
+          "text": "Shorten the bidding period to the legal minimum now",
+          "explanation": "Squeezing bidding can reduce competition and doesn't address the main risk."
+        },
+        {
+          "id": "d",
+          "text": "Plan to recover any lost time during construction",
+          "explanation": "The contract deadline comes before construction, so time can't be recovered later."
+        }
+      ],
+      "explanation": "Fixed dates: schedule backward and protect them with float."
+    },
+    {
+      "id": "PjM-2.2-q09",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "An owner reviewing an architect's proposed design schedule for a city library notices four weeks of time when no design work is shown: two weeks after schematic design, and two weeks after design development. The owner asks why those weeks are in the schedule.\n\nWhat is the best explanation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "They allow time for owner reviews and approvals",
+          "explanation": "Correct. B101 schedules include time for the owner's reviews and approvals between phases.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "They are contingency for architect staff vacations",
+          "explanation": "Staff availability is built into durations, not shown as owner-visible gaps."
+        },
+        {
+          "id": "c",
+          "text": "They are the contractor's mobilization period",
+          "explanation": "Mobilization comes after contract award, not between design phases."
+        },
+        {
+          "id": "d",
+          "text": "They are reserved for value engineering after bids",
+          "explanation": "Bid-phase activities come after CDs, not between SD and DD."
+        }
+      ],
+      "explanation": "B101 schedules include owner review and agency approval time.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-2.2-q10",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "A district needs a new middle school to open on August 1, 2029. Construction is expected to take 14 months, followed by one month for the district to install furniture and move in. Bidding and contract award take two months from the date bid documents are issued.\n\nWhat is the latest date to issue the bid documents?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "March 1, 2028",
+          "explanation": "Correct. Aug 1, 2029 − 1 month − 14 months − 2 months = March 1, 2028.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "April 1, 2028",
+          "explanation": "This leaves out the one-month move-in period."
+        },
+        {
+          "id": "c",
+          "text": "May 1, 2028",
+          "explanation": "This is the latest construction start. It leaves out bidding and award."
+        },
+        {
+          "id": "d",
+          "text": "June 1, 2028",
+          "explanation": "This leaves out both the move-in period and bidding."
+        }
+      ],
+      "explanation": "1. Construction complete = Aug 1, 2029 − 1 month = July 1, 2029\n2. Construction start = July 1, 2029 − 14 months = May 1, 2028\n3. Bid documents issued = May 1, 2028 − 2 months = March 1, 2028"
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "PjM-2.2-f01",
+      "front": "Schedule drivers besides design time",
+      "back": "Owner reviews and approvals, owner-furnished information, regulatory submissions, testing, long-lead items, fixed dates and seasonal limits."
+    },
+    {
+      "id": "PjM-2.2-f02",
+      "front": "Scheduling to a fixed date",
+      "back": "Work backward: move-in → construction → award → bidding → permit → design. Then add float."
+    },
+    {
+      "id": "PjM-2.2-f03",
+      "front": "Parallel reviews",
+      "back": "The longest chain controls. Compare finish dates measured from a common milestone."
+    },
+    {
+      "id": "PjM-2.2-f04",
+      "front": "Permit time to schedule",
+      "back": "Initial review + corrections + re-review + issuance, not just the first review."
+    },
+    {
+      "id": "PjM-2.2-f05",
+      "front": "Owner-furnished geotechnical report",
+      "back": "It must be finished before foundation design starts. Tell the owner to engage the geotechnical engineer early."
+    },
+    {
+      "id": "PjM-2.2-f06",
+      "front": "Board approvals",
+      "back": "Schedule them around meeting dates and posting deadlines."
+    },
+    {
+      "id": "PjM-2.2-f07",
+      "front": "Mock-up and performance tests",
+      "back": "Specify the test and its sequence before fabrication. The contractor schedules it."
+    },
+    {
+      "id": "PjM-2.2-f08",
+      "front": "Long-lead items that can control",
+      "back": "Utility transformers, switchgear, elevators, specialty equipment. They may need early orders."
+    },
+    {
+      "id": "PjM-2.2-f09",
+      "front": "Zoning approvals timeline",
+      "back": "Staff review + notice period + hearing + appeal period before a permit can issue."
+    },
+    {
+      "id": "PjM-2.2-f10",
+      "front": "Phase approvals (B101)",
+      "back": "The owner approves each phase before the next starts. Schedule the approval as a task.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-2.2-f11",
+      "front": "Seasonal limits",
+      "back": "Earthwork or roofing weather windows, school sessions, operating seasons. They can fix the construction start."
+    }
+  ]
+}

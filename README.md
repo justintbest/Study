@@ -9,8 +9,9 @@ It's a static site: no backend and no account. Progress is saved in your browser
 **Status**
 | Exam | Content |
 |---|---|
-| **PcM** | ✅ 12 objectives: notes, 125 NCARB-style questions, 173 flashcards, 3 case studies (17 questions) |
-| PjM, PA, PPD, PDD, CE | Official objectives loaded; content comes next, one division at a time |
+| **PcM** | ✅ 12 objectives: notes, 127 NCARB-style questions, 173 flashcards, 3 case studies (17 questions) |
+| **PjM** | ✅ 17 objectives: notes, 159 NCARB-style questions, 184 flashcards, 3 case studies (16 questions) |
+| PA, PPD, PDD, CE | Official objectives loaded; content comes next, one division at a time |
 | CSE | ⏳ Waiting for the CSE Handbook PDF (see `sources/README.md`) |
 
 ---

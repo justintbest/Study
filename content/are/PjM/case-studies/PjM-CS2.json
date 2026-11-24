@@ -1,0 +1,184 @@
+{
+  "id": "PjM-CS2",
+  "exam": "ARE",
+  "division": "PjM",
+  "title": "Riverside Elementary School: schedule and approvals",
+  "scenario": "The **Riverside School District** has hired an architect to design a new **68,000 gsf elementary school**, replacing an older school on the same 9-acre site. The project is design-bid-build. The district wants the new school open on **August 1, 2029**.\n\n- The **school board** must approve the SD documents, the DD documents and the construction contract award. The board meets on the **first Tuesday** of each month. Agenda materials must be posted **14 days** before the meeting.\n- The district furnishes the survey and the geotechnical report.\n- Construction will disturb about **6 acres**. The site isn't near an airport and isn't in a historic district. The jurisdiction has adopted the IBC 2021. The building department also reviews fire code compliance.\n- District policy: bid documents are issued only after the building permit is issued.\n- The DD cost estimate is **$420 per gross sf**, including design contingency and escalation.\n- The school will have a full-service kitchen that prepares lunches daily.",
+  "resources": [
+    {
+      "id": "r1",
+      "title": "Design and Construction Schedule",
+      "kind": "Design and Construction Schedules",
+      "body": "### Planned durations\n| Activity | Duration | Notes |\n|---|---|---|\n| Schematic design | 8 weeks | Complete Friday, Oct. 23, 2026 |\n| Board approval of SD | — | Next board meeting with posted materials |\n| Design development | 10 weeks | Starts after SD approval |\n| Construction documents | 14 weeks | |\n| Permit review | 3 months | Includes one resubmittal |\n| Bidding and award | 2 months | Includes board award |\n| Construction | 16 months | |\n| FF&E and move-in | 1 month | Before opening |\n\n### Board meetings\n| Meeting | Materials due |\n|---|---|\n| Tue., Nov. 3, 2026 | Tue., Oct. 20, 2026 |\n| Tue., Dec. 1, 2026 | Tue., Nov. 17, 2026 |\n| Tue., Jan. 5, 2027 | Tue., Dec. 22, 2026 |"
+    },
+    {
+      "id": "r2",
+      "title": "Program Requirements",
+      "kind": "Program Requirements",
+      "body": "### Space program (excerpt)\n| Space | Net sf | Notes |\n|---|---|---|\n| Classrooms (24) | 21,600 | 900 nsf each |\n| Multipurpose room | 4,200 | Lunch at tables and chairs; assemblies with loose chairs only |\n| Kitchen and serving | 2,400 | Full-service food preparation |\n| Library / media center | 3,600 | |\n| Gymnasium | 6,400 | |\n| Administration and health | 3,000 | |\n| Other program spaces | 6,800 | |\n| **Total net** | **48,000** | |\n\n**Gross area target:** 68,000 gsf.\n\n### DD area summary (from the architect)\n| Item | Program | DD design |\n|---|---|---|\n| Net area | 48,000 nsf | 49,200 nsf |\n| Gross area | 68,000 gsf | 71,500 gsf |"
+    }
+  ],
+  "questions": [
+    {
+      "id": "PjM-CS2-q01",
+      "objectiveId": "PjM-2.2",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "Refer to the Design and Construction Schedule.\n\nThe architect is setting the date for starting design development. The district's superintendent asks when the board can first approve the schematic design, given the SD completion date and the board's posting requirement for agenda materials.\n\nWhat is the earliest board meeting at which the SD can be approved?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "November 3, 2026",
+          "explanation": "Its materials were due October 20, before SD is complete on October 23."
+        },
+        {
+          "id": "b",
+          "text": "December 1, 2026",
+          "explanation": "Correct. Its materials are due November 17, after SD is complete, so it's the first meeting that works.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "January 5, 2027",
+          "explanation": "This is a later meeting than needed."
+        },
+        {
+          "id": "d",
+          "text": "October 27, 2026",
+          "explanation": "The board meets only on the first Tuesday of each month."
+        }
+      ],
+      "explanation": "1. SD complete: Oct. 23\n2. Nov. 3 meeting: materials due Oct. 20 → too early\n3. Dec. 1 meeting: materials due Nov. 17 → first feasible"
+    },
+    {
+      "id": "PjM-CS2-q02",
+      "objectiveId": "PjM-2.2",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "Refer to the scenario and the Design and Construction Schedule.\n\nThe architect is building the schedule backward from the opening date, using the planned durations and the district's policy on bid documents.\n\nWhat is the latest date the construction documents can be submitted for the permit?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "October 1, 2027",
+          "explanation": "Correct. Aug. 1, 2029 − 1 month move-in − 16 months construction − 2 months bid and award − 3 months permit = Oct. 1, 2027.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "November 1, 2027",
+          "explanation": "This leaves out the one-month FF&E and move-in period."
+        },
+        {
+          "id": "c",
+          "text": "December 1, 2027",
+          "explanation": "This leaves out bidding and award."
+        },
+        {
+          "id": "d",
+          "text": "January 1, 2028",
+          "explanation": "This leaves out the permit review, which the policy requires before bidding."
+        }
+      ],
+      "explanation": "1. Construction complete = Aug. 1, 2029 − 1 month = July 1, 2029\n2. Construction start = July 1, 2029 − 16 months = March 1, 2028\n3. Bid documents issued = March 1, 2028 − 2 months = Jan. 1, 2028\n4. Permit submittal = Jan. 1, 2028 − 3 months = Oct. 1, 2027"
+    },
+    {
+      "id": "PjM-CS2-q03",
+      "objectiveId": "PjM-4.4",
+      "type": "cata",
+      "cognitiveLevel": "U/A",
+      "stem": "Refer to the scenario and the Program Requirements.\n\nThe architect is listing the agency approvals the schedule must include besides the building permit, which covers the building and fire code review for this jurisdiction.\n\nWhich approvals should the schedule include? Check the two that apply.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Health department review of the kitchen",
+          "explanation": "Correct. A full-service kitchen needs health department plan review.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "EPA stormwater coverage for construction activity",
+          "explanation": "Correct. Disturbing 6 acres (1 acre or more) requires NPDES construction stormwater coverage.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "FAA review of the building height",
+          "explanation": "The site isn't near an airport."
+        },
+        {
+          "id": "d",
+          "text": "Historic preservation commission review",
+          "explanation": "The site isn't in a historic district."
+        },
+        {
+          "id": "e",
+          "text": "U.S. Department of Justice plan approval",
+          "explanation": "The DOJ doesn't review plans before construction."
+        },
+        {
+          "id": "f",
+          "text": "A separate fire marshal plan review",
+          "explanation": "Here the building department reviews fire code compliance as part of the permit."
+        }
+      ],
+      "selectCount": 2,
+      "explanation": "List every approval the facts call for, and rule out the ones the facts exclude."
+    },
+    {
+      "id": "PjM-CS2-q04",
+      "objectiveId": "PjM-5.1",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "Refer to the Program Requirements.\n\nThe project architect is checking the multipurpose room's egress design under the IBC 2021. The room will be used both for lunch and for assemblies, and the design must work for the use with the higher occupant load.\n\nHow many exits or exit access doorways does the multipurpose room require?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "2",
+          "explanation": "This uses the tables-and-chairs factor (4,200 ÷ 15 = 280), not the assembly use with chairs only."
+        },
+        {
+          "id": "b",
+          "text": "3",
+          "explanation": "Correct. With chairs only, 4,200 ÷ 7 = 600 occupants, and 501–1,000 occupants require 3.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "4",
+          "explanation": "Four are required only above 1,000 occupants."
+        }
+      ],
+      "explanation": "1. Lunch: 4,200 ÷ 15 net = 280\n2. Assembly, chairs only: 4,200 ÷ 7 net = 600 (higher, governs)\n3. 501–1,000 occupants → 3 exits or exit access doorways"
+    },
+    {
+      "id": "PjM-CS2-q05",
+      "objectiveId": "PjM-4.1",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "Refer to the scenario and the Program Requirements.\n\nAt the DD cost review, the district's business manager asks what the difference between the gross area target and the DD gross area means for the construction cost, using the DD estimate's unit cost.\n\nWhat is the cost effect of the gross area overage?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "$504,000",
+          "explanation": "This prices the net area overage (1,200 sf), not the gross."
+        },
+        {
+          "id": "b",
+          "text": "$1,470,000",
+          "explanation": "Correct. 71,500 − 68,000 = 3,500 gsf × $420 = $1,470,000.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "$1,764,000",
+          "explanation": "This adds a 20% contingency, but the $420 rate already includes contingency."
+        }
+      ],
+      "explanation": "1. Gross overage = 71,500 − 68,000 = 3,500 gsf\n2. Cost = 3,500 × $420 = $1,470,000"
+    }
+  ]
+}

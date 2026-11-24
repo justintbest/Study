@@ -1,0 +1,370 @@
+{
+  "objectiveId": "PjM-5.1",
+  "exam": "ARE",
+  "division": "PjM",
+  "generated": "2026-11-24",
+  "verified": "2026-11-24",
+  "itemStyle": "ncarb-v3-difficulty",
+  "references": [
+    {
+      "kind": "Code",
+      "citation": "IBC 2021 §102.1",
+      "topic": "Conflicts: most restrictive governs; specific governs over general."
+    },
+    {
+      "kind": "Code",
+      "citation": "IBC 2021 Table 1004.5; Table 1006.3.3",
+      "topic": "Occupant load factors; minimum number of exits by occupant load."
+    },
+    {
+      "kind": "Code",
+      "citation": "IBC 2021 Chapters 3, 5, 6, 7, 9, 10, 11",
+      "topic": "Code analysis topics."
+    },
+    {
+      "kind": "Federal law",
+      "citation": "42 U.S.C. §3604(f)(3)(C), (f)(7)",
+      "topic": "Fair Housing Act design and construction requirements; covered multifamily dwellings. Checked against sources/are/law/usc-42-3604.txt."
+    },
+    {
+      "kind": "Federal regulation",
+      "citation": "24 CFR 100.201",
+      "topic": "Definitions: covered multifamily dwellings, first occupancy, ground floor. Checked against sources/are/law/cfr-24-100.201.txt."
+    },
+    {
+      "kind": "Federal regulation",
+      "citation": "28 CFR 35.151; 28 CFR 36.406",
+      "topic": "ADA Title II and Title III new construction and alterations; 2010 Standards compliance dates. Checked against sources/are/law/."
+    },
+    {
+      "kind": "Federal law",
+      "citation": "54 U.S.C. §306108",
+      "topic": "NHPA Section 106: federal agencies take into account effects on historic properties before approving funds or licenses. Checked against sources/are/law/usc-54-306108.txt."
+    },
+    {
+      "kind": "AIA",
+      "citation": "A201-2017 §3.7.1",
+      "topic": "Contractor secures and pays for the building permit unless the contract documents provide otherwise.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    }
+  ],
+  "questions": [
+    {
+      "id": "PjM-5.1-q01",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "During design development of a one-story corporate office building, the project architect is checking the code analysis before the 50% DD review. The floor will have open offices and a large conference room furnished with tables and chairs. The jurisdiction has adopted the IBC 2021.\n\n| Area | Size | Use |\n|---|---|---|\n| Offices and support | 18,000 gross sf | Business |\n| Conference room | 2,400 net sf | Assembly, tables and chairs |\n\nWhat is the design occupant load for the floor?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "120",
+          "explanation": "This counts the business area only and leaves out the conference room."
+        },
+        {
+          "id": "b",
+          "text": "280",
+          "explanation": "Correct. 18,000 ÷ 150 = 120, plus 2,400 ÷ 15 = 160.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "340",
+          "explanation": "This uses the older 100 gross sf factor for business areas."
+        },
+        {
+          "id": "d",
+          "text": "463",
+          "explanation": "This uses the concentrated-assembly factor (7 net sf) for a room with tables."
+        }
+      ],
+      "explanation": "1. Business: 18,000 ÷ 150 gross = 120\n2. Assembly, unconcentrated: 2,400 ÷ 15 net = 160\n3. Total = 280 (2 exits required for 1–500)"
+    },
+    {
+      "id": "PjM-5.1-q02",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "A firm is starting schematic design for a medical office building in a city that has adopted the IBC 2021 with local amendments. A designer points out that a newer edition of the IBC has been published and suggests designing to it so the project is current. The city hasn't announced plans to adopt the newer edition before the permit application next year.\n\nWhich code should the design follow?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The newer model code edition, since it is current",
+          "explanation": "A model code isn't law until the jurisdiction adopts it."
+        },
+        {
+          "id": "b",
+          "text": "The IBC 2021 as adopted and amended by the city",
+          "explanation": "Correct. The edition and amendments the jurisdiction has adopted govern.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Whichever edition is less restrictive for each item",
+          "explanation": "Mixing editions to pick the easier provisions isn't allowed."
+        },
+        {
+          "id": "d",
+          "text": "The IBC 2021 without the local amendments",
+          "explanation": "Local amendments are part of the adopted code."
+        }
+      ],
+      "explanation": "Design to the code the jurisdiction has adopted, including its amendments."
+    },
+    {
+      "id": "PjM-5.1-q03",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "A developer wants a 6-story office building on an urban site. The zoning ordinance permits buildings up to 75 ft tall on the site. Based on the construction type the developer has selected for cost reasons and the sprinkler system, the IBC 2021 as adopted limits the building to 65 ft above grade plane.\n\nWhat is the maximum building height the architect can design to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "75 ft, because zoning sets the height limit",
+          "explanation": "Zoning is only one limit. The building code also limits height."
+        },
+        {
+          "id": "b",
+          "text": "65 ft, because both limits must be met",
+          "explanation": "Correct. The project must comply with both, so the more restrictive limit controls.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "70 ft, the average of the two limits",
+          "explanation": "Limits aren't averaged."
+        },
+        {
+          "id": "d",
+          "text": "75 ft, if the building official approves",
+          "explanation": "The building official can't waive a code height limit simply because zoning allows more."
+        }
+      ],
+      "explanation": "Zoning and the building code both apply. The more restrictive limit controls."
+    },
+    {
+      "id": "PjM-5.1-q04",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "An architect is preparing the code analysis for a new apartment building that will first be occupied in 2028. The project's key data is shown below. Each ground-floor unit is reached from a building entrance on an accessible route.\n\n| Item | Data |\n|---|---|\n| Stories | 3 |\n| Units | 24 (8 per floor) |\n| Elevator | None |\n| Funding | Private |\n\nHow many units must meet the Fair Housing Act design requirements?",
+      "options": [
+        {
+          "id": "a",
+          "text": "0, because the building has no elevator",
+          "explanation": "Buildings of 4 or more units without an elevator still have covered ground-floor units."
+        },
+        {
+          "id": "b",
+          "text": "8, the ground-floor units",
+          "explanation": "Correct. Without an elevator, the ground-floor units in a building of 4 or more units are covered.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "12, half of the units",
+          "explanation": "The Act doesn't use a percentage."
+        },
+        {
+          "id": "d",
+          "text": "24, every unit in the building",
+          "explanation": "All units are covered only when the building has an elevator."
+        }
+      ],
+      "explanation": "FHA covered multifamily dwellings: with an elevator, all units; without one, ground-floor units (4+ unit buildings)."
+    },
+    {
+      "id": "PjM-5.1-q05",
+      "type": "cata",
+      "cognitiveLevel": "U/A",
+      "stem": "A building department returned a firm's last permit submittal because the code analysis was incomplete. For the next project, a three-story mixed-use building, the principal asks the project architect to confirm the code summary sheet will be complete for plan review.\n\nWhich items should the code summary include? Check the four that apply.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Occupancy classification of each space",
+          "explanation": "Correct. Occupancy drives most other code requirements.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Construction type and fire-resistance ratings",
+          "explanation": "Correct. Construction type sets ratings for the building elements.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Allowable height and area calculation",
+          "explanation": "Correct. Reviewers check that the building fits the allowable height and area.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Occupant loads and egress capacity",
+          "explanation": "Correct. Egress depends on occupant loads.",
+          "correct": true
+        },
+        {
+          "id": "e",
+          "text": "The contractor's sequence of construction",
+          "explanation": "Sequencing is the contractor's means and methods, not part of the code analysis."
+        },
+        {
+          "id": "f",
+          "text": "The owner's projected operating costs",
+          "explanation": "Operating costs aren't a code item."
+        }
+      ],
+      "selectCount": 4,
+      "explanation": "Code summary: occupancy, construction type, height and area, occupant load and egress, sprinklers, accessibility."
+    },
+    {
+      "id": "PjM-5.1-q06",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "A county is building a new public library with county funds. The project architect asks which part of the Americans with Disabilities Act will govern accessibility for the building's design. Construction documents will be submitted for permit next spring.\n\nWhich ADA title applies to the library's design?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Title I, covering employment",
+          "explanation": "Title I covers employment practices, not facility design."
+        },
+        {
+          "id": "b",
+          "text": "Title II, covering state and local governments",
+          "explanation": "Correct. A county facility is covered by Title II. New construction must meet the 2010 Standards (28 CFR 35.151).",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Title III, covering public accommodations",
+          "explanation": "Title III covers private entities, not county facilities."
+        },
+        {
+          "id": "d",
+          "text": "None, because public buildings follow only the local code",
+          "explanation": "Federal law applies alongside the local code."
+        }
+      ],
+      "explanation": "ADA Title II: state and local government facilities (28 CFR 35.151)."
+    },
+    {
+      "id": "PjM-5.1-q07",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "A city plans to renovate a 1920s school listed on the National Register of Historic Places into a community center. Part of the funding is a federal grant. The city wants to start construction documents now, and asks the architect whether any federal review is needed before the grant is approved.\n\nWhat review must the federal agency complete before approving the grant?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A Section 106 review of effects on the building",
+          "explanation": "Correct. NHPA Section 106 requires the federal agency to consider effects on historic properties before approving federal funds.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "A Davis-Bacon review of the architect's fees",
+          "explanation": "Davis-Bacon concerns construction wages, not the agency's historic review."
+        },
+        {
+          "id": "c",
+          "text": "An accessibility plan review by the U.S. Department of Justice",
+          "explanation": "The DOJ doesn't review plans before construction."
+        },
+        {
+          "id": "d",
+          "text": "No review, since the city owns the building",
+          "explanation": "Federal funding triggers the review whoever owns the building."
+        }
+      ],
+      "explanation": "Federal funding or permits affecting historic property trigger Section 106 review (54 U.S.C. §306108)."
+    },
+    {
+      "id": "PjM-5.1-q08",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "An owner and contractor have signed an A101-2017 agreement with the A201-2017 general conditions for a new fire station. The contract documents don't say who will obtain the building permit. Plan review is complete, and the permit is ready to be issued. The owner asks the architect who should get it.\n\nWho is responsible for obtaining the building permit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The architect, as the design professional of record",
+          "explanation": "The architect assists with filings, but A201 assigns securing the permit to the contractor."
+        },
+        {
+          "id": "b",
+          "text": "The contractor, unless the documents say otherwise",
+          "explanation": "Correct. A201-2017 §3.7.1 makes the contractor secure and pay for the building permit by default.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "The owner, as the property owner",
+          "explanation": "The owner may be the applicant in some jurisdictions, but A201's default is the contractor."
+        },
+        {
+          "id": "d",
+          "text": "The building official, once the plan review is complete",
+          "explanation": "The building official issues the permit but doesn't obtain it for a party."
+        }
+      ],
+      "explanation": "A201-2017 §3.7.1: the contractor secures the building permit unless the documents say otherwise.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "PjM-5.1-f01",
+      "front": "Which code edition applies?",
+      "back": "The edition the jurisdiction adopted, with its local amendments, not the newest model code."
+    },
+    {
+      "id": "PjM-5.1-f02",
+      "front": "Zoning vs. building code limits",
+      "back": "Both apply. The more restrictive controls."
+    },
+    {
+      "id": "PjM-5.1-f03",
+      "front": "IBC conflicts (§102.1)",
+      "back": "Most restrictive governs. Specific governs over general."
+    },
+    {
+      "id": "PjM-5.1-f04",
+      "front": "Occupant load factors (IBC 2021 Table 1004.5)",
+      "back": "Business 150 gross. Assembly with tables and chairs 15 net. Chairs only 7 net."
+    },
+    {
+      "id": "PjM-5.1-f05",
+      "front": "Number of exits (Table 1006.3.3)",
+      "back": "1–500: 2 · 501–1,000: 3 · more than 1,000: 4."
+    },
+    {
+      "id": "PjM-5.1-f06",
+      "front": "FHA covered multifamily dwellings",
+      "back": "4+ units with an elevator: all units. Without an elevator: ground-floor units. First occupancy after March 13, 1991."
+    },
+    {
+      "id": "PjM-5.1-f07",
+      "front": "ADA Title II vs. Title III",
+      "back": "II: state and local government (28 CFR 35.151). III: public accommodations and commercial facilities (28 CFR 36.406)."
+    },
+    {
+      "id": "PjM-5.1-f08",
+      "front": "NHPA Section 106",
+      "back": "A federal agency must consider effects on historic properties before approving funds or a license."
+    },
+    {
+      "id": "PjM-5.1-f09",
+      "front": "Code analysis timing",
+      "back": "Start at SD, refine in DD, finish in CDs with a summary sheet in the permit set."
+    },
+    {
+      "id": "PjM-5.1-f10",
+      "front": "Who gets the building permit (A201)?",
+      "back": "The contractor, unless the documents say otherwise (§3.7.1).",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-5.1-f11",
+      "front": "Code analysis contents",
+      "back": "Occupancy, construction type, height and area, fire ratings, sprinklers, occupant load and egress, accessibility, energy."
+    }
+  ]
+}

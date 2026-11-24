@@ -1,0 +1,401 @@
+{
+  "objectiveId": "PjM-4.4",
+  "exam": "ARE",
+  "division": "PjM",
+  "generated": "2026-11-24",
+  "verified": "2026-11-24",
+  "itemStyle": "ncarb-v3-difficulty",
+  "references": [
+    {
+      "kind": "Code",
+      "citation": "IBC 2021 §104.11",
+      "topic": "Alternative materials, design and methods of construction and equipment."
+    },
+    {
+      "kind": "Code",
+      "citation": "IBC 2021 §105; §109",
+      "topic": "Permits; fees based on valuation."
+    },
+    {
+      "kind": "Code",
+      "citation": "IBC 2021 §107.3.3; §107.3.4; §107.3.4.1",
+      "topic": "Phased approval; registered design professional in responsible charge; deferred submittals."
+    },
+    {
+      "kind": "Code",
+      "citation": "IBC 2021 §110; §111; §111.3; §113",
+      "topic": "Inspections; certificate of occupancy; temporary occupancy; board of appeals."
+    },
+    {
+      "kind": "Code",
+      "citation": "IBC 2021 §1704.2.3",
+      "topic": "Statement of special inspections."
+    },
+    {
+      "kind": "Federal regulation",
+      "citation": "28 CFR 36.406(a)",
+      "topic": "2010 ADA Standards required for new construction when the permit application is certified complete on or after March 15, 2012. Checked against sources/are/law/cfr-28-36.406.txt."
+    },
+    {
+      "kind": "Federal regulation",
+      "citation": "40 CFR 122.26(b)(14)(x), (b)(15)",
+      "topic": "NPDES stormwater: construction disturbing 5+ acres (large) and 1–5 acres (small). Checked against sources/are/law/cfr-40-122.26.txt."
+    }
+  ],
+  "questions": [
+    {
+      "id": "PjM-4.4-q01",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "A developer wants to submit for the building permit for a 5-story hotel next week so plan review can start. The fire sprinkler shop drawings and the delegated design of the exterior metal panel system won't be ready for another two months. The jurisdiction has adopted the IBC 2021 without amendments to Chapter 1.\n\nHow should the architect handle these items in the permit submittal?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Delay the entire submittal until both items are complete",
+          "explanation": "Delaying the whole submittal isn't necessary when the code provides for deferred submittals."
+        },
+        {
+          "id": "b",
+          "text": "List them as deferred submittals on the documents",
+          "explanation": "Correct. Deferred submittals are identified on the documents and approved by the building official (IBC §107.3.4.1).",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Submit placeholder drawings marked as preliminary",
+          "explanation": "Placeholder drawings may lead to rejection and don't give the reviewer accurate information."
+        },
+        {
+          "id": "d",
+          "text": "Leave them out and submit them after the permit is issued",
+          "explanation": "Leaving items out without listing them as deferred submittals isn't permitted."
+        }
+      ],
+      "explanation": "IBC §107.3.4.1: identify deferred submittals on the documents. The building official approves the deferral."
+    },
+    {
+      "id": "PjM-4.4-q02",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "The architect for a mid-rise office building wants to use a new exterior insulation product that isn't specifically addressed by the prescriptive provisions of the IBC 2021 adopted by the jurisdiction. The manufacturer has an evaluation report from a recognized evaluation service and fire test data.\n\nHow should the architect seek approval to use the product?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Request approval as an alternative material",
+          "explanation": "Correct. IBC §104.11 lets the building official approve alternatives shown to be equivalent with tests or reports.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Specify it without comment, since the code doesn't prohibit it",
+          "explanation": "Products not addressed by the code need the building official's approval."
+        },
+        {
+          "id": "c",
+          "text": "Apply to the zoning board for a variance",
+          "explanation": "Zoning variances don't address building code compliance."
+        },
+        {
+          "id": "d",
+          "text": "Ask the contractor to request approval during construction",
+          "explanation": "Waiting risks rejection after procurement. The design professional should seek approval during design."
+        }
+      ],
+      "explanation": "IBC §104.11: alternatives are approved by the building official, based on evidence of equivalence."
+    },
+    {
+      "id": "PjM-4.4-q03",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "An owner is building a 200,000 sf distribution warehouse on a fast-track schedule and wants foundation work to begin before the superstructure and MEP documents are finished. The building department's code permits phased approvals. The owner asks what it should understand about starting early.\n\nWhat should the architect tell the owner?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A foundation permit can be issued, at the owner's risk",
+          "explanation": "Correct. Under IBC §107.3.3, a phased permit proceeds at the holder's risk, with no assurance the rest will be approved.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Foundations can start without a permit if the plans are submitted",
+          "explanation": "Construction requires a permit for the work."
+        },
+        {
+          "id": "c",
+          "text": "A phased permit guarantees later phases will be approved",
+          "explanation": "Later phases are reviewed on their own merits."
+        },
+        {
+          "id": "d",
+          "text": "Phased approval applies only to public projects",
+          "explanation": "The code provision isn't limited to public projects."
+        }
+      ],
+      "explanation": "Phased approval (IBC §107.3.3) is at the permit holder's risk."
+    },
+    {
+      "id": "PjM-4.4-q04",
+      "type": "cata",
+      "cognitiveLevel": "U/A",
+      "stem": "On its last project, a firm's permit submittal for a medical office building was returned twice, which delayed the start by ten weeks. The reviewers found an incomplete code analysis, a missing statement of special inspections, and a zoning setback conflict. The firm is preparing to submit a similar building.\n\nWhich steps should the architect take before submitting? Check the three that apply.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hold a pre-application meeting with the building department",
+          "explanation": "Correct. Early meetings surface the reviewer's concerns and local requirements.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Include a complete code analysis on the drawings",
+          "explanation": "Correct. A clear code summary speeds review and reduces comments.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Include the statement of special inspections",
+          "explanation": "Correct. The registered design professional prepares it as part of the submittal (IBC §1704.2.3).",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Submit incomplete documents to hold a place in line",
+          "explanation": "Incomplete submittals are usually rejected or returned with many comments."
+        },
+        {
+          "id": "e",
+          "text": "Leave the zoning review until after the building permit",
+          "explanation": "Zoning conflicts can stop the permit, so confirm zoning first."
+        },
+        {
+          "id": "f",
+          "text": "Rely on the reviewer to identify code issues",
+          "explanation": "The design professional, not the reviewer, is responsible for compliance."
+        }
+      ],
+      "selectCount": 3,
+      "explanation": "Avoid permit delays: pre-application meeting, complete code analysis, required statements, zoning confirmed."
+    },
+    {
+      "id": "PjM-4.4-q05",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "A school district's new middle school is nearly complete. The classroom wing is finished and its life-safety systems are tested and working, but the gymnasium wing won't be finished for six weeks. The district wants to open the classroom wing for the start of the school year in two weeks.\n\nWhat should the architect advise?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Request a temporary certificate of occupancy",
+          "explanation": "Correct. The building official may issue a temporary certificate for the portion that can be occupied safely (IBC §111.3).",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Open the classroom wing without approval since it's complete",
+          "explanation": "Occupancy requires a certificate from the building official."
+        },
+        {
+          "id": "c",
+          "text": "Issue the architect's certificate of substantial completion",
+          "explanation": "Substantial completion is contractual. It doesn't authorize occupancy."
+        },
+        {
+          "id": "d",
+          "text": "Wait for a final certificate of occupancy for the whole school",
+          "explanation": "A temporary certificate can allow partial occupancy sooner."
+        }
+      ],
+      "explanation": "Partial early occupancy: a temporary certificate of occupancy (IBC §111.3)."
+    },
+    {
+      "id": "PjM-4.4-q06",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "The plan reviewer for a two-story office building has issued a comment requiring a second exit stair from the second floor. The architect's code analysis shows that the occupant load and travel distance permit a single exit under the IBC 2021 as adopted. Adding the stair would cost about $180,000 and reduce leasable area.\n\nWhat should the architect do first?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Add the stair so the permit isn't delayed further",
+          "explanation": "Adding costly work without discussing the code basis may be unnecessary."
+        },
+        {
+          "id": "b",
+          "text": "Meet the building official to review the code analysis",
+          "explanation": "Correct. Discuss the interpretation with the building official first. If it isn't resolved, an appeal is available.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "File an appeal with the board of appeals right away",
+          "explanation": "An appeal comes after trying to resolve the issue with the building official."
+        },
+        {
+          "id": "d",
+          "text": "Apply for a zoning variance from the planning commission",
+          "explanation": "Zoning bodies don't decide building code exit requirements."
+        }
+      ],
+      "explanation": "Code disagreements: meet with the building official first, then the board of appeals (IBC §113)."
+    },
+    {
+      "id": "PjM-4.4-q07",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "The owner of a new retail center received its building permit after the jurisdiction reviewed the plans for accessibility under its adopted building code. The owner tells the architect it doesn't need further accessibility review, because the permit shows the design complies with the Americans with Disabilities Act.\n\nWhat should the architect explain?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The permit confirms compliance with the ADA",
+          "explanation": "Local plan review applies the adopted code. It doesn't certify ADA compliance."
+        },
+        {
+          "id": "b",
+          "text": "A permit doesn't certify ADA compliance",
+          "explanation": "Correct. The ADA is federal civil-rights law enforced by the DOJ and through lawsuits. The 2010 Standards apply to the design regardless of local approval.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "The ADA applies only to government buildings",
+          "explanation": "Title III applies to public accommodations such as retail centers."
+        },
+        {
+          "id": "d",
+          "text": "The contractor is responsible for ADA compliance",
+          "explanation": "Design compliance rests with the owner and its design team, and the contractor builds what's designed."
+        }
+      ],
+      "explanation": "A building permit doesn't certify ADA compliance (28 CFR 36.406)."
+    },
+    {
+      "id": "PjM-4.4-q08",
+      "type": "cata",
+      "cognitiveLevel": "U/A",
+      "stem": "An architect is planning approvals for a new restaurant with a drive-through on a 2.5-acre parcel. Construction will disturb the whole site. The site isn't near an airport, isn't in a historic district, and is already zoned for restaurant use, but site plan approval is required. The local building department reviews fire code compliance.\n\nWhich approvals should the architect include in the schedule? Check the three that apply.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Health department review of the food-service plans",
+          "explanation": "Correct. Food-service facilities need health department plan review.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Site plan approval from the planning department",
+          "explanation": "Correct. The stem says site plan approval is required.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "EPA stormwater coverage for construction activity",
+          "explanation": "Correct. Disturbing 1 acre or more requires NPDES construction stormwater coverage (40 CFR 122.26).",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "FAA review of the building height",
+          "explanation": "The site isn't near an airport."
+        },
+        {
+          "id": "e",
+          "text": "U.S. DOJ plan approval for accessibility",
+          "explanation": "The DOJ doesn't review plans before construction."
+        },
+        {
+          "id": "f",
+          "text": "Historic preservation commission review",
+          "explanation": "The site isn't in a historic district."
+        }
+      ],
+      "selectCount": 3,
+      "explanation": "Plan for every approval, not just the building permit."
+    },
+    {
+      "id": "PjM-4.4-q09",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "A city's fee schedule bases the building permit fee on the project's valuation. The owner of a new fire station asks the architect to estimate permit-related fees for the project budget. The building official has accepted a valuation of $4,200,000.\n\n| Fee | Basis |\n|---|---|\n| Building permit | $5,600 for the first $1,000,000, plus $4.50 per $1,000 above that |\n| Plan review | 65% of the building permit fee |\n\nWhat total should the architect include for these fees?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "$20,000",
+          "explanation": "This counts the building permit fee only."
+        },
+        {
+          "id": "b",
+          "text": "$24,500",
+          "explanation": "This applies $4.50 per $1,000 to the full valuation and leaves out plan review."
+        },
+        {
+          "id": "c",
+          "text": "$33,000",
+          "explanation": "Correct. Permit $5,600 + 3,200 × $4.50 = $20,000, plus plan review $13,000.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "$40,425",
+          "explanation": "This applies $4.50 to the full valuation before adding plan review."
+        }
+      ],
+      "explanation": "1. Valuation above $1,000,000 = $3,200,000 → 3,200 × $4.50 = $14,400\n2. Permit = $5,600 + $14,400 = $20,000\n3. Plan review = 65% × $20,000 = $13,000\n4. Total = $33,000"
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "PjM-4.4-f01",
+      "front": "Deferred submittals",
+      "back": "Listed on the documents and approved by the building official (IBC §107.3.4.1)."
+    },
+    {
+      "id": "PjM-4.4-f02",
+      "front": "Design professional in responsible charge",
+      "back": "Coordinates the permit submittal, including deferred items (IBC §107.3.4)."
+    },
+    {
+      "id": "PjM-4.4-f03",
+      "front": "Phased approval",
+      "back": "A permit for part of the work before full approval, at the holder's risk (IBC §107.3.3)."
+    },
+    {
+      "id": "PjM-4.4-f04",
+      "front": "Alternative materials and methods",
+      "back": "Approved by the building official based on evidence of equivalence (IBC §104.11)."
+    },
+    {
+      "id": "PjM-4.4-f05",
+      "front": "Temporary certificate of occupancy",
+      "back": "Allows safe partial occupancy before completion (IBC §111.3)."
+    },
+    {
+      "id": "PjM-4.4-f06",
+      "front": "Disagree with a plan reviewer",
+      "back": "Meet the building official with the code analysis, then the board of appeals (IBC §113)."
+    },
+    {
+      "id": "PjM-4.4-f07",
+      "front": "Does a permit certify ADA compliance?",
+      "back": "No. The ADA is federal civil-rights law enforced by the DOJ and through lawsuits."
+    },
+    {
+      "id": "PjM-4.4-f08",
+      "front": "2010 ADA Standards for new construction",
+      "back": "Required when the permit application was certified complete on or after March 15, 2012 (28 CFR 36.406)."
+    },
+    {
+      "id": "PjM-4.4-f09",
+      "front": "NPDES construction stormwater threshold",
+      "back": "Disturbing 1 acre or more (small: 1 to under 5 acres; large: 5 or more) (40 CFR 122.26)."
+    },
+    {
+      "id": "PjM-4.4-f10",
+      "front": "Statement of special inspections",
+      "back": "Prepared by the registered design professional as part of the submittal (IBC §1704.2.3)."
+    },
+    {
+      "id": "PjM-4.4-f11",
+      "front": "Approvals beyond the building permit",
+      "back": "Zoning and site plan, health, fire, utilities, stormwater, historic, FAA (as applicable)."
+    }
+  ]
+}

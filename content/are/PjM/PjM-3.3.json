@@ -1,0 +1,407 @@
+{
+  "objectiveId": "PjM-3.3",
+  "exam": "ARE",
+  "division": "PjM",
+  "generated": "2026-11-24",
+  "itemStyle": "ncarb-v3-difficulty",
+  "references": [
+    {
+      "kind": "AIA",
+      "citation": "A201-2017 §4.2",
+      "topic": "Architect's administration of the contract: site visits, rejection of work, submittals, changes, interpretations, completion.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "AIA",
+      "citation": "A201-2017 §2.3",
+      "topic": "Owner's right to stop the work (not the architect's).",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "AIA",
+      "citation": "A201-2017 §7.2–§7.4",
+      "topic": "Change orders, construction change directives, minor changes.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "AIA",
+      "citation": "A201-2017 §9.3–§9.10",
+      "topic": "Applications and certificates for payment, substantial and final completion.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "AIA",
+      "citation": "A201-2017 §3.12.8; §15.2",
+      "topic": "Submittal deviations; Initial Decision Maker.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "AIA",
+      "citation": "A101-2017",
+      "topic": "Owner–contractor agreement (stipulated sum): contract sum, time, payments, retainage."
+    }
+  ],
+  "questions": [
+    {
+      "id": "PjM-3.3-q01",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "During a site visit to a parking structure, the architect sees the contractor's crew preparing to place concrete in a post-tensioned deck. The specified special inspection of the tendon layout hasn't been performed, and the contract requires it before placement. The superintendent says the inspector is running late and the trucks are already on site.\n\nWhat should the architect do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Order the contractor to stop all work on the site",
+          "explanation": "The architect has no authority to stop the work. That right belongs to the owner."
+        },
+        {
+          "id": "b",
+          "text": "Reject the work if placed, and notify both parties",
+          "explanation": "Correct. The architect can reject nonconforming work and should notify the owner and contractor in writing. The owner can decide whether to stop the work.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Direct the concrete subcontractor to send the trucks away",
+          "explanation": "The architect communicates with subcontractors through the contractor."
+        },
+        {
+          "id": "d",
+          "text": "Wait for the inspector's report before taking any action",
+          "explanation": "By then the concrete may be placed and the problem hidden."
+        }
+      ],
+      "explanation": "The architect rejects nonconforming work. The owner has the right to stop the work.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.3-q02",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "An architect is reviewing the contractor's fifth application for payment on a school. The architect's site visit confirms the work and the stored materials, which are suitably stored and insured. The figures are:\n\n- Work completed to date: $1,200,000\n- Materials stored on site: $100,000\n- Retainage: 10%\n- Previous certificates: $900,000\n\nWhat amount should the architect certify?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "$180,000",
+          "explanation": "This leaves out the stored materials."
+        },
+        {
+          "id": "b",
+          "text": "$270,000",
+          "explanation": "Correct. ($1,200,000 + $100,000) × 0.90 − $900,000 = $270,000.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "$300,000",
+          "explanation": "This takes retainage only on the stored materials."
+        },
+        {
+          "id": "d",
+          "text": "$400,000",
+          "explanation": "This leaves out retainage."
+        }
+      ],
+      "explanation": "1. Total earned = $1,200,000 + $100,000 = $1,300,000\n2. Less 10% retainage = $1,170,000\n3. Less previous certificates = $1,170,000 − $900,000 = $270,000"
+    },
+    {
+      "id": "PjM-3.3-q03",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "After the architect certified a progress payment on a medical office building, the owner learns that the contractor hasn't paid its drywall subcontractor, which has filed a lien. The owner says that by certifying the payment, the architect told the owner the subcontractors had been paid.\n\nWhat does the architect's certificate for payment represent under A201-2017?",
+      "options": [
+        {
+          "id": "a",
+          "text": "That the architect verified the subcontractors were paid",
+          "explanation": "The certificate isn't a representation about how the contractor used the money."
+        },
+        {
+          "id": "b",
+          "text": "That the work progressed as indicated, to its knowledge",
+          "explanation": "Correct. The certificate reflects the architect's knowledge, information and belief from its site visits and the data in the application.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "That the architect has made exhaustive inspections of the work",
+          "explanation": "Site visits aren't exhaustive inspections."
+        },
+        {
+          "id": "d",
+          "text": "That the completed work is free of all defects",
+          "explanation": "The certificate doesn't guarantee the work."
+        }
+      ],
+      "explanation": "§9.4.2: the certificate states progress and quality to the architect's knowledge, not how the money was used.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.3-q04",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "During construction of a fire station, the owner decides to add a backup generator. The contractor's price is $96,000, and the owner thinks it should be $70,000. The generator pad must be poured next week with the adjacent slab or the schedule will slip, so the owner wants the work to proceed while the price is negotiated.\n\nWhich document should the architect prepare?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A change order",
+          "explanation": "A change order needs agreement on the price and time, which the parties don't have yet."
+        },
+        {
+          "id": "b",
+          "text": "A construction change directive",
+          "explanation": "Correct. A CCD, signed by the owner and architect, directs the change before the price is agreed.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "An order for a minor change in the work",
+          "explanation": "Minor changes can't change the contract sum."
+        },
+        {
+          "id": "d",
+          "text": "Architect's supplemental instructions",
+          "explanation": "ASIs clarify the documents but don't authorize a change in cost."
+        }
+      ],
+      "explanation": "Use a CCD when the work must proceed before the price is agreed.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.3-q05",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "A contractor notifies the architect that a new library is substantially complete and submits its list of items to complete or correct. During the inspection, the architect finds the building usable for its intended purpose, but also finds several deficiencies that aren't on the contractor's list. These include damaged ceiling tiles and a missing door closer.\n\nWhat should the architect do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reject substantial completion until every item is corrected",
+          "explanation": "Substantial completion doesn't require every item to be finished, only that the building be usable."
+        },
+        {
+          "id": "b",
+          "text": "Add the items to the list and prepare the certificate",
+          "explanation": "Correct. Items the architect finds are added to the list, and the certificate of substantial completion is issued with the list attached.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Issue the certificate based only on the contractor's list",
+          "explanation": "The architect adds the items its inspection finds."
+        },
+        {
+          "id": "d",
+          "text": "Ask the owner to inspect and add any items it finds",
+          "explanation": "The completion inspection is the architect's duty."
+        }
+      ],
+      "explanation": "§9.8: add the items found, then certify substantial completion with the list.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.3-q06",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "The architect approved the storefront shop drawings for a retail building. After installation, the architect finds that the mullions are a different profile than specified. The shop drawings showed the different profile, but the contractor didn't call it out as a deviation. The contractor says the architect's approval accepted the change.\n\nWho is responsible for the deviation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The architect, because it approved the shop drawings",
+          "explanation": "Approval doesn't accept a deviation that wasn't specifically identified."
+        },
+        {
+          "id": "b",
+          "text": "The contractor, because it didn't identify the deviation",
+          "explanation": "Correct. The contractor isn't relieved of a deviation unless it informed the architect in writing and the architect specifically approved it.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "The storefront manufacturer, which prepared the drawings",
+          "explanation": "The manufacturer works for the contractor, so the contractor remains responsible to the owner."
+        },
+        {
+          "id": "d",
+          "text": "The owner, because its architect approved the submittal",
+          "explanation": "The owner doesn't take on the contractor's responsibility through the architect's review."
+        }
+      ],
+      "explanation": "§3.12.8: unflagged deviations stay the contractor's responsibility.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.3-q07",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "The owner and contractor of a university building disagree about whether the installed brick matches the approved sample panel. The contractor says the color range is acceptable. The owner wants a section removed and rebuilt. Both ask the architect for a decision, and the architect finds the installed brick consistent with the approved sample.\n\nWhich statement describes the architect's decision?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It's final, because it concerns aesthetic effect",
+          "explanation": "Correct. Decisions on aesthetic effect are final if consistent with the intent of the contract documents (§4.2.13).",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "It's advisory until the owner accepts it in writing",
+          "explanation": "Under A201, the architect's aesthetic decisions consistent with intent are final."
+        },
+        {
+          "id": "c",
+          "text": "It must go to mediation before it takes effect",
+          "explanation": "Aesthetic decisions consistent with intent don't go through the claims process."
+        },
+        {
+          "id": "d",
+          "text": "It binds the contractor, but the owner may overrule it",
+          "explanation": "The architect interprets impartially, and its decision binds both parties."
+        }
+      ],
+      "explanation": "Aesthetic decisions consistent with the documents' intent are final.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.3-q08",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "The owner of a hospital expects the architect's construction administration to include checking every weld on the steel frame and being on site daily. The architect's agreement provides basic construction-phase services with site visits every two weeks, and the owner has engaged a testing agency for the welds.\n\nHow should the architect respond?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Agree to check every weld within basic services",
+          "explanation": "Basic CA site visits are periodic, not exhaustive inspections."
+        },
+        {
+          "id": "b",
+          "text": "Explain visits are periodic and offer on-site representation",
+          "explanation": "Correct. Full-time on-site representation is a supplemental service. Weld inspection is the testing agency's job.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Have the contractor's quality-control staff report to the owner",
+          "explanation": "The contractor's QC doesn't replace the architect's role or the owner's testing agency."
+        },
+        {
+          "id": "d",
+          "text": "Refer the owner to the building inspector for daily visits",
+          "explanation": "The building inspector enforces the code. It doesn't represent the owner."
+        }
+      ],
+      "explanation": "Site visits are periodic. Continuous on-site representation is a separate service.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.3-q09",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "The contractor for a community center submits a claim for 15 additional days, saying the owner's late delivery of furniture blocked finish work. The owner disputes it. The owner–contractor agreement uses A201-2017 and doesn't name anyone other than the architect as Initial Decision Maker. The contractor asks what happens next.\n\nHow should the claim be handled first?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It goes directly to binding arbitration",
+          "explanation": "Under A201-2017, an initial decision normally comes before mediation and binding resolution."
+        },
+        {
+          "id": "b",
+          "text": "The architect renders an initial decision as IDM",
+          "explanation": "Correct. The architect is the Initial Decision Maker unless someone else is named.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "The owner decides it, as the party paying for time",
+          "explanation": "The owner is a party to the dispute and doesn't decide claims."
+        },
+        {
+          "id": "d",
+          "text": "It goes to mediation before anyone reviews it",
+          "explanation": "Mediation follows the IDM's decision."
+        }
+      ],
+      "explanation": "A201 claims: IDM decision → mediation → binding resolution.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "PjM-3.3-f01",
+      "front": "A101-2017",
+      "back": "Owner–contractor agreement (stipulated sum): contract sum, time, payments, retainage. The architect isn't a party."
+    },
+    {
+      "id": "PjM-3.3-f02",
+      "front": "A201-2017",
+      "back": "General conditions. They define the architect's CA role, which B101 incorporates."
+    },
+    {
+      "id": "PjM-3.3-f03",
+      "front": "Architect's site visits",
+      "back": "At intervals suited to the stage of construction. Not exhaustive or continuous. No responsibility for means, methods or safety.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.3-f04",
+      "front": "Who can stop the work?",
+      "back": "The owner (§2.3). The architect can only reject nonconforming work.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.3-f05",
+      "front": "Certificate for payment timing",
+      "back": "Within 7 days of the application: certify, or notify in writing why not (§9.4.1).",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.3-f06",
+      "front": "Amount to certify",
+      "back": "(Work completed + stored materials) × (1 − retainage) − previous certificates."
+    },
+    {
+      "id": "PjM-3.3-f07",
+      "front": "Change order vs. CCD vs. minor change",
+      "back": "CO: owner + contractor + architect agree. CCD: owner + architect, price not agreed. Minor: architect only, no change in cost or time."
+    },
+    {
+      "id": "PjM-3.3-f08",
+      "front": "Submittal approval and deviations",
+      "back": "The contractor stays responsible for deviations it didn't identify in writing (§3.12.8).",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.3-f09",
+      "front": "Aesthetic decisions",
+      "back": "Final if consistent with the documents' intent (§4.2.13).",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.3-f10",
+      "front": "Initial Decision Maker",
+      "back": "The architect, unless someone else is named. Then mediation, then binding resolution (§15.2).",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.3-f11",
+      "front": "Substantial completion inspection",
+      "back": "The architect adds the items it finds to the contractor's list, then issues the certificate with the list."
+    }
+  ]
+}

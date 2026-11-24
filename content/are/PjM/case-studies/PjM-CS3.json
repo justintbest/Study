@@ -1,0 +1,187 @@
+{
+  "id": "PjM-CS3",
+  "exam": "ARE",
+  "division": "PjM",
+  "title": "Westgate Community Clinic: bids, budget and the agreement",
+  "scenario": "**Westgate Health**, a nonprofit, is building a **24,000 sf community clinic**. The project is design-bid-build. The architect's agreement is based on B101-2017 (terms summarized in the Agreement Summary resource).\n\n- The architect's 95% CD estimate matched the budget. The CDs were submitted to the owner on **March 1**, and bids were opened on **March 28**.\n- The lowest bona fide bid exceeds the owner's budget for the cost of the work. The regional construction cost index rose about **1%** between the estimate and the bid opening, in line with the cost consultant's forecast.\n- A donor funded the **rooftop photovoltaic array**. The clinic's board wants to keep it if at all possible.\n- The board has decided to accept bid alternates and, if needed, revise scope to stay within the budget. It won't increase the budget.\n- The board treasurer has suggested withholding the architect's procurement-phase fee \"until the budget problem is solved.\" ",
+  "resources": [
+    {
+      "id": "r1",
+      "title": "Agreement Summary",
+      "kind": "AIA Contracts",
+      "body": "### Owner–architect agreement (B101-2017 basis): key terms as filled in\n| Term | Agreed |\n|---|---|\n| Basic compensation | 8% of the cost of the work |\n| Phase allocation | SD 15% · DD 20% · CD 40% · Procurement 5% · Construction 20% |\n| Owner's budget for the cost of the work | $9,600,000 (approved at end of CDs) |\n| Additional services | Hourly, at the architect's billing rates (project architect $150) |\n| Construction-phase limits | 2 site visits per month; 1 review and 1 resubmittal per submittal |\n| Time limit | Services to be completed within 30 months of the agreement date |\n| Dispute resolution | Mediation, then arbitration |\n\nOther provisions follow the standard B101-2017 terms. Summary written for this case study; it isn't AIA text."
+    },
+    {
+      "id": "r2",
+      "title": "Bid Results and Cost Summary",
+      "kind": "Project Budgets and Cost Estimates",
+      "body": "### Bid results (lowest bona fide bid)\n| Item | Amount |\n|---|---|\n| Base bid | $10,050,000 |\n| Alternate 1: delete entry canopy | −$95,000 |\n| Alternate 2: delete casework upgrade | −$140,000 |\n| Alternate 3: delete rooftop PV array | −$310,000 |\n| Alternate 4: reduce site paving and lighting | −$260,000 |\n\n### Cost summary\n| Item | Amount |\n|---|---|\n| Owner's budget for the cost of the work | $9,600,000 |\n| Architect's 95% CD estimate | $9,550,000 |"
+    }
+  ],
+  "questions": [
+    {
+      "id": "PjM-CS3-q01",
+      "objectiveId": "PjM-4.1",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "Refer to the scenario and the Bid Results and Cost Summary.\n\nThe board asks the architect which alternates to accept so the contract sum is within the budget, keeping as much scope as possible while respecting the board's wish about the photovoltaic array.\n\nWhich alternates should the architect recommend?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Alternates 2 and 3",
+          "explanation": "These deduct exactly the $450,000 gap, but they remove the donor-funded PV array the board wants to keep."
+        },
+        {
+          "id": "b",
+          "text": "Alternates 2 and 4",
+          "explanation": "These deduct $400,000, leaving the bid $50,000 over budget."
+        },
+        {
+          "id": "c",
+          "text": "Alternates 1, 2 and 4",
+          "explanation": "Correct. They deduct $495,000, bringing the bid to $9,555,000 while keeping the PV array.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Alternates 1 and 4",
+          "explanation": "These deduct $355,000, leaving the bid $95,000 over budget."
+        }
+      ],
+      "explanation": "1. Gap = $10,050,000 − $9,600,000 = $450,000\n2. Without Alt 3: 1 + 2 + 4 = $495,000 (meets the gap)\n3. 2 + 4 = $400,000 and 1 + 4 = $355,000 fall short"
+    },
+    {
+      "id": "PjM-CS3-q02",
+      "objectiveId": "PjM-3.1",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "Refer to the scenario and the Agreement Summary.\n\nAfter accepting the alternates, the board decides to revise the scope further so it has a small construction contingency within the budget, and it asks the architect to modify the construction documents. The board asks how the modifications will be compensated.\n\nHow should the architect be compensated for modifying the documents?",
+      "options": [
+        {
+          "id": "a",
+          "text": "As an additional service, because the bids exceeded the budget",
+          "explanation": "Bids over budget alone don't make redesign an additional service."
+        },
+        {
+          "id": "b",
+          "text": "Without additional compensation",
+          "explanation": "Correct. Bidding began within 90 days, and the 1% rise was foreseeable, so the redesign is part of the architect's obligation.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Only after the budget is adjusted for escalation",
+          "explanation": "The 90-day escalation adjustment doesn't apply, because bids were opened 27 days after CDs."
+        },
+        {
+          "id": "d",
+          "text": "Through a deduction from the contractor's fee",
+          "explanation": "The contractor isn't a party to the owner–architect agreement."
+        }
+      ],
+      "explanation": "1. Bids opened 27 days after CDs → no 90-day escalation adjustment (§6.4)\n2. The 1% market change was forecast, not unforeseeable → §6.7 redesign without additional compensation",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-CS3-q03",
+      "objectiveId": "PjM-3.1",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "Refer to the Agreement Summary and the Bid Results and Cost Summary.\n\nThe architect performed design, documentation and bidding services for all four alternates. The board accepts Alternates 1, 2 and 4, so that work won't be built. The treasurer asks whether the architect is owed anything for the deleted alternates.\n\nHow much compensation is the architect owed for its services on the deleted work?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "$0, since the work won't be built",
+          "explanation": "Under a percentage fee, deleted portions are paid to the extent services were performed."
+        },
+        {
+          "id": "b",
+          "text": "$29,700",
+          "explanation": "This covers SD, DD and CD only. The architect also performed procurement services on the alternates."
+        },
+        {
+          "id": "c",
+          "text": "$31,680",
+          "explanation": "Correct. 8% × $495,000 × 80% (SD + DD + CD + procurement) = $31,680.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "$39,600",
+          "explanation": "This includes construction-phase services that won't be performed."
+        }
+      ],
+      "explanation": "1. Deleted work = $95,000 + $140,000 + $260,000 = $495,000\n2. Fee on it = 8% × $495,000 = $39,600\n3. Services performed = SD 15% + DD 20% + CD 40% + procurement 5% = 80%\n4. Owed = 80% × $39,600 = $31,680",
+      "confidence": "medium",
+      "confidenceNote": "Deleted-portion compensation per B101-2017 §11.6; confirm in your copy."
+    },
+    {
+      "id": "PjM-CS3-q04",
+      "objectiveId": "PjM-4.2",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "Refer to the Agreement Summary.\n\nDuring construction, the owner asks the architect to visit the site every week during the three months of framing and rough-in, about 13 visits in all. Each visit takes the project architect 5 hours, including travel and a field report. The owner asks what this will cost beyond the basic fee.\n\nWhat additional fee should the architect propose?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "$4,500",
+          "explanation": "This prices only 6 visits, the number included in basic services."
+        },
+        {
+          "id": "b",
+          "text": "$5,250",
+          "explanation": "Correct. 13 − 6 included = 7 extra visits × 5 hours × $150 = $5,250.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "$9,750",
+          "explanation": "This prices all 13 visits, including the 6 in basic services."
+        },
+        {
+          "id": "d",
+          "text": "$3,000",
+          "explanation": "This prices 4 extra visits, as if 9 visits were included."
+        }
+      ],
+      "explanation": "1. Included = 2 per month × 3 months = 6 visits\n2. Extra = 13 − 6 = 7 visits\n3. Fee = 7 × 5 hours × $150 = $5,250"
+    },
+    {
+      "id": "PjM-CS3-q05",
+      "objectiveId": "PjM-5.2",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "Refer to the scenario and the Agreement Summary.\n\nThe architect's invoice for procurement-phase services is due. The treasurer still wants to withhold it until the budget problem is solved, even though the architect has agreed to modify the documents. The architect wants to protect the relationship and its fee.\n\nHow should the architect respond?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Accept the withholding until the redesign is complete",
+          "explanation": "The agreement doesn't permit withholding fees as a penalty for bids over budget."
+        },
+        {
+          "id": "b",
+          "text": "Explain the agreement's terms and propose mediation",
+          "explanation": "Correct. The redesign is the architect's remedy, withholding as a penalty isn't permitted, and the agreement makes mediation the first step.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "File a demand for arbitration right away",
+          "explanation": "Mediation comes first under the agreement."
+        },
+        {
+          "id": "d",
+          "text": "Stop work on the redesign without notice",
+          "explanation": "Suspension requires written notice, and stopping now would harm the owner's schedule."
+        }
+      ],
+      "explanation": "B101: no withholding as a penalty (§11.10.3). Redesign is the architect's remedy. Disputes go to mediation first.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    }
+  ]
+}

@@ -1,0 +1,427 @@
+{
+  "objectiveId": "PjM-1.1",
+  "exam": "ARE",
+  "division": "PjM",
+  "generated": "2026-11-24",
+  "itemStyle": "ncarb-v3-difficulty",
+  "references": [
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 §3.1",
+      "topic": "Basic services include the architect's usual and customary structural, mechanical and electrical engineering services.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 Article 4",
+      "topic": "Supplemental services (e.g., civil, landscape, interiors, specialty consultants) are added by agreement; additional services require authorization.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 Article 5",
+      "topic": "Owner furnishes surveys, geotechnical services, tests (incl. hazardous materials) and its own consultants.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "AIA",
+      "citation": "C401-2017",
+      "topic": "Architect–consultant agreement; flows prime-agreement duties and insurance to consultants. On NCARB's ARE list."
+    },
+    {
+      "kind": "NCARB",
+      "citation": "NCARB Model Rules of Conduct (rev. July 2023) Rule 5.1",
+      "topic": "Seal only technical submissions prepared under the architect's responsible control. Checked against sources/are/ethics/."
+    }
+  ],
+  "questions": [
+    {
+      "id": "PjM-1.1-q01",
+      "type": "cata",
+      "cognitiveLevel": "U/A",
+      "stem": "A firm has signed a B101-2017 agreement for a new two-story branch library with a small cafe. The agreement adds landscape design as a supplemental service. The owner will provide the boundary and topographic survey and the geotechnical report, and the site is a former parking lot with no known contamination.\n\nWhich consultants should the architect engage?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Structural engineer",
+          "explanation": "Correct. Structural engineering is part of the architect's basic services.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Mechanical, electrical and plumbing engineer",
+          "explanation": "Correct. MEP engineering is part of the architect's basic services.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Landscape architect",
+          "explanation": "Correct. The agreement adds landscape design as a supplemental service, so the architect provides it.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Geotechnical engineer",
+          "explanation": "The owner provides the geotechnical report under B101-2017 Art. 5."
+        },
+        {
+          "id": "e",
+          "text": "Land surveyor",
+          "explanation": "The owner provides the survey."
+        },
+        {
+          "id": "f",
+          "text": "Hazardous-materials consultant",
+          "explanation": "Testing is an owner responsibility, and nothing suggests contamination."
+        }
+      ],
+      "selectCount": 3,
+      "explanation": "Read the agreement: basic + supplemental services define the architect's consultants; Art. 5 defines the owner's.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-1.1-q02",
+      "type": "cata",
+      "cognitiveLevel": "U/A",
+      "stem": "An architect is selecting a structural engineer for a four-story hospital addition in a high-seismic region. The prime agreement requires each consultant to carry professional liability insurance of $2,000,000 per claim. Three firms have submitted proposals, and the hospital's schedule requires construction documents in nine months.\n\nWhich criteria should drive the selection?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Experience with seismic healthcare structures",
+          "explanation": "Correct. Building-type and seismic experience bear directly on quality and risk.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Licensure in the project's jurisdiction",
+          "explanation": "Correct. The engineer must be licensed where the project is located.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Professional liability coverage that meets the prime agreement",
+          "explanation": "Correct. Consultant coverage must match what the architect promised the owner.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "The lowest fee among the three proposals",
+          "explanation": "Fee matters, but choosing on fee alone risks quality and coordination problems."
+        },
+        {
+          "id": "e",
+          "text": "The office closest to the architect's office",
+          "explanation": "Proximity to the architect is secondary to expertise and licensure."
+        },
+        {
+          "id": "f",
+          "text": "The largest firm by number of employees",
+          "explanation": "Size doesn't guarantee relevant expertise or availability."
+        }
+      ],
+      "selectCount": 3,
+      "explanation": "Select consultants on expertise, licensure, capacity and insurance, then fee."
+    },
+    {
+      "id": "PjM-1.1-q03",
+      "type": "cata",
+      "cognitiveLevel": "U/A",
+      "stem": "At the kickoff meeting for a 90,000 sf office building, the project manager wants to settle responsibilities within the architect's team before production starts. The team includes a principal, a project architect, two designers, a specification writer and a construction administration specialist.\n\nWhich responsibilities should be assigned at the kickoff?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Leading coordination with the consultants",
+          "explanation": "Correct. One person must own consultant coordination.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Performing and updating the code analysis",
+          "explanation": "Correct. Code compliance needs a clear owner from the start.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Issuing minutes for owner meetings",
+          "explanation": "Correct. Someone must document decisions and distribute them.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Managing submittals during construction",
+          "explanation": "Correct. Assigning CA duties early lets that person follow the design.",
+          "correct": true
+        },
+        {
+          "id": "e",
+          "text": "Signing the owner–contractor agreement",
+          "explanation": "The owner and contractor sign their own agreement. The architect isn't a party."
+        },
+        {
+          "id": "f",
+          "text": "Setting the contractor's means and methods",
+          "explanation": "Means and methods are the contractor's responsibility (A201-2017 §3.3.1)."
+        }
+      ],
+      "selectCount": 4,
+      "explanation": "Define internal roles early: coordination, code, communication, CA."
+    },
+    {
+      "id": "PjM-1.1-q04",
+      "type": "cata",
+      "cognitiveLevel": "U/A",
+      "stem": "On a new community recreation center, the architect has engaged structural, MEP, civil and landscape consultants. Before design development, the project manager prepares a responsibility matrix, because items that fall between disciplines caused change orders on the firm's last project.\n\nWhich items commonly fall between disciplines and should be assigned explicitly?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Site lighting",
+          "explanation": "Correct. It's often unclear whether electrical or landscape owns it.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Stormwater management",
+          "explanation": "Correct. Civil and plumbing scopes often overlap at the building line.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Fire alarm system design",
+          "explanation": "Correct. It may fall to electrical, a fire-protection engineer, or the contractor's design-build scope.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Structural framing of the roof",
+          "explanation": "Roof framing clearly belongs to the structural engineer."
+        },
+        {
+          "id": "e",
+          "text": "HVAC ductwork layout",
+          "explanation": "Ductwork clearly belongs to the mechanical engineer."
+        },
+        {
+          "id": "f",
+          "text": "Interior floor plan layout",
+          "explanation": "Floor plans clearly belong to the architect."
+        }
+      ],
+      "selectCount": 3,
+      "explanation": "A responsibility matrix closes scope gaps before they become change orders."
+    },
+    {
+      "id": "PjM-1.1-q05",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "A firm's total fee for a medical office building is $640,000. The firm has agreed to these consultant fees:\n\n- Structural engineer: 9% of the total fee\n- MEP engineer: 18% of the total fee\n- Civil engineer: fixed fee of $24,000\n\nHow much of the fee remains for the architect's own services?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "$443,200",
+          "explanation": "Correct. $640,000 − $57,600 − $115,200 − $24,000 = $443,200.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "$449,680",
+          "explanation": "This applies the percentages after subtracting the civil fee. They're percentages of the total fee."
+        },
+        {
+          "id": "c",
+          "text": "$467,200",
+          "explanation": "This leaves out the civil engineer's fixed fee."
+        },
+        {
+          "id": "d",
+          "text": "$558,400",
+          "explanation": "This leaves out the MEP engineer's fee."
+        }
+      ],
+      "explanation": "1. Structural = 9% × $640,000 = $57,600\n2. MEP = 18% × $640,000 = $115,200\n3. Civil = $24,000\n4. Architect = $640,000 − $196,800 = $443,200"
+    },
+    {
+      "id": "PjM-1.1-q06",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "A project manager is staffing design development for a clinic. The phase fee for the architect's own services is $120,000, and the firm uses a blended billing rate of $150 per hour. The project architect will work 25 hours per week on the project for the 10-week phase.\n\nHow many hours remain for the rest of the team?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "250 hours",
+          "explanation": "That's the project architect's hours, not the remainder."
+        },
+        {
+          "id": "b",
+          "text": "550 hours",
+          "explanation": "Correct. The fee supports 800 hours, and the project architect uses 250.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "800 hours",
+          "explanation": "That's the total hours the fee supports, before the project architect's time."
+        },
+        {
+          "id": "d",
+          "text": "1,050 hours",
+          "explanation": "This adds the project architect's hours instead of subtracting them."
+        }
+      ],
+      "explanation": "1. Total hours = $120,000 ÷ $150 = 800\n2. Project architect = 25 × 10 = 250\n3. Remaining = 800 − 250 = 550"
+    },
+    {
+      "id": "PjM-1.1-q07",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "Construction documents for a school are estimated at 3,600 hours of work over 12 weeks. Because of other commitments and non-billable time, each staff member assigned can give the project about 32 hours per week.\n\nHow many staff should the project manager plan to assign?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "8",
+          "explanation": "This assumes 40 hours per week from each person."
+        },
+        {
+          "id": "b",
+          "text": "9",
+          "explanation": "This rounds 9.4 down, which leaves the work short of hours."
+        },
+        {
+          "id": "c",
+          "text": "10",
+          "explanation": "Correct. 3,600 ÷ (12 × 32) = 9.4, which rounds up to 10 people.",
+          "correct": true
+        }
+      ],
+      "explanation": "1. Hours per person = 12 weeks × 32 = 384\n2. Staff needed = 3,600 ÷ 384 = 9.4 → 10"
+    },
+    {
+      "id": "PjM-1.1-q08",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "Midway through design, the owner asks the architect to add an acoustical consultant for a new performance hall. The agreement provides that added consultants are billed at their fee times 1.10, plus the architect's coordination time at hourly rates.\n\n- Acoustical consultant's proposal: $18,000\n- Architect's coordination: 20 hours at $140\n\nWhat should the architect propose for this additional service?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "$18,000",
+          "explanation": "This passes the consultant's fee through without the markup or coordination time."
+        },
+        {
+          "id": "b",
+          "text": "$19,800",
+          "explanation": "This leaves out the architect's coordination time."
+        },
+        {
+          "id": "c",
+          "text": "$20,800",
+          "explanation": "This leaves out the 1.10 markup on the consultant's fee."
+        },
+        {
+          "id": "d",
+          "text": "$22,600",
+          "explanation": "Correct. $18,000 × 1.10 + 20 × $140 = $22,600.",
+          "correct": true
+        }
+      ],
+      "explanation": "1. Consultant with markup = $18,000 × 1.10 = $19,800\n2. Coordination = 20 × $140 = $2,800\n3. Total = $22,600"
+    },
+    {
+      "id": "PjM-1.1-q09",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "A firm assigns an experienced but unlicensed project architect to lead production for a warehouse. The firm's only licensed architect is a principal who works on several projects. The client asks who will be responsible for the sealed documents.\n\nWhich arrangement meets professional requirements?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The project architect seals the documents as production lead.",
+          "explanation": "An unlicensed person can't seal documents."
+        },
+        {
+          "id": "b",
+          "text": "The licensed principal directs the work and seals it.",
+          "explanation": "Correct. A licensed architect must exercise responsible control over the work they seal (NCARB 5.1).",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "The structural engineer seals the architectural drawings.",
+          "explanation": "Engineers seal their own discipline's work, not the architectural documents."
+        },
+        {
+          "id": "d",
+          "text": "The principal seals the documents after a final review only.",
+          "explanation": "Responsible control requires direction and supervision during the work, not a review at the end."
+        }
+      ],
+      "explanation": "Responsible control: a licensed architect directs, supervises, and seals."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "PjM-1.1-f01",
+      "front": "What drives the project team?",
+      "back": "The scope in the owner–architect agreement: basic + supplemental services, delivery method, schedule and fee."
+    },
+    {
+      "id": "PjM-1.1-f02",
+      "front": "Consultants in B101-2017 basic services",
+      "back": "Structural, mechanical and electrical engineering (§3.1). Others only if added as supplemental services.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-1.1-f03",
+      "front": "Owner-furnished services (B101 Art. 5)",
+      "back": "Surveys, geotechnical investigation, hazardous-material testing, and the owner's own consultants.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-1.1-f04",
+      "front": "Consultant selection criteria",
+      "back": "Building-type experience, licensure, capacity, coordination record, insurance matching the prime agreement, and fee, never fee alone."
+    },
+    {
+      "id": "PjM-1.1-f05",
+      "front": "Agreement to use with consultants",
+      "back": "C401-2017, which mirrors prime-agreement duties and insurance."
+    },
+    {
+      "id": "PjM-1.1-f06",
+      "front": "Responsibility matrix",
+      "back": "Assigns items that span disciplines (site lighting, stormwater, fire alarm, low voltage) to prevent gaps and overlaps."
+    },
+    {
+      "id": "PjM-1.1-f07",
+      "front": "Responsible control",
+      "back": "A licensed architect directs and supervises the work, and seals only that work (NCARB 5.1)."
+    },
+    {
+      "id": "PjM-1.1-f08",
+      "front": "Architect's fee and consultants",
+      "back": "The architect's fee normally includes its consultants' fees. Get consultant proposals before setting your fee."
+    },
+    {
+      "id": "PjM-1.1-f09",
+      "front": "Owner adds a consultant mid-project",
+      "back": "An additional service: the consultant's fee × the agreed markup, plus the architect's coordination time."
+    },
+    {
+      "id": "PjM-1.1-f10",
+      "front": "Staff needed for a phase",
+      "back": "Hours ÷ (weeks × hours each person can give per week), rounded up."
+    },
+    {
+      "id": "PjM-1.1-f11",
+      "front": "Typical internal roles",
+      "back": "Principal-in-charge, project manager, project architect, designers, spec writer/QC reviewer, CA staff."
+    }
+  ]
+}

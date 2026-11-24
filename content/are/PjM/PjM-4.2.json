@@ -1,0 +1,391 @@
+{
+  "objectiveId": "PjM-4.2",
+  "exam": "ARE",
+  "division": "PjM",
+  "generated": "2026-11-24",
+  "itemStyle": "ncarb-v3-difficulty",
+  "references": [
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 §4.2.2–§4.2.3",
+      "topic": "Additional services from changes in owner instructions/approvals or material project changes; services to avoid delay in construction.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 §11.3; §11.4",
+      "topic": "Compensation for additional services; consultants' additional services at a multiple of their billings.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "Reference",
+      "citation": "ARE 5.0 Guidelines, PjM objective 4.2 description",
+      "topic": "Impact of scope changes on fees, schedule, and financing."
+    }
+  ],
+  "questions": [
+    {
+      "id": "PjM-4.2-q01",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "An architect has a $560,000 stipulated fee for a 40,000 sf medical office building. Halfway through design development, the owner adds 8,000 sf (a 20% increase in area). The architect calculates the additional fee from these assumptions:\n\n- Remaining phases (half of DD, plus CD, procurement and CA) are 75% of the fee, and their effort scales with area\n- Redesign of completed SD and DD work: 60 hours at $150\n\nWhat additional fee should the architect propose?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "$84,000",
+          "explanation": "This leaves out the redesign of completed work."
+        },
+        {
+          "id": "b",
+          "text": "$93,000",
+          "explanation": "Correct. $560,000 × 75% × 20% + 60 × $150 = $84,000 + $9,000.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "$112,000",
+          "explanation": "This scales the whole fee, including phases already complete."
+        },
+        {
+          "id": "d",
+          "text": "$121,000",
+          "explanation": "This scales the whole fee and adds the redesign."
+        }
+      ],
+      "explanation": "1. Remaining-phase fee = $560,000 × 75% = $420,000\n2. Added effort = 20% × $420,000 = $84,000\n3. Redesign = 60 × $150 = $9,000\n4. Additional fee = $93,000"
+    },
+    {
+      "id": "PjM-4.2-q02",
+      "type": "cata",
+      "cognitiveLevel": "A/E",
+      "stem": "During construction documents for a branch bank, the owner asks to add a second drive-through lane and a night-deposit vault. The architect estimates three weeks of added CD work on the critical path. The owner's construction loan commitment requires construction to start by a fixed date, now only four weeks after the current permit-submittal date.\n\nWhat should the architect do? Check the three that apply.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Notify the owner in writing of the fee and schedule impacts",
+          "explanation": "Correct. The owner needs the impacts in writing to decide.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Get the owner's written authorization before proceeding",
+          "explanation": "Correct. This change in the owner's instructions is an additional service that needs authorization first.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Show how the change affects the loan's start deadline",
+          "explanation": "Correct. The financing deadline makes the schedule impact critical to the owner's decision.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Absorb the redesign to protect the owner's schedule",
+          "explanation": "Absorbing the fee doesn't remove the three weeks, and gives up compensation."
+        },
+        {
+          "id": "e",
+          "text": "Proceed with the change and bill it at the end of CDs",
+          "explanation": "Authorization must come before the work."
+        },
+        {
+          "id": "f",
+          "text": "Ask the building department to shorten its review",
+          "explanation": "The architect doesn't control agency review times."
+        }
+      ],
+      "selectCount": 3,
+      "explanation": "Scope changes: written impacts (fee, schedule, financing), then authorization before proceeding.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-4.2-q03",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "A developer's lender will lend 70% of total project cost for a mixed-use building, up to a maximum loan of $12,000,000. The original total project cost was $16,000,000. During design development, the developer adds a rooftop amenity deck that increases the total project cost by $1,600,000. The developer asks how much more of its own equity it will need.\n\nHow much additional equity will the developer need?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "$480,000",
+          "explanation": "This applies the 30% equity share to the increase and ignores the loan cap."
+        },
+        {
+          "id": "b",
+          "text": "$800,000",
+          "explanation": "Correct. 70% of $17,600,000 is $12,320,000, but the loan is capped at $12,000,000. Equity rises from $4,800,000 to $5,600,000.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "$1,120,000",
+          "explanation": "This is 70% of the increase, the amount the lender would fund without a cap."
+        },
+        {
+          "id": "d",
+          "text": "$1,600,000",
+          "explanation": "This assumes the loan doesn't increase at all."
+        }
+      ],
+      "explanation": "1. Original loan = 70% × $16,000,000 = $11,200,000; equity = $4,800,000\n2. New cost = $17,600,000; 70% = $12,320,000 → capped at $12,000,000\n3. New equity = $17,600,000 − $12,000,000 = $5,600,000\n4. Increase = $800,000"
+    },
+    {
+      "id": "PjM-4.2-q04",
+      "type": "cata",
+      "cognitiveLevel": "A/E",
+      "stem": "The owner approved the construction documents for a university residence hall two weeks ago. The owner now wants to change the roofing from a single-ply membrane to a vegetated roof over half the building. The architect is preparing to advise the owner on the change before the documents go out for permit.\n\nWhich impacts should the architect evaluate? Check the four that apply.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Change in construction cost",
+          "explanation": "Correct. The vegetated roof changes cost, including structure and drainage.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Architect and consultant fees for the revisions",
+          "explanation": "Correct. Revising approved documents is an additional service.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Schedule effect, including permit timing",
+          "explanation": "Correct. Redesign and structural changes may delay the permit submittal.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Effect on the owner's budget and funding",
+          "explanation": "Correct. The owner needs to know whether funding covers the change.",
+          "correct": true
+        },
+        {
+          "id": "e",
+          "text": "Change in the architect's firm overhead rate",
+          "explanation": "The firm's overhead isn't a project impact of the change."
+        },
+        {
+          "id": "f",
+          "text": "The contractor's profit margin on the roof",
+          "explanation": "No contractor is engaged yet, and its margin isn't the architect's to evaluate."
+        }
+      ],
+      "selectCount": 4,
+      "explanation": "Evaluate every scope change for cost, fee, schedule and financing."
+    },
+    {
+      "id": "PjM-4.2-q05",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "An owner's late program change will delay the start of construction of a $20,000,000 office building by six weeks. The owner's cost consultant uses 5% annual escalation. The owner also pays $25,000 per week to extend its lease in its current building until the new one is ready, and the completion date will slip by the same six weeks.\n\nAbout what is the cost of the delay to the owner?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "$115,000",
+          "explanation": "This counts escalation only and leaves out the lease extension."
+        },
+        {
+          "id": "b",
+          "text": "$150,000",
+          "explanation": "This counts the lease extension only and leaves out escalation."
+        },
+        {
+          "id": "c",
+          "text": "$265,000",
+          "explanation": "Correct. $20,000,000 × 5% × 6/52 ≈ $115,000, plus 6 × $25,000 = $150,000.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "$1,150,000",
+          "explanation": "This applies a full year of escalation and adds the lease."
+        }
+      ],
+      "explanation": "1. Escalation ≈ $20,000,000 × 0.05 × 6 ÷ 52 ≈ $115,000\n2. Lease extension = 6 × $25,000 = $150,000\n3. Total ≈ $265,000"
+    },
+    {
+      "id": "PjM-4.2-q06",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "An architect's stipulated fee for a corporate campus is $900,000. During construction documents, the owner deletes the fitness pavilion, about 10% of the construction cost. The architect had completed the pavilion's SD and DD and about a quarter of its CDs. The owner proposes cutting the fee by 10% ($90,000).\n\nHow should the architect respond?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Accept the 10% reduction to preserve the relationship",
+          "explanation": "A straight cut ignores work already done on the pavilion."
+        },
+        {
+          "id": "b",
+          "text": "Propose an equitable adjustment that credits work already done",
+          "explanation": "Correct. The fee should reflect services already performed on the deleted portion and the reduced remaining effort.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Decline any reduction because the fee is a stipulated sum",
+          "explanation": "A significant scope change justifies an adjustment, in either direction."
+        },
+        {
+          "id": "d",
+          "text": "Bill the full pavilion fee as an additional service",
+          "explanation": "The deletion reduces remaining work, so billing more isn't justified."
+        }
+      ],
+      "explanation": "Deletions on a stipulated sum: an equitable adjustment that credits completed work."
+    },
+    {
+      "id": "PjM-4.2-q07",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "The owner of a clinic authorized redesign of the waiting area as an hourly additional service with a not-to-exceed amount of $30,000. The architect's time records for the work are below, and no reimbursable expenses were incurred.\n\n- Principal: 20 hours at $220\n- Project architect: 80 hours at $150\n- Designer: 120 hours at $110\n\nWhat amount should the architect bill?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "$25,200",
+          "explanation": "This leaves out the principal's hours."
+        },
+        {
+          "id": "b",
+          "text": "$29,600",
+          "explanation": "Correct. $4,400 + $12,000 + $13,200 = $29,600, under the cap.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "$30,000",
+          "explanation": "The NTE is a ceiling, not the amount to bill."
+        },
+        {
+          "id": "d",
+          "text": "$33,000",
+          "explanation": "This bills all 220 hours at the project architect's rate."
+        }
+      ],
+      "explanation": "1. Principal = 20 × $220 = $4,400\n2. Project architect = 80 × $150 = $12,000\n3. Designer = 120 × $110 = $13,200\n4. Total = $29,600 (under the $30,000 cap)"
+    },
+    {
+      "id": "PjM-4.2-q08",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "Over three months of design development for a boutique hotel, the owner's team asked for about 25 small revisions: a moved wall, a changed finish, a second lobby option. Each took a few hours. The project manager just found that together they consumed 14% of the DD fee, and none was submitted as an additional service.\n\nWhat should the project manager do going forward?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Keep absorbing small requests to maintain goodwill",
+          "explanation": "Continuing to absorb the requests repeats the overrun."
+        },
+        {
+          "id": "b",
+          "text": "Log requests and submit regular additional-service requests in advance",
+          "explanation": "Correct. Tracking requests and getting authorization before the work protects the fee and keeps the owner informed.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Refuse all further owner revisions during DD",
+          "explanation": "Some revisions are normal design iteration. The issue is tracking and authorization."
+        },
+        {
+          "id": "d",
+          "text": "Bill all 25 past requests at the end of the project",
+          "explanation": "Billing late, without prior notice or authorization, invites disputes."
+        }
+      ],
+      "explanation": "Track small changes and get authorization before doing them."
+    },
+    {
+      "id": "PjM-4.2-q09",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "During construction of a library, the owner has requested 12 changes. For each one, the architect must evaluate the contractor's pricing and supporting data and revise drawings, which has taken about 40 hours so far. The contractor needs answers quickly to avoid delaying the work.\n\nHow should the architect handle this work?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Stop evaluating the changes until the owner authorizes a fee",
+          "explanation": "Stopping during construction risks delay. The agreement has the architect proceed and notify."
+        },
+        {
+          "id": "b",
+          "text": "Proceed to avoid delay and promptly notify the owner",
+          "explanation": "Correct. Evaluating change proposals and revising documents are services provided to avoid delay, with prompt notice (§4.2.3).",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Absorb the work within basic CA services",
+          "explanation": "Evaluating proposals and revising documents is an additional service."
+        },
+        {
+          "id": "d",
+          "text": "Have the contractor prepare the revised drawings",
+          "explanation": "The architect is responsible for revising its own instruments of service."
+        }
+      ],
+      "explanation": "§4.2.3: provide the service to avoid delay, and notify promptly.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "PjM-4.2-f01",
+      "front": "Four impacts of a scope change",
+      "back": "Construction cost, the architect's fee, schedule, owner's financing."
+    },
+    {
+      "id": "PjM-4.2-f02",
+      "front": "Fee for added area mid-design",
+      "back": "Remaining-phase fee × % scope increase + redesign hours + consultants × markup."
+    },
+    {
+      "id": "PjM-4.2-f03",
+      "front": "Before doing out-of-scope work",
+      "back": "Notify in writing (fee and schedule), then get written authorization (§4.2.2).",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-4.2-f04",
+      "front": "Change-order evaluation during construction",
+      "back": "Provided to avoid delay, with prompt notice (§4.2.3).",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-4.2-f05",
+      "front": "Hourly NTE",
+      "back": "Bill the actual hours × rates, up to the cap. The cap isn't the bill."
+    },
+    {
+      "id": "PjM-4.2-f06",
+      "front": "Deleted scope on a stipulated sum",
+      "back": "An equitable adjustment that credits work already done."
+    },
+    {
+      "id": "PjM-4.2-f07",
+      "front": "Delay cost to the owner",
+      "back": "Escalation over the delay + carrying costs (rent, interest, lost revenue)."
+    },
+    {
+      "id": "PjM-4.2-f08",
+      "front": "Capped construction loan",
+      "back": "Cost added above the cap is all owner equity."
+    },
+    {
+      "id": "PjM-4.2-f09",
+      "front": "Many small owner requests",
+      "back": "Log them and submit regular additional-service requests before doing the work."
+    },
+    {
+      "id": "PjM-4.2-f10",
+      "front": "Schedule impact of a change",
+      "back": "Is it on the critical path? Permit resubmittal? Approvals? Lead times? Financing deadlines?"
+    }
+  ]
+}

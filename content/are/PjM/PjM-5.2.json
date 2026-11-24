@@ -1,0 +1,401 @@
+{
+  "objectiveId": "PjM-5.2",
+  "exam": "ARE",
+  "division": "PjM",
+  "generated": "2026-11-24",
+  "itemStyle": "ncarb-v3-difficulty",
+  "references": [
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 §2.5; §10.4",
+      "topic": "Architect's insurance; certificates (review of proposed language in advance; no certifications beyond scope).",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 Article 8; §9.1",
+      "topic": "Claims and disputes (mediation before binding resolution); suspension for nonpayment on 7 days' written notice.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "AIA",
+      "citation": "A201-2017 §4.2.12; Article 15",
+      "topic": "Architect's impartial interpretations and decisions; claims and IDM.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "Reference book",
+      "citation": "The Architect's Handbook of Professional Practice (AIA), quality management and risk management",
+      "topic": "QC programs, insurance types, claims-made coverage."
+    }
+  ],
+  "questions": [
+    {
+      "id": "PjM-5.2-q01",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "A 60-person firm's last two projects had coordination errors that led to change orders. Both projects had their QC review the day before the CDs were issued, done by the project architect who prepared the drawings. The principal is revising the firm's QC procedure for a new hospital project.\n\nWhich QC approach is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Have the project architect self-check the drawings before issue",
+          "explanation": "A self-check by the drawings' author tends to miss the same errors again."
+        },
+        {
+          "id": "b",
+          "text": "Schedule independent reviews at milestones, with time to fix",
+          "explanation": "Correct. Independent reviewers at set milestones, with time for corrections and a back-check, catch more errors.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Rely on the plan reviewer and contractor to find errors",
+          "explanation": "Outside reviewers aren't responsible for the architect's quality."
+        },
+        {
+          "id": "d",
+          "text": "Hold one comprehensive review after bidding",
+          "explanation": "Errors found after bidding become addenda or change orders."
+        }
+      ],
+      "explanation": "QC: independent reviewers at milestones, with time to correct and back-check."
+    },
+    {
+      "id": "PjM-5.2-q02",
+      "type": "cata",
+      "cognitiveLevel": "A/E",
+      "stem": "After a costly claim on a school project, a firm's insurer offers a premium credit if the firm adopts risk-management practices. The managing principal is reviewing current habits. Some project managers promise clients the buildings will \"meet all codes,\" and owner decisions are often made only in conversation.\n\nWhich practices would reduce the firm's professional liability risk? Check the three that apply.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Documenting owner decisions and phase approvals in writing",
+          "explanation": "Correct. Written records show what the owner decided and approved.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Avoiding guarantees and warranties in agreements",
+          "explanation": "Correct. Guarantees go beyond the standard of care and may not be insured.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Independent QC reviews at project milestones",
+          "explanation": "Correct. Catching errors before issue prevents claims.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Promising clients that designs will meet all codes",
+          "explanation": "Absolute promises raise the duty above the standard of care."
+        },
+        {
+          "id": "e",
+          "text": "Agreeing to continuous site inspection in basic services",
+          "explanation": "Continuous inspection expands duties and liability beyond the fee."
+        },
+        {
+          "id": "f",
+          "text": "Accepting unlimited liability to win competitive projects",
+          "explanation": "Unlimited liability raises exposure without reducing risk."
+        }
+      ],
+      "selectCount": 3,
+      "explanation": "Risk management: document decisions, avoid guarantees, run QC."
+    },
+    {
+      "id": "PjM-5.2-q03",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "An architect's construction administrator is walking a project site with the superintendent when she slips on a wet ramp and breaks her wrist. She misses three weeks of work. The architect carries professional liability, commercial general liability and workers' compensation insurance. The contractor carries CGL and workers' compensation.\n\nWhich coverage should respond first to her injury?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The architect's professional liability insurance",
+          "explanation": "PL covers claims from professional errors, not employee injuries."
+        },
+        {
+          "id": "b",
+          "text": "The contractor's commercial general liability insurance",
+          "explanation": "Her own employer's workers' compensation responds first to an employee's work injury."
+        },
+        {
+          "id": "c",
+          "text": "The architect's workers' compensation insurance",
+          "explanation": "Correct. An employee injured while working is covered by the employer's workers' compensation.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "The owner's builder's risk insurance",
+          "explanation": "Builder's risk covers damage to the work, not people."
+        }
+      ],
+      "explanation": "Employee injured at work: the employer's workers' compensation."
+    },
+    {
+      "id": "PjM-5.2-q04",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "Eighteen months after substantial completion of a medical office building, the owner sends the architect a letter. It reports water damage at several windows and says the owner believes the window head detail was defective. The owner hasn't filed a lawsuit. The architect carries a claims-made professional liability policy.\n\nWhat should the architect do first?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Admit the detail was flawed and offer to pay for repairs",
+          "explanation": "Admitting fault before investigating, and without the insurer, can jeopardize coverage."
+        },
+        {
+          "id": "b",
+          "text": "Notify its professional liability insurer promptly",
+          "explanation": "Correct. Claims-made policies need prompt notice of a claim or potential claim.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Wait until a lawsuit is filed before taking any action",
+          "explanation": "Delaying notice may jeopardize coverage under a claims-made policy."
+        },
+        {
+          "id": "d",
+          "text": "Direct the original contractor to repair the windows",
+          "explanation": "The architect doesn't direct the contractor after completion, and doing so may imply fault."
+        }
+      ],
+      "explanation": "A potential claim: notify the PL insurer promptly, before admitting anything."
+    },
+    {
+      "id": "PjM-5.2-q05",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "An owner refuses to pay a $45,000 invoice for additional services the architect provided during design development of a hotel. Several weeks of negotiation have failed. The B101-2017 agreement selects arbitration for binding dispute resolution. The architect wants to begin the formal dispute process.\n\nWhat is the first formal step under the agreement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "File a demand for arbitration",
+          "explanation": "Binding resolution comes after mediation."
+        },
+        {
+          "id": "b",
+          "text": "Request mediation",
+          "explanation": "Correct. B101 requires mediation before binding dispute resolution.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "File a lawsuit in the local court",
+          "explanation": "The agreement selected arbitration, and mediation comes first."
+        },
+        {
+          "id": "d",
+          "text": "Stop work immediately without notice",
+          "explanation": "Suspending for nonpayment requires 7 days' written notice, and it isn't the dispute-resolution process."
+        }
+      ],
+      "explanation": "B101 disputes: mediation, then the binding method selected.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-5.2-q06",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "A firm's risk register for a new science building lists the three risks below. The firm can fund only one mitigation this quarter and wants the one that gives the greatest net reduction in expected cost: the reduction in expected cost minus the cost of the mitigation.\n\n| Risk | Probability | Impact | Mitigation | Mitigation cost | Probability after |\n|---|---|---|---|---|---|\n| A. Roof leak claim | 10% | $400,000 | Envelope consultant review | $12,000 | 2% |\n| B. Late CD delivery | 30% | $50,000 | Add a production staff member | $10,000 | 10% |\n| C. Permit rejection | 25% | $30,000 | Third-party code review | $6,000 | 5% |\n\nWhich mitigation should the firm fund?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "A. Envelope consultant review",
+          "explanation": "Correct. Expected cost drops from $40,000 to $8,000. The $32,000 reduction less $12,000 gives a net benefit of $20,000.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "B. Add a production staff member",
+          "explanation": "Expected cost drops from $15,000 to $5,000. The $10,000 reduction equals the cost, so the net benefit is $0."
+        },
+        {
+          "id": "c",
+          "text": "C. Third-party code review",
+          "explanation": "Expected cost drops from $7,500 to $1,500. The $6,000 reduction equals the cost, so the net benefit is $0."
+        },
+        {
+          "id": "d",
+          "text": "None of the mitigations is cost-effective",
+          "explanation": "A has a positive net benefit."
+        }
+      ],
+      "explanation": "1. A: 10% × $400,000 = $40,000 → 2% × $400,000 = $8,000; net = $32,000 − $12,000 = $20,000\n2. B: $15,000 → $5,000; net = $10,000 − $10,000 = $0\n3. C: $7,500 → $1,500; net = $6,000 − $6,000 = $0"
+    },
+    {
+      "id": "PjM-5.2-q07",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "At the end of construction of an apartment building, the owner's lender sends the architect a form to sign stating that the architect \"certifies the building complies with all applicable codes and laws.\" The lender wants it signed within two days. The B101-2017 agreement addresses certificates the owner requests.\n\nHow should the architect respond?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sign the form to avoid delaying the lender's loan closing",
+          "explanation": "Certifying full compliance goes beyond what the architect can know and may not be insured."
+        },
+        {
+          "id": "b",
+          "text": "Ask to revise the wording to an opinion",
+          "explanation": "Correct. B101 lets the architect review proposed language in advance and decline certifications beyond its knowledge or services.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Refuse to provide any statement to the lender",
+          "explanation": "A suitably worded statement can usually be provided."
+        },
+        {
+          "id": "d",
+          "text": "Sign it if the contractor also signs",
+          "explanation": "A co-signer doesn't reduce the architect's own exposure."
+        }
+      ],
+      "explanation": "Certificates: review the language in advance. Sign professional opinions, not guarantees (B101 §10.4).",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-5.2-q08",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "The architect is the Initial Decision Maker on a school project. The contractor has submitted a well-documented claim for 12 extra days caused by late owner-furnished equipment. The district's facilities director, who controls the architect's future work with the district, asks the architect to deny the claim.\n\nHow should the architect decide the claim?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Deny the claim to protect the firm's client relationship",
+          "explanation": "The IDM must decide impartially, not in favor of the party that hired it."
+        },
+        {
+          "id": "b",
+          "text": "Decide it impartially on the contract and facts",
+          "explanation": "Correct. As IDM the architect doesn't favor either party and decides in good faith.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Split the difference and grant 6 days",
+          "explanation": "Compromising without regard to the facts isn't an impartial decision."
+        },
+        {
+          "id": "d",
+          "text": "Decline to decide and send it to mediation",
+          "explanation": "The IDM is expected to render a decision first."
+        }
+      ],
+      "explanation": "IDM decisions are impartial and made in good faith.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-5.2-q09",
+      "type": "cata",
+      "cognitiveLevel": "A/E",
+      "stem": "A firm's 95% CD QC review for a laboratory produced 140 comments, including a fire-rated corridor shown differently on the architectural and mechanical drawings. On the last project, several QC comments were never corrected because nobody tracked them, and the uncorrected items became change orders.\n\nWhich practices should the project manager use for the QC comments? Check the three that apply.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Log each comment with a responsible person",
+          "explanation": "Correct. A log with assigned responsibility makes sure every comment is addressed.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Back-check that corrections were made before issue",
+          "explanation": "Correct. Back-checking confirms the fixes.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Coordinate fixes across affected disciplines",
+          "explanation": "Correct. Issues such as rated corridors need matching changes in every discipline.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Leave minor comments for the construction phase",
+          "explanation": "Uncorrected comments become RFIs and change orders."
+        },
+        {
+          "id": "e",
+          "text": "Send the comments to consultants without follow-up",
+          "explanation": "Without tracking, consultant corrections may never be made."
+        },
+        {
+          "id": "f",
+          "text": "Delete comments the team disagrees with",
+          "explanation": "Disagreements should be resolved and recorded, not deleted."
+        }
+      ],
+      "selectCount": 3,
+      "explanation": "QC comments: log, assign, coordinate, back-check."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "PjM-5.2-f01",
+      "front": "QC vs. QA",
+      "back": "QA: the firm's overall quality system. QC: checking a specific project's documents."
+    },
+    {
+      "id": "PjM-5.2-f02",
+      "front": "An effective QC review",
+      "back": "Independent reviewer, checklists, milestone timing with time to fix, comment log, back-check."
+    },
+    {
+      "id": "PjM-5.2-f03",
+      "front": "Expected cost of a risk",
+      "back": "Probability × impact. Mitigate when the reduction is greater than the mitigation's cost."
+    },
+    {
+      "id": "PjM-5.2-f04",
+      "front": "Design error causes a loss",
+      "back": "The architect's professional liability (claims-made)."
+    },
+    {
+      "id": "PjM-5.2-f05",
+      "front": "Architect's employee hurt on site",
+      "back": "The architect's workers' compensation."
+    },
+    {
+      "id": "PjM-5.2-f06",
+      "front": "Worker hurt by the construction work",
+      "back": "The contractor's workers' compensation and CGL."
+    },
+    {
+      "id": "PjM-5.2-f07",
+      "front": "Claims-made policy: key duty",
+      "back": "Report claims and potential claims promptly, during the policy period."
+    },
+    {
+      "id": "PjM-5.2-f08",
+      "front": "Owner–architect dispute (B101)",
+      "back": "Negotiate, then mediation, then the binding method selected (arbitration or litigation).",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-5.2-f09",
+      "front": "Lender's certificate form",
+      "back": "Review the language in advance. Sign a professional opinion, never a guarantee (B101 §10.4).",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-5.2-f10",
+      "front": "Architect as IDM",
+      "back": "Impartial, in good faith, favoring neither the owner nor the contractor."
+    },
+    {
+      "id": "PjM-5.2-f11",
+      "front": "Language to avoid",
+      "back": "Guarantee, warrant, ensure, certify (absolute). These raise the duty above the standard of care."
+    }
+  ]
+}

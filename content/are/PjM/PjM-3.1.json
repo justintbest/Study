@@ -1,0 +1,518 @@
+{
+  "objectiveId": "PjM-3.1",
+  "exam": "ARE",
+  "division": "PjM",
+  "generated": "2026-11-24",
+  "itemStyle": "ncarb-v3-difficulty",
+  "references": [
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 §3.1; §3.2–§3.6",
+      "topic": "Basic services by phase, including owner approval of each phase's documents.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 §4.1; §4.2.2–§4.2.5",
+      "topic": "Supplemental services; additional services needing prior written authorization vs. those provided to avoid delay; CA service limits; time limit.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 §6.3–§6.7",
+      "topic": "Estimates, 90-day escalation adjustment, estimate exceeds budget, owner's options when bids exceed budget, redesign compensation.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "kind": "AIA",
+      "citation": "B101-2017 §9.5–§9.7; §11.5; §11.6; §11.9",
+      "topic": "Termination for convenience and termination expenses; phase percentages; deleted portions; licensing fee.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    }
+  ],
+  "questions": [
+    {
+      "id": "PjM-3.1-q01",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "An architect's B101-2017 agreement for a 70,000 sf office building sets basic compensation as a stipulated sum of $500,000, billed by phase:\n\n- Schematic design: 15%\n- Design development: 20%\n- Construction documents: 40%\n- Procurement: 5%\n- Construction: 20%\n\nThe owner has approved design development, and construction documents are 50% complete. How much basic compensation has the architect earned?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "$175,000",
+          "explanation": "This counts SD and DD only and leaves out the CD work completed."
+        },
+        {
+          "id": "b",
+          "text": "$250,000",
+          "explanation": "This takes 50% of the total fee, not 50% of the CD phase."
+        },
+        {
+          "id": "c",
+          "text": "$275,000",
+          "explanation": "Correct. SD 15% + DD 20% + half of CD (20%) = 55% × $500,000 = $275,000.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "$375,000",
+          "explanation": "This counts the CD phase as fully complete."
+        }
+      ],
+      "explanation": "1. SD + DD = 15% + 20% = 35%\n2. CD earned = 50% × 40% = 20%\n3. Earned = 55% × $500,000 = $275,000"
+    },
+    {
+      "id": "PjM-3.1-q02",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "Midway through design development for a county courthouse, the jurisdiction adopts a new edition of its energy code that will apply to the project. Meeting it will require redesigning the exterior wall and the mechanical system, about 300 hours of work for the architect and its consultants. The owner hasn't yet been told about the new requirements.\n\nWhat should the architect do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Proceed with the redesign and bill it as an additional service",
+          "explanation": "Code changes after the documents are prepared need the owner's written authorization before the work starts."
+        },
+        {
+          "id": "b",
+          "text": "Notify the owner, explain the need and get written authorization",
+          "explanation": "Correct. Under §4.2.2, the architect notifies the owner, explains, and waits for written authorization before providing the service.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Absorb the redesign within basic services",
+          "explanation": "A code change after the documents were prepared is outside basic services."
+        },
+        {
+          "id": "d",
+          "text": "Proceed now and request the owner's authorization at the end of DD",
+          "explanation": "Authorization must come before the service, not after."
+        }
+      ],
+      "explanation": "§4.2.2 additional services: notify, explain, and get written authorization first.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.1-q03",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "During construction of a clinic, the contractor has submitted 60 RFIs in two months. The architect's review shows that about half ask for information clearly shown in the construction documents. Answering them is taking far more time than the architect planned, and the contractor says delays in answering will affect the schedule.\n\nHow should the architect handle the RFIs that ask for information already in the documents?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Stop answering them until the owner authorizes an additional fee",
+          "explanation": "Withholding responses during construction risks delay. The agreement has the architect proceed and notify."
+        },
+        {
+          "id": "b",
+          "text": "Answer them and notify the owner they are additional services",
+          "explanation": "Correct. Under §4.2.3, the architect provides these services to avoid delay and notifies the owner promptly.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Answer them within basic services without comment",
+          "explanation": "RFIs answered by the documents are an additional service, and staying silent gives up the compensation."
+        },
+        {
+          "id": "d",
+          "text": "Return them to the contractor as rejected submittals",
+          "explanation": "RFIs aren't submittals, and refusing to answer may still delay the work."
+        }
+      ],
+      "explanation": "§4.2.3 services: provide them to avoid delay, and notify the owner promptly.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.1-q04",
+      "type": "cata",
+      "cognitiveLevel": "A/E",
+      "stem": "An architect's construction documents for a public safety building were based on a $14.0 million construction budget that the owner approved at the end of the CD phase. Bids were opened two weeks after the documents were issued, and the lowest bona fide bid is $15.7 million. The owner asks what its options are under the B101-2017 agreement.\n\nWhich options does the agreement give the owner? Check the four that apply.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Approve an increase in the construction budget",
+          "explanation": "Correct. A written budget increase is one of the owner's options (§6.6).",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Authorize rebidding or renegotiating the project",
+          "explanation": "Correct. Rebidding or renegotiating within a reasonable time is an option.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Revise the scope with the architect to reduce cost",
+          "explanation": "Correct. Revising the program, scope or quality with the architect is an option.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Terminate the agreement",
+          "explanation": "Correct. The owner may terminate under the agreement's termination provisions.",
+          "correct": true
+        },
+        {
+          "id": "e",
+          "text": "Require the architect to pay the difference",
+          "explanation": "The architect's responsibility is limited to modifying the documents (§6.7)."
+        },
+        {
+          "id": "f",
+          "text": "Withhold the architect's CD phase fee",
+          "explanation": "The agreement doesn't let the owner withhold the fee as a penalty (§11.10.3)."
+        }
+      ],
+      "selectCount": 4,
+      "explanation": "§6.6 options: increase the budget, rebid or renegotiate, terminate, revise the scope, or another agreed alternative.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.1-q05",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "Bids for a museum addition exceed the owner's budget by 11%. The architect's estimates during CDs matched the budget. After the CDs were issued, a federal tariff sharply raised the price of the imported stone and steel specified, and no one in the industry anticipated it. The owner chooses to revise the scope and asks the architect to modify the documents.\n\nHow should the architect be compensated for the modifications?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Within basic services, since redesign after high bids is always free",
+          "explanation": "Redesign is free only when the overage wasn't caused by market conditions the architect couldn't anticipate."
+        },
+        {
+          "id": "b",
+          "text": "As an additional service, given the unforeseeable market conditions",
+          "explanation": "Correct. §6.7 makes the redesign an additional service when unforeseeable market conditions caused the overage.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Only if the owner first rebids the original documents",
+          "explanation": "Rebidding is a separate option, not a condition for compensation."
+        },
+        {
+          "id": "d",
+          "text": "By a deduction from the contractor's eventual contract sum",
+          "explanation": "The contractor isn't a party to the owner–architect agreement."
+        }
+      ],
+      "explanation": "§6.7: redesign is free unless unforeseeable market conditions caused the overage.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.1-q06",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "An architect submitted construction documents for a medical office building eight months ago. The owner then delayed bidding while it refinanced the project. Bids just came in 5% over the original construction budget. A published regional cost index shows construction prices rose about 6% during the delay. The owner asks the architect to redesign at no cost.\n\nHow should the architect respond?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Redesign at no cost, since the bids exceed the budget",
+          "explanation": "Because of the delay, the budget should first be adjusted for market escalation."
+        },
+        {
+          "id": "b",
+          "text": "Explain that the budget is adjusted for the escalation",
+          "explanation": "Correct. Bidding started more than 90 days after CDs through no fault of the architect, so the budget is adjusted (§6.4). The bids then fall within it.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Rebid the original documents at the architect's expense",
+          "explanation": "Rebidding isn't the architect's cost, and it doesn't address the budget adjustment."
+        },
+        {
+          "id": "d",
+          "text": "Offer redesign only after the owner approves a new fee",
+          "explanation": "The bids are within the adjusted budget, so redesign isn't indicated."
+        }
+      ],
+      "explanation": "§6.4: after a 90-day delay in bidding that isn't the architect's fault, the budget is adjusted for market changes.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.1-q07",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "An architect's fee for a corporate campus is 7% of the cost of the work. After construction documents were complete, the owner deleted a parking structure from the project. Its estimated construction cost was $3,000,000. The agreement allocates 75% of basic compensation to SD, DD and CD combined.\n\nHow much compensation is the architect owed for the parking structure?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "$0",
+          "explanation": "Deleted portions are still compensated for the services performed on them (§11.6)."
+        },
+        {
+          "id": "b",
+          "text": "$52,500",
+          "explanation": "This is the 25% of the fee for services not performed."
+        },
+        {
+          "id": "c",
+          "text": "$157,500",
+          "explanation": "Correct. 7% × $3,000,000 = $210,000, and 75% of it was earned through CDs.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "$210,000",
+          "explanation": "This includes procurement and construction services that won't be performed."
+        }
+      ],
+      "explanation": "1. Fee on the deleted portion = 7% × $3,000,000 = $210,000\n2. Earned through CDs = 75% × $210,000 = $157,500",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.1-q08",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "Halfway through design development for a 300-bed residence hall, the university decides to switch from design-bid-build to construction manager as constructor. The CM will issue a guaranteed maximum price at the end of DD and release the work in four bid packages. The university asks the architect to keep working while the new approach is arranged.\n\nWhat should the architect do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Continue under the existing agreement without changes",
+          "explanation": "A change in delivery method changes the architect's services and should be addressed before proceeding."
+        },
+        {
+          "id": "b",
+          "text": "Notify the owner and get written authorization first",
+          "explanation": "Correct. A material change in the delivery method is a §4.2.2 additional service. Multiple bid packages are a listed supplemental service.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Proceed and bill the extra packages at the end of the project",
+          "explanation": "Authorization must come before the service."
+        },
+        {
+          "id": "d",
+          "text": "Ask the CM to compensate the architect for the extra packages",
+          "explanation": "The architect's compensation comes from the owner under its agreement."
+        }
+      ],
+      "explanation": "A change in delivery method is a material change: notify and get written authorization first.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.1-q09",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "An architect has completed schematic design for a community center and submitted the SD documents and estimate. The owner's representative is traveling and says by phone to keep going into design development to save time. The board will review the SD package at its meeting in three weeks.\n\nHow should the architect proceed?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Proceed into DD and get the SD approval at the end of DD",
+          "explanation": "Design development is based on approved SD documents. Proceeding without approval risks redesign."
+        },
+        {
+          "id": "b",
+          "text": "Get the owner's written approval of the SD first",
+          "explanation": "Correct. B101 has the architect request and get the owner's approval before proceeding to the next phase.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Proceed and treat all DD work as an additional service",
+          "explanation": "Starting DD isn't an additional service. The issue is approval."
+        },
+        {
+          "id": "d",
+          "text": "Stop work until the lender approves the schematic design",
+          "explanation": "The approval needed is the owner's, not the lender's."
+        }
+      ],
+      "explanation": "Get the owner's approval at the end of each phase before starting the next.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.1-q10",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "The owner of a new private school asks what's included in the architect's B101-2017 basic services. The owner wants to know which items will need to be added to the agreement as supplemental services, with a fee, before it is signed.\n\nWhich service would need to be designated as a supplemental service?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Detailed cost estimating by a cost consultant",
+          "explanation": "Correct. Detailed estimating is a supplemental service. Basic services rely on conceptual estimates (§6.3).",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Preparing preliminary estimates of the cost of the work",
+          "explanation": "Conceptual estimates are part of basic services."
+        },
+        {
+          "id": "c",
+          "text": "Presenting alternative approaches during schematic design",
+          "explanation": "Considering alternatives is a basic SD service."
+        },
+        {
+          "id": "d",
+          "text": "Assisting the owner with filings for governmental approvals",
+          "explanation": "This is a basic service (§3.1.6)."
+        }
+      ],
+      "explanation": "Detailed estimating, on-site representation, coordinating owner consultants and similar items are supplemental.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.1-q11",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "An architect's agreement for a regional hospital provides that if services aren't completed within 30 months, extended services are compensated as additional services. Through no fault of the architect, the owner's financing problems stretched construction, and the architect's construction administration now runs to month 36. The owner says CA lasts until final payment under the basic fee.\n\nHow should the extra six months of CA be compensated?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Within basic services, since CA runs until final payment",
+          "explanation": "The agreement's time limit makes services beyond 30 months an additional service when the delay isn't the architect's fault."
+        },
+        {
+          "id": "b",
+          "text": "As additional services under the agreement's time limit",
+          "explanation": "Correct. The extension wasn't the architect's fault, so §4.2.5 applies.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Only if the contractor is found responsible for the delay",
+          "explanation": "The cause here was the owner's financing, and the provision doesn't depend on the contractor."
+        },
+        {
+          "id": "d",
+          "text": "As reimbursable expenses billed at cost",
+          "explanation": "Staff time is a service, not a reimbursable expense."
+        }
+      ],
+      "explanation": "Services extended past the agreed time, through no fault of the architect, are additional services.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.1-q12",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "During construction documents for a corporate office, the owner terminates the B101-2017 agreement for its convenience. The owner doesn't intend to use the documents. The architect's records show:\n\n| Item | Amount |\n|---|---|\n| Total basic compensation | $400,000 |\n| Services performed to date | $180,000 |\n| Paid to date | $150,000 |\n| Expenses directly attributable to termination | $8,000 |\n| Anticipated profit on services not performed (10%) | to be calculated |\n\nHow much does the owner owe the architect?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "$30,000",
+          "explanation": "This is only the unpaid balance for services performed."
+        },
+        {
+          "id": "b",
+          "text": "$38,000",
+          "explanation": "This leaves out the anticipated profit on the services not performed."
+        },
+        {
+          "id": "c",
+          "text": "$60,000",
+          "explanation": "Correct. $30,000 unpaid + $8,000 expenses + 10% × $220,000 unperformed = $60,000.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "$250,000",
+          "explanation": "This adds the full unperformed fee, not just the anticipated profit on it."
+        }
+      ],
+      "explanation": "1. Unpaid services = $180,000 − $150,000 = $30,000\n2. Termination expenses = $8,000\n3. Anticipated profit = 10% × ($400,000 − $180,000) = $22,000\n4. Total = $60,000",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "PjM-3.1-f01",
+      "front": "Basic vs. supplemental vs. additional services",
+      "back": "Basic: Art. 3 phase services. Supplemental: listed when the agreement is signed (§4.1). Additional: come up after signing (§4.2).",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.1-f02",
+      "front": "§4.2.2 additional services",
+      "back": "Notify, explain, and get written authorization before proceeding. Delivery-method or code changes, owner's late decisions, hearings.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.1-f03",
+      "front": "§4.2.3 additional services",
+      "back": "Provide them to avoid delay during construction, and notify promptly. Out-of-sequence submittals, RFIs answered by the documents, substitutions.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.1-f04",
+      "front": "Typical phase split",
+      "back": "SD 15% · DD 20% · CD 40% · procurement 5% · construction 20%."
+    },
+    {
+      "id": "PjM-3.1-f05",
+      "front": "Between phases",
+      "back": "Submit the documents and updated estimate, and get the owner's approval before the next phase."
+    },
+    {
+      "id": "PjM-3.1-f06",
+      "front": "§6.4 90-day rule",
+      "back": "If bidding starts more than 90 days after CDs are submitted, through no fault of the architect, the budget is adjusted for market prices.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.1-f07",
+      "front": "Owner's options when bids exceed budget (§6.6)",
+      "back": "Increase the budget, rebid or renegotiate, terminate, revise the scope with the architect, or another agreed alternative.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.1-f08",
+      "front": "Redesign after high bids (§6.7)",
+      "back": "Free, unless unforeseeable market conditions caused the overage. It's the limit of the architect's responsibility.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.1-f09",
+      "front": "Deleted portions on a percentage fee",
+      "back": "Still paid for the services performed on them (§11.6).",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.1-f10",
+      "front": "Termination for convenience: the architect gets…",
+      "back": "Services performed + reimbursables + termination expenses (incl. anticipated profit on unperformed services) + a licensing fee if the documents are used.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.1-f11",
+      "front": "Services past the agreed time limit",
+      "back": "Additional services, if the delay wasn't the architect's fault (§4.2.5).",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph number per my knowledge of the AIA document; confirm against your copy (free via your NCARB Record)."
+    },
+    {
+      "id": "PjM-3.1-f12",
+      "front": "Change in delivery method mid-design",
+      "back": "A material change: notify and get written authorization. Multiple bid packages and fast-track are supplemental services."
+    }
+  ]
+}
