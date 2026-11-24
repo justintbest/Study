@@ -1,0 +1,222 @@
+{
+  "id": "PcM-CS1",
+  "exam": "ARE",
+  "division": "PcM",
+  "title": "Brightline Studio: annual performance review",
+  "scenario": "**Brightline Studio** is an 18-person architecture firm organized as a **general partnership** of two founding partners. The partners are reviewing results for the year just ended (Year 2) before planning the coming year.\n\n- Net income rose, but the firm drew on its line of credit for the first time in the fourth quarter to make payroll.\n- Two municipal clients have been paying 60–90 days late. Several stipulated-sum projects are billed only at phase completion.\n- The firm just won a **30,000 sf outpatient clinic** that starts next month. It's the first project in a new healthcare market the partners want to grow.\n- The partners plan to admit a third partner next year. They're concerned about personal exposure to the firm's debts and to each other's professional errors as the firm grows.\n- Firm policy caps licensed staff utilization at **90%** to protect quality and leave time for supervision.",
+  "resources": [
+    {
+      "id": "r1",
+      "title": "Firm Financial Statements",
+      "kind": "Firm Financial Statements",
+      "body": "### Income statement (summary)\n| Item | Year 1 | Year 2 |\n|---|---|---|\n| Gross revenue | $2,600,000 | $2,850,000 |\n| Consultant fees | $450,000 | $520,000 |\n| Reimbursable expenses | $70,000 | $80,000 |\n| Direct labor | $720,000 | $750,000 |\n| Indirect labor | $230,000 | $260,000 |\n| Other overhead | $880,000 | $940,000 |\n\n### Balance sheet items (year-end)\n| Item | Year 1 | Year 2 |\n|---|---|---|\n| Cash | $210,000 | $60,000 |\n| Accounts receivable | $380,000 | $610,000 |\n| Unbilled work in progress | $110,000 | $240,000 |\n| Line of credit balance | $0 | $300,000 |"
+    },
+    {
+      "id": "r2",
+      "title": "Staff Labor and Utilization Rates",
+      "kind": "Staff Labor and Utilization Rates",
+      "body": "| Staff | Role | License | Hourly salary | Utilization (last 12 months) | Relevant experience |\n|---|---|---|---|---|---|\n| A. Ortiz | Partner | Licensed | $85 | 42% | Healthcare, civic. Leads business development for the new healthcare market |\n| B. Chen | Project architect | Licensed | $52 | 80% | 6 outpatient clinics. Leading a clinic in construction through year-end; that client requires Chen to stay on it |\n| C. Patel | Project architect | Licensed | $50 | 71% | Multifamily, retail |\n| D. Novak | Designer | AXP candidate | $34 | 88% | 2 clinics, BIM coordination |\n| E. Reyes | Designer | AXP candidate | $32 | 64% | Retail interiors |\n| F. Kim | CA specialist | Licensed | $48 | 79% | Construction administration |\n\n**Clinic staffing plan under consideration (design phases):** C. Patel 600 hours · D. Novak 1,200 hours · B. Chen 120 hours (advising)"
+    }
+  ],
+  "questions": [
+    {
+      "id": "PcM-CS1-q01",
+      "objectiveId": "PcM-2.1",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "Refer to the Firm Financial Statements.\n\nWhat was Brightline Studio's net multiplier in Year 2?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2.60",
+          "explanation": "That's the Year 2 break-even rate (1 + overhead rate of 1.60)."
+        },
+        {
+          "id": "b",
+          "text": "3.00",
+          "explanation": "Correct. NOR = $2,850,000 − $520,000 − $80,000 = $2,250,000, and $2,250,000 ÷ $750,000 = 3.00.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "3.11",
+          "explanation": "This subtracts consultant fees but not reimbursable expenses."
+        },
+        {
+          "id": "d",
+          "text": "3.80",
+          "explanation": "This divides gross revenue, including pass-through costs, by direct labor."
+        }
+      ],
+      "explanation": "1. NOR = $2,850,000 − $520,000 − $80,000 = $2,250,000\n2. Net multiplier = $2,250,000 ÷ $750,000 = 3.00"
+    },
+    {
+      "id": "PcM-CS1-q02",
+      "objectiveId": "PcM-2.1",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "Refer to the Firm Financial Statements.\n\nWhich conclusion about Year 2 is best supported by the statements?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Profit rose, but cash fell as receivables and unbilled work grew.",
+          "explanation": "Correct. Profit rose from $250,000 to $300,000, while receivables and unbilled work grew by $360,000 and the firm borrowed $300,000.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Profit fell because overhead grew faster than revenue.",
+          "explanation": "Profit rose: $2,080,000 − $1,830,000 = $250,000 in Year 1 versus $2,250,000 − $1,950,000 = $300,000 in Year 2."
+        },
+        {
+          "id": "c",
+          "text": "The firm operated below its break-even rate.",
+          "explanation": "The Year 2 net multiplier (3.00) exceeds the break-even rate (2.60)."
+        },
+        {
+          "id": "d",
+          "text": "Higher consultant fees reduced the firm's profit.",
+          "explanation": "Consultant fees are pass-through costs, excluded from NOR. They didn't reduce profit."
+        }
+      ],
+      "explanation": "1. Year 1 profit = $2,080,000 NOR − ($720,000 + $1,110,000) = $250,000\n2. Year 2 profit = $2,250,000 − ($750,000 + $1,200,000) = $300,000\n3. Receivables + unbilled work rose from $490,000 to $850,000 while cash fell and borrowing began: a cash-flow problem, not a profit problem."
+    },
+    {
+      "id": "PcM-CS1-q03",
+      "objectiveId": "PcM-2.1",
+      "type": "cata",
+      "cognitiveLevel": "A/E",
+      "stem": "Refer to the Firm Financial Statements and the scenario.\n\nWhich actions should the partners take first to improve the firm's cash position?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bill stipulated-sum projects monthly by percent complete",
+          "explanation": "Correct. Phase-end billing builds unbilled work. Monthly progress billing turns earned fees into receivables sooner.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Follow up on late municipal invoices under the payment terms",
+          "explanation": "Correct. Aged receivables are the largest cash drain shown.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Invoice the unbilled work in progress now",
+          "explanation": "Correct. $240,000 of earned work hasn't been billed.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Use cash reserves to pay off the line of credit",
+          "explanation": "Cash is down to $60,000. Paying down the line would worsen the shortage."
+        },
+        {
+          "id": "e",
+          "text": "Lower billing multipliers to win work faster",
+          "explanation": "Discounting reduces profit and doesn't address uncollected and unbilled fees."
+        },
+        {
+          "id": "f",
+          "text": "Hire production staff for the clinic project",
+          "explanation": "Adding payroll before collections improve deepens the cash strain."
+        }
+      ],
+      "selectCount": 3,
+      "explanation": "The firm is profitable but cash-poor. Fix billing frequency, unbilled work and collections before anything else."
+    },
+    {
+      "id": "PcM-CS1-q04",
+      "objectiveId": "PcM-1.1",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "Refer to the Staff Labor and Utilization Rates.\n\nWhich staffing approach best fits the clinic project?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Assign B. Chen as project architect alongside current work.",
+          "explanation": "Leading a second clinic (600+ hours) on top of the current one would push Chen far past the 90% cap, and Chen must stay on the current clinic."
+        },
+        {
+          "id": "b",
+          "text": "Assign C. Patel as project architect, with B. Chen advising.",
+          "explanation": "Correct. Patel is licensed with capacity (71%). 120 advising hours raise Chen to about 86% (80% + 120 ÷ 2,080), still under the cap, while bringing clinic expertise.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Assign A. Ortiz as project architect to lead the work directly.",
+          "explanation": "Ortiz leads business development for the new market. Day-to-day project leadership would pull the partner from that role."
+        },
+        {
+          "id": "d",
+          "text": "Assign D. Novak to lead, with B. Chen reviewing drawings.",
+          "explanation": "Novak isn't licensed and is already at 88%. A licensed project architect should lead."
+        }
+      ],
+      "explanation": "Weigh expertise, licensure, capacity limits and strategic roles together.\n1. Chen advising: 80% + 120 ÷ 2,080 ≈ 86% (under the 90% cap)\n2. Chen leading: 80% + 600 ÷ 2,080 ≈ 109% (over the cap)"
+    },
+    {
+      "id": "PcM-CS1-q05",
+      "objectiveId": "PcM-3.1",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "Refer to the Firm Financial Statements and the Staff Labor and Utilization Rates.\n\nThe partners are checking the clinic fee. What design fee would the planned staffing need just to break even at the firm's Year 2 break-even rate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$77,040",
+          "explanation": "That's the direct labor cost only, with no overhead."
+        },
+        {
+          "id": "b",
+          "text": "$123,264",
+          "explanation": "This applies the overhead rate (1.60) instead of the break-even rate (2.60)."
+        },
+        {
+          "id": "c",
+          "text": "$200,304",
+          "explanation": "Correct. Labor cost $77,040 × break-even rate 2.60 = $200,304.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "$231,120",
+          "explanation": "This applies the net multiplier (3.00), which includes profit, not break-even."
+        }
+      ],
+      "explanation": "1. Labor cost = (600 × $50) + (1,200 × $34) + (120 × $52) = $30,000 + $40,800 + $6,240 = $77,040\n2. Year 2 break-even rate = 1 + ($1,200,000 ÷ $750,000) = 2.60\n3. Break-even fee = $77,040 × 2.60 = $200,304"
+    },
+    {
+      "id": "PcM-CS1-q06",
+      "objectiveId": "PcM-4.1",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "Refer to the scenario.\n\nWhich change to the firm's legal structure best addresses the partners' concerns as they admit a third partner?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Convert to a limited liability company.",
+          "explanation": "Correct. An LLC generally shields owners from the firm's debts and from other owners' professional errors, while keeping pass-through taxation.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Convert to a C corporation.",
+          "explanation": "A C corporation provides a shield but adds entity-level taxation the partners don't need to take on."
+        },
+        {
+          "id": "c",
+          "text": "Remain a general partnership with higher insurance limits.",
+          "explanation": "Insurance helps with claims, but general partners remain personally liable for firm debts and each other's acts."
+        },
+        {
+          "id": "d",
+          "text": "Have each partner operate as a sole proprietor.",
+          "explanation": "Sole proprietors have unlimited personal liability, and splitting up doesn't fit a shared firm."
+        }
+      ],
+      "explanation": "Liability shield + pass-through + multiple owners → LLC (or LLP where available). No entity shields an architect from their own negligence."
+    }
+  ]
+}

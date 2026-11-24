@@ -36,3 +36,25 @@ content/cse/<objectiveId>.md|.json     same pattern for CSE
 - Callouts in notes: start a blockquote with `[!VERIFY]` (yellow "verify" box) or `[!TRAP]` (red "exam trap" box).
 - Confidence: set `"confidence": "medium"` or `"low"` plus a `"confidenceNote"` on any reference, question or flashcard you aren't sure is current or accurate. It shows a ⚠ Verify badge in the app.
 - `npm run validate` enforces the rules: real objective IDs, counts, ARE item formats, explanations for every option, unique IDs, and **no California code or law in ARE content**.
+
+## Case studies
+```
+content/are/<DIV>/case-studies/<DIV>-CS<n>.json
+```
+```jsonc
+{
+  "id": "PcM-CS1", "exam": "ARE", "division": "PcM",
+  "title": "…",
+  "scenario": "markdown: the situation, firm or project facts",
+  "resources": [                          // 1–3, like the ARE
+    { "id": "r1", "title": "Firm Financial Statements", "kind": "Firm Financial Statements", "body": "markdown (tables)" }
+  ],
+  "questions": [                          // 3–8; same rules as standalone questions
+    { "id": "PcM-CS1-q01", "objectiveId": "PcM-2.1", "type": "mc", "stem": "Refer to … ", "options": [ … ], "explanation": "…" }
+  ]
+}
+```
+- Every question names its official `objectiveId`, and case-study results count toward that objective's stats and weak spots.
+- Answers must come from the scenario and resources: integrate two or more facts, don't recall one.
+- Resource `kind` should match the ARE Guidelines' "Common Case Study Resources" list for the division. For PcM: AIA Contracts, Firm Financial Statements, Requests for Proposals, Staff Labor and Utilization Rates, Staff Resumes.
+- Never paste AIA contract text. Summarize the terms of a fictional agreement in your own words.

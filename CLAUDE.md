@@ -16,6 +16,7 @@ Format details: `content/schema/README.md` and `content/schema/objective-content
 Do one division at a time and stop for the user's review afterward.
 1. Read that division's objectives in `content/are-objectives.json`: title, cognitive level, target %, official description.
 2. For each objective, write `content/are/<DIV>/<DIV>-<n.n>.md` (the study note: key concepts, definitions, rules of thumb, exam traps, verify callouts) and `.json` (references, questions, flashcards). Follow the existing PcM files as the style reference.
+   Also write **case studies** in `content/are/<DIV>/case-studies/` (format in `content/schema/README.md`). Match the division's official case-study count and item count from the Guidelines' Division Details (PcM: up to 6 case studies, up to 14 items), and use that division's common resource types.
 3. Check facts against `/sources` before flagging them:
    - `sources/are/ethics/` for the NCARB Model Rules and the AIA Code;
    - `sources/are/law/` for federal statutes and regulations; fetch more from govinfo.gov or ecfr.gov if needed;

@@ -9,6 +9,7 @@ import { QuizPage } from './pages/QuizPage';
 import { FlashcardsPage } from './pages/FlashcardsPage';
 import { WeakSpotsPage } from './pages/WeakSpotsPage';
 import { SettingsPage } from './pages/SettingsPage';
+import { CaseStudyPage } from './pages/CaseStudyPage';
 
 export default function App() {
   const progress = useProgress();
@@ -53,6 +54,7 @@ export default function App() {
           <Route path="/" element={<Dashboard />} />
           <Route path="/exam/:examId" element={<ExamPage />} />
           <Route path="/study/:objectiveId" element={<StudyPage />} />
+          <Route path="/case/:caseId" element={<CaseStudyPage />} />
           <Route path="/quiz" element={<QuizPage />} />
           <Route path="/flashcards" element={<FlashcardsPage />} />
           <Route path="/weak" element={<WeakSpotsPage />} />

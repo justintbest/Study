@@ -91,8 +91,28 @@ export interface Question {
   cognitiveLevel?: CognitiveLevel;
   confidence?: Confidence;
   confidenceNote?: string;
-  /** Filled in by the loader. */
+  /** Filled in by the loader (case-study questions carry it in the file). */
   objectiveId: string;
+  /** Set for questions that belong to a case study. */
+  caseStudyId?: string;
+}
+
+export interface CaseResource {
+  id: string;
+  title: string;
+  kind: string; // e.g. "Firm Financial Statements", "Request for Proposal", "Staff Resumes"
+  body: string; // markdown
+}
+
+/** ARE-style case study: one scenario + 1–3 resources shared by several questions. */
+export interface CaseStudy {
+  id: string; // "PcM-CS1"
+  exam: ExamKind;
+  division: string;
+  title: string;
+  scenario: string; // markdown
+  resources: CaseResource[];
+  questions: Question[];
 }
 
 export interface Flashcard {

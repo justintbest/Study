@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { CONTENT_BY_OBJECTIVE, EXAM_BY_ID, EXAMS, objectivesInScope, scopeLabel } from '../content';
+import { caseStudiesInScope, CONTENT_BY_OBJECTIVE, EXAM_BY_ID, EXAMS, objectivesInScope, scopeLabel } from '../content';
 import { getProgress, useProgress } from '../lib/progress';
 import type { QuizMode } from '../lib/quiz';
 import { buildQuiz, shuffle, timeLimitSeconds } from '../lib/quiz';
@@ -37,6 +37,7 @@ export function QuizPage() {
   const [mode, setMode] = useState<QuizMode>((params.get('mode') as QuizMode) || 'weighted');
   const [format, setFormat] = useState<'practice' | 'exam'>('practice');
   const [count, setCount] = useState(20);
+  const [includeCases, setIncludeCases] = useState(true);
   const [session, setSession] = useState<{ questions: Question[]; format: 'practice' | 'exam'; timeLimit?: number; key: number } | null>(null);
 
   const objectives = objectivesInScope(scope);
@@ -48,16 +49,29 @@ export function QuizPage() {
   const available = buildQuiz({ objectives, questionsByObjective: qByObj, count: Infinity, mode, lastResult: last }).length;
   const n = Math.max(1, Math.min(count, available));
 
+  // Case studies go at the end, grouped, as on the ARE (division or all-ARE scope only).
+  const scopeCases = caseStudiesInScope(scope);
+  const caseQs = scopeCases.flatMap((c) =>
+    c.questions.filter((q) => (mode === 'missed' ? last(q.id) === false : mode === 'unseen' ? last(q.id) === undefined : true)),
+  );
+  const useCases = includeCases && caseQs.length > 0;
+
   // official pacing: an exam's own rate, or the average across ARE divisions for mixed scopes
   const examId = objectives[0]?.examId;
   const singleExam = objectives.every((o) => o.examId === examId) ? EXAM_BY_ID.get(examId!) : undefined;
   const areExams = EXAMS.filter((e) => e.kind === 'ARE');
   const secPerItem = singleExam?.secondsPerItem ?? areExams.reduce((s, e) => s + e.secondsPerItem, 0) / areExams.length;
   const fullLength = singleExam?.details?.totalItems;
+  // Full length = official item count, with case-study items counted inside it.
+  const fullStandalone = fullLength ? Math.max(1, fullLength - (useCases ? caseQs.length : 0)) : undefined;
 
   function start(questions?: Question[]) {
     const qs =
-      questions ?? buildQuiz({ objectives, questionsByObjective: qByObj, count: n, mode, lastResult: last });
+      questions ??
+      [
+        ...buildQuiz({ objectives, questionsByObjective: qByObj, count: n, mode, lastResult: last }),
+        ...(useCases ? shuffle(scopeCases).flatMap((c) => caseQs.filter((q) => q.caseStudyId === c.id)) : []),
+      ];
     setSession({
       questions: qs,
       format,
@@ -68,7 +82,7 @@ export function QuizPage() {
 
   if (session) {
     return (
-      <div className="reading stack" style={{ maxWidth: 820 }}>
+      <div className="stack" style={{ maxWidth: session.questions.some((q) => q.caseStudyId) ? 1120 : 820 }}>
         <div className="row">
           <h1 style={{ margin: 0 }}>{session.format === 'exam' ? 'Exam simulation' : 'Practice quiz'}</h1>
           <div className="spacer" />
@@ -139,14 +153,23 @@ export function QuizPage() {
               {singleExam?.details?.testDuration
                 ? ` (${singleExam.details.testDuration} for ${singleExam.details.totalItems} items)`
                 : ''}
-              : {formatDuration(timeLimitSeconds(n, secPerItem))} for {n} question{n === 1 ? '' : 's'}.
+              : {formatDuration(timeLimitSeconds(n + (useCases ? caseQs.length : 0), secPerItem))} for{' '}
+              {n + (useCases ? caseQs.length : 0)} questions.
             </small>
           )}
         </div>
 
+        {scopeCases.length > 0 && (
+          <label className="row" style={{ gap: '0.5rem', fontSize: '0.95rem' }}>
+            <input type="checkbox" checked={includeCases} onChange={(e) => setIncludeCases(e.target.checked)} />
+            Add {scopeCases.length} case stud{scopeCases.length === 1 ? 'y' : 'ies'} at the end ({caseQs.length} questions), as on the
+            ARE
+          </label>
+        )}
+
         <div className="row" style={{ alignItems: 'end' }}>
           <label className="field">
-            Number of questions
+            Number of standalone questions
             <input
               type="number"
               min={1}
@@ -156,8 +179,8 @@ export function QuizPage() {
               style={{ width: '7rem' }}
             />
           </label>
-          {fullLength && available >= fullLength && (
-            <button className="btn small" onClick={() => { setCount(fullLength); setFormat('exam'); setMode('weighted'); }}>
+          {fullLength && fullStandalone && available >= fullStandalone && (
+            <button className="btn small" onClick={() => { setCount(fullStandalone); setFormat('exam'); setMode('weighted'); }}>
               Full length ({fullLength})
             </button>
           )}
@@ -168,8 +191,8 @@ export function QuizPage() {
 
         <div className="row">
           <div className="spacer" />
-          <button className="btn primary" onClick={() => start()} disabled={available === 0}>
-            Start {format === 'exam' ? 'exam' : 'quiz'} ({n})
+          <button className="btn primary" onClick={() => start()} disabled={available === 0 && !useCases}>
+            Start {format === 'exam' ? 'exam' : 'quiz'} ({n + (useCases ? caseQs.length : 0)})
           </button>
         </div>
         {available === 0 && mode === 'missed' && <div className="notice">No missed questions in this scope. Nice.</div>}

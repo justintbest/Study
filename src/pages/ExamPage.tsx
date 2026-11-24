@@ -1,5 +1,5 @@
 import { Link, useParams } from 'react-router-dom';
-import { CHANGES_BY_OBJECTIVE, EXAM_BY_ID } from '../content';
+import { caseStudiesInScope, CHANGES_BY_OBJECTIVE, EXAM_BY_ID, OBJECTIVE_BY_ID } from '../content';
 import { useProgress } from '../lib/progress';
 import { isWeak, objectiveStats, pct, rollup } from '../lib/stats';
 import { Meter, PercentRangeLabel, Stat } from '../components/bits';
@@ -51,6 +51,40 @@ export function ExamPage() {
           <Stat value={pct(r.mastery)} label="your mastery" />
           <Stat value={`${r.withContent}/${r.objectives}`} label="objectives with content" />
         </div>
+      )}
+
+      {caseStudiesInScope(exam.id).length > 0 && (
+        <section className="section-block">
+          <div className="section-head">
+            <h2 style={{ margin: 0 }}>Case studies</h2>
+            <span className="muted">
+              {d?.caseStudies} on the exam, {d?.caseStudyItems} questions · resources stay open beside each question
+            </span>
+          </div>
+          <div className="obj-list">
+            {caseStudiesInScope(exam.id).map((cs) => {
+              const answered = cs.questions.filter((q) => p.questions[q.id]);
+              const right = answered.filter((q) => p.questions[q.id].recent.endsWith('1')).length;
+              return (
+                <Link key={cs.id} to={`/case/${cs.id}`} className="obj-row case-row">
+                  <span className="obj-num">CS{cs.id.split('-CS')[1]}</span>
+                  <span>
+                    <span className="obj-title">{cs.title}</span>{' '}
+                    <span className="muted" style={{ fontSize: '0.85rem' }}>
+                      · {cs.resources.map((r) => r.kind).join(', ')} · objectives{' '}
+                      {[...new Set(cs.questions.map((q) => OBJECTIVE_BY_ID.get(q.objectiveId)?.number))].join(', ')}
+                    </span>
+                  </span>
+                  <span className="obj-metrics">
+                    <span className="muted" style={{ fontSize: '0.8rem' }}>
+                      {answered.length ? `${right}/${cs.questions.length} last try` : `${cs.questions.length} questions`}
+                    </span>
+                  </span>
+                </Link>
+              );
+            })}
+          </div>
+        </section>
       )}
 
       {exam.sections.map((s) => (

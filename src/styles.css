@@ -273,3 +273,18 @@ table.data td.num { text-align: right; font-variant-numeric: tabular-nums; }
   .nav a { white-space: nowrap; padding: 0.3rem 0.6rem; }
   h1 { font-size: 1.35rem; }
 }
+
+/* ---------- Case studies ---------- */
+.case-layout { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 1rem; align-items: start; }
+.case-panel { position: sticky; top: 4.2rem; max-height: calc(100vh - 5.5rem); overflow: auto; padding-top: 0.8rem; }
+.case-panel .case-title { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
+.case-panel .case-tabs { margin: 0.6rem 0 0.6rem; }
+.case-panel .case-tabs button { padding: 0.4rem 0.6rem; font-size: 0.88rem; }
+.case-panel .case-kind { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 0.3rem; }
+.case-panel .prose { font-size: 0.95rem; line-height: 1.6; }
+.case-panel .prose h2, .case-panel .prose h3 { margin-top: 1em; }
+.navgrid button.case { border-style: dashed; }
+@media (max-width: 960px) {
+  .case-layout { grid-template-columns: 1fr; }
+  .case-panel { position: static; max-height: 55vh; }
+}

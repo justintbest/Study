@@ -1,0 +1,223 @@
+{
+  "id": "PcM-CS3",
+  "exam": "ARE",
+  "division": "PcM",
+  "title": "Lakeside Clinic: managing the design agreement",
+  "scenario": "**Northgate Architects** is designing the **Lakeside Clinic**, a new 24,000 sf outpatient building, under an owner–architect agreement based on a modified AIA B101-2017. Design development began in February. The project log below records events over the following months.",
+  "resources": [
+    {
+      "id": "r1",
+      "title": "Agreement Terms",
+      "kind": "AIA Contracts (summary)",
+      "body": "### Owner–architect agreement: key terms (summary)\n**Project:** 24,000 sf outpatient clinic, new construction. Construction budget $7,800,000.\n\n**Compensation for basic services:** Stipulated sum of $420,000, allocated SD 15% · DD 20% · CD 40% · Procurement 5% · CA 20%.\n\n**Limits on basic services:** Two schematic design options · one review per submittal plus one resubmittal · 18 site visits.\n\n**Additional services:** Billed hourly: principal $210 · project architect $150 · designer $110. For changes the owner requests, the architect notifies the owner and gets written authorization before proceeding.\n\n**Changes in scope:** If the scope of the project changes materially, the architect's compensation and schedule are equitably adjusted.\n\n**Reimbursable expenses:** Billed at 1.10 times cost.\n\n**Owner's responsibilities:** Surveys, geotechnical report, hazardous-material testing, and any consultants the owner hires directly. The architect coordinates with the owner's consultants as an additional service, may rely on their information, and isn't responsible for their work.\n\n**Certificates:** The architect won't be required to sign certificates that require knowledge or services beyond this agreement.\n\n**Disputes:** Mediation is required first. Binding dispute resolution: **arbitration** (selected).\n\n**Termination for the owner's convenience:** On 7 days' written notice. The owner pays for services performed and reimbursable expenses incurred to date, plus termination expenses (costs directly caused by the termination and the architect's anticipated profit on services not yet performed). If the owner keeps using the architect's documents after termination, the owner pays a **$25,000 licensing fee**."
+    },
+    {
+      "id": "r2",
+      "title": "Project Log",
+      "kind": "Project Records",
+      "body": "### Project log\n| Date | Entry |\n|---|---|\n| Mar 3 | Design development about 60% complete. Owner asks to add 4,000 sf of shell space for future expansion. |\n| Mar 6 | Architect estimates the shell-space redesign: principal 12 hours, project architect 60 hours, designer 80 hours, plus $500 of printing and plotting. |\n| Mar 10 | Owner's lender sends a certificate for the architect's signature: *\"The Architect certifies that the design complies with all applicable laws and regulations.\"* |\n| Apr 2 | Owner hires a medical equipment planner directly and asks the architect to \"take full responsibility for equipment coordination at no added cost.\" |\n| Apr 20 | Owner refuses to pay the shell-space invoice, saying it's part of basic services. Direct negotiation fails. |\n| Jun 1 | Construction documents about 50% complete. Owner is considering terminating for convenience and finishing the project with another firm using Northgate's documents. |"
+    }
+  ],
+  "questions": [
+    {
+      "id": "PcM-CS3-q01",
+      "objectiveId": "PcM-3.2",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "Refer to the Agreement Terms and the Project Log.\n\nHow should the architect respond to the owner's March 3 request?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Absorb the redesign within the design development fee.",
+          "explanation": "Adding 4,000 sf (about 17%) is a material scope change. The agreement provides for an equitable adjustment."
+        },
+        {
+          "id": "b",
+          "text": "Request written authorization and a fee adjustment first.",
+          "explanation": "Correct. The agreement requires authorization before owner-requested changes, and a material scope change calls for an equitable fee and schedule adjustment.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Proceed and bill the redesign hourly when complete.",
+          "explanation": "Billing after the fact skips the written authorization the agreement requires and invites a dispute."
+        },
+        {
+          "id": "d",
+          "text": "Decline because design development is past the midpoint.",
+          "explanation": "Owners may change scope. The agreement handles it through adjustment, not refusal."
+        }
+      ],
+      "explanation": "Changes to scope change the contract. Authorize and adjust before doing the work."
+    },
+    {
+      "id": "PcM-CS3-q02",
+      "objectiveId": "PcM-2.3",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "Refer to the Agreement Terms and the Project Log.\n\nWhat should the architect invoice for the shell-space redesign described on March 6?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$20,320",
+          "explanation": "This leaves out the reimbursable printing and plotting."
+        },
+        {
+          "id": "b",
+          "text": "$20,820",
+          "explanation": "This bills the reimbursables at cost instead of 1.10 times cost."
+        },
+        {
+          "id": "c",
+          "text": "$20,870",
+          "explanation": "Correct. Labor $20,320 plus reimbursables $500 × 1.10 = $550.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "$22,902",
+          "explanation": "This applies the 1.10 multiple to the labor as well as the reimbursables."
+        }
+      ],
+      "explanation": "1. Principal 12 × $210 = $2,520\n2. Project architect 60 × $150 = $9,000\n3. Designer 80 × $110 = $8,800\n4. Labor = $20,320; reimbursables = $500 × 1.10 = $550\n5. Invoice = $20,870"
+    },
+    {
+      "id": "PcM-CS3-q03",
+      "objectiveId": "PcM-1.4",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "Refer to the Project Log (March 10) and the Agreement Terms.\n\nHow should the architect respond to the lender's certificate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sign it as written, since the design meets code.",
+          "explanation": "'Certifies… all applicable laws' is an absolute warranty beyond the standard of care."
+        },
+        {
+          "id": "b",
+          "text": "Revise it to knowledge and belief, within the services.",
+          "explanation": "Correct. Qualified language and a scope limit keep the certificate within the standard of care, and the agreement doesn't require more.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Decline to sign any certificate for the lender.",
+          "explanation": "A reasonable, qualified certificate is common and supports the owner's financing."
+        },
+        {
+          "id": "d",
+          "text": "Sign it if the owner provides an indemnity.",
+          "explanation": "An indemnity doesn't change what the architect is certifying, and the certification is still uninsurable."
+        }
+      ],
+      "explanation": "Certificates: qualify the language, stay within scope (the agreement's certificate clause supports this)."
+    },
+    {
+      "id": "PcM-CS3-q04",
+      "objectiveId": "PcM-3.3",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "Refer to the Project Log (April 2) and the Agreement Terms.\n\nHow should the architect respond to the owner's request about the equipment planner?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Accept responsibility to preserve the relationship.",
+          "explanation": "Taking responsibility for another firm's work adds liability without compensation, and the agreement says otherwise."
+        },
+        {
+          "id": "b",
+          "text": "Coordinate as an additional service and rely on the planner's data.",
+          "explanation": "Correct. The agreement makes coordination with owner's consultants an additional service and lets the architect rely on their information without responsibility for their work.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Review and seal the planner's equipment drawings.",
+          "explanation": "Sealing work not prepared under the architect's responsible control is prohibited."
+        },
+        {
+          "id": "d",
+          "text": "Decline to coordinate with the owner's planner.",
+          "explanation": "Coordination is part of delivering the project. The agreement provides for it as an additional service."
+        }
+      ],
+      "explanation": "Owner's consultants: coordinate, rely, and define responsibility, as the agreement already does."
+    },
+    {
+      "id": "PcM-CS3-q05",
+      "objectiveId": "PcM-2.2",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "Refer to the Project Log (April 20) and the Agreement Terms.\n\nHow will the invoice dispute proceed under the agreement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mediation, then arbitration",
+          "explanation": "Correct. Mediation is required first, and arbitration is the selected binding method.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Arbitration, since negotiation failed",
+          "explanation": "Mediation is a required step before binding dispute resolution."
+        },
+        {
+          "id": "c",
+          "text": "Litigation in the local court",
+          "explanation": "Litigation applies only when no other binding method is selected. Here arbitration is."
+        },
+        {
+          "id": "d",
+          "text": "A decision by the Initial Decision Maker",
+          "explanation": "The Initial Decision Maker process applies to owner–contractor claims."
+        }
+      ],
+      "explanation": "Follow the agreement's dispute ladder: mediation first, then the selected binding method."
+    },
+    {
+      "id": "PcM-CS3-q06",
+      "objectiveId": "PcM-2.3",
+      "type": "cata",
+      "cognitiveLevel": "A/E",
+      "stem": "Refer to the Project Log (June 1) and the Agreement Terms.\n\nIf the owner terminates for convenience and finishes the project with another firm using Northgate's documents, which amounts will the owner owe Northgate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fees for services performed to date",
+          "explanation": "Correct. Services performed before termination must be paid.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Reimbursable expenses incurred to date",
+          "explanation": "Correct. Incurred reimbursables are payable.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Termination expenses, including anticipated profit",
+          "explanation": "Correct. The agreement defines termination expenses to include anticipated profit on services not performed.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "The $25,000 licensing fee",
+          "explanation": "Correct. Continued use of the documents after termination requires the licensing fee.",
+          "correct": true
+        },
+        {
+          "id": "e",
+          "text": "The full fee for services not yet performed",
+          "explanation": "Only the anticipated profit on unperformed services is owed, not the full remaining fee."
+        },
+        {
+          "id": "f",
+          "text": "Liquidated damages for the delay to the project",
+          "explanation": "The agreement provides no liquidated damages."
+        }
+      ],
+      "selectCount": 4,
+      "explanation": "Termination for convenience: pay for work done, costs incurred, termination expenses, and the license to keep using the documents."
+    }
+  ]
+}

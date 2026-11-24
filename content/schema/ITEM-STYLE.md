@@ -56,3 +56,8 @@ NCARB publishes PDF practice exams for supervisors (`sources/are/practice-exams/
 
 ## IDs and history
 - When a question is rewritten substantially, give it a **new ID** so old answers in someone's saved progress don't count toward the new item.
+
+## Case studies
+- Build each case study around 1–3 resources of the types NCARB lists for the division. Questions should need facts from **both** the scenario and a resource, and often from two resources (e.g., a staffing plan from the roster priced at the break-even rate from the financials).
+- Write the scenario as short paragraphs plus bulleted constraints (policies, caps, deadlines). Those constraints should decide answers.
+- Check every number twice. When one fact changes, recompute every question that uses it.

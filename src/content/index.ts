@@ -1,4 +1,5 @@
 import type {
+  CaseStudy,
   ExamMeta,
   ObjectiveChange,
   ObjectiveContent,
@@ -15,9 +16,13 @@ import cseDoc from '../../content/cse-objectives.json';
 import changesDoc from '../../content/are-objective-changes.json';
 
 const contentFiles = import.meta.glob<ObjectiveContent>(
-  ['/content/are/**/*.json', '/content/cse/**/*.json'],
+  ['/content/are/**/*.json', '/content/cse/**/*.json', '!/content/**/case-studies/**'],
   { eager: true, import: 'default' },
 );
+const caseFiles = import.meta.glob<CaseStudy>(['/content/are/**/case-studies/*.json', '/content/cse/**/case-studies/*.json'], {
+  eager: true,
+  import: 'default',
+});
 const noteFiles = import.meta.glob<string>(['/content/are/**/*.md', '/content/cse/**/*.md'], {
   eager: true,
   query: '?raw',
@@ -191,8 +196,34 @@ if (unknownContent.length) {
   console.warn('Content files reference unknown objective IDs:', unknownContent);
 }
 
+/** Standalone (non-case-study) questions. */
 export const ALL_QUESTIONS: Question[] = [...CONTENT_BY_OBJECTIVE.values()].flatMap((c) => c.questions);
-export const QUESTION_BY_ID = new Map(ALL_QUESTIONS.map((q) => [q.id, q]));
+
+// ---- Case studies ----
+export const CASE_STUDIES: CaseStudy[] = Object.values(caseFiles)
+  .filter((c) => c && typeof c === 'object' && 'scenario' in c)
+  .map((c) => ({
+    ...c,
+    questions: (c.questions ?? [])
+      .filter((q) => OBJECTIVE_BY_ID.has(q.objectiveId))
+      .map((q) => ({ ...q, caseStudyId: c.id })),
+  }))
+  .sort((a, b) => a.id.localeCompare(b.id, undefined, { numeric: true }));
+export const CASE_BY_ID = new Map(CASE_STUDIES.map((c) => [c.id, c]));
+export const CASE_QUESTIONS: Question[] = CASE_STUDIES.flatMap((c) => c.questions);
+
+export const QUESTION_BY_ID = new Map([...ALL_QUESTIONS, ...CASE_QUESTIONS].map((q) => [q.id, q]));
+
+/** Every question that tests an objective: its own bank plus case-study questions mapped to it. */
+export function questionsForObjective(objectiveId: string): Question[] {
+  return [...(CONTENT_BY_OBJECTIVE.get(objectiveId)?.questions ?? []), ...CASE_QUESTIONS.filter((q) => q.objectiveId === objectiveId)];
+}
+
+/** Case studies relevant to a scope (a division, or 'ARE'). Section/objective scopes get none. */
+export function caseStudiesInScope(scope: string): CaseStudy[] {
+  if (scope === 'ARE') return CASE_STUDIES.filter((c) => c.exam === 'ARE');
+  return CASE_STUDIES.filter((c) => c.division === scope);
+}
 export const ALL_CARDS: Flashcard[] = [...CONTENT_BY_OBJECTIVE.values()].flatMap((c) => c.flashcards);
 
 export const CHANGES_BY_OBJECTIVE = new Map<string, ObjectiveChange>(

@@ -2,7 +2,7 @@ import type { Question } from '../types';
 import type { Response } from '../lib/quiz';
 import { grade } from '../lib/quiz';
 import { ConfidenceBadge } from './bits';
-import { OBJECTIVE_BY_ID } from '../content';
+import { CASE_BY_ID, OBJECTIVE_BY_ID } from '../content';
 import { Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -50,6 +50,11 @@ export function QuestionView({ question: q, response, onChange, revealed, option
         {showObjective && obj && (
           <Link to={`/study/${obj.id}`} className="pill accent">
             {obj.examId} {obj.number}
+          </Link>
+        )}
+        {q.caseStudyId && showObjective && (
+          <Link to={`/case/${q.caseStudyId}`} className="pill">
+            Case study: {CASE_BY_ID.get(q.caseStudyId)?.title}
           </Link>
         )}
         <span className="pill">{typeLabel(q)}</span>

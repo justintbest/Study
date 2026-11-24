@@ -4,7 +4,8 @@ import type { Response } from '../lib/quiz';
 import { grade, isAnswered, shuffle } from '../lib/quiz';
 import { recordAnswer, recordSession } from '../lib/progress';
 import { QuestionView } from './QuestionView';
-import { OBJECTIVE_BY_ID } from '../content';
+import { CASE_BY_ID, OBJECTIVE_BY_ID } from '../content';
+import { CaseStudyPanel } from './CaseStudyPanel';
 import { formatDuration } from '../lib/dates';
 import { Link } from 'react-router-dom';
 import { pct } from '../lib/stats';
@@ -125,7 +126,8 @@ export function QuizRunner(props: QuizRunnerProps) {
           {questions.map((x, k) => (
             <button
               key={x.id}
-              className={[k === i ? 'current' : '', isAnswered(x, responses[x.id]) ? 'answered' : '', flagged[x.id] ? 'flagged' : ''].join(' ')}
+              className={[k === i ? 'current' : '', isAnswered(x, responses[x.id]) ? 'answered' : '', flagged[x.id] ? 'flagged' : '', x.caseStudyId ? 'case' : ''].join(' ')}
+              title={x.caseStudyId ? 'Case study question' : undefined}
               onClick={() => setI(k)}
               aria-label={`Question ${k + 1}${flagged[x.id] ? ' (flagged)' : ''}`}
             >
@@ -135,17 +137,35 @@ export function QuizRunner(props: QuizRunnerProps) {
         </div>
       )}
 
-      <div className="card">
-        <QuestionView
-          key={q.id}
-          question={q}
-          response={responses[q.id]}
-          onChange={setResp}
-          revealed={isRevealed}
-          optionOrder={orders[q.id]}
-          showObjective={isRevealed}
-        />
-      </div>
+      {(() => {
+        const cs = q.caseStudyId ? CASE_BY_ID.get(q.caseStudyId) : undefined;
+        const card = (
+          <div className="card">
+            {cs && (
+              <div className="muted" style={{ fontSize: '0.85rem', marginBottom: '0.5rem' }}>
+                Case study: question {cs.questions.findIndex((x) => x.id === q.id) + 1} of {cs.questions.length}
+              </div>
+            )}
+            <QuestionView
+              key={q.id}
+              question={q}
+              response={responses[q.id]}
+              onChange={setResp}
+              revealed={isRevealed}
+              optionOrder={orders[q.id]}
+              showObjective={isRevealed}
+            />
+          </div>
+        );
+        return cs ? (
+          <div className="case-layout">
+            <CaseStudyPanel key={cs.id} cs={cs} />
+            {card}
+          </div>
+        ) : (
+          card
+        );
+      })()}
 
       <div className="row">
         <button className="btn" onClick={() => setI(Math.max(0, i - 1))} disabled={i === 0}>

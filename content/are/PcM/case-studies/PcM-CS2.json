@@ -1,0 +1,191 @@
+{
+  "id": "PcM-CS2",
+  "exam": "ARE",
+  "division": "PcM",
+  "title": "Ridgemont Branch Library: RFP response",
+  "scenario": "**Fairbanks Partners**, a 22-person firm, is preparing a statement of qualifications for a new branch library for the **City of Ridgemont**. The RFP was issued last week. Written questions are due in one week, and submissions in three weeks.\n\n- If selected, the firm plans to propose a fee of **8% of the construction budget**, allocating **20% of the fee to construction administration**.\n- The firm estimates **7 hours per site visit**, including travel and the written report, at a blended CA billing rate of **$160 per hour**.\n- Design would start about **six weeks** after selection.",
+  "resources": [
+    {
+      "id": "r1",
+      "title": "Request for Proposals",
+      "kind": "Request for Proposals",
+      "body": "### City of Ridgemont: Request for Proposals (summary)\n**Project:** New 28,000 sf branch library. **Construction budget:** $11,200,000.\n\n**Selection:** Qualifications-based. The City will rank respondents, then negotiate a fee with the top-ranked firm.\n\n**Scope of services:**\n- Full basic services through construction administration\n- LEED Gold documentation and certification management\n- Two community design workshops\n- Site visits **every two weeks** during the **12-month** construction period, each followed by a written field report\n\n**Schedule:** Design 10 months · Bidding 2 months · Construction 12 months.\n\n**City responsibilities:** Boundary and topographic survey; geotechnical investigation.\n\n**Key personnel:** The project architect named in the submission must remain on the project through completion.\n\n**Contract terms (City form):**\n- Architect shall defend, indemnify and hold harmless the City from all claims arising out of the Project.\n- Architect shall certify that construction complies with the contract documents before each payment.\n- Liquidated damages of $500 per day for late design deliverables.\n\n**Insurance required:** Professional liability $2,000,000 per claim · Commercial general liability $1,000,000 per occurrence · Automobile liability $1,000,000 · Workers' compensation (statutory)."
+    },
+    {
+      "id": "r2",
+      "title": "Team and firm data",
+      "kind": "Staff Resumes",
+      "body": "### Fairbanks Partners: team and firm data\n| Person | Role | Credentials | Relevant experience | Availability |\n|---|---|---|---|---|\n| M. Grant | Principal-in-charge | Licensed | 25 years; 2 libraries | 30% |\n| L. Obi | Project architect | Licensed, LEED AP BD+C | 3 civic projects incl. a community center (LEED Gold) | 60% now |\n| S. Tran | Project architect | Licensed | 2 libraries | Fully committed for the next 4 months |\n| J. Fox | CA manager | Licensed | 12 years of construction administration | 50% |\n\n### Current insurance\n| Coverage | Limits |\n|---|---|\n| Professional liability | $1,000,000 per claim / $2,000,000 aggregate |\n| Commercial general liability | $1,000,000 per occurrence |\n| Automobile liability | $1,000,000 |\n| Workers' compensation | Statutory |\n\n### Preliminary fee estimate (if selected)\n| Component | Amount |\n|---|---|\n| Basic services | $840,000 |\n| LEED documentation and certification management | $95,000 |\n| Community workshops | $25,000 |\n| **Total** | **$960,000** |"
+    }
+  ],
+  "questions": [
+    {
+      "id": "PcM-CS2-q01",
+      "objectiveId": "PcM-3.1",
+      "type": "cata",
+      "cognitiveLevel": "A/E",
+      "stem": "Refer to the Request for Proposals.\n\nWhich items should Fairbanks Partners raise with the City during the question period?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The duty to defend in the indemnity clause",
+          "explanation": "Correct. A duty to defend is contractual liability that professional liability insurance typically won't cover.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "The requirement to certify construction compliance",
+          "explanation": "Correct. An unqualified certification is a warranty beyond periodic observation and the standard of care.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Liquidated damages on design deliverables",
+          "explanation": "Correct. Liquidated damages are uninsured contractual liability for the architect.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "The qualifications-based selection process",
+          "explanation": "QBS is a favorable, standard method for public selection."
+        },
+        {
+          "id": "e",
+          "text": "City-furnished survey and geotechnical data",
+          "explanation": "Owner-furnished site information is standard and shifts information risk to the City."
+        },
+        {
+          "id": "f",
+          "text": "The two community design workshops",
+          "explanation": "Workshops are a reasonable, defined service to include in the scope and fee."
+        }
+      ],
+      "selectCount": 3,
+      "explanation": "Assess the request's terms before contracting. Raise uninsurable or above-standard-of-care terms early."
+    },
+    {
+      "id": "PcM-CS2-q02",
+      "objectiveId": "PcM-2.2",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "Refer to the Request for Proposals and the team and firm data.\n\nIf selected, which coverage must Fairbanks Partners change to meet the City's requirements?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Professional liability",
+          "explanation": "Correct. The City requires $2,000,000 per claim, and the firm carries $1,000,000 per claim.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Commercial general liability",
+          "explanation": "The firm's $1,000,000 per occurrence meets the requirement."
+        },
+        {
+          "id": "c",
+          "text": "Automobile liability",
+          "explanation": "The firm's $1,000,000 meets the requirement."
+        },
+        {
+          "id": "d",
+          "text": "Workers' compensation",
+          "explanation": "The firm carries statutory coverage, as required."
+        }
+      ],
+      "explanation": "Compare each required limit to the firm's actual coverage. Here only the per-claim professional liability limit falls short."
+    },
+    {
+      "id": "PcM-CS2-q03",
+      "objectiveId": "PcM-3.1",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "Refer to the scenario and the Request for Proposals.\n\nAfter the site visits the RFP requires, how much of the planned construction administration fee would remain for submittals, RFIs and closeout?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$120,960",
+          "explanation": "This assumes weekly site visits (52) instead of every two weeks (26)."
+        },
+        {
+          "id": "b",
+          "text": "$150,080",
+          "explanation": "Correct. CA fee $179,200 − site visits $29,120 = $150,080.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "$158,400",
+          "explanation": "This leaves out time for travel and reports, using 5 hours per visit instead of 7."
+        },
+        {
+          "id": "d",
+          "text": "$179,200",
+          "explanation": "That's the full CA fee before subtracting the site visits."
+        }
+      ],
+      "explanation": "1. Fee = 8% × $11,200,000 = $896,000\n2. CA fee = 20% × $896,000 = $179,200\n3. Site visits = 26 × 7 hours × $160 = $29,120\n4. Remaining = $179,200 − $29,120 = $150,080"
+    },
+    {
+      "id": "PcM-CS2-q04",
+      "objectiveId": "PcM-1.1",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "Refer to the Request for Proposals and the team and firm data.\n\nWhom should Fairbanks Partners name as project architect in its submission?",
+      "options": [
+        {
+          "id": "a",
+          "text": "L. Obi",
+          "explanation": "Correct. Obi is licensed, has civic and LEED Gold experience the scope requires, and is available when design would start.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "S. Tran",
+          "explanation": "Tran's library experience is relevant, but Tran is committed through the start of design, and the City requires the named project architect to stay through completion."
+        },
+        {
+          "id": "c",
+          "text": "M. Grant",
+          "explanation": "Grant is the principal-in-charge, with 30% availability. That's not a day-to-day project architect role."
+        },
+        {
+          "id": "d",
+          "text": "J. Fox",
+          "explanation": "Fox's strength is construction administration, not leading design and documentation."
+        }
+      ],
+      "explanation": "Match staff to the client's requirements and to real availability. Naming someone who can't serve invites a key-personnel problem."
+    },
+    {
+      "id": "PcM-CS2-q05",
+      "objectiveId": "PcM-2.3",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "The City ranks Fairbanks Partners first. In fee negotiations, the City says its design budget is $840,000 and that the LEED documentation and the community workshops are now optional.\n\nRefer to the team and firm data. Which response is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Accept $840,000 and keep the full RFP scope.",
+          "explanation": "Discounting $120,000 without changing scope leaves the firm doing optional work for free."
+        },
+        {
+          "id": "b",
+          "text": "Remove the optional items and propose $840,000.",
+          "explanation": "Correct. Dropping LEED documentation ($95,000) and the workshops ($25,000) brings the scope and fee into line at $840,000.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Propose 7.5% of the construction budget instead.",
+          "explanation": "7.5% equals $840,000, but changing the fee method doesn't change the scope, so the firm would still be underpaid."
+        },
+        {
+          "id": "d",
+          "text": "Hold at $960,000 and explain the firm's costs.",
+          "explanation": "The City has offered a scope change that resolves the gap. Refusing to adjust risks losing the commission."
+        }
+      ],
+      "explanation": "1. $960,000 − $95,000 − $25,000 = $840,000\n2. Trade scope for fee rather than discounting the same scope."
+    }
+  ]
+}

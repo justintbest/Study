@@ -1,6 +1,6 @@
 import type { ObjectiveMeta } from '../types';
 import type { Progress } from './progress';
-import { CONTENT_BY_OBJECTIVE } from '../content';
+import { CONTENT_BY_OBJECTIVE, questionsForObjective } from '../content';
 import { todayISO } from './dates';
 
 export interface ObjectiveStats {
@@ -25,7 +25,7 @@ export const WEAK_THRESHOLD = 0.7;
 
 export function objectiveStats(obj: ObjectiveMeta, p: Progress, today = todayISO()): ObjectiveStats {
   const content = CONTENT_BY_OBJECTIVE.get(obj.id);
-  const questions = content?.questions ?? [];
+  const questions = questionsForObjective(obj.id);
   const cards = content?.flashcards ?? [];
   let seen = 0,
     attempts = 0,

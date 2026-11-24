@@ -9,7 +9,7 @@ It's a static site: no backend and no account. Progress is saved in your browser
 **Status**
 | Exam | Content |
 |---|---|
-| **PcM** | ✅ 12 objectives: notes, 125 NCARB-style questions, 173 flashcards |
+| **PcM** | ✅ 12 objectives: notes, 125 NCARB-style questions, 173 flashcards, 3 case studies (17 questions) |
 | PjM, PA, PPD, PDD, CE | Official objectives loaded; content comes next, one division at a time |
 | CSE | ⏳ Waiting for the CSE Handbook PDF (see `sources/README.md`) |
 
@@ -82,6 +82,7 @@ The app uses hash URLs (`/#/study/PcM-2.1`), so deep links work on any static ho
     - **unseen only**.
   - **Timed exam simulation:** no feedback until you submit, a question navigator, flag-for-review, and a countdown at the official pace (e.g., PcM: 2 hr 40 min for 65 items). You can choose full length when the bank is big enough.
   - Results show a per-objective breakdown, a review of every missed question, and a one-click "retry missed."
+- **Case studies, like the ARE:** each one is a scenario plus 1–3 resources (financial statements, staff rosters, RFPs, contract terms, project logs) with several questions. The resources stay open in tabs beside every question. Practice them from the division page, or add them at the end of a quiz or timed simulation, where they're placed as on the real exam.
 - **Flashcards:**
   - **SM-2** spaced repetition with Again / Hard / Good / Easy ratings. Each button shows the next interval, and "Again" brings the card back later in the same session.
   - A daily new-card limit.
@@ -97,7 +98,7 @@ The app uses hash URLs (`/#/study/PcM-2.1`), so deep links work on any static ho
 ### Notes on question formats
 - **Formats match the real exam.** The October 2026 ARE 5.0 Guidelines list three item types: **multiple choice**, **check-all-that-apply**, and **hotspot**. Fill-in-the-blank is no longer an ARE format, so calculations appear as multiple choice. The wrong options are the results of common mistakes, and the explanation shows each step.
 - **Writing style matches NCARB's.** Questions are calibrated against NCARB's official practice exams (`content/schema/ITEM-STYLE.md`): scenario stems with bulleted facts or small tables, short parallel options, plausible wrong answers, and correct answers that don't stand out by length. The validator enforces the measurable parts.
-- **What's not included:** hotspot items need images. Case studies are approximated with exhibits in the question stem. The CSE is multiple choice only.
+- **What's not included:** hotspot items need images. The CSE is multiple choice only.
 
 ## How the content is organized
 ```
