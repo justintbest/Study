@@ -97,6 +97,7 @@ The app uses hash URLs (`/#/study/PcM-2.1`), so deep links work on any static ho
 
 ### Notes on question formats
 - **Formats match the real exam.** The October 2026 ARE 5.0 Guidelines list three item types: **multiple choice**, **check-all-that-apply**, and **hotspot**. Fill-in-the-blank is no longer an ARE format, so calculations appear as multiple choice. The wrong options are the results of common mistakes, and the explanation shows each step.
+- **Difficulty matches NCARB's, section by section.** `npm run validate` compares each section's scenario length, calculation share, exhibit/case share and question-type mix against statistics measured from NCARB's official practice exams (`content/schema/difficulty-targets.json`), and flags any section that's easier.
 - **Writing style matches NCARB's.** Questions are calibrated against NCARB's official practice exams (`content/schema/ITEM-STYLE.md`): scenario stems with bulleted facts or small tables, short parallel options, plausible wrong answers, and correct answers that don't stand out by length. The validator enforces the measurable parts.
 - **What's not included:** hotspot items need images. The CSE is multiple choice only.
 

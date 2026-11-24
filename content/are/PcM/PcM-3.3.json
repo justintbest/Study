@@ -43,10 +43,10 @@
   ],
   "questions": [
     {
-      "id": "PcM-3.3-q21",
+      "id": "PcM-3.3-q41",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A first-time developer asks a firm to design a 40-unit for-sale condominium building. The facts are:\n\n- Financing isn't yet committed.\n- The developer wants full design to start immediately.\n- The developer's form includes a broad-form indemnity.\n\nWhich approach best manages the firm's risk?",
+      "stem": "A first-time developer asks a 15-person firm to design a 40-unit for-sale condominium building. The developer's construction financing isn't yet committed, but it wants full design to start immediately so it can begin presales. The developer's form of agreement includes a broad-form indemnity and asks the architect to start work before the agreement is signed. The firm has designed rental apartments but never for-sale condominiums.\n\nWhich approach best manages the firm's risk?",
       "options": [
         {
           "id": "a",
@@ -66,17 +66,17 @@
         },
         {
           "id": "d",
-          "text": "Proceed and purchase project-specific liability insurance.",
+          "text": "Proceed and buy project-specific liability insurance.",
           "explanation": "Insurance doesn't address nonpayment or the uninsurable indemnity."
         }
       ],
       "explanation": "Layer mitigations: financial safeguards, phased commitment, and contract protections."
     },
     {
-      "id": "PcM-3.3-q22",
+      "id": "PcM-3.3-q42",
       "type": "cata",
       "cognitiveLevel": "A/E",
-      "stem": "A firm is considering a renovation of a 1920s building with no existing drawings and unknown concealed conditions.\n\nWhich measures appropriately mitigate the firm's risk from unknown conditions?",
+      "stem": "A firm is negotiating an agreement to convert a 1920s department store into offices. No drawings of the building exist, plaster ceilings on several floors hide the structure, and the owner wants a fixed fee. The owner also wants construction to start within a year. The building is on a local historic register, and the owner's lender wants a firm construction cost early in design. The firm's principal has renovated two buildings of similar age.\n\nWhich measures appropriately mitigate the firm's risk from unknown conditions?",
       "options": [
         {
           "id": "a",
@@ -117,15 +117,15 @@
       "explanation": "Unknowns → services, owner investigations, probes, and contingency."
     },
     {
-      "id": "PcM-3.3-q23",
+      "id": "PcM-3.3-q43",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A 12-person firm is offered a single project whose fee would equal 70% of the firm's annual revenue, on an aggressive schedule.\n\nWhat is the primary practice-level risk?",
+      "stem": "A 12-person firm averaging $2,000,000 in annual revenue is offered a single project with a $1,400,000 fee over 18 months. The client wants an aggressive schedule that would require nearly all of the firm's staff. The firm's other clients are long-time repeat customers who expect continued service. The firm has never run a project with a fee above $300,000, and its line of credit is modest. Two key staff members have said they would welcome the challenge.\n\nWhat is the primary practice-level risk?",
       "options": [
         {
           "id": "a",
           "text": "Concentration of capacity and revenue",
-          "explanation": "Correct. A project this large relative to the firm creates capacity, cash-flow and survival risk if it goes wrong.",
+          "explanation": "Correct. A fee equal to about 70% of annual revenue ties up the firm's capacity, crowds out other clients, and threatens the firm if the project goes wrong.",
           "correct": true
         },
         {
@@ -141,16 +141,16 @@
         {
           "id": "d",
           "text": "Higher professional liability premiums",
-          "explanation": "Premiums may change, but that's minor compared with the concentration risk."
+          "explanation": "Premiums may rise, but that's minor next to the concentration risk."
         }
       ],
-      "explanation": "Evaluate risk to the whole firm: capacity, concentration, cash flow."
+      "explanation": "Evaluate risk to the whole firm: capacity, concentration, cash flow, client relationships."
     },
     {
-      "id": "PcM-3.3-q24",
+      "id": "PcM-3.3-q44",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A firm with no hospital experience wants to pursue a small hospital addition for an existing client.\n\nWhich strategy best mitigates the expertise risk?",
+      "stem": "A firm with 20 years of office and school experience is asked by an existing client, a regional health system, to design a small inpatient addition to one of its hospitals. No one at the firm has designed healthcare facilities, but the client values the relationship and is flexible on schedule. The addition would include eight patient rooms and a nurse station connected to an occupied unit. The client's facilities director has offered to share the system's design standards.\n\nWhich strategy best mitigates the firm's expertise risk?",
       "options": [
         {
           "id": "a",
@@ -166,21 +166,21 @@
         {
           "id": "c",
           "text": "Reduce the fee to offset the learning curve",
-          "explanation": "A lower fee leaves less money for the added effort an unfamiliar building type requires."
+          "explanation": "A lower fee leaves less money for the added effort of an unfamiliar building type."
         },
         {
           "id": "d",
           "text": "Rely on the hospital's facilities staff for review",
-          "explanation": "The architect's standard of care can't be handed to the owner's staff."
+          "explanation": "The architect's standard of care can't be handed off to the owner's staff."
         }
       ],
       "explanation": "Expertise gaps → team, hire or decline. Insurance is not a substitute."
     },
     {
-      "id": "PcM-3.3-q25",
+      "id": "PcM-3.3-q45",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "A firm's risk committee classifies its mitigation strategies.\n\nWhich strategy is an example of risk transfer?",
+      "stem": "A firm's risk committee is classifying the strategies it used on last year's projects for a training session. It uses five categories: avoid, reduce, transfer, share, and accept. The committee wants one clear example of each. Last year the firm completed 34 projects, including two renovations of historic buildings and a public school. Several projects involved unusual site conditions, and one client went bankrupt during design.\n\nWhich strategy is an example of risk transfer?",
       "options": [
         {
           "id": "a",
@@ -207,10 +207,10 @@
       "explanation": "Avoid, reduce, transfer, share, accept. Know which is which."
     },
     {
-      "id": "PcM-3.3-q26",
+      "id": "PcM-3.3-q46",
       "type": "cata",
       "cognitiveLevel": "A/E",
-      "stem": "A firm is asked to design a project in a state where none of its architects is licensed, about eight hours away by car.\n\nWhich risks should the firm evaluate before accepting?",
+      "stem": "A firm in the Midwest is asked by a repeat client to design a retail center in a coastal state about eight hours away by car. None of the firm's architects is licensed there, the site is in a high-wind region the firm hasn't worked in, and the client expects the firm's usual construction-phase services. The center would include four retail buildings totaling 120,000 sf, and the client wants construction to start within a year.\n\nWhich risks should the firm evaluate before accepting?",
       "options": [
         {
           "id": "a",
@@ -250,10 +250,10 @@
       "explanation": "Out-of-area work: licensure, local requirements, logistics."
     },
     {
-      "id": "PcM-3.3-q27",
+      "id": "PcM-3.3-q47",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A prestigious client's form of agreement includes a broad-form indemnity, uncapped liquidated damages for design delays, and a warranty of fitness for purpose.\n\nWhich response is most appropriate?",
+      "stem": "A prestigious cultural institution selects a firm for a museum expansion. Its form of agreement includes a broad-form indemnity, uncapped liquidated damages for late design deliverables, and a warranty that the building will be fit for its intended purpose. The institution says other firms have accepted these terms, and the principals are eager for the commission. The project's construction budget is $45 million, and the design schedule is 14 months.\n\nWhich response is most appropriate?",
       "options": [
         {
           "id": "a",
@@ -268,32 +268,32 @@
         },
         {
           "id": "c",
-          "text": "Accept the terms and rely on professional liability coverage.",
+          "text": "Accept and rely on professional liability coverage.",
           "explanation": "Policies generally exclude warranties, broad indemnities and liquidated damages."
         },
         {
           "id": "d",
-          "text": "Accept the terms and increase the fee to cover the risk.",
+          "text": "Accept and increase the fee to cover the risk.",
           "explanation": "A higher fee doesn't cap the exposure or make it insurable."
         }
       ],
       "explanation": "Onerous terms: negotiate, transfer, or decline. Don't assume insurance covers them."
     },
     {
-      "id": "PcM-3.3-q28",
+      "id": "PcM-3.3-q48",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "An owner will directly hire its own landscape architect and audiovisual consultant for a performing arts center.\n\nWhich action best manages the architect's risk?",
+      "stem": "An owner building a performing arts center will directly hire its own theater consultant, acoustician and audiovisual designer, and wants the architect to integrate their work into the documents. The architect's draft agreement doesn't yet address the owner's separately hired consultants. The center's budget is $62 million, and the theater consultant was hired before the architect. The owner expects every discipline to be fully coordinated in a single set of construction documents.\n\nWhich provision best manages the architect's risk?",
       "options": [
         {
           "id": "a",
           "text": "Define coordination duties and reliance rights",
-          "explanation": "Correct. The architect coordinates and may rely on owner-furnished information, and clear terms limit exposure.",
+          "explanation": "Correct. The architect coordinates and may rely on owner-furnished information. Clear terms limit exposure.",
           "correct": true
         },
         {
           "id": "b",
-          "text": "Require them to become the architect's subconsultants",
+          "text": "Make them the architect's subconsultants",
           "explanation": "Taking them on adds responsibility for their work, usually without matching compensation."
         },
         {
@@ -304,71 +304,97 @@
         {
           "id": "d",
           "text": "Exclude coordination with them from the scope",
-          "explanation": "Coordination with the owner's consultants is a normal part of services."
+          "explanation": "Coordination with the owner's consultants is a normal part of delivering the project."
         }
       ],
       "explanation": "Owner's consultants: coordinate, rely, and define responsibility clearly."
     },
     {
-      "id": "PcM-3.3-q29",
-      "type": "mc",
+      "id": "PcM-3.3-q49",
+      "type": "cata",
       "cognitiveLevel": "A/E",
-      "stem": "Reference checks reveal that a prospective client was sued by two previous architects over unpaid fees. The firm still wants the project.\n\nWhich response best addresses this risk?",
+      "stem": "Reference checks reveal that a prospective developer client was sued by two previous architects over unpaid fees, though both cases settled. The firm still wants the project, a 60,000 sf medical office building that fits its growth plans. The developer has asked for a fee proposal and draft agreement within two weeks. The developer has secured the land and a construction loan commitment. Its principal says the earlier disputes were 'misunderstandings about scope.'\n\nWhich measures address the payment risk?",
       "options": [
         {
           "id": "a",
-          "text": "Require a retainer and suspend services for late payment.",
-          "explanation": "Correct. These measures directly address the client's demonstrated payment risk (B101-2017 §§9.1, 11.10.1).",
+          "text": "A retainer before services begin",
+          "explanation": "Correct. A retainer reduces exposure from the start (B101-2017 §11.10.1).",
           "correct": true
         },
         {
           "id": "b",
-          "text": "Bill the client only at major project milestones.",
-          "explanation": "Less frequent billing increases exposure to a client with a nonpayment history."
+          "text": "Monthly billing with prompt follow-up",
+          "explanation": "Correct. Frequent billing limits how much unpaid work can accumulate.",
+          "correct": true
         },
         {
           "id": "c",
-          "text": "Increase the firm's professional liability limits.",
-          "explanation": "Professional liability doesn't cover fee collection."
+          "text": "Suspension of services for late payment, enforced",
+          "explanation": "Correct. Using the suspension right (B101-2017 §9.1) stops exposure from growing.",
+          "correct": true
         },
         {
           "id": "d",
-          "text": "Accept a fee contingent on project financing.",
+          "text": "Higher professional liability limits",
+          "explanation": "Professional liability doesn't cover fee collection."
+        },
+        {
+          "id": "e",
+          "text": "A fee contingent on project financing",
           "explanation": "That puts the whole fee at risk with a client known not to pay."
+        },
+        {
+          "id": "f",
+          "text": "Billing only at major milestones",
+          "explanation": "Less frequent billing increases exposure."
         }
       ],
+      "selectCount": 3,
       "explanation": "Client payment risk → retainer, frequent billing, enforcement of contract remedies.",
       "confidence": "medium",
       "confidenceNote": "B101-2017 paragraph numbers per my knowledge; confirm in your copy."
     },
     {
-      "id": "PcM-3.3-q30",
-      "type": "mc",
+      "id": "PcM-3.3-q50",
+      "type": "cata",
       "cognitiveLevel": "A/E",
-      "stem": "A waterfront mixed-use project is in an area with documented increases in storm-surge levels. The owner hasn't raised flooding.\n\nWhich action best mitigates the practice's risk while serving the client?",
+      "stem": "A firm is designing a waterfront mixed-use building in an area where published studies document rising storm-surge heights. The current flood map places the site in a moderate-risk zone, and the owner hasn't raised flooding in any meeting. The budget is tight, and design development starts next month. A neighboring building flooded during a storm three years ago, and the city is updating its floodplain maps. The owner's lender hasn't required flood insurance.\n\nWhich actions are appropriate for the architect?",
       "options": [
         {
           "id": "a",
-          "text": "Advise the owner on risk and options; document decisions",
-          "explanation": "Correct. Informing the owner and recording its choices about a foreseeable climate risk protects the public and the firm.",
+          "text": "Inform the owner of the projected risk",
+          "explanation": "Correct. A foreseeable climate hazard should be raised with the client (AIA 2.401).",
           "correct": true
         },
         {
           "id": "b",
-          "text": "Exclude flood risk from the architect's scope",
-          "explanation": "Excluding a known hazard doesn't meet reasonable care."
+          "text": "Present resilience options with their costs",
+          "explanation": "Correct. Options let the owner make an informed decision within its budget.",
+          "correct": true
         },
         {
           "id": "c",
-          "text": "Design to the current flood map only",
-          "explanation": "Current maps may understate foreseeable risk. The owner should be informed."
+          "text": "Document the owner's decisions",
+          "explanation": "Correct. A record of informed decisions protects both parties.",
+          "correct": true
         },
         {
           "id": "d",
-          "text": "Specify flood-resistant measures without consulting the owner",
+          "text": "Exclude flood risk from the architect's scope",
+          "explanation": "Excluding a known hazard doesn't satisfy reasonable care."
+        },
+        {
+          "id": "e",
+          "text": "Design to the current flood map without comment",
+          "explanation": "Current maps may understate foreseeable risk. The owner should be informed."
+        },
+        {
+          "id": "f",
+          "text": "Add flood measures without consulting the owner",
           "explanation": "Adding scope and cost without the owner's decision overrides the owner's authority."
         }
       ],
+      "selectCount": 3,
       "explanation": "Climate-related project risk: identify, advise, document."
     }
   ],
@@ -436,5 +462,5 @@
       "confidenceNote": "Third-party report; the Guidelines' current wording is consistent but NCARB's change list wasn't found."
     }
   ],
-  "itemStyle": "ncarb-v2"
+  "itemStyle": "ncarb-v3-difficulty"
 }

@@ -1,0 +1,365 @@
+{
+ "source": "NCARB ARE 5.0 practice exam PDFs (Feb 2026), measured statistics only; no item content",
+ "divisions": {
+  "PcM": {
+   "overall": {
+    "items": 62,
+    "stemWordsMedian": 58,
+    "cataShare": 0.24,
+    "cataCorrectMedian": 3,
+    "calcShare": 0.18,
+    "exhibitOrCaseShare": 0.11,
+    "dataListShare": 0.08,
+    "hotspotShare": 0.0
+   },
+   "sections": {
+    "1": {
+     "items": 15,
+     "stemWordsMedian": 64,
+     "cataShare": 0.13,
+     "cataCorrectMedian": 2.5,
+     "calcShare": 0.2,
+     "exhibitOrCaseShare": 0.2,
+     "dataListShare": 0.07,
+     "hotspotShare": 0.0
+    },
+    "2": {
+     "items": 21,
+     "stemWordsMedian": 48,
+     "cataShare": 0.14,
+     "cataCorrectMedian": 3,
+     "calcShare": 0.29,
+     "exhibitOrCaseShare": 0.19,
+     "dataListShare": 0.14,
+     "hotspotShare": 0.0
+    },
+    "3": {
+     "items": 15,
+     "stemWordsMedian": 88,
+     "cataShare": 0.4,
+     "cataCorrectMedian": 3.5,
+     "calcShare": 0.13,
+     "exhibitOrCaseShare": 0.0,
+     "dataListShare": 0.07,
+     "hotspotShare": 0.0
+    },
+    "4": {
+     "items": 11,
+     "stemWordsMedian": 52,
+     "cataShare": 0.36,
+     "cataCorrectMedian": 3.0,
+     "calcShare": 0.0,
+     "exhibitOrCaseShare": 0.0,
+     "dataListShare": 0.0,
+     "hotspotShare": 0.0
+    }
+   },
+   "unassigned": 0
+  },
+  "PjM": {
+   "overall": {
+    "items": 71,
+    "stemWordsMedian": 60,
+    "cataShare": 0.17,
+    "cataCorrectMedian": 2.5,
+    "calcShare": 0.23,
+    "exhibitOrCaseShare": 0.17,
+    "dataListShare": 0.03,
+    "hotspotShare": 0.01
+   },
+   "sections": {
+    "1": {
+     "items": 8,
+     "stemWordsMedian": 57,
+     "cataShare": 0.5,
+     "cataCorrectMedian": 3.5,
+     "calcShare": 0.5,
+     "exhibitOrCaseShare": 0.12,
+     "dataListShare": 0.0,
+     "hotspotShare": 0.0
+    },
+    "2": {
+     "items": 15,
+     "stemWordsMedian": 57,
+     "cataShare": 0.0,
+     "cataCorrectMedian": null,
+     "calcShare": 0.27,
+     "exhibitOrCaseShare": 0.27,
+     "dataListShare": 0.13,
+     "hotspotShare": 0.07
+    },
+    "3": {
+     "items": 17,
+     "stemWordsMedian": 60,
+     "cataShare": 0.06,
+     "cataCorrectMedian": 2,
+     "calcShare": 0.06,
+     "exhibitOrCaseShare": 0.06,
+     "dataListShare": 0.0,
+     "hotspotShare": 0.0
+    },
+    "4": {
+     "items": 17,
+     "stemWordsMedian": 66,
+     "cataShare": 0.24,
+     "cataCorrectMedian": 2.0,
+     "calcShare": 0.35,
+     "exhibitOrCaseShare": 0.12,
+     "dataListShare": 0.0,
+     "hotspotShare": 0.0
+    },
+    "5": {
+     "items": 14,
+     "stemWordsMedian": 66,
+     "cataShare": 0.21,
+     "cataCorrectMedian": 3,
+     "calcShare": 0.07,
+     "exhibitOrCaseShare": 0.29,
+     "dataListShare": 0.0,
+     "hotspotShare": 0.0
+    }
+   },
+   "unassigned": 0
+  },
+  "PA": {
+   "overall": {
+    "items": 72,
+    "stemWordsMedian": 68,
+    "cataShare": 0.18,
+    "cataCorrectMedian": 3,
+    "calcShare": 0.24,
+    "exhibitOrCaseShare": 0.46,
+    "dataListShare": 0.03,
+    "hotspotShare": 0.08
+   },
+   "sections": {
+    "1": {
+     "items": 13,
+     "stemWordsMedian": 69,
+     "cataShare": 0.23,
+     "cataCorrectMedian": 3,
+     "calcShare": 0.15,
+     "exhibitOrCaseShare": 0.38,
+     "dataListShare": 0.08,
+     "hotspotShare": 0.08
+    },
+    "2": {
+     "items": 12,
+     "stemWordsMedian": 55,
+     "cataShare": 0.25,
+     "cataCorrectMedian": 3,
+     "calcShare": 0.17,
+     "exhibitOrCaseShare": 0.5,
+     "dataListShare": 0.0,
+     "hotspotShare": 0.08
+    },
+    "3": {
+     "items": 18,
+     "stemWordsMedian": 73,
+     "cataShare": 0.11,
+     "cataCorrectMedian": 3.5,
+     "calcShare": 0.28,
+     "exhibitOrCaseShare": 0.44,
+     "dataListShare": 0.0,
+     "hotspotShare": 0.17
+    },
+    "4": {
+     "items": 29,
+     "stemWordsMedian": 72,
+     "cataShare": 0.17,
+     "cataCorrectMedian": 3,
+     "calcShare": 0.28,
+     "exhibitOrCaseShare": 0.48,
+     "dataListShare": 0.03,
+     "hotspotShare": 0.03
+    }
+   },
+   "unassigned": 0
+  },
+  "PPD": {
+   "overall": {
+    "items": 93,
+    "stemWordsMedian": 53,
+    "cataShare": 0.13,
+    "cataCorrectMedian": 3.0,
+    "calcShare": 0.19,
+    "exhibitOrCaseShare": 0.3,
+    "dataListShare": 0.03,
+    "hotspotShare": 0.09
+   },
+   "sections": {
+    "1": {
+     "items": 11,
+     "stemWordsMedian": 38,
+     "cataShare": 0.18,
+     "cataCorrectMedian": 3.5,
+     "calcShare": 0.0,
+     "exhibitOrCaseShare": 0.45,
+     "dataListShare": 0.0,
+     "hotspotShare": 0.09
+    },
+    "2": {
+     "items": 19,
+     "stemWordsMedian": 48,
+     "cataShare": 0.16,
+     "cataCorrectMedian": 3,
+     "calcShare": 0.42,
+     "exhibitOrCaseShare": 0.42,
+     "dataListShare": 0.0,
+     "hotspotShare": 0.05
+    },
+    "3": {
+     "items": 23,
+     "stemWordsMedian": 35,
+     "cataShare": 0.13,
+     "cataCorrectMedian": 2,
+     "calcShare": 0.0,
+     "exhibitOrCaseShare": 0.13,
+     "dataListShare": 0.0,
+     "hotspotShare": 0.04
+    },
+    "4": {
+     "items": 32,
+     "stemWordsMedian": 56,
+     "cataShare": 0.09,
+     "cataCorrectMedian": 3,
+     "calcShare": 0.12,
+     "exhibitOrCaseShare": 0.31,
+     "dataListShare": 0.0,
+     "hotspotShare": 0.12
+    },
+    "5": {
+     "items": 8,
+     "stemWordsMedian": 77,
+     "cataShare": 0.12,
+     "cataCorrectMedian": 3,
+     "calcShare": 0.75,
+     "exhibitOrCaseShare": 0.25,
+     "dataListShare": 0.38,
+     "hotspotShare": 0.12
+    }
+   },
+   "unassigned": 0
+  },
+  "PDD": {
+   "overall": {
+    "items": 97,
+    "stemWordsMedian": 56,
+    "cataShare": 0.09,
+    "cataCorrectMedian": 3,
+    "calcShare": 0.14,
+    "exhibitOrCaseShare": 0.36,
+    "dataListShare": 0.0,
+    "hotspotShare": 0.06
+   },
+   "sections": {
+    "1": {
+     "items": 35,
+     "stemWordsMedian": 53,
+     "cataShare": 0.03,
+     "cataCorrectMedian": 3,
+     "calcShare": 0.2,
+     "exhibitOrCaseShare": 0.4,
+     "dataListShare": 0.0,
+     "hotspotShare": 0.06
+    },
+    "2": {
+     "items": 33,
+     "stemWordsMedian": 65,
+     "cataShare": 0.18,
+     "cataCorrectMedian": 3.0,
+     "calcShare": 0.09,
+     "exhibitOrCaseShare": 0.33,
+     "dataListShare": 0.0,
+     "hotspotShare": 0.09
+    },
+    "3": {
+     "items": 15,
+     "stemWordsMedian": 53,
+     "cataShare": 0.07,
+     "cataCorrectMedian": 3,
+     "calcShare": 0.0,
+     "exhibitOrCaseShare": 0.07,
+     "dataListShare": 0.0,
+     "hotspotShare": 0.07
+    },
+    "4": {
+     "items": 9,
+     "stemWordsMedian": 42,
+     "cataShare": 0.11,
+     "cataCorrectMedian": 3,
+     "calcShare": 0.11,
+     "exhibitOrCaseShare": 0.78,
+     "dataListShare": 0.0,
+     "hotspotShare": 0.0
+    },
+    "5": {
+     "items": 5,
+     "stemWordsMedian": 63,
+     "cataShare": 0.0,
+     "cataCorrectMedian": null,
+     "calcShare": 0.6,
+     "exhibitOrCaseShare": 0.4,
+     "dataListShare": 0.0,
+     "hotspotShare": 0.0
+    }
+   },
+   "unassigned": 0
+  },
+  "CE": {
+   "overall": {
+    "items": 73,
+    "stemWordsMedian": 66,
+    "cataShare": 0.16,
+    "cataCorrectMedian": 2.5,
+    "calcShare": 0.14,
+    "exhibitOrCaseShare": 0.23,
+    "dataListShare": 0.04,
+    "hotspotShare": 0.11
+   },
+   "sections": {
+    "1": {
+     "items": 13,
+     "stemWordsMedian": 62,
+     "cataShare": 0.15,
+     "cataCorrectMedian": 2.0,
+     "calcShare": 0.23,
+     "exhibitOrCaseShare": 0.23,
+     "dataListShare": 0.08,
+     "hotspotShare": 0.15
+    },
+    "2": {
+     "items": 26,
+     "stemWordsMedian": 62,
+     "cataShare": 0.19,
+     "cataCorrectMedian": 3,
+     "calcShare": 0.19,
+     "exhibitOrCaseShare": 0.31,
+     "dataListShare": 0.04,
+     "hotspotShare": 0.12
+    },
+    "3": {
+     "items": 25,
+     "stemWordsMedian": 74,
+     "cataShare": 0.08,
+     "cataCorrectMedian": 3.0,
+     "calcShare": 0.08,
+     "exhibitOrCaseShare": 0.2,
+     "dataListShare": 0.04,
+     "hotspotShare": 0.12
+    },
+    "4": {
+     "items": 9,
+     "stemWordsMedian": 93,
+     "cataShare": 0.33,
+     "cataCorrectMedian": 3,
+     "calcShare": 0.0,
+     "exhibitOrCaseShare": 0.11,
+     "dataListShare": 0.0,
+     "hotspotShare": 0.0
+    }
+   },
+   "unassigned": 0
+  }
+ }
+}

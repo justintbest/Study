@@ -48,10 +48,10 @@
   ],
   "questions": [
     {
-      "id": "PcM-1.4-q21",
+      "id": "PcM-1.4-q41",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "A former client sues an architect, alleging that a stair design was negligent. The parties dispute whether the design met the standard of care.\n\nHow is the standard of care most often established in such a case?",
+      "stem": "Five years after completion, a former client sues an architect after a visitor falls on a monumental stair, alleging negligent design. The architect's attorney points out that the stair met the building code in effect at the time and passed the building official's review. The client's attorney argues that the design still fell below professional standards.\n\nHow is the standard of care most often established in such a case?",
       "options": [
         {
           "id": "a",
@@ -78,10 +78,10 @@
       "explanation": "Standard of care = ordinary, reasonable professional care, usually shown through expert testimony."
     },
     {
-      "id": "PcM-1.4-q22",
+      "id": "PcM-1.4-q42",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "An owner's draft agreement states that the architect 'shall perform all services to the highest professional standards and guarantees the documents will be free of errors.'\n\nWhat is the primary concern with this clause?",
+      "stem": "An institutional owner sends a firm its standard agreement for a research building. One clause states that the architect 'shall perform all services to the highest professional standards and guarantees the documents will be free of errors and omissions.' The owner's representative calls it non-negotiable boilerplate that 'every architect signs.'\n\nWhat is the primary concern with this clause?",
       "options": [
         {
           "id": "a",
@@ -108,40 +108,41 @@
       "explanation": "Avoid warranty language (guarantee, ensure, highest, certify). Keep the ordinary standard of care."
     },
     {
-      "id": "PcM-1.4-q23",
+      "id": "PcM-1.4-q43",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "During construction of an office building, the contractor discovers that the architect omitted code-required roof-access ladders. The facts are:\n\n- Cost to add the ladders now: $9,000\n- Cost if included in the original bid: $6,000\n\nUnder the concept of betterment, what is the architect's likely responsibility?",
+      "stem": "During construction of a two-story office building, the contractor discovers that the documents omitted code-required roof-access ladders and a roof hatch. The contractor prices the work as a change order, and the owner asks the architect to pay for it.\n\n| Cost item | Amount |\n|---|---|\n| Ladders and hatch, if in the original bid | $6,000 |\n| Ladders and hatch, priced now | $7,500 |\n| Cutting and patching the completed roof deck | $1,500 |\n\nUnder the concept of betterment, what is the architect's likely responsibility?",
+      "calculation": true,
       "options": [
         {
           "id": "a",
-          "text": "$0",
-          "explanation": "An omission that falls below the standard of care can still create liability for the added cost."
+          "text": "$1,500",
+          "explanation": "This counts only the patching and misses the premium for buying the items late."
         },
         {
           "id": "b",
           "text": "$3,000",
-          "explanation": "Correct. The owner pays the $6,000 it would have paid anyway. The architect may owe the $3,000 premium caused by the late addition.",
+          "explanation": "Correct. The owner pays the $6,000 it would have paid anyway. The architect may owe the added cost: $9,000 − $6,000.",
           "correct": true
         },
         {
           "id": "c",
-          "text": "$6,000",
-          "explanation": "That's the betterment, the value the owner would have paid regardless."
+          "text": "$7,500",
+          "explanation": "That's the change-order price for the items, which includes the betterment the owner would have paid."
         },
         {
           "id": "d",
           "text": "$9,000",
-          "explanation": "Charging the full cost would give the owner a windfall."
+          "explanation": "Charging the full cost would give the owner a windfall of $6,000."
         }
       ],
-      "explanation": "1. Total cost now = $9,000\n2. Owner's original cost (betterment) = $6,000\n3. Added cost from the omission = $9,000 − $6,000 = $3,000"
+      "explanation": "1. Total cost now = $7,500 + $1,500 = $9,000\n2. Owner's original cost (betterment) = $6,000\n3. Added cost caused by the omission = $9,000 − $6,000 = $3,000"
     },
     {
-      "id": "PcM-1.4-q24",
+      "id": "PcM-1.4-q44",
       "type": "cata",
       "cognitiveLevel": "U/A",
-      "stem": "While documenting existing conditions for the renovation of a 1962 school, an architect notices pipe insulation that may contain asbestos.\n\nWhich actions are appropriate for the architect?",
+      "stem": "An architect is documenting existing conditions for the renovation of a 1962 elementary school. In a mechanical room, she notices pipe insulation with a chalky, fibrous appearance typical of the era. The district's request for proposals didn't mention hazardous materials, and the district wants construction documents in four months.\n\nWhich actions are appropriate for the architect?",
       "options": [
         {
           "id": "a",
@@ -177,13 +178,15 @@
         }
       ],
       "selectCount": 2,
-      "explanation": "Suspected hazardous materials: notify the owner and recommend a specialist (B101-2017 §10.6 excludes the architect from discovery and abatement)."
+      "explanation": "Suspected hazardous materials: notify the owner and recommend a specialist (B101-2017 §10.6).",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph references per my knowledge of B101-2017; confirm in your copy."
     },
     {
-      "id": "PcM-1.4-q25",
+      "id": "PcM-1.4-q45",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "A client wants a new community center on a coastal site. The facts are:\n\n- Current flood maps show the site just outside the flood zone.\n- Published regional projections place it in the floodplain within the building's service life.\n- The client asks for code minimums only.\n\nWhich response best reflects the standard of care?",
+      "stem": "A county retains an architect to design a community center on a coastal site. Current flood maps show the site just outside the regulatory flood zone, but published regional projections place it within the floodplain during the building's expected 50-year service life. The county's project manager asks for a design that meets code minimums, noting that the budget is tight.\n\nWhich response best reflects the standard of care?",
       "options": [
         {
           "id": "a",
@@ -192,7 +195,7 @@
         },
         {
           "id": "b",
-          "text": "Inform the client of the risk and options, and document the decision.",
+          "text": "Inform the county of the risk and options, and document its decision.",
           "explanation": "Correct. Identify the foreseeable climate risk, advise on resilience options, and record the client's informed choice (AIA 2.401, 6.501).",
           "correct": true
         },
@@ -203,22 +206,22 @@
         },
         {
           "id": "d",
-          "text": "Add resilience measures and inform the client at the end of design.",
+          "text": "Add resilience measures and inform the county at the end of design.",
           "explanation": "Adding scope and cost without the client's timely, informed decision overrides the client's authority."
         }
       ],
       "explanation": "Climate risk: identify, advise, offer options, document. Codes are a floor."
     },
     {
-      "id": "PcM-1.4-q26",
+      "id": "PcM-1.4-q46",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "A peer reviewer finds four problems in a construction document set.\n\nWhich problem is best described as an omission?",
+      "stem": "A peer reviewer checks a firm's 95% construction documents for a medical office building and reports four problems. The project architect has to classify each one in the firm's quality-control log as an error or an omission.\n\nWhich problem is best described as an omission?",
       "options": [
         {
           "id": "a",
           "text": "The door schedule lists the wrong fire rating for a stair door.",
-          "explanation": "Incorrect information shown on the documents is an error."
+          "explanation": "Incorrect information on the documents is an error."
         },
         {
           "id": "b",
@@ -240,53 +243,42 @@
       "explanation": "Error = shown wrong. Omission = left out."
     },
     {
-      "id": "PcM-1.4-q27",
-      "type": "cata",
+      "id": "PcM-1.4-q47",
+      "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "A lender asks the architect to sign a certificate at substantial completion stating that the 'Architect certifies that all work complies with the Contract Documents.'\n\nWhich revisions keep the certificate within the standard of care?",
+      "stem": "Near substantial completion, the owner's lender sends the architect a certificate to sign that states: 'Architect certifies that all work complies with the Contract Documents.' The architect made 18 site visits under the agreement and observed the work periodically.\n\nWhich revision best keeps the certificate within the standard of care?",
       "options": [
         {
           "id": "a",
-          "text": "Replace 'certifies' with 'to the best of the architect's knowledge, information and belief'",
-          "explanation": "Correct. Qualified language states professional opinion rather than a guarantee.",
+          "text": "Qualify it to knowledge and belief, based on site visits.",
+          "explanation": "Correct. Qualified language tied to actual observation states a professional opinion, not a guarantee (B101-2017 §10.4).",
           "correct": true
         },
         {
           "id": "b",
-          "text": "Limit statements to matters within the architect's services",
-          "explanation": "Correct. The architect shouldn't certify matters outside its scope (B101-2017 §10.4).",
-          "correct": true
+          "text": "Certify compliance only for the work the architect saw.",
+          "explanation": "It's still an absolute certification, just over a smaller area."
         },
         {
           "id": "c",
-          "text": "Base statements on observations during periodic site visits",
-          "explanation": "Correct. Statements should reflect what was actually observed under the agreement.",
-          "correct": true
+          "text": "Add that the contractor is responsible for compliance.",
+          "explanation": "The architect's own statement would remain an unqualified certification."
         },
         {
           "id": "d",
-          "text": "Certify that the work complies in every respect",
-          "explanation": "An absolute certification is a warranty that periodic observation can't support."
-        },
-        {
-          "id": "e",
-          "text": "State that the work is free of defects as of the date",
-          "explanation": "A defect-free statement is a guarantee beyond the standard of care."
-        },
-        {
-          "id": "f",
-          "text": "Certify the accuracy of the contractor's percent complete",
-          "explanation": "The architect evaluates progress based on observation. It can't certify accuracy absolutely."
+          "text": "Sign it as written, since the work was observed.",
+          "explanation": "Periodic observation can't support an absolute certification of all work."
         }
       ],
-      "selectCount": 3,
-      "explanation": "Certificates: qualify the language, stay within scope, tie statements to actual observation."
+      "explanation": "Certificates: qualify the language, stay within scope, tie statements to actual observation.",
+      "confidence": "medium",
+      "confidenceNote": "Paragraph references per my knowledge of B101-2017; confirm in your copy."
     },
     {
-      "id": "PcM-1.4-q28",
+      "id": "PcM-1.4-q48",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "During selective demolition, the contractor uncovers deteriorated framing that the architect could not reasonably have observed. Redesigning the affected area will take about 40 hours.\n\nHow should the redesign work be characterized?",
+      "stem": "During selective demolition in a 1920s commercial building, the contractor uncovers deteriorated floor framing hidden behind plaster that was in place during the architect's existing-conditions survey. The owner didn't authorize exploratory probes during design. The structural engineer estimates 40 hours to redesign the affected bays.\n\nHow should the redesign work be characterized?",
       "options": [
         {
           "id": "a",
@@ -306,17 +298,17 @@
         },
         {
           "id": "d",
-          "text": "As a claim under the architect's professional liability policy",
+          "text": "As a claim under the architect's liability policy",
           "explanation": "Professional liability responds to negligence. This condition doesn't involve any."
         }
       ],
       "explanation": "Unknown conditions → notify, document, resolve through the contract. Redesign is usually an additional service."
     },
     {
-      "id": "PcM-1.4-q29",
+      "id": "PcM-1.4-q49",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "An owner's attorney is preparing a professional negligence claim against an architect.\n\nWhich elements must the owner generally prove?",
+      "stem": "An owner's attorney is preparing a professional negligence claim against an architect over a leaking curtain wall. An expert will testify that the architect's flashing detail fell below the standard of care, and the owner has repair invoices totaling $340,000.\n\nWhich elements must the owner generally prove to recover?",
       "options": [
         {
           "id": "a",
@@ -337,40 +329,41 @@
         {
           "id": "d",
           "text": "Duty, an error in the documents, and damages",
-          "explanation": "An error alone isn't a breach. It must fall below the standard of care and cause damages."
+          "explanation": "An error alone isn't a breach. It must fall below the standard of care and cause the damages."
         }
       ],
       "explanation": "Negligence = duty + breach + causation + damages."
     },
     {
-      "id": "PcM-1.4-q30",
+      "id": "PcM-1.4-q50",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "An owner asks how to protect its budget against the cost impact of errors and omissions that occur even when the architect exercises reasonable care.\n\nWhich recommendation is most appropriate?",
+      "stem": "An owner's budget for a library renovation includes a construction contingency of 5% on a $4,200,000 construction cost. Midway through construction, these items have been paid from the contingency:\n\n- Concealed structural repairs: $96,000\n- Owner-requested finish upgrades: $70,000\n- Premium to add an omitted fire damper, beyond its original cost: $18,000\n\nHow much contingency remains?",
+      "calculation": true,
       "options": [
         {
           "id": "a",
-          "text": "Require the architect to warrant error-free documents.",
-          "explanation": "A warranty is uninsurable and doesn't change the reality that some errors occur."
-        },
-        {
-          "id": "b",
-          "text": "Carry a construction contingency in the project budget.",
-          "explanation": "Correct. A contingency absorbs ordinary document imperfections and unforeseen conditions.",
+          "text": "$26,000",
+          "explanation": "Correct. $210,000 − ($96,000 + $70,000 + $18,000) = $26,000.",
           "correct": true
         },
         {
+          "id": "b",
+          "text": "$44,000",
+          "explanation": "This leaves out the omitted-item premium."
+        },
+        {
           "id": "c",
-          "text": "Commission a peer review of the documents by a second firm.",
-          "explanation": "Peer review can reduce errors, but it doesn't fund the ones that remain."
+          "text": "$114,000",
+          "explanation": "This counts only the concealed structural repairs."
         },
         {
           "id": "d",
-          "text": "Withhold part of the architect's fee until closeout.",
-          "explanation": "B101-2017 limits withholding from the architect's compensation, and withholding doesn't fund cost impacts."
+          "text": "$184,000",
+          "explanation": "That's the amount spent, not the amount remaining."
         }
       ],
-      "explanation": "Recommend an owner's contingency. Perfect documents aren't the standard."
+      "explanation": "1. Contingency = 5% × $4,200,000 = $210,000\n2. Spent = $96,000 + $70,000 + $18,000 = $184,000\n3. Remaining = $210,000 − $184,000 = $26,000\nAn owner's contingency is how ordinary document imperfections and unforeseen conditions get funded."
     }
   ],
   "flashcards": [
@@ -446,5 +439,5 @@
     }
   ],
   "verified": "2026-11-23",
-  "itemStyle": "ncarb-v2"
+  "itemStyle": "ncarb-v3-difficulty"
 }

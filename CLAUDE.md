@@ -23,7 +23,8 @@ Do one division at a time and stop for the user's review afterward.
    - `sources/are/aia/` for AIA contracts, if the user has added them.
 
    Set `"verified": "<date>"` on objectives you checked, and record what you checked in `content/VERIFICATION.md`. Run `npm run fetch:sources` first if the PDFs are missing.
-4. Run `npm run validate -- --strict`, fix everything, then summarize the flagged items for the user.
+4. Match NCARB's difficulty: read the division's section targets in `content/schema/difficulty-targets.json` before writing, and write to them: scenario length, calculation share, exhibit/case share, check-all-that-apply share.
+5. Run `npm run validate -- --strict`, fix everything (including the difficulty-profile warnings), then summarize the flagged items for the user.
 
 ## Study sessions in Claude Code
 When the user asks to be quizzed or to study (e.g. "quiz me on PcM objective 2.3", "flashcards for PcM section 3", "10-question weighted PcM quiz", "explain PcM 3.2"):

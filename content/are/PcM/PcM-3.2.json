@@ -44,10 +44,10 @@
   ],
   "questions": [
     {
-      "id": "PcM-3.2-q21",
+      "id": "PcM-3.2-q41",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A hospital system describes its goals for a new patient tower:\n\n- Contractor input on cost and constructability during design\n- A guaranteed maximum price before construction documents are complete\n- Early site work while design continues\n- A direct contract with its own architect\n\nWhich delivery method best meets these goals?",
+      "stem": "A regional hospital system is planning a 180-bed patient tower. After a year of planning, its board has set these goals for the project:\n\n- Contractor input on cost and constructability during design\n- A guaranteed maximum price before construction documents are complete, to secure bond financing\n- Early site work and foundations while design continues\n- A direct contract with its own architect, who will represent the system's interests\n\nWhich delivery method best meets these goals?",
       "options": [
         {
           "id": "a",
@@ -74,25 +74,25 @@
       "explanation": "Early cost input + GMP + fast-track + direct owner–architect contract → CMc (A133 with B133)."
     },
     {
-      "id": "PcM-3.2-q22",
+      "id": "PcM-3.2-q42",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "An architect is retained by a design-build entity under AIA B143-2014 to design a distribution center for an owner.\n\nTo whom does the architect owe its contractual obligations?",
+      "stem": "A distribution company hires a design-build firm under AIA A141-2014 to deliver a 400,000 sf warehouse. The design-builder engages an architect under AIA B143-2014. Midway through design, the company's facilities manager calls the architect directly and asks for changes to the loading-dock layout, saying the architect 'works for the project.' The architect's agreement addresses communications with the owner, and the design-builder's project executive is away for two weeks.\n\nTo whom does the architect owe its contractual obligations?",
       "options": [
         {
           "id": "a",
-          "text": "The owner",
-          "explanation": "The owner contracts with the design-builder (A141). The architect has no direct agreement with the owner."
+          "text": "The distribution company",
+          "explanation": "The company contracts with the design-builder (A141). The architect has no direct agreement with it."
         },
         {
           "id": "b",
           "text": "The design-builder",
-          "explanation": "Correct. B143 is the agreement between the design-builder and the architect.",
+          "explanation": "Correct. B143 is the agreement between the design-builder and the architect, so change requests should go through the design-builder.",
           "correct": true
         },
         {
           "id": "c",
-          "text": "The owner and the design-builder equally",
+          "text": "Both, equally",
           "explanation": "Contractual duties run only to the party the architect contracts with."
         },
         {
@@ -104,10 +104,10 @@
       "explanation": "In design-build, the architect is often the design-builder's consultant, not the owner's independent agent."
     },
     {
-      "id": "PcM-3.2-q23",
+      "id": "PcM-3.2-q43",
       "type": "cata",
       "cognitiveLevel": "A/E",
-      "stem": "A city must award construction to the lowest responsive, responsible bidder and wants the architect as its independent representative during construction.\n\nWhich AIA documents fit this project?",
+      "stem": "A city charter requires construction contracts to be awarded to the lowest responsive, responsible bidder. For a new public works yard, the city wants the architect to serve as its independent representative during construction. The city attorney asks the architect which AIA documents to use. The public works director has managed several design-bid-build projects and wants construction pricing that's easy to defend at council meetings. The yard includes vehicle maintenance bays and fuel storage.\n\nWhich AIA documents fit this project?",
       "options": [
         {
           "id": "a",
@@ -147,10 +147,10 @@
       "explanation": "Competitive low bid + independent architect → design-bid-build (B101, A101/A201, A701)."
     },
     {
-      "id": "PcM-3.2-q24",
+      "id": "PcM-3.2-q44",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "An owner plans to hire a construction manager but wants to keep all construction cost risk with separate trade contractors.\n\nWhich arrangement fits this goal?",
+      "stem": "A county is planning a justice center and will hire a construction manager to advise on cost, schedule and constructability during design. The county wants to bid the work in several trade packages and hold the trade contracts itself, keeping all construction cost risk with the trade contractors. The architect will be hired under a separate agreement. The county's board approved the project after two years of planning, and the construction budget is $95 million.\n\nWhich arrangement fits the county's goals?",
       "options": [
         {
           "id": "a",
@@ -177,15 +177,15 @@
       "explanation": "CMa = adviser, no cost risk. CMc = constructor, GMP risk."
     },
     {
-      "id": "PcM-3.2-q25",
+      "id": "PcM-3.2-q45",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "An owner's attorney revises a B101-2017 to require weekly site visits but makes no change to A201-2017 or to the architect's fee.\n\nWhat is the most significant consequence for the architect?",
+      "stem": "An owner's attorney revises a B101-2017 for a 200-unit apartment project to require weekly site visits during the 16-month construction period, instead of the twice-monthly visits in the architect's proposal. The attorney makes no change to the A201-2017 general conditions or to the architect's compensation, and the owner signs the revised agreement. The architect's fee assumed about 32 site visits. Weekly visits would require about 69.\n\nWhat is the most significant consequence for the architect?",
       "options": [
         {
           "id": "a",
           "text": "Uncompensated scope and conflicting documents",
-          "explanation": "Correct. More services need a matching fee, and the A201 provisions on the architect's construction-phase role should be coordinated.",
+          "explanation": "Correct. Doubling the visits needs a matching fee, and the A201 provisions on the architect's construction-phase role should be coordinated.",
           "correct": true
         },
         {
@@ -200,17 +200,17 @@
         },
         {
           "id": "d",
-          "text": "No consequence, since site visits are discretionary",
+          "text": "No consequence, since visits are discretionary",
           "explanation": "The number of visits defines the architect's services and fee."
         }
       ],
       "explanation": "When modifying contracts, check the scope and fee impact and coordination across the document family."
     },
     {
-      "id": "PcM-3.2-q26",
+      "id": "PcM-3.2-q46",
       "type": "cata",
       "cognitiveLevel": "A/E",
-      "stem": "An owner considering integrated project delivery asks how IPD differs from traditional delivery.\n\nWhich characteristics generally describe IPD?",
+      "stem": "An owner planning a technically complex research facility is considering integrated project delivery after hearing about it at a conference. Before deciding, the owner's board asks the architect to explain how IPD differs from the owner's usual design-bid-build approach. The facility will house specialized laboratories with complex mechanical systems, and the owner's last lab building suffered extensive change orders. The owner's construction director favors IPD, while its procurement office is skeptical.\n\nWhich characteristics generally describe IPD?",
       "options": [
         {
           "id": "a",
@@ -243,47 +243,60 @@
         {
           "id": "f",
           "text": "The architect as the owner's agent against the contractor",
-          "explanation": "IPD aligns parties as collaborators rather than adversaries."
+          "explanation": "IPD aligns the parties as collaborators rather than adversaries."
         }
       ],
       "selectCount": 3,
       "explanation": "IPD = early involvement, shared risk and reward, collaboration, an engaged owner."
     },
     {
-      "id": "PcM-3.2-q27",
-      "type": "mc",
+      "id": "PcM-3.2-q47",
+      "type": "cata",
       "cognitiveLevel": "A/E",
-      "stem": "A franchise owner wants a new restaurant open before peak season and has little in-house design or construction staff.\n\nWhich priority most strongly favors design-build?",
+      "stem": "A restaurant franchise owner wants a new location open before peak season, eleven months away. The owner has no in-house design or construction staff and doesn't want to manage separate contracts with a designer and a builder. The prototype design is well developed, and the owner cares more about schedule certainty than fine design control. Two contractors in the region have built the prototype before, and local permitting typically takes about two months.\n\nWhich owner priorities favor design-build?",
       "options": [
         {
           "id": "a",
-          "text": "Single-point responsibility and speed",
-          "explanation": "Correct. Design-build combines responsibility in one entity and overlaps design and construction.",
+          "text": "A single point of responsibility",
+          "explanation": "Correct. Design-build puts design and construction under one contract.",
           "correct": true
         },
         {
           "id": "b",
+          "text": "Overlapping design and construction for speed",
+          "explanation": "Correct. Design-build readily supports fast-track overlap.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Limited capacity to manage separate contracts",
+          "explanation": "Correct. One contract suits an owner without in-house project staff.",
+          "correct": true
+        },
+        {
+          "id": "d",
           "text": "Detailed owner control over design decisions",
           "explanation": "An independent owner's architect (DBB or bridging) gives more design control."
         },
         {
-          "id": "c",
+          "id": "e",
           "text": "Independent oversight of the contractor's work",
           "explanation": "In design-build, the designer is part of the contractor's team."
         },
         {
-          "id": "d",
+          "id": "f",
           "text": "Competitive bids on complete documents",
           "explanation": "Competitive bidding on complete documents is design-bid-build."
         }
       ],
+      "selectCount": 3,
       "explanation": "Design-build trades owner control and independent oversight for speed and single-source responsibility."
     },
     {
-      "id": "PcM-3.2-q28",
+      "id": "PcM-3.2-q48",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "An architect is engaging a structural engineer and an MEP engineer for a school project.\n\nWhich AIA document is intended for these agreements?",
+      "stem": "An architect has signed a B101-2017 agreement for a K-12 school and is now engaging a structural engineer and an MEP engineer. The architect wants the consultants' obligations, insurance and schedules to line up with the prime agreement, and the school district asks which standard form will be used. The structural engineer has worked with the firm for ten years without a written agreement, and the MEP engineer is new to the firm. The district requires every consultant to carry professional liability insurance.\n\nWhich AIA document is intended for these agreements?",
       "options": [
         {
           "id": "a",
@@ -310,10 +323,10 @@
       "explanation": "Architect–consultant → C401."
     },
     {
-      "id": "PcM-3.2-q29",
+      "id": "PcM-3.2-q49",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "Under a CMc agreement, the owner wants the guaranteed maximum price set at 50% design development to secure financing.\n\nWhich risk should the architect explain?",
+      "stem": "Under a construction manager as constructor agreement, an owner wants the guaranteed maximum price set at 50% design development so it can close construction financing three months earlier. The construction manager is willing but says it will carry allowances and a design contingency. The owner asks the architect whether there's any downside. The project is a 300,000 sf corporate headquarters on an aggressive schedule. Design development drawings are about half complete, and fit-out requirements for two floors are still undefined.\n\nWhich risk should the architect explain?",
       "options": [
         {
           "id": "a",
@@ -340,10 +353,10 @@
       "explanation": "Early GMPs speed cost commitment but depend on clearly written assumptions and allowances."
     },
     {
-      "id": "PcM-3.2-q30",
+      "id": "PcM-3.2-q50",
       "type": "cata",
       "cognitiveLevel": "A/E",
-      "stem": "A general contractor is preparing a bid under A101-2017 with A201-2017.\n\nWhich items are part of the Contract Documents once the agreement is signed, unless the agreement enumerates otherwise?",
+      "stem": "A general contractor is preparing a bid for a stipulated-sum project under AIA A101-2017 and A201-2017. The bid package includes instructions to bidders, a bid form, the drawings and specifications, and two addenda. The contractor's estimator asks which documents will become part of the contract if the firm wins the work. The project is a 50,000 sf office building with a stipulated sum of about $14 million.\n\nWhich items will be Contract Documents, unless the agreement enumerates otherwise?",
       "options": [
         {
           "id": "a",
@@ -377,13 +390,44 @@
         {
           "id": "f",
           "text": "The contractor's bid",
-          "explanation": "The bid isn't a Contract Document unless specifically enumerated in the agreement."
+          "explanation": "The bid isn't a Contract Document unless the agreement specifically enumerates it."
         }
       ],
       "selectCount": 4,
       "explanation": "Contract Documents = agreement, conditions, drawings, specifications, addenda issued before execution, other listed documents, and modifications (A201-2017 §1.1.1).",
       "confidence": "medium",
       "confidenceNote": "Summarizes A201-2017 §1.1.1 as I understand it; confirm against your copy."
+    },
+    {
+      "id": "PcM-3.2-q51",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "A construction manager as constructor completes a project under a GMP agreement. The agreement provides that savings below the GMP are shared 60% to the owner and 40% to the construction manager. At final accounting: The project was a 120,000 sf office building finished two months early. The owner's accountant has reviewed the CM's cost records and agrees with the final figures.\n\n- Guaranteed maximum price: $8,400,000\n- Final cost of the work plus the CM's fee: $7,950,000\n\nHow much of the savings does the construction manager receive?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "$180,000",
+          "explanation": "Correct. Savings of $450,000 × 40% = $180,000.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "$270,000",
+          "explanation": "That's the owner's 60% share."
+        },
+        {
+          "id": "c",
+          "text": "$450,000",
+          "explanation": "That's the total savings, before the split."
+        },
+        {
+          "id": "d",
+          "text": "$3,180,000",
+          "explanation": "This applies 40% to the final cost instead of to the savings."
+        }
+      ],
+      "explanation": "1. Savings = $8,400,000 − $7,950,000 = $450,000\n2. CM's share = 40% × $450,000 = $180,000"
     }
   ],
   "flashcards": [
@@ -460,5 +504,5 @@
       "back": "Check the risk shift, insurability, the fee and scope impact, and coordination with the related documents (e.g., B101 ↔ A201)."
     }
   ],
-  "itemStyle": "ncarb-v2"
+  "itemStyle": "ncarb-v3-difficulty"
 }

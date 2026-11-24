@@ -32,20 +32,20 @@
   ],
   "questions": [
     {
-      "id": "PcM-1.1-q21",
+      "id": "PcM-1.1-q41",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "XYZ Architects, a 30-person firm, reviews the following staffing data:\n\n| Role | Utilization | Weekly overtime |\n|---|---|---|\n| Principals | 45% | None |\n| Project managers | 78% | Minimal |\n| Project architects | 92% | About 6 hours each |\n| Designers | 95% | About 6 hours each |\n\nBacklog is nine months and growing. Two hospital projects will start in three months and last about two years. Cash reserves are healthy.\n\nWhich of the following is the most appropriate action?",
+      "stem": "XYZ Architects is a 30-person firm known for office and laboratory work. Over the past year it hired two staff and lost one. Before committing to two new hospital commissions, the partners review the following data:\n\n| Role | Utilization | Weekly overtime |\n|---|---|---|\n| Principals | 45% | None |\n| Project managers | 78% | Minimal |\n| Project architects | 92% | About 6 hours each |\n| Designers | 95% | About 6 hours each |\n\n- Backlog is nine months and growing.\n- The hospital projects start in three months and will run about two years.\n- Both projects require experience with healthcare regulations.\n- Cash reserves are healthy, and the line of credit is unused.\n\nWhich of the following is the most appropriate action?",
       "options": [
         {
           "id": "a",
           "text": "Engage contract staff for six months, then reassess.",
-          "explanation": "Contract staff suit short peaks. This need lasts about two years and calls for healthcare expertise that temporary production staff are unlikely to bring."
+          "explanation": "Contract staff suit short peaks. This need lasts about two years and calls for healthcare expertise that temporary production staff rarely bring."
         },
         {
           "id": "b",
           "text": "Hire two permanent project architects with healthcare experience.",
-          "explanation": "Correct. Production staff are already overloaded, the new workload is long-term and specialized, and the firm has the cash to support permanent hires.",
+          "explanation": "Correct. Production staff are already overloaded, the new workload is long-term and specialized, and the firm can afford permanent hires.",
           "correct": true
         },
         {
@@ -56,16 +56,16 @@
         {
           "id": "d",
           "text": "Continue the current overtime until the hospital projects begin.",
-          "explanation": "Production staff are already working sustained overtime. Two years of added work on top of that invites burnout and errors."
+          "explanation": "Production staff are already working sustained overtime. Adding two years of work on top invites burnout and errors."
         }
       ],
       "explanation": "Match the resource to the duration and nature of the need. A long-term, specialized workload with healthy cash calls for permanent hires with the right experience."
     },
     {
-      "id": "PcM-1.1-q22",
+      "id": "PcM-1.1-q42",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A 25-person firm needs about 30% more production capacity for the next four months while two school projects complete construction documents. Workload is expected to return to normal afterward. Cash reserves are modest.\n\nWhich staffing approach is most appropriate?",
+      "stem": "A 25-person firm has two K-8 school projects whose construction document deadlines are fixed by the district's bond sale schedule. The partners estimate that production needs will run about 30% above current capacity for the next four months, then return to normal as both projects move into bidding. Cash reserves are modest, and two qualified drafters are available through a local staffing agency.\n\nWhich staffing approach is most appropriate?",
       "options": [
         {
           "id": "a",
@@ -80,22 +80,22 @@
         },
         {
           "id": "c",
-          "text": "Ask the school district to extend the document schedule.",
-          "explanation": "School schedules are usually tied to bid dates and funding. The firm should first try to meet its commitments with flexible capacity."
+          "text": "Ask the district to move the bid dates.",
+          "explanation": "The bid dates are tied to the bond sale. Asking to move them shifts the firm's capacity problem onto the client."
         },
         {
           "id": "d",
           "text": "Outsource the complete document set for one school.",
-          "explanation": "Handing off an entire set weakens the firm's control over documents it must seal. Outsourcing works better for discrete tasks."
+          "explanation": "Handing off an entire set weakens the firm's control over documents it must seal. Outsourcing fits discrete tasks better."
         }
       ],
       "explanation": "Short, defined peaks → flexible capacity. Sustained growth → permanent staff."
     },
     {
-      "id": "PcM-1.1-q23",
+      "id": "PcM-1.1-q43",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A firm that designs office buildings plans to pursue outpatient clinic projects within the next year. None of its staff has healthcare experience.\n\nWhich initial step best positions the firm to deliver this work competently?",
+      "stem": "A 40-person firm has designed office buildings for 20 years. Its strategic plan calls for entering the outpatient healthcare market, and a long-time client has asked it to design a 20,000 sf clinic next year. No one on staff has completed a healthcare project, but the firm has strong BIM capabilities and a well-established quality-control program.\n\nWhich initial step best positions the firm to deliver the clinic competently?",
       "options": [
         {
           "id": "a",
@@ -104,101 +104,85 @@
         },
         {
           "id": "b",
-          "text": "Team with a firm experienced in healthcare on initial projects.",
-          "explanation": "Correct. Teaming brings proven expertise right away and shares risk while the firm's staff gain experience.",
+          "text": "Team with an experienced healthcare firm initially.",
+          "explanation": "Correct. Teaming brings proven expertise right away and shares risk while the firm's staff gain experience (NCARB Rule 1.3).",
           "correct": true
         },
         {
           "id": "c",
           "text": "Assign the firm's strongest designer to lead the first clinic.",
-          "explanation": "Design talent in another building type isn't healthcare expertise. Competence requires knowledge of the specific technical areas involved."
+          "explanation": "Design talent in another building type isn't healthcare expertise."
         },
         {
           "id": "d",
-          "text": "Offer reduced fees to secure a first healthcare commission.",
-          "explanation": "A lower fee doesn't build competence, and it leaves less budget for the added effort of an unfamiliar building type."
+          "text": "Rely on the firm's quality-control program to catch gaps.",
+          "explanation": "QC checks documents against what the firm knows. It can't supply healthcare knowledge the firm lacks."
         }
       ],
-      "explanation": "Practice only where you, together with those you engage, have the needed knowledge and skill (NCARB Model Rule 1.3)."
+      "explanation": "Practice only where you, together with those you engage, have the needed knowledge and skill."
     },
     {
-      "id": "PcM-1.1-q24",
-      "type": "cata",
-      "cognitiveLevel": "A/E",
-      "stem": "A principal is preparing a total-cost-of-ownership analysis before switching the firm to a new BIM platform.\n\nWhich of the following costs should be included?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Staff training time and course fees",
-          "explanation": "Correct. Training is often one of the largest costs of a technology change.",
-          "correct": true
-        },
-        {
-          "id": "b",
-          "text": "Reduced productivity during the learning period",
-          "explanation": "Correct. Slower production while staff learn the tool is a real cost to active projects.",
-          "correct": true
-        },
-        {
-          "id": "c",
-          "text": "Annual subscription and support fees",
-          "explanation": "Correct. Recurring license and support costs are part of owning the platform.",
-          "correct": true
-        },
-        {
-          "id": "d",
-          "text": "Construction cost savings expected for clients",
-          "explanation": "Client savings may be a benefit to market, but they aren't a cost the firm bears to own the platform."
-        },
-        {
-          "id": "e",
-          "text": "Consultants' upgrades to the same platform",
-          "explanation": "Consultants bear their own software costs. Coordination needs may affect timing, but not the firm's ownership cost."
-        },
-        {
-          "id": "f",
-          "text": "Fees billed to clients for BIM coordination",
-          "explanation": "Billed fees are revenue, not a cost of ownership."
-        }
-      ],
-      "selectCount": 3,
-      "explanation": "Total cost of ownership = acquisition + implementation + training + productivity loss + ongoing fees."
-    },
-    {
-      "id": "PcM-1.1-q25",
+      "id": "PcM-1.1-q44",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "A firm is evaluating a $36,000 reality-capture system. It expects the system to save $15,000 per year in field-survey labor and to add $9,000 per year in profit from new renovation work.\n\nWhat is the simple payback period?",
+      "stem": "A firm is evaluating a reality-capture system for its renovation practice. The partners have gathered the following:\n\n- Equipment and software: $36,000\n- Initial staff training: $6,000\n- Annual software subscription: $3,000\n- Expected annual savings in field-survey labor: $15,000\n- Expected annual profit from new renovation work: $9,000\n\nBased on total cost of ownership, what is the simple payback period?",
+      "calculation": true,
       "options": [
         {
           "id": "a",
-          "text": "0.67 years",
-          "explanation": "This inverts the formula (annual benefit ÷ investment)."
+          "text": "1.50 years",
+          "explanation": "This leaves out both the training cost and the annual subscription ($36,000 ÷ $24,000)."
         },
         {
           "id": "b",
-          "text": "1.5 years",
-          "explanation": "Correct. $36,000 ÷ ($15,000 + $9,000) = 1.5 years.",
+          "text": "1.71 years",
+          "explanation": "This leaves out the training cost ($36,000 ÷ $21,000)."
+        },
+        {
+          "id": "c",
+          "text": "1.75 years",
+          "explanation": "This leaves out the annual subscription ($42,000 ÷ $24,000)."
+        },
+        {
+          "id": "d",
+          "text": "2.00 years",
+          "explanation": "Correct. $42,000 ÷ $21,000 = 2.0 years.",
+          "correct": true
+        }
+      ],
+      "explanation": "1. Initial cost = $36,000 + $6,000 = $42,000\n2. Net annual benefit = $15,000 + $9,000 − $3,000 = $21,000\n3. Payback = $42,000 ÷ $21,000 = 2.0 years"
+    },
+    {
+      "id": "PcM-1.1-q45",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "A firm's 10-person production studio has worked at 92% utilization for two quarters, and overtime keeps climbing. Firm policy targets 80% utilization for production staff, leaving time for training and quality reviews. The partners expect the studio's chargeable workload to stay at its current level for at least two years.\n\n| Studio data | Value |\n|---|---|\n| Production staff | 10 |\n| Hours per person per year | 2,080 |\n| Current utilization | 92% |\n| Target utilization | 80% |\n\nHow many additional production staff does the studio need to meet the target at the current workload?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "1",
+          "explanation": "This multiplies 10 staff by the 12-point gap and rounds down, ignoring that each new hire is also limited to 80%."
+        },
+        {
+          "id": "b",
+          "text": "2",
+          "explanation": "Correct. The workload needs 11.5 people at 80%, which rounds up to 12, so the studio needs 2 more.",
           "correct": true
         },
         {
           "id": "c",
-          "text": "2.4 years",
-          "explanation": "This counts only the labor savings and omits the added profit."
-        },
-        {
-          "id": "d",
-          "text": "4.0 years",
-          "explanation": "This counts only the added profit and omits the labor savings."
+          "text": "12",
+          "explanation": "That's the total staff needed, not the number of additional hires."
         }
       ],
-      "explanation": "Payback = investment ÷ total annual net benefit."
+      "explanation": "1. Chargeable hours = 10 × 2,080 × 0.92 = 19,136\n2. Chargeable hours per person at target = 2,080 × 0.80 = 1,664\n3. Staff needed = 19,136 ÷ 1,664 = 11.5, rounded up to 12\n4. Additional staff = 12 − 10 = 2"
     },
     {
-      "id": "PcM-1.1-q26",
+      "id": "PcM-1.1-q46",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "Over two quarters, firm-wide utilization at a 40-person firm has risen from 76% to 91%. Overtime has doubled, and two project architects have resigned. Backlog is stable.\n\nWhat should management do first?",
+      "stem": "Over two quarters, firm-wide utilization at a 40-person firm has risen from 76% to 91%. Overtime has doubled, two project architects have resigned, and the remaining project architects say they no longer have time to mentor junior staff. Backlog has stayed steady at about six months, and fees on current projects are on budget.\n\nWhat should management do first?",
       "options": [
         {
           "id": "a",
@@ -208,7 +192,7 @@
         {
           "id": "b",
           "text": "Compare staffing levels with the projected workload.",
-          "explanation": "Correct. The data points to under-staffing. Quantifying the gap between capacity and workload is the first step toward hiring or rebalancing.",
+          "explanation": "Correct. The data point to under-staffing. Quantifying the gap between capacity and workload is the first step toward hiring or rebalancing.",
           "correct": true
         },
         {
@@ -225,10 +209,10 @@
       "explanation": "High and rising utilization, overtime and turnover together signal overload. Diagnose capacity before acting."
     },
     {
-      "id": "PcM-1.1-q27",
+      "id": "PcM-1.1-q47",
       "type": "cata",
       "cognitiveLevel": "U/A",
-      "stem": "A firm is redesigning its annual performance review process.\n\nWhich practices make reviews both useful for development and defensible if an employment decision is challenged?",
+      "stem": "A 60-person firm has had three former employees challenge their terminations in the past two years. Each time, the firm had little written record of performance concerns. The principals are redesigning the annual performance review process so it supports staff development and holds up if a personnel decision is challenged.\n\nWhich practices should the new process include?",
       "options": [
         {
           "id": "a",
@@ -238,7 +222,7 @@
         },
         {
           "id": "b",
-          "text": "Document the review and the agreed development goals",
+          "text": "Document each review and the agreed development goals",
           "explanation": "Correct. Written records support development plans and personnel decisions.",
           "correct": true
         },
@@ -267,10 +251,10 @@
       "explanation": "Effective reviews are regular, criteria-based, documented and development-focused."
     },
     {
-      "id": "PcM-1.1-q28",
+      "id": "PcM-1.1-q48",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A 12-person firm relies on one senior architect for all specifications and code reviews. She has given no sign of leaving.\n\nWhich action most directly reduces the firm's risk?",
+      "stem": "A 12-person firm relies on one senior architect for all specification writing and code reviews. She has been with the firm 15 years, has given no sign of leaving, and is the only person who knows the firm's master specification system. The principals worry about what would happen if she were unavailable for an extended period during a busy year.\n\nWhich action most directly reduces the firm's risk?",
       "options": [
         {
           "id": "a",
@@ -286,26 +270,26 @@
         {
           "id": "c",
           "text": "Outsource specification writing to a specifications consultant.",
-          "explanation": "This moves the dependency to an outside party, and code reviews would still rest on one person."
+          "explanation": "This moves the dependency to an outside party, and code reviews still rest on one person."
         },
         {
           "id": "d",
-          "text": "Purchase key-person life insurance on the architect.",
+          "text": "Purchase key-person insurance on the architect.",
           "explanation": "Insurance pays money if she dies. It doesn't preserve the knowledge or cover a resignation or disability."
         }
       ],
       "explanation": "Key-person risk is reduced by spreading knowledge: documentation, cross-training, succession planning."
     },
     {
-      "id": "PcM-1.1-q29",
+      "id": "PcM-1.1-q49",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "Six of a firm's projects will move from construction documents into construction over the next quarter.\n\nWhich staffing adjustment is most appropriate?",
+      "stem": "A 35-person firm reviews staffing quarterly. Over the next quarter, six of its projects will move from construction documents into construction. Each CD team includes designers, production staff and a project architect, and most of each project's remaining fee is in the construction phase. Two staff members with extensive construction administration experience are finishing assignments on other projects.\n\nWhich staffing adjustment is most appropriate?",
       "options": [
         {
           "id": "a",
-          "text": "Shift experienced CA staff onto those projects.",
-          "explanation": "Correct. Submittal review, RFIs, site observation and pay applications call for contract-administration skills.",
+          "text": "Shift the experienced CA staff onto those projects.",
+          "explanation": "Correct. Submittal review, RFIs, site observation and pay applications call for contract-administration skills, and the remaining fee supports a smaller, specialized team.",
           "correct": true
         },
         {
@@ -316,7 +300,7 @@
         {
           "id": "c",
           "text": "Assign submittal review to each project's designers.",
-          "explanation": "Submittal review is a technical, contract-administration task. Designers may lack the needed construction experience."
+          "explanation": "Submittal review is a technical, contract-administration task. Designers may lack the construction experience it needs."
         },
         {
           "id": "d",
@@ -327,10 +311,10 @@
       "explanation": "Staffing should change with each project phase, matching both the skills needed and the fee available."
     },
     {
-      "id": "PcM-1.1-q30",
+      "id": "PcM-1.1-q50",
       "type": "cata",
       "cognitiveLevel": "A/E",
-      "stem": "A firm's strategic plan calls for offering energy-performance consulting within two years.\n\nWhich investments best support this goal?",
+      "stem": "The partners of a 20-person firm adopted a strategic plan calling for energy-performance consulting for existing clients within two years. The firm has no energy-modeling capability today, two staff members have offered to lead the new service, and the year's capital budget is limited.\n\nWhich investments best support this goal?",
       "options": [
         {
           "id": "a",
@@ -341,7 +325,7 @@
         {
           "id": "b",
           "text": "Sustainability credentials and continuing education for staff",
-          "explanation": "Correct. Expertise and recognized credentials build both competence and credibility in the new service.",
+          "explanation": "Correct. Expertise and recognized credentials build competence and credibility in the new service.",
           "correct": true
         },
         {
@@ -369,34 +353,35 @@
       "explanation": "Capital spending should map directly to strategic goals."
     },
     {
-      "id": "PcM-1.1-q31",
+      "id": "PcM-1.1-q51",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A profitable firm needs eight high-performance workstations now to support current BIM projects. Several large clients pay slowly, and cash on hand is tight.\n\nWhich approach is most appropriate?",
+      "stem": "A profitable firm needs eight high-performance workstations now for current BIM projects. Several large clients have been paying slowly, and cash on hand is tight. The vendor offers two options:\n\n- Purchase: $36,000 now, plus $2,000 per year for maintenance\n- Lease: $1,250 per month for 36 months, maintenance included\n\nConsidering the three-year cost and the firm's situation, which choice is most appropriate?",
+      "calculation": true,
       "options": [
         {
           "id": "a",
-          "text": "Lease the workstations.",
-          "explanation": "Correct. Leasing gets the equipment now while keeping scarce cash available for payroll and operations.",
+          "text": "Lease; it costs $3,000 more but preserves cash.",
+          "explanation": "Correct. Leasing costs $45,000 versus $42,000 to buy, but it keeps scarce cash available while receivables are slow.",
           "correct": true
         },
         {
           "id": "b",
-          "text": "Purchase the workstations outright with available cash.",
-          "explanation": "Buying may cost less over time, but it drains the cash the firm needs while receivables are slow."
+          "text": "Purchase; it saves $3,000 over three years.",
+          "explanation": "The math is right, but spending $36,000 up front drains the cash the firm needs now."
         },
         {
           "id": "c",
-          "text": "Defer the purchase until slow receivables are collected.",
-          "explanation": "The equipment is needed now for current projects. Waiting hurts production on work in hand."
+          "text": "Purchase; it saves $9,000 over three years.",
+          "explanation": "This leaves out the $6,000 of maintenance that comes with purchasing."
         },
         {
           "id": "d",
-          "text": "Purchase them and bill the cost to projects as reimbursables.",
-          "explanation": "Equipment is a firm overhead cost, not a project reimbursable expense under typical agreements."
+          "text": "Lease; it costs $3,000 less over the three years.",
+          "explanation": "Leasing costs $3,000 more, not less."
         }
       ],
-      "explanation": "Profit and cash are different. A cash constraint favors leasing even when the firm is profitable."
+      "explanation": "1. Purchase = $36,000 + (3 × $2,000) = $42,000\n2. Lease = 36 × $1,250 = $45,000\n3. Lease costs $3,000 more, but a cash constraint favors leasing for a profitable, cash-poor firm."
     }
   ],
   "flashcards": [
@@ -467,5 +452,5 @@
     }
   ],
   "verified": "2026-11-23",
-  "itemStyle": "ncarb-v2"
+  "itemStyle": "ncarb-v3-difficulty"
 }

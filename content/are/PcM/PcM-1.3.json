@@ -44,10 +44,10 @@
   ],
   "questions": [
     {
-      "id": "PcM-1.3-q21",
+      "id": "PcM-1.3-q41",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "An architect who recently joined a new firm wants the firm's proposal to include a museum she worked on as project architect at her previous firm.\n\nWhich is the appropriate way to present the museum?",
+      "stem": "An architect joined a new firm three months ago after eight years at her previous firm, where she was project architect for an award-winning art museum. The new firm is preparing a proposal for a university museum, and the marketing coordinator wants to feature the art museum prominently. The previous firm was the architect of record.\n\nHow should the proposal present the art museum?",
       "options": [
         {
           "id": "a",
@@ -67,17 +67,17 @@
         },
         {
           "id": "d",
-          "text": "It shouldn't be included in the proposal at all",
+          "text": "It shouldn't appear in the proposal at all",
           "explanation": "Individuals may describe their own past experience, as long as they do it accurately."
         }
       ],
       "explanation": "Claim credit accurately: your actual role, and the architect of record."
     },
     {
-      "id": "PcM-1.3-q22",
+      "id": "PcM-1.3-q42",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "During construction documents, the owner directs the architect to delete required fire-rated corridor walls. The architect has advised that this violates the building code and would endanger occupants, but the owner insists.\n\nUnder the NCARB Model Rules of Conduct, what must the architect do?",
+      "stem": "During construction documents for a three-story office building, the owner directs the architect to delete the fire-rated corridor walls on the upper floors to save money. The architect explains in writing that the change violates the building code and would endanger occupants. The owner replies that the building official 'won't notice' and insists.\n\nUnder the NCARB Model Rules of Conduct, what must the architect do?",
       "options": [
         {
           "id": "a",
@@ -98,16 +98,16 @@
         {
           "id": "d",
           "text": "Withdraw from the project immediately without further action.",
-          "explanation": "Withdrawal alone leaves out the required refusal and report, and under Rule 3.5 termination is conditional."
+          "explanation": "Withdrawing alone skips the required refusal and report, and under Rule 3.5 termination is conditional."
         }
       ],
       "explanation": "NCARB 3.5: refuse to consent → report to the building official → terminate if it continues. AIA 2.105 adds 'advise against' first."
     },
     {
-      "id": "PcM-1.3-q23",
+      "id": "PcM-1.3-q43",
       "type": "cata",
       "cognitiveLevel": "U/A",
-      "stem": "A firm is training staff on copyright in architectural work.\n\nWhich statements are correct under U.S. law?",
+      "stem": "After a competitor was accused of copying another firm's house designs, a principal plans a lunch-and-learn on copyright. She wants to correct some common misunderstandings she has heard around the office.\n\nWhich statements about copyright in architectural work are correct under U.S. law?",
       "options": [
         {
           "id": "a",
@@ -146,10 +146,10 @@
       "explanation": "Know what's protected (designs, not standard features), when protection starts (on fixation), and what registration changes (the right to sue, remedies)."
     },
     {
-      "id": "PcM-1.3-q24",
+      "id": "PcM-1.3-q44",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "A firm hires a freelance designer to develop a façade concept for a project. There is no written agreement about ownership.\n\nWho most likely owns the copyright in the concept?",
+      "stem": "A firm hires a freelance designer for a three-week assignment to develop a façade concept for a mixed-use project. The designer works from home on her own computer, invoices a flat fee, and delivers a concept the client loves. The firm and the designer never signed a written agreement.\n\nWho most likely owns the copyright in the façade concept?",
       "options": [
         {
           "id": "a",
@@ -159,13 +159,13 @@
         {
           "id": "b",
           "text": "The freelance designer",
-          "explanation": "Correct. Architectural works can't be commissioned works made for hire (17 U.S.C. §101), so the freelancer owns it unless it's assigned in writing.",
+          "explanation": "Correct. Architectural works can't be commissioned works made for hire (17 U.S.C. §101), so the freelancer owns the concept unless she assigns it in writing.",
           "correct": true
         },
         {
           "id": "c",
           "text": "The firm and the designer jointly",
-          "explanation": "Joint authorship requires an intent to merge contributions into a single work. Paying for a design doesn't create it."
+          "explanation": "Joint authorship requires an intent to merge contributions into one work. Paying for a design doesn't create it."
         },
         {
           "id": "d",
@@ -176,10 +176,10 @@
       "explanation": "Get written copyright assignments from freelancers and consultants."
     },
     {
-      "id": "PcM-1.3-q25",
+      "id": "PcM-1.3-q45",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "A flooring manufacturer offers an architect a 3% commission on product sales from every project where the architect specifies its product.\n\nWhat should the architect do?",
+      "stem": "A flooring manufacturer's sales representative tells an architect that the company will pay the firm a 3% commission on product sales for every project where the firm specifies its flooring. The representative notes that the product meets every performance requirement in the firm's current specification and costs less than competing products.\n\nWhat should the architect do?",
       "options": [
         {
           "id": "a",
@@ -206,15 +206,15 @@
       "explanation": "Supplier compensation for specifying products is prohibited. Customary hospitality and product education aren't compensation."
     },
     {
-      "id": "PcM-1.3-q26",
+      "id": "PcM-1.3-q46",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "During a public interview, a competing architect tells a school board, falsely, that your firm's last school 'failed its structural inspection.'\n\nWhich term best describes the competitor's statement?",
+      "stem": "During a public interview for a new school, a competing architect tells the school board that your firm's last school 'failed its structural inspection and had to be shored.' The statement is false: the school passed every inspection. Two board members later repeat the claim to a reporter.\n\nWhich term best describes the competing architect's statement?",
       "options": [
         {
           "id": "a",
           "text": "Libel",
-          "explanation": "Libel is written or published defamation. This statement was spoken."
+          "explanation": "Libel is written or published defamation. The architect's statement was spoken."
         },
         {
           "id": "b",
@@ -236,83 +236,70 @@
       "explanation": "Defamation is a false statement of fact that harms reputation. Libel is written; slander is spoken."
     },
     {
-      "id": "PcM-1.3-q27",
-      "type": "cata",
+      "id": "PcM-1.3-q47",
+      "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "A firm is updating its ethics training.\n\nWhich actions are consistent with the NCARB Model Rules and the AIA Code?",
+      "stem": "A firm is updating its ethics training after a staff member asked how the NCARB Model Rules of Conduct apply to everyday work. The trainer prepares four scenarios drawn from recent projects.\n\nWhich scenario describes conduct consistent with the Model Rules?",
       "options": [
         {
           "id": "a",
-          "text": "Getting written waivers from all parties after disclosing an interest in a window supplier",
-          "explanation": "Correct. Conflicts must be fully disclosed and waived in writing by all parties (NCARB 2.3; AIA 3.201).",
+          "text": "Sealing consultant drawings the architect reviewed and incorporated",
+          "explanation": "Correct. NCARB Rule 5.2 lets the architect of record seal consultant information it has reviewed and incorporated into its own submissions.",
           "correct": true
         },
         {
           "id": "b",
-          "text": "Sealing consultant drawings incorporated after the architect reviewed them",
-          "explanation": "Correct. NCARB 5.2 lets the architect of record seal reviewed consultant information incorporated into its submissions.",
-          "correct": true
+          "text": "Sealing a licensed consultant's drawings without reviewing them",
+          "explanation": "Rule 5.2 requires review and a reasonable basis to trust the information before sealing it."
         },
         {
           "id": "c",
-          "text": "Deciding a contractor's claim impartially while administering the contract",
-          "explanation": "Correct. Interpret the contract documents impartially (NCARB 2.4; AIA 3.202).",
-          "correct": true
+          "text": "Accepting a supplier's paid trip for specifying its product",
+          "explanation": "Benefits given in exchange for specifying products are prohibited compensation (Rule 2.2)."
         },
         {
           "id": "d",
-          "text": "Sealing a licensed consultant's drawings without reviewing them",
-          "explanation": "NCARB 5.2 requires review and a reasonable basis to trust the information before sealing it."
-        },
-        {
-          "id": "e",
-          "text": "Taking copies of the firm's detail library when leaving, for reference",
-          "explanation": "Departing members may not take firm materials without permission (AIA 5.302)."
-        },
-        {
-          "id": "f",
-          "text": "Accepting a supplier's travel in return for specifying its system",
-          "explanation": "Benefits given in exchange for specifying products are prohibited compensation (NCARB 2.2)."
+          "text": "Voting on a commission matter involving the firm's own client",
+          "explanation": "A financial interest in the matter is a conflict the architect must avoid (Rules 2.3, 2.6)."
         }
       ],
-      "selectCount": 3,
-      "explanation": "Disclose and get waivers, seal what you control or have reviewed, decide impartially, and never trade specifications for benefits."
+      "explanation": "Seal what you control or have reviewed, never trade specifications for benefits, and avoid acting where you have an interest."
     },
     {
-      "id": "PcM-1.3-q28",
+      "id": "PcM-1.3-q48",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "A licensed architect who is not an AIA member does something that would violate an AIA Code of Ethics rule.\n\nWhich statement is correct?",
+      "stem": "A licensed architect who has never joined the AIA advertises that her firm 'designed' a library she worked on as a junior employee at another firm. A competitor who is an AIA member files a complaint with the AIA's National Ethics Council and also contacts the state licensing board.\n\nWhich statement is correct?",
       "options": [
         {
           "id": "a",
-          "text": "The AIA National Ethics Council may suspend the architect's license.",
+          "text": "The AIA can suspend her license to practice.",
           "explanation": "Only the state licensing board can discipline a license. The AIA acts only on membership."
         },
         {
           "id": "b",
-          "text": "The AIA Code doesn't apply, but board rules of conduct do.",
-          "explanation": "Correct. The AIA Code binds AIA members only. Every licensee is bound by the jurisdiction's laws and rules.",
+          "text": "The AIA Code doesn't apply, but the board's rules do.",
+          "explanation": "Correct. The AIA Code binds only AIA members. Every licensee is bound by the jurisdiction's laws and rules, which typically prohibit misrepresenting credit.",
           "correct": true
         },
         {
           "id": "c",
-          "text": "NCARB enforces the AIA Code for non-members.",
-          "explanation": "NCARB doesn't enforce the AIA Code. NCARB publishes model rules that boards adopt."
+          "text": "NCARB will enforce the AIA Code for non-members.",
+          "explanation": "NCARB doesn't enforce the AIA Code. It publishes model rules that boards adopt."
         },
         {
           "id": "d",
-          "text": "The AIA Code applies because the architect holds a license.",
+          "text": "The AIA Code applies because she holds a license.",
           "explanation": "Licensure doesn't create AIA membership obligations."
         }
       ],
       "explanation": "AIA Code = members only (membership sanctions). Board rules = all licensees (license discipline)."
     },
     {
-      "id": "PcM-1.3-q29",
+      "id": "PcM-1.3-q49",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "A client asks an architect to replicate a house the client found in another architect's online portfolio, 'with a few changes.'\n\nWhat is the appropriate response?",
+      "stem": "A client shows an architect a house in another architect's online portfolio and asks for 'the same house with a few changes' on the client's lot. The client points out that the plans and photos are posted publicly, and offers to sign a statement accepting any legal risk.\n\nWhat is the appropriate response?",
       "options": [
         {
           "id": "a",
@@ -332,17 +319,17 @@
         },
         {
           "id": "d",
-          "text": "Proceed if the client agrees to indemnify the architect.",
-          "explanation": "An indemnity doesn't make infringement lawful. The architect would still be a direct infringer."
+          "text": "Proceed if the client signs the risk statement.",
+          "explanation": "A client's statement doesn't make infringement lawful. The architect would still be a direct infringer."
         }
       ],
-      "explanation": "Copying protected designs requires permission. Modifications and indemnities don't cure infringement."
+      "explanation": "Copying protected designs requires permission. Modifications and client assurances don't cure infringement."
     },
     {
-      "id": "PcM-1.3-q30",
+      "id": "PcM-1.3-q50",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "An architect serves on her city's planning commission. Her firm has just been retained by a developer whose project will come before the commission.\n\nWhat is the most appropriate action?",
+      "stem": "An architect has served on her city's planning commission for three years. Her firm has just been hired by a developer whose 200-unit project will come before the commission for site plan approval next month. She is confident she can review the project objectively, and the commission is short of members.\n\nWhat is the most appropriate action?",
       "options": [
         {
           "id": "a",
@@ -358,42 +345,42 @@
         {
           "id": "c",
           "text": "Have another principal manage the project so she can vote.",
-          "explanation": "The firm's financial interest stays the same no matter who manages the project."
+          "explanation": "The firm's financial interest is the same no matter who manages the project."
         },
         {
           "id": "d",
-          "text": "Resign from the commission.",
+          "text": "Resign from the commission before the hearing.",
           "explanation": "Recusal on this matter resolves the conflict. Resignation isn't required."
         }
       ],
       "explanation": "Public-capacity conflicts: disclose and recuse."
     },
     {
-      "id": "PcM-1.3-q31",
+      "id": "PcM-1.3-q51",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "To win a public library project, a firm submits a fee 20% below a competitor's and includes a free concept sketch. The competitor files a complaint with the AIA.\n\nWhat is the likely outcome under the 2024 AIA Code of Ethics?",
+      "stem": "Two firms submitted proposals for a public library. A complaint filed with the AIA's National Ethics Council compares them:\n\n| Proposal element | Firm A | Firm B |\n|---|---|---|\n| Fee | $612,000 | $490,000 |\n| Concept sketch | Not included | Included at no charge |\n| Discount on a future second phase | None | 10% |\n\nFirm A alleges that Firm B, whose principals are AIA members, acted unethically by undercutting the fee, offering free design work and promising a discount. What is the likely outcome under the 2024 AIA Code?",
       "options": [
         {
           "id": "a",
-          "text": "No violation for either action",
+          "text": "No violation for any of these practices",
           "explanation": "Correct. The Code's antitrust statement says competitive price quotations, discounts and free services are not, in themselves, unethical.",
           "correct": true
         },
         {
           "id": "b",
-          "text": "A violation for undercutting a competitor's fee",
+          "text": "A violation for undercutting the competitor's fee",
           "explanation": "Price competition isn't a Code violation, and antitrust law bars the AIA from prohibiting it."
         },
         {
           "id": "c",
-          "text": "A violation for providing free design services",
+          "text": "A violation for the free concept sketch",
           "explanation": "Free services aren't, in themselves, unethical under the Code."
         },
         {
           "id": "d",
-          "text": "A violation only for the two actions combined",
-          "explanation": "Neither practice is a violation, alone or together."
+          "text": "A violation for the future-phase discount",
+          "explanation": "Discounts aren't, in themselves, unethical under the Code."
         }
       ],
       "explanation": "Competitive bids, discounts and free services are permitted under the AIA Code. Whether they're wise is a business decision."
@@ -497,5 +484,5 @@
     }
   ],
   "verified": "2026-11-23",
-  "itemStyle": "ncarb-v2"
+  "itemStyle": "ncarb-v3-difficulty"
 }

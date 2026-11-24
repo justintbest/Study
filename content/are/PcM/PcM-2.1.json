@@ -31,10 +31,11 @@
   ],
   "questions": [
     {
-      "id": "PcM-2.1-q21",
+      "id": "PcM-2.1-q41",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "XYZ Architects' income statement for the past year shows:\n\n| Item | Amount |\n|---|---|\n| Gross revenue | $3,200,000 |\n| Consultant fees | $700,000 |\n| Reimbursable expenses | $100,000 |\n| Direct labor | $800,000 |\n| Indirect labor | $300,000 |\n| Other overhead (rent, benefits, insurance, software) | $1,100,000 |\n\nWhat is the firm's break-even rate?",
+      "stem": "The partners of XYZ Architects are preparing for a meeting with their bank about renewing the firm's line of credit, and they want to confirm the firm's key ratios first. The income statement for the past year shows:\n\n| Item | Amount |\n|---|---|\n| Gross revenue | $3,200,000 |\n| Consultant fees | $700,000 |\n| Reimbursable expenses | $100,000 |\n| Direct labor | $800,000 |\n| Indirect labor | $300,000 |\n| Other overhead (rent, benefits, insurance, software) | $1,100,000 |\n\nWhat is the firm's break-even rate?",
+      "calculation": true,
       "options": [
         {
           "id": "a",
@@ -49,7 +50,7 @@
         {
           "id": "c",
           "text": "2.75",
-          "explanation": "Correct. Overhead = $300,000 + $1,100,000 = $1,400,000, so the overhead rate is $1,400,000 ÷ $800,000 = 1.75 and the break-even rate is 1 + 1.75 = 2.75.",
+          "explanation": "Correct. Overhead = $1,400,000, so the overhead rate is 1.75 and the break-even rate is 2.75.",
           "correct": true
         },
         {
@@ -61,10 +62,11 @@
       "explanation": "1. Overhead = indirect labor + other overhead = $1,400,000\n2. Overhead rate = $1,400,000 ÷ $800,000 = 1.75\n3. Break-even rate = 1 + 1.75 = 2.75"
     },
     {
-      "id": "PcM-2.1-q22",
+      "id": "PcM-2.1-q42",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "XYZ Architects' income statement for the past year shows:\n\n| Item | Amount |\n|---|---|\n| Gross revenue | $3,200,000 |\n| Consultant fees | $700,000 |\n| Reimbursable expenses | $100,000 |\n| Direct labor | $800,000 |\n| Indirect labor | $300,000 |\n| Other overhead (rent, benefits, insurance, software) | $1,100,000 |\n\nWhat was the firm's profit before taxes?",
+      "stem": "XYZ Architects' partners want to know how much the firm earned last year before taxes and partner distributions, so they can decide how much to reinvest in technology. The income statement shows:\n\n| Item | Amount |\n|---|---|\n| Gross revenue | $3,200,000 |\n| Consultant fees | $700,000 |\n| Reimbursable expenses | $100,000 |\n| Direct labor | $800,000 |\n| Indirect labor | $300,000 |\n| Other overhead (rent, benefits, insurance, software) | $1,100,000 |\n\nWhat was the firm's profit before taxes?",
+      "calculation": true,
       "options": [
         {
           "id": "a",
@@ -88,13 +90,14 @@
           "explanation": "This starts from gross revenue, which includes pass-through consultant fees and reimbursables."
         }
       ],
-      "explanation": "1. NOR = $3,200,000 − $700,000 − $100,000 = $2,400,000\n2. Costs = direct labor $800,000 + overhead $1,400,000 = $2,200,000\n3. Profit = $2,400,000 − $2,200,000 = $200,000\n(Check: (net multiplier 3.00 − break-even 2.75) × $800,000 = $200,000)"
+      "explanation": "1. NOR = $3,200,000 − $700,000 − $100,000 = $2,400,000\n2. Costs = $800,000 direct labor + $1,400,000 overhead = $2,200,000\n3. Profit = $2,400,000 − $2,200,000 = $200,000"
     },
     {
-      "id": "PcM-2.1-q23",
+      "id": "PcM-2.1-q43",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A project manager reviews a stipulated-sum project:\n\n- Labor budget for the firm's services: $300,000\n- Labor cost spent to date: $210,000\n- Estimated percent complete: 60%\n\nIf the team continues at the same rate of spending, what is the projected labor overrun at completion?",
+      "stem": "At a monthly project review, a project manager reports on a stipulated-sum medical office project. The team has finished design development and is starting construction documents:\n\n- Labor budget for the firm's services: $300,000\n- Labor cost spent to date: $210,000\n- Estimated percent complete: 60%\n\nIf the team continues spending at the same rate, what is the projected labor overrun at completion?",
+      "calculation": true,
       "options": [
         {
           "id": "a",
@@ -104,7 +107,7 @@
         {
           "id": "b",
           "text": "$50,000",
-          "explanation": "Correct. At the current rate, total cost will be $210,000 ÷ 0.60 = $350,000, which is $50,000 over the $300,000 budget.",
+          "explanation": "Correct. At the current rate, total cost will be $210,000 ÷ 0.60 = $350,000, which is $50,000 over budget.",
           "correct": true
         },
         {
@@ -121,10 +124,10 @@
       "explanation": "1. Projected total cost = $210,000 ÷ 0.60 = $350,000\n2. Overrun = $350,000 − $300,000 = $50,000"
     },
     {
-      "id": "PcM-2.1-q24",
+      "id": "PcM-2.1-q44",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A 20-person firm reports the following:\n\n- Net income last year: $410,000\n- Average age of receivables: 96 days (52 days a year ago)\n- Unbilled work in progress: $380,000\n- Line of credit: fully drawn\n\nThe principals are struggling to meet payroll. What should the firm do first?",
+      "stem": "A 20-person firm had its most profitable year, but the principals have struggled to meet payroll for three months. The bookkeeper reports:\n\n- Net income last year: $410,000\n- Average age of receivables: 96 days (52 days a year ago)\n- Unbilled work in progress: $380,000\n- Line of credit: fully drawn\n\nWhat should the firm do first?",
       "options": [
         {
           "id": "a",
@@ -140,21 +143,22 @@
         {
           "id": "c",
           "text": "Reduce staff to lower monthly payroll.",
-          "explanation": "Cutting staff at a profitable firm hurts future revenue and doesn't address the cash cause."
+          "explanation": "Cutting staff at a profitable firm hurts future revenue and doesn't fix the cash cause."
         },
         {
           "id": "d",
           "text": "Raise hourly billing rates on new projects.",
-          "explanation": "Higher rates affect future profitability, not money already earned but not collected."
+          "explanation": "Higher rates affect future profit, not money already earned but not collected."
         }
       ],
       "explanation": "Profit isn't cash. Aging receivables and unbilled work are cash-flow problems, fixed by billing and collecting."
     },
     {
-      "id": "PcM-2.1-q25",
+      "id": "PcM-2.1-q45",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "A firm sets a 70% utilization target for project architects, based on 2,080 paid hours per year.\n\nHow many chargeable hours per year does the target require?",
+      "stem": "A firm is setting annual goals for its project architects. Based on the firm's billing rates and overhead, the partners set a 70% utilization target, assuming 2,080 paid hours per year, including holidays and vacation.\n\nHow many chargeable hours per year does the target require of each project architect?",
+      "calculation": true,
       "options": [
         {
           "id": "a",
@@ -178,56 +182,43 @@
           "explanation": "This divides by 0.70 instead of multiplying."
         }
       ],
-      "explanation": "Chargeable hours = total hours × utilization rate."
+      "explanation": "Chargeable hours = total paid hours × utilization target = 2,080 × 0.70 = 1,456."
     },
     {
-      "id": "PcM-2.1-q26",
-      "type": "cata",
+      "id": "PcM-2.1-q46",
+      "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A firm's net multiplier has fallen to 2.60 against a break-even rate of 2.55. Backlog is steady.\n\nWhich actions would directly improve profitability?",
+      "stem": "A firm's net multiplier has fallen to 2.60 against a break-even rate of 2.55. Backlog is steady, utilization is 82%, and most projects are on budget. The partners want the single change that most directly raises the net multiplier on future work.\n\nWhich action should they take?",
       "options": [
         {
           "id": "a",
-          "text": "Reduce non-essential non-billable time",
-          "explanation": "Correct. More time charged to projects raises net revenue per labor dollar and moves salary out of overhead.",
+          "text": "Negotiate higher multipliers on new contracts.",
+          "explanation": "Correct. More net revenue per dollar of direct labor raises the net multiplier directly.",
           "correct": true
         },
         {
           "id": "b",
-          "text": "Negotiate higher multipliers on new contracts",
-          "explanation": "Correct. More net revenue per dollar of direct labor raises the net multiplier.",
-          "correct": true
-        },
-        {
-          "id": "c",
-          "text": "Sublease unused office space",
-          "explanation": "Correct. Lower overhead lowers the break-even rate.",
-          "correct": true
-        },
-        {
-          "id": "d",
-          "text": "Bill a larger share of expenses as reimbursables",
+          "text": "Bill a larger share of expenses as reimbursables.",
           "explanation": "Reimbursables are excluded from net operating revenue, so they don't change the net multiplier."
         },
         {
-          "id": "e",
-          "text": "Pass consultant fees through without markup",
-          "explanation": "Dropping the markup lowers revenue for the coordination and risk the firm carries."
+          "id": "c",
+          "text": "Pass consultant fees through without any markup.",
+          "explanation": "Dropping the markup reduces revenue for the coordination and risk the firm carries."
         },
         {
-          "id": "f",
-          "text": "Increase salaries to improve retention",
-          "explanation": "Higher salaries raise labor cost without raising fees, which lowers the margin."
+          "id": "d",
+          "text": "Increase staff salaries to improve retention.",
+          "explanation": "Higher salaries raise labor cost without raising fees, which lowers the multiplier."
         }
       ],
-      "selectCount": 3,
-      "explanation": "Profit improves when the net multiplier rises (fees, utilization) or the break-even rate falls (overhead)."
+      "explanation": "Net multiplier = NOR ÷ direct labor. Raise NOR per labor dollar."
     },
     {
-      "id": "PcM-2.1-q27",
+      "id": "PcM-2.1-q47",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "A bank evaluating a firm's line-of-credit renewal asks for a statement showing the firm's assets, liabilities and owners' equity as of December 31.\n\nWhich statement should the firm provide?",
+      "stem": "A bank evaluating the renewal of a firm's line of credit asks for a statement showing the firm's assets, liabilities and owners' equity as of December 31. The firm's bookkeeper offers to send several reports from the accounting system.\n\nWhich statement should the firm provide?",
       "options": [
         {
           "id": "a",
@@ -254,10 +245,10 @@
       "explanation": "Balance sheet = a point in time. Income and cash flow statements = a period."
     },
     {
-      "id": "PcM-2.1-q28",
+      "id": "PcM-2.1-q48",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A firm's backlog has fallen from seven months of revenue to two months over the past year. Utilization on current projects remains high, and no large proposals are pending.\n\nWhat should the principals prioritize?",
+      "stem": "Over the past year, a 30-person firm's backlog has fallen from seven months of revenue to two months. Utilization on current projects remains high, the firm submitted only one proposal last quarter, and two of its largest projects will finish construction documents within three months.\n\nWhat should the principals prioritize?",
       "options": [
         {
           "id": "a",
@@ -272,32 +263,33 @@
         },
         {
           "id": "c",
-          "text": "Add staff to complete current projects sooner.",
+          "text": "Add staff so current projects finish sooner.",
           "explanation": "Finishing sooner, with more staff, widens the coming gap in work."
         },
         {
           "id": "d",
           "text": "Lower fees on pending proposals to win work quickly.",
-          "explanation": "Discounting may win work but erodes profitability. It's not the first priority."
+          "explanation": "Discounting may win work but erodes profit. It isn't the first priority."
         }
       ],
       "explanation": "Backlog predicts future workload. Act on it before utilization drops."
     },
     {
-      "id": "PcM-2.1-q29",
+      "id": "PcM-2.1-q49",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "An agreement compensates the architect at 2.5 times direct personnel expense (DPE). A project architect earns $40 per hour, and mandatory and customary benefits equal 35% of salary.\n\nWhat hourly rate should the firm bill for the project architect?",
+      "stem": "A municipal agreement compensates the architect at 2.5 times direct personnel expense (DPE) for additional services. A project architect earns $40 per hour, and the firm's mandatory and customary benefits equal 35% of salary.\n\nWhat hourly rate should the firm bill for the project architect's additional services?",
+      "calculation": true,
       "options": [
         {
           "id": "a",
           "text": "$54",
-          "explanation": "That's the DPE before applying the 2.5 multiplier."
+          "explanation": "That's the DPE before applying the 2.5 multiple."
         },
         {
           "id": "b",
           "text": "$100",
-          "explanation": "This applies the multiplier to salary alone, leaving out benefits included in DPE."
+          "explanation": "This applies the multiple to salary alone, leaving out the benefits included in DPE."
         },
         {
           "id": "c",
@@ -309,14 +301,14 @@
       "explanation": "1. DPE = salary + mandatory and customary benefits = $40 × 1.35 = $54\n2. Billing rate = $54 × 2.5 = $135"
     },
     {
-      "id": "PcM-2.1-q30",
+      "id": "PcM-2.1-q50",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A developer client accounts for 60% of a firm's revenue. The developer pays on time and has three more projects planned.\n\nWhich risk does this most directly represent, and what is the best long-term response?",
+      "stem": "A developer client has accounted for about 60% of a firm's revenue for three years. The developer pays on time, praises the firm's work, and plans three more projects. The rest of the firm's revenue comes from small residential and tenant projects.\n\nWhich risk does this most directly represent, and what is the best long-term response?",
       "options": [
         {
           "id": "a",
-          "text": "Client concentration risk; diversify clients and markets",
+          "text": "Concentration risk; diversify clients and markets",
           "explanation": "Correct. Depending on one client exposes the firm to that client's decisions and fortunes.",
           "correct": true
         },
@@ -327,7 +319,7 @@
         },
         {
           "id": "c",
-          "text": "Backlog risk; pursue more work with the same developer",
+          "text": "Backlog risk; pursue more work with the developer",
           "explanation": "Adding work with the same client deepens the concentration."
         },
         {
@@ -339,10 +331,11 @@
       "explanation": "Strategic financial health includes diversifying revenue sources."
     },
     {
-      "id": "PcM-2.1-q31",
+      "id": "PcM-2.1-q51",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "A firm's year-end balance sheet shows:\n\n- Cash: $90,000\n- Accounts receivable: $280,000\n- Unbilled work in progress: $50,000\n- Accounts payable: $160,000\n- Accrued payroll: $90,000\n- Line of credit balance: $350,000\n\nWhich statement best describes the firm's current ratio?",
+      "stem": "A firm's partners are reviewing year-end figures before a meeting with their lender. The balance sheet shows:\n\n- Cash: $90,000\n- Accounts receivable: $280,000\n- Unbilled work in progress: $50,000\n- Accounts payable: $160,000\n- Accrued payroll: $90,000\n- Line of credit balance: $350,000\n\nWhich statement best describes the firm's current ratio?",
+      "calculation": true,
       "options": [
         {
           "id": "a",
@@ -369,10 +362,10 @@
       "explanation": "1. Current assets = $90,000 + $280,000 + $50,000 = $420,000\n2. Current liabilities = $160,000 + $90,000 + $350,000 = $600,000\n3. Current ratio = $420,000 ÷ $600,000 = 0.70"
     },
     {
-      "id": "PcM-2.1-q32",
+      "id": "PcM-2.1-q52",
       "type": "cata",
       "cognitiveLevel": "A/E",
-      "stem": "A principal reviewing monthly reports wants early warning of cash-flow trouble.\n\nWhich indicators signal a developing cash-flow problem?",
+      "stem": "The managing principal of a 25-person firm wants earlier warning of cash-flow trouble. She asks the bookkeeper which items in the monthly reports to watch most closely, since last year's cash shortfall surprised everyone.\n\nWhich indicators signal a developing cash-flow problem?",
       "options": [
         {
           "id": "a",
@@ -383,7 +376,7 @@
         {
           "id": "b",
           "text": "Unbilled work in progress growing",
-          "explanation": "Correct. Work performed but not invoiced is cash the firm hasn't asked for yet.",
+          "explanation": "Correct. Work performed but not invoiced is cash the firm hasn't yet asked for.",
           "correct": true
         },
         {
@@ -492,5 +485,5 @@
       "back": "Too much revenue from one client. Diversify clients and markets."
     }
   ],
-  "itemStyle": "ncarb-v2"
+  "itemStyle": "ncarb-v3-difficulty"
 }

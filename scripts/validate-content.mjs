@@ -173,7 +173,7 @@ for (const f of jsonFiles) {
     const mcs = qs.filter((q) => q.type === 'mc' && (q.options ?? []).filter((o) => o.correct).length === 1);
     const longest = mcs.filter((q) => {
       const c = q.options.find((o) => o.correct).text.length;
-      return q.options.filter((o) => !o.correct).every((o) => c >= o.text.length);
+      return q.options.filter((o) => !o.correct).every((o) => c > o.text.length); // strictly longest; ties aren't a tell
     }).length;
     if (mcs.length >= 5 && longest / mcs.length > 0.5)
       warn(rel, `correct answer is the longest option in ${longest}/${mcs.length} multiple-choice items, which is a pattern test-takers can exploit`);
@@ -238,6 +238,57 @@ for (const f of caseFiles) {
   if (doc.exam === 'ARE') {
     const hits = caHits(JSON.stringify(doc));
     if (hits.length) err(rel, `ARE case study mentions California-specific code/law (${hits.join(', ')}).`);
+  }
+}
+
+// ---------- difficulty profile vs NCARB practice exams (statistics in content/schema/difficulty-targets.json) ----------
+{
+  const tp = join(C, 'schema', 'difficulty-targets.json');
+  if (existsSync(tp)) {
+    const targets = JSON.parse(readFileSync(tp, 'utf8')).divisions;
+    const bySec = new Map(); // "PcM|1" -> questions
+    const add = (q) => {
+      const [div, num] = q.objectiveId.split('-');
+      const key = `${div}|${num.split('.')[0]}`;
+      if (!bySec.has(key)) bySec.set(key, []);
+      bySec.get(key).push(q);
+    };
+    for (const f of jsonFiles) {
+      const d = JSON.parse(readFileSync(f, 'utf8'));
+      if (d.exam === 'ARE') for (const q of d.questions ?? []) add({ ...q, objectiveId: d.objectiveId });
+    }
+    for (const f of caseFiles) {
+      const d = JSON.parse(readFileSync(f, 'utf8'));
+      if (d.exam === 'ARE') for (const q of d.questions ?? []) add({ ...q, caseStudyId: d.id });
+    }
+    // Stem words exclude Markdown table rows: NCARB puts exhibits outside the stem.
+    const words = (q) => q.stem.split('\n').filter((l) => !l.trim().startsWith('|')).join(' ').split(/\s+/).filter(Boolean).length;
+    const isCalc = (q) => q.calculation === true || /(^|\n)1\. /.test(q.explanation ?? '');
+    const isExhibit = (q) => !!q.caseStudyId || /\n\s*\|/.test(q.stem) || /refer to the/i.test(q.stem);
+    const median = (a) => { const s = [...a].sort((x, y) => x - y); const m = s.length >> 1; return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2; };
+    const divs = [...new Set([...bySec.keys()].map((k) => k.split('|')[0]))];
+    for (const div of divs) {
+      const t = targets[div];
+      if (!t) continue;
+      console.log(`difficulty profile ${div} (app vs NCARB practice exam):`);
+      for (const [num, tgt] of Object.entries(t.sections)) {
+        const qs = bySec.get(`${div}|${num}`) ?? [];
+        if (!qs.length || !tgt) continue;
+        const m = {
+          stem: median(qs.map(words)),
+          cata: qs.filter((q) => q.type === 'cata').length / qs.length,
+          calc: qs.filter(isCalc).length / qs.length,
+          exh: qs.filter(isExhibit).length / qs.length,
+        };
+        const pctf = (x) => `${Math.round(x * 100)}%`;
+        console.log(`  S${num}: stem ${Math.round(m.stem)}/${tgt.stemWordsMedian} words · CATA ${pctf(m.cata)}/${pctf(tgt.cataShare)} · calc ${pctf(m.calc)}/${pctf(tgt.calcShare)} · exhibit/case ${pctf(m.exh)}/${pctf(tgt.exhibitOrCaseShare)}  (${qs.length} items)`);
+        const where = `content/are/${div} section ${num}`;
+        if (m.stem < tgt.stemWordsMedian * 0.75) warn(where, `stems are shorter than NCARB's (${Math.round(m.stem)} vs ${tgt.stemWordsMedian} words median): questions likely easier`);
+        if (m.calc < tgt.calcShare - 0.1) warn(where, `fewer calculations than NCARB (${pctf(m.calc)} vs ${pctf(tgt.calcShare)})`);
+        if (m.exh < tgt.exhibitOrCaseShare - 0.1) warn(where, `fewer exhibit/case items than NCARB (${pctf(m.exh)} vs ${pctf(tgt.exhibitOrCaseShare)})`);
+        if (Math.abs(m.cata - tgt.cataShare) > 0.12) warn(where, `check-all-that-apply share ${pctf(m.cata)} vs NCARB ${pctf(tgt.cataShare)}`);
+      }
+    }
   }
 }
 

@@ -50,10 +50,10 @@
   ],
   "questions": [
     {
-      "id": "PcM-2.2-q21",
+      "id": "PcM-2.2-q41",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "An owner's draft agreement requires the architect to 'defend, indemnify, and hold harmless the Owner from any and all claims arising out of the Project.' The firm's professional liability carrier has flagged the clause.\n\nWhich revision best aligns the clause with the firm's insurance?",
+      "stem": "A university's draft agreement for a residence hall requires the architect to 'defend, indemnify, and hold harmless the University from any and all claims arising out of the Project.' The firm's professional liability carrier has flagged the clause, and the university says it will consider one revision.\n\nWhich revision best aligns the clause with the firm's insurance?",
       "options": [
         {
           "id": "a",
@@ -68,7 +68,7 @@
         },
         {
           "id": "c",
-          "text": "Add a matching indemnity from the owner to the architect.",
+          "text": "Add a matching indemnity from the university to the firm.",
           "explanation": "Mutuality doesn't remove the architect's uninsured defense duty or broad-form exposure."
         },
         {
@@ -80,15 +80,15 @@
       "explanation": "Indemnify only to the extent of your own negligence, and avoid duties to defend."
     },
     {
-      "id": "PcM-2.2-q22",
+      "id": "PcM-2.2-q42",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "An owner and architect disagree over $85,000 in additional-service fees. Direct negotiation has failed. Their B101-2017 agreement has no box checked for binding dispute resolution.\n\nHow will the dispute proceed?",
+      "stem": "An owner and architect disagree over $85,000 in additional-service fees for a medical office building. The facts:\n\n- Their agreement is B101-2017.\n- No box is checked for binding dispute resolution.\n- Two meetings between principals failed to resolve the dispute.\n\nHow will the dispute proceed?",
       "options": [
         {
           "id": "a",
           "text": "Binding arbitration",
-          "explanation": "Arbitration applies only if the parties select it in the agreement."
+          "explanation": "Arbitration applies only if the parties selected it in the agreement."
         },
         {
           "id": "b",
@@ -109,18 +109,18 @@
       ],
       "explanation": "B101-2017: mediate first, then the binding method checked. If none is checked, litigation.",
       "confidence": "medium",
-      "confidenceNote": "Summarizes B101-2017 provisions as I understand them; confirm against your copy."
+      "confidenceNote": "Relies on B101-2017 provisions as I understand them; confirm against your copy."
     },
     {
-      "id": "PcM-2.2-q23",
+      "id": "PcM-2.2-q43",
       "type": "cata",
       "cognitiveLevel": "U/A",
-      "stem": "A firm is negotiating an owner's custom form of agreement for a mixed-use project.\n\nWhich provisions would reduce the architect's risk exposure?",
+      "stem": "A firm is negotiating a developer's custom form of agreement for a mixed-use project. The developer has agreed to discuss several provisions the firm proposed and several the developer proposed.\n\nWhich provisions would reduce the architect's risk exposure?",
       "options": [
         {
           "id": "a",
           "text": "Mutual waiver of consequential damages",
-          "explanation": "Correct. It removes exposure to indirect losses such as the owner's lost rent or profit.",
+          "explanation": "Correct. It removes exposure to indirect losses such as the developer's lost rent or profit.",
           "correct": true
         },
         {
@@ -155,10 +155,10 @@
       "explanation": "Risk-reducing terms limit the kinds of damages, the amount, and who can claim. Warranties, LDs and broad indemnities add risk."
     },
     {
-      "id": "PcM-2.2-q24",
+      "id": "PcM-2.2-q44",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "An owner and architect agree to mediate a dispute over a roof design.\n\nWhich best describes the mediator's role?",
+      "stem": "An owner and architect disagree about whether a leaking roof was caused by a design detail or by the roofer's workmanship. Their agreement requires mediation before binding dispute resolution, and both have agreed on a mediator with construction experience.\n\nWhich best describes the mediator's role?",
       "options": [
         {
           "id": "a",
@@ -178,49 +178,50 @@
         },
         {
           "id": "d",
-          "text": "Determine whether the standard of care was met",
+          "text": "Decide whether the standard of care was met",
           "explanation": "Mediators don't decide liability. Experts and a court or arbitrator would."
         }
       ],
       "explanation": "Mediation = facilitated, voluntary, confidential. Arbitration = binding award."
     },
     {
-      "id": "PcM-2.2-q25",
+      "id": "PcM-2.2-q45",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "A building's roof begins leaking 12 years after substantial completion. The owner traces the cause to a design detail and wants to bring a claim against the architect, whose agreement was B101-2017.\n\nWhat is the most likely result?",
+      "stem": "A library reached substantial completion in June 2013 under a B101-2017 agreement. The roof began leaking in 2025, and in August 2025 the owner's consultant traced the leaks to a parapet detail. The owner wants to file a claim against the architect in January 2026.\n\nWhat is the most likely result?",
+      "calculation": true,
       "options": [
         {
           "id": "a",
-          "text": "The claim is timely because it runs from discovery.",
-          "explanation": "Even when a limitations period runs from discovery, B101-2017 sets an outer limit measured from substantial completion."
+          "text": "Timely, because it's filed within months of discovery",
+          "explanation": "Even if a limitations period runs from discovery, B101-2017 sets an outer limit measured from substantial completion."
         },
         {
           "id": "b",
-          "text": "The claim is barred by the 10-year contractual limit.",
+          "text": "Barred; it's over 10 years after substantial completion",
           "explanation": "Correct. B101-2017 §8.1.1 requires claims to be started no more than 10 years after substantial completion.",
           "correct": true
         },
         {
           "id": "c",
-          "text": "The claim falls under the contractor's correction period.",
+          "text": "Subject to the contractor's one-year correction period",
           "explanation": "The correction period is a contractor obligation under A201. It doesn't govern claims against the architect."
         },
         {
           "id": "d",
-          "text": "The claim is timely if the architect is still insured.",
+          "text": "Timely if the architect is still insured",
           "explanation": "Insurance doesn't revive a time-barred claim."
         }
       ],
-      "explanation": "Statutes of repose and contractual limits cut off claims regardless of discovery.",
+      "explanation": "1. Substantial completion: June 2013\n2. Contractual outer limit: 10 years → June 2023\n3. A January 2026 filing is after the limit, regardless of when the leak was discovered.",
       "confidence": "medium",
-      "confidenceNote": "Summarizes B101-2017 provisions as I understand them; confirm against your copy."
+      "confidenceNote": "Relies on B101-2017 provisions as I understand them; confirm against your copy."
     },
     {
-      "id": "PcM-2.2-q26",
+      "id": "PcM-2.2-q46",
       "type": "cata",
       "cognitiveLevel": "U/A",
-      "stem": "An architect receives a letter from a client's attorney alleging that a curtain-wall detail caused water damage and demanding $250,000.\n\nWhich steps should the architect take?",
+      "stem": "An architect receives a letter from a client's attorney alleging that a curtain-wall detail caused water damage to a tenant's space and demanding $250,000. The client has been a good source of repeat work, and the principal's first instinct is to call the client.\n\nWhich steps should the architect take?",
       "options": [
         {
           "id": "a",
@@ -260,53 +261,40 @@
       "explanation": "When a claim arrives: notify the insurer, preserve records, gather facts. Don't admit fault or settle on your own."
     },
     {
-      "id": "PcM-2.2-q27",
-      "type": "cata",
-      "cognitiveLevel": "U/A",
-      "stem": "A firm is evaluating a potential commission with the following characteristics:\n\n- 120-unit for-sale condominium building\n- First-time developer whose financing isn't yet committed\n- Owner's form of agreement with warranty language\n- Building type the firm has designed many times\n- Negotiated limitation of liability\n- Owner's experienced construction manager on board\n\nWhich characteristics increase the firm's professional liability risk?",
+      "id": "PcM-2.2-q47",
+      "type": "mc",
+      "cognitiveLevel": "A/E",
+      "stem": "A 20-person firm has capacity for only one more commission this year and is weighing four offers. The partners want to take the one with the least professional liability exposure, all else equal.\n\nWhich commission presents the highest professional liability risk?",
       "options": [
         {
           "id": "a",
-          "text": "For-sale condominium building type",
-          "explanation": "Correct. Condominiums generate frequent claims from homeowners' associations.",
+          "text": "A 120-unit for-sale condominium for a first-time developer",
+          "explanation": "Correct. For-sale condominiums draw frequent homeowners' association claims, and an inexperienced developer adds risk.",
           "correct": true
         },
         {
           "id": "b",
-          "text": "First-time developer without committed financing",
-          "explanation": "Correct. Inexperienced, under-funded clients raise both claim and payment risk.",
-          "correct": true
+          "text": "An office fit-out for a long-time corporate client",
+          "explanation": "A repeat client and limited scope generally mean lower risk."
         },
         {
           "id": "c",
-          "text": "Warranty language in the owner's form",
-          "explanation": "Correct. Warranties go beyond the negligence standard and are typically uninsurable.",
-          "correct": true
+          "text": "A warehouse for an owner-operator with an experienced builder",
+          "explanation": "A simple building type with experienced partners is typically lower risk."
         },
         {
           "id": "d",
-          "text": "Building type the firm has designed many times",
-          "explanation": "Experience with the building type reduces risk."
-        },
-        {
-          "id": "e",
-          "text": "Negotiated limitation of liability",
-          "explanation": "A liability cap reduces exposure."
-        },
-        {
-          "id": "f",
-          "text": "Experienced construction manager on the team",
-          "explanation": "An experienced CM generally reduces project risk."
+          "text": "A school for a district with an in-house facilities team",
+          "explanation": "An experienced institutional owner moderates risk, though schools get scrutiny."
         }
       ],
-      "selectCount": 3,
-      "explanation": "Project type, client type and contract terms each drive risk."
+      "explanation": "Project type and client type drive risk. For-sale residential is a classic high-risk category."
     },
     {
-      "id": "PcM-2.2-q28",
+      "id": "PcM-2.2-q48",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "A firm makes two changes:\n\n- Change 1: adopts a standard detail library, milestone checklists and staff training\n- Change 2: has an independent senior architect review each construction document set before issue\n\nHow should these changes be classified?",
+      "stem": "After two costly coordination errors, a firm makes two changes:\n\n- Change 1: adopts a standard detail library, milestone checklists and staff training\n- Change 2: has an independent senior architect review each construction document set before it's issued\n\nHow should these changes be classified?",
       "options": [
         {
           "id": "a",
@@ -333,10 +321,10 @@
       "explanation": "QA prevents errors through process. QC detects errors by checking deliverables."
     },
     {
-      "id": "PcM-2.2-q29",
+      "id": "PcM-2.2-q49",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "A client proposes that the architect pay $1,000 per day if construction documents are delivered late.\n\nWhat is the primary concern with this clause?",
+      "stem": "A hospital's form of agreement provides that the architect will pay $1,000 per day if any construction document submission is late. The hospital says the clause protects its financing schedule and has been accepted by other architects.\n\nWhat is the primary concern with this clause?",
       "options": [
         {
           "id": "a",
@@ -346,7 +334,7 @@
         },
         {
           "id": "b",
-          "text": "Liquidated damages are unenforceable in design agreements.",
+          "text": "Liquidated damages are unenforceable in design contracts.",
           "explanation": "They're generally enforceable if reasonable. The concern is uninsured exposure."
         },
         {
@@ -363,47 +351,65 @@
       "explanation": "Avoid or tightly limit liquidated damages on design services."
     },
     {
-      "id": "PcM-2.2-q30",
-      "type": "cata",
+      "id": "PcM-2.2-q50",
+      "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "An owner and architect are choosing between arbitration and litigation as the binding dispute method in their agreement.\n\nWhich characteristics generally apply to arbitration?",
+      "stem": "An owner and architect are choosing a binding dispute resolution method for a performing arts center. The owner's counsel favors arbitration; the architect's counsel is weighing the tradeoffs.\n\nWhich is generally an advantage of arbitration over litigation for construction disputes?",
       "options": [
         {
           "id": "a",
-          "text": "Private proceedings",
-          "explanation": "Correct. Arbitration hearings and awards are generally private.",
+          "text": "Decision-makers with construction expertise",
+          "explanation": "Correct. Parties can select arbitrators with industry knowledge, in private proceedings.",
           "correct": true
         },
         {
           "id": "b",
-          "text": "Decision-makers with construction expertise",
-          "explanation": "Correct. Parties can select arbitrators with industry knowledge.",
-          "correct": true
+          "text": "Broad rights of appeal",
+          "explanation": "Arbitration awards have very limited grounds for appeal."
         },
         {
           "id": "c",
-          "text": "Very limited grounds for appeal",
-          "explanation": "Correct. Awards can be overturned only on narrow grounds.",
-          "correct": true
-        },
-        {
-          "id": "d",
-          "text": "Jury determination of liability",
-          "explanation": "There's no jury in arbitration."
-        },
-        {
-          "id": "e",
           "text": "Automatic joinder of all project parties",
           "explanation": "Joinder depends on the parties' agreements and is often limited."
         },
         {
-          "id": "f",
-          "text": "Broad appellate review of errors of law",
-          "explanation": "Broad appellate review is a feature of litigation."
+          "id": "d",
+          "text": "A jury determination of liability",
+          "explanation": "Arbitration has no jury."
         }
       ],
-      "selectCount": 3,
       "explanation": "Arbitration: private, expert decision-makers, binding, narrow appeal."
+    },
+    {
+      "id": "PcM-2.2-q51",
+      "type": "mc",
+      "cognitiveLevel": "U/A",
+      "stem": "A firm's agreement for a parking structure limits the architect's total liability to 'the greater of $500,000 or the architect's total fee.' The architect's total fee is $380,000. After arbitration, the architect is found negligent, and the owner's proven damages are $1,200,000. The limitation is enforceable in the project's jurisdiction.\n\nWhat is the most the architect owes the owner?",
+      "calculation": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "$380,000",
+          "explanation": "That's the fee, the lesser of the two amounts. The clause uses the greater."
+        },
+        {
+          "id": "b",
+          "text": "$500,000",
+          "explanation": "Correct. The greater of $500,000 and $380,000 is $500,000, which caps recovery below the $1,200,000 in damages.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "$880,000",
+          "explanation": "The clause caps liability at the greater amount. It doesn't add the two."
+        },
+        {
+          "id": "d",
+          "text": "$1,200,000",
+          "explanation": "This ignores the enforceable limitation of liability."
+        }
+      ],
+      "explanation": "1. Cap = greater of $500,000 or the $380,000 fee = $500,000\n2. Damages of $1,200,000 exceed the cap\n3. Maximum owed = $500,000"
     }
   ],
   "flashcards": [
@@ -485,5 +491,5 @@
       "confidenceNote": "State-specific requirement; know the concept."
     }
   ],
-  "itemStyle": "ncarb-v2"
+  "itemStyle": "ncarb-v3-difficulty"
 }

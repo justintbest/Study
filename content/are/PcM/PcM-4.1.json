@@ -36,10 +36,10 @@
   ],
   "questions": [
     {
-      "id": "PcM-4.1-q21",
+      "id": "PcM-4.1-q41",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "Two architects are forming a firm. Their goals:\n\n- Protect each owner from the firm's debts and from the other's professional errors\n- Avoid entity-level income tax\n- Split profits 60/40 in favor of the partner who brings in most clients, while owning the firm 50/50\n\nWhich structure best meets these goals, where permitted?",
+      "stem": "Two architects who met at a large firm are leaving to start their own practice. They expect to grow to about ten people within three years. Their goals:\n\n- Protect each owner from the firm's debts and from the other's professional errors\n- Avoid entity-level income tax\n- Split profits 60/40 in favor of the partner who brings in most clients, while owning the firm 50/50\n\nWhich structure best meets these goals, where permitted?",
       "options": [
         {
           "id": "a",
@@ -66,10 +66,10 @@
       "explanation": "Shield + pass-through + flexible profit allocation → LLC (or PLLC where required)."
     },
     {
-      "id": "PcM-4.1-q22",
+      "id": "PcM-4.1-q42",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "An architect owns 50% of a professional LLC. A design error she personally made leads to a structural failure and a large claim.\n\nWhich statement is correct?",
+      "stem": "An architect owns 50% of a professional LLC with one other architect. A beam-connection detail she personally designed and sealed fails, causing a partial collapse during construction. The owner files a large claim naming the firm and both members.\n\nWhich statement about the members' personal liability is correct?",
       "options": [
         {
           "id": "a",
@@ -96,10 +96,10 @@
       "explanation": "No structure protects you from your own malpractice. Keep adequate professional liability insurance."
     },
     {
-      "id": "PcM-4.1-q23",
+      "id": "PcM-4.1-q43",
       "type": "cata",
       "cognitiveLevel": "A/E",
-      "stem": "Two architects are considering a general partnership for their new practice.\n\nWhich statements about a general partnership are correct?",
+      "stem": "Two architects starting a small practice are considering a general partnership because it's simple and inexpensive to set up. Their accountant asks them to review the key characteristics before they decide, because one partner owns a home and has significant savings.\n\nWhich statements about a general partnership are correct?",
       "options": [
         {
           "id": "a",
@@ -138,70 +138,95 @@
       "explanation": "General partnership = pass-through + unlimited joint and several liability."
     },
     {
-      "id": "PcM-4.1-q24",
-      "type": "mc",
+      "id": "PcM-4.1-q44",
+      "type": "cata",
       "cognitiveLevel": "A/E",
-      "stem": "The three founding principals of a 60-person firm plan to retire over the next ten years. They want to transfer ownership gradually to a broad base of employees, with potential tax advantages.\n\nWhich approach best fits these goals?",
+      "stem": "The three founding principals of a 60-person firm plan to retire over the next ten years. They want ownership to pass gradually to the firm's employees rather than to an outside buyer, and they'd like to receive fair value for their shares over time. The firm is profitable and has a strong second tier of leaders.\n\nWhich approaches would accomplish this transfer?",
       "options": [
         {
           "id": "a",
-          "text": "Employee stock ownership plan",
-          "explanation": "Correct. An ESOP transfers ownership to employees over time through a qualified retirement plan and can offer tax advantages.",
+          "text": "An employee stock ownership plan",
+          "explanation": "Correct. An ESOP transfers ownership to employees over time through a qualified retirement plan.",
           "correct": true
         },
         {
           "id": "b",
-          "text": "Sale to an outside design firm",
-          "explanation": "An external sale doesn't create broad employee ownership."
+          "text": "A staged internal sale of shares to key employees",
+          "explanation": "Correct. Selling shares to the next generation of leaders over time keeps the firm employee-owned.",
+          "correct": true
         },
         {
           "id": "c",
-          "text": "Internal sale to two key principals",
-          "explanation": "An internal sale to a few successors doesn't reach a broad employee base."
+          "text": "A sale of the firm to an outside design firm",
+          "explanation": "An external sale doesn't transfer ownership to the firm's employees."
         },
         {
           "id": "d",
-          "text": "Conversion to an S corporation",
-          "explanation": "A tax election alone doesn't transfer ownership."
+          "text": "An S corporation election",
+          "explanation": "A tax election doesn't transfer ownership."
+        },
+        {
+          "id": "e",
+          "text": "A joint venture with another firm",
+          "explanation": "A JV is a project-specific association, not an ownership transition."
+        },
+        {
+          "id": "f",
+          "text": "Key-person life insurance on each principal",
+          "explanation": "Insurance can fund a buyout, but by itself it doesn't transfer ownership."
         }
       ],
-      "explanation": "Broad-based internal succession → ESOP (or a staged internal sale)."
+      "selectCount": 2,
+      "explanation": "Internal succession → ESOP or a staged internal sale, often guided by a buy-sell agreement."
     },
     {
-      "id": "PcM-4.1-q25",
-      "type": "mc",
+      "id": "PcM-4.1-q45",
+      "type": "cata",
       "cognitiveLevel": "A/E",
-      "stem": "Two firms plan to pursue a large airport terminal together, sharing management, profits and risk under a single owner agreement.\n\nWhich statement about forming a joint venture is correct?",
+      "stem": "Two mid-size firms plan to pursue a large airport terminal together. Each brings different strengths, and the airport's RFP calls for a single team accountable for the entire design. They intend to share management, profits and risk under one agreement with the airport.\n\nWhich statements about forming a joint venture are correct?",
       "options": [
         {
           "id": "a",
-          "text": "Each venturer may be jointly and severally liable.",
-          "explanation": "Correct. JV partners typically share liability to the client, so they need a JV agreement and coverage for JV work.",
+          "text": "Each venturer may be jointly and severally liable to the owner.",
+          "explanation": "Correct. JV partners typically share liability to the client for the venture's obligations.",
           "correct": true
         },
         {
           "id": "b",
+          "text": "The firms need a written JV agreement allocating responsibilities.",
+          "explanation": "Correct. A JV agreement (e.g., AIA C101) sets roles, profit sharing and dispute handling.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "The firms should confirm insurance covers JV work.",
+          "explanation": "Correct. Many practice policies exclude or limit JV coverage unless it's endorsed.",
+          "correct": true
+        },
+        {
+          "id": "d",
           "text": "Each firm is liable only for its own drawings.",
           "explanation": "Internal allocations between venturers don't limit liability to the owner."
         },
         {
-          "id": "c",
-          "text": "Each firm's practice policy automatically covers JV work.",
-          "explanation": "Many practice policies exclude or limit JV coverage unless it's specifically endorsed."
+          "id": "e",
+          "text": "The firms must merge before signing with the airport.",
+          "explanation": "A JV is a limited-purpose association. The firms stay separate."
         },
         {
-          "id": "d",
-          "text": "The firms must merge before signing the agreement.",
-          "explanation": "A JV is a limited-purpose association. The firms stay separate."
+          "id": "f",
+          "text": "Each firm's practice policy automatically covers JV work.",
+          "explanation": "Coverage for joint ventures usually has to be specifically arranged."
         }
       ],
+      "selectCount": 3,
       "explanation": "Joint venture = shared control, profit and liability. Use a JV agreement and confirm insurance."
     },
     {
-      "id": "PcM-4.1-q26",
+      "id": "PcM-4.1-q46",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A firm organized in design, production and construction administration departments is seeing missed details at hand-offs. Clients complain that they 'never see the same person twice.'\n\nWhich organizational change best addresses these problems?",
+      "stem": "A 45-person firm is organized in design, production and construction administration departments. Recent projects have suffered missed details at each hand-off, and two major clients complain that they 'never see the same person twice.' The principals want a structural fix, not another procedure.\n\nWhich organizational change best addresses these problems?",
       "options": [
         {
           "id": "a",
@@ -228,10 +253,10 @@
       "explanation": "Structure should fit the problem: continuity → studio or team model."
     },
     {
-      "id": "PcM-4.1-q27",
+      "id": "PcM-4.1-q47",
       "type": "cata",
       "cognitiveLevel": "A/E",
-      "stem": "A firm plans to open a branch office in another jurisdiction.\n\nWhich requirements should the firm confirm with that jurisdiction's licensing board?",
+      "stem": "A firm headquartered in one state plans to open a branch office in a neighboring state, where it has won two projects. The branch will be led by an architect licensed in both states, and the firm's ownership includes two non-architect partners.\n\nWhich requirements should the firm confirm with the new state's licensing board?",
       "options": [
         {
           "id": "a",
@@ -248,7 +273,7 @@
         {
           "id": "c",
           "text": "Ownership or director licensure rules",
-          "explanation": "Correct. Some jurisdictions restrict who may own or direct a firm practicing architecture.",
+          "explanation": "Correct. Some jurisdictions restrict who may own or direct a firm practicing architecture, which matters with non-architect partners.",
           "correct": true
         },
         {
@@ -258,7 +283,7 @@
         },
         {
           "id": "e",
-          "text": "Retaking the ARE for the new jurisdiction",
+          "text": "Retaking the ARE for the new state",
           "explanation": "The ARE is national. Licensure is usually obtained by reciprocity."
         },
         {
@@ -271,10 +296,10 @@
       "explanation": "Firm practice is regulated locally: registration, responsible control, ownership rules."
     },
     {
-      "id": "PcM-4.1-q28",
+      "id": "PcM-4.1-q48",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "The four owners of a firm are drafting an agreement to govern what happens when an owner dies, becomes disabled, retires or leaves.\n\nWhich document serves this purpose?",
+      "stem": "The four owners of a 30-person firm, ages 38 to 64, worry about what would happen if one of them died, became disabled, retired or left for a competitor. They want a document that sets in advance how an owner's interest would be valued and bought.\n\nWhich document serves this purpose?",
       "options": [
         {
           "id": "a",
@@ -301,10 +326,10 @@
       "explanation": "Buy-sell agreement = orderly ownership transfer and valuation."
     },
     {
-      "id": "PcM-4.1-q29",
+      "id": "PcM-4.1-q49",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A growing firm wants to bring in outside investors, issue different classes of ownership, and possibly go public someday.\n\nWhich structure is most compatible, assuming the board's ownership rules are satisfied?",
+      "stem": "A fast-growing 150-person firm wants to fund expansion by bringing in outside investors. It plans to issue preferred shares to investors and common shares to employees, and the board has discussed an eventual public offering. Assume the board's ownership rules for firms practicing architecture are satisfied.\n\nWhich structure is most compatible?",
       "options": [
         {
           "id": "a",
@@ -333,10 +358,10 @@
       "confidenceNote": "Some jurisdictions restrict non-architect ownership of firms practicing architecture; the item assumes those rules are met."
     },
     {
-      "id": "PcM-4.1-q30",
+      "id": "PcM-4.1-q50",
       "type": "mc",
       "cognitiveLevel": "A/E",
-      "stem": "A firm's strategic plan is to build a national reputation for innovative cultural buildings.\n\nWhich organizational emphasis best supports that goal?",
+      "stem": "A 25-person firm's strategic plan is to build a national reputation for innovative cultural buildings within ten years. The firm has won two design awards but competes mostly on fee. The principals are reorganizing to support the new strategy.\n\nWhich organizational emphasis best supports the goal?",
       "options": [
         {
           "id": "a",
@@ -347,7 +372,7 @@
         {
           "id": "b",
           "text": "A departmental production model focused on efficiency",
-          "explanation": "Efficient repeatable production suits a delivery-focused strategy."
+          "explanation": "Efficient, repeatable production suits a delivery-focused strategy."
         },
         {
           "id": "c",
@@ -440,5 +465,5 @@
     }
   ],
   "verified": "2026-11-23",
-  "itemStyle": "ncarb-v2"
+  "itemStyle": "ncarb-v3-difficulty"
 }

@@ -61,3 +61,8 @@ NCARB publishes PDF practice exams for supervisors (`sources/are/practice-exams/
 - Build each case study around 1–3 resources of the types NCARB lists for the division. Questions should need facts from **both** the scenario and a resource, and often from two resources (e.g., a staffing plan from the roster priced at the break-even rate from the financials).
 - Write the scenario as short paragraphs plus bulleted constraints (policies, caps, deadlines). Those constraints should decide answers.
 - Check every number twice. When one fact changes, recompute every question that uses it.
+
+## Difficulty targets (enforced)
+`content/schema/difficulty-targets.json` holds NCARB's measured profile for **each division and section**: median scenario length, share of check-all-that-apply, multi-step calculations, and exhibit or case items. It's statistics only, measured from the official practice exams. `npm run validate` prints the app's profile next to NCARB's for every section that has content, and warns, which fails `--strict`, when a section is easier: scenarios under 75% of NCARB's length, calculations or exhibits more than 10 points below, or a check-all-that-apply share more than 12 points off.
+
+When writing a new division, read its targets first. They differ a lot. PA draws on exhibits or case studies in about 46% of its items, PcM about 11%, and NCARB's PcM Section 3 scenarios run about 88 words. Mark calculation items with `"calculation": true` and show numbered steps in the explanation.

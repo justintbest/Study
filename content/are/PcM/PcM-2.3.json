@@ -47,10 +47,10 @@
   ],
   "questions": [
     {
-      "id": "PcM-2.3-q21",
+      "id": "PcM-2.3-q41",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "During design development of a library under B101-2017, the owner asks the architect to study two additional site layouts. The agreed scope includes only the layout approved in schematic design.\n\nWhat should the architect do next?",
+      "stem": "During design development of a branch library under B101-2017, the owner's facilities director asks the architect to study two additional site layouts that move the building closer to the street. The agreed scope covers only the layout approved at the end of schematic design.\n\nWhat should the architect do next?",
       "options": [
         {
           "id": "a",
@@ -77,15 +77,15 @@
       "explanation": "Scope creep control: recognize → notify in writing → state the impact → authorize → proceed (B101-2017 §4.2)."
     },
     {
-      "id": "PcM-2.3-q22",
+      "id": "PcM-2.3-q42",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "A firm's proposal for a community center is $420,000 for full services. The client replies:\n\n- Maximum design fee: $360,000\n- Project scope and schedule: unchanged\n\nWhich response is most appropriate?",
+      "stem": "A firm's proposal for a community center is $420,000 for full services. The city responds:\n\n- Its maximum design fee is $360,000.\n- The project's size, scope and schedule won't change.\n- It would like to keep working with the firm.\n\nWhich response is most appropriate?",
       "options": [
         {
           "id": "a",
           "text": "Accept the fee and maintain the full scope.",
-          "explanation": "Discounting without changing scope puts profitability, and possibly quality, at risk."
+          "explanation": "Discounting without changing scope puts profit, and possibly quality, at risk."
         },
         {
           "id": "b",
@@ -95,64 +95,52 @@
         },
         {
           "id": "c",
-          "text": "Accept the fee and plan to recover it through additional services.",
+          "text": "Accept the fee and recover it through additional services.",
           "explanation": "Planning to recover fee through change requests damages trust and invites disputes."
         },
         {
           "id": "d",
-          "text": "Propose a percentage-of-construction-cost fee instead.",
-          "explanation": "Changing the fee method doesn't resolve the gap between scope and the client's budget."
+          "text": "Propose a percentage-of-construction fee instead.",
+          "explanation": "Changing the fee method doesn't close the gap between scope and budget."
         }
       ],
       "explanation": "Negotiate scope and fee together. If the fee moves, scope moves."
     },
     {
-      "id": "PcM-2.3-q23",
-      "type": "cata",
+      "id": "PcM-2.3-q43",
+      "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "A contractor asks for the architect's native BIM model to prepare coordination and shop drawings.\n\nWhich conditions should the architect place on releasing it?",
+      "stem": "A contractor building a laboratory asks the architect for the native BIM model to prepare coordination and shop drawings. The owner supports the request because it may speed up construction. The architect is willing to share the model.\n\nWhich condition should the architect place on releasing it?",
       "options": [
         {
           "id": "a",
           "text": "A license limiting use to this project",
-          "explanation": "Correct. A digital data license defines permitted use and protects the architect's IP.",
+          "explanation": "Correct. A digital data license defines permitted use and protects the architect's intellectual property (e.g., AIA C106).",
           "correct": true
         },
         {
           "id": "b",
-          "text": "A statement that the sealed documents govern",
-          "explanation": "Correct. The model isn't a contract document. The contractor must rely on and verify against the sealed set.",
-          "correct": true
-        },
-        {
-          "id": "c",
           "text": "Transfer of model ownership during construction",
           "explanation": "There's no need to give up ownership. A license is enough."
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "Release in native format with no restrictions",
           "explanation": "Unrestricted release invites misuse and reliance claims."
         },
         {
-          "id": "e",
-          "text": "Waiver of shop drawing submittals for modeled elements",
-          "explanation": "Submittals remain required regardless of the data source."
-        },
-        {
-          "id": "f",
-          "text": "Warranty of the model's dimensional accuracy",
-          "explanation": "A warranty creates uninsurable exposure and contradicts the reliance disclaimer."
+          "id": "d",
+          "text": "A warranty of the model's dimensional accuracy",
+          "explanation": "A warranty creates uninsurable exposure. The sealed documents should govern."
         }
       ],
-      "selectCount": 2,
       "explanation": "Digital files: license the use, disclaim reliance, keep ownership."
     },
     {
-      "id": "PcM-2.3-q24",
+      "id": "PcM-2.3-q44",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "A client asks for a feasibility study for converting a 1950s warehouse. The project facts are:\n\n- No existing drawings\n- Unknown structural condition\n- Program still being defined\n\nWhich compensation method is most appropriate?",
+      "stem": "A client asks for a feasibility study on converting a 1950s warehouse into creative office space. The project facts are:\n\n- No existing drawings\n- Structural condition unknown\n- Program still being defined with prospective tenants\n\nWhich compensation method is most appropriate?",
       "options": [
         {
           "id": "a",
@@ -179,42 +167,41 @@
       "explanation": "Uncertain scope → time-based compensation."
     },
     {
-      "id": "PcM-2.3-q25",
+      "id": "PcM-2.3-q45",
       "type": "mc",
-      "cognitiveLevel": "U/A",
-      "stem": "Midway through construction documents for a medical office building under a stipulated-sum B101-2017, the owner decides to add two floors, increasing the building area by 50%.\n\nWhat generally applies?",
+      "cognitiveLevel": "A/E",
+      "stem": "A firm's agreement for a medical office building sets its fee at 7% of a $6,000,000 construction budget, allocated:\n\n- SD 15% · DD 20% · CD 40% · Procurement 5% · CA 20%\n\nAt the end of design development, the owner adds a floor, raising the construction budget to $7,500,000. The parties agree to adjust the fee for the remaining phases in proportion to the new budget.\n\nBy how much does the architect's fee increase?",
+      "calculation": true,
       "options": [
         {
           "id": "a",
-          "text": "The architect absorbs the change under the stipulated sum.",
-          "explanation": "A material change in project scope calls for an adjustment even under a stipulated sum."
-        },
-        {
-          "id": "b",
-          "text": "Compensation and schedule are equitably adjusted.",
-          "explanation": "Correct. B101-2017 provides for equitable adjustment when the scope of the project or services changes materially.",
+          "text": "$68,250",
+          "explanation": "Correct. The remaining phases (65%) rise from $273,000 to $341,250.",
           "correct": true
         },
         {
+          "id": "b",
+          "text": "$105,000",
+          "explanation": "This adjusts the entire fee, including the completed SD and DD phases."
+        },
+        {
           "id": "c",
-          "text": "The agreement must be terminated and re-executed.",
-          "explanation": "The agreement continues. It's adjusted, not terminated."
+          "text": "$273,000",
+          "explanation": "That's the original fee for the remaining phases, not the increase."
         },
         {
           "id": "d",
-          "text": "The fee increases automatically by 50%.",
-          "explanation": "The adjustment is equitable, based on the actual impact, not automatically proportional."
+          "text": "$341,250",
+          "explanation": "That's the new fee for the remaining phases, not the increase."
         }
       ],
-      "explanation": "Material scope change → equitable adjustment (B101-2017 §11.6).",
-      "confidence": "medium",
-      "confidenceNote": "Paragraph number per my knowledge of B101-2017; confirm in your copy."
+      "explanation": "1. Remaining phases = 40% + 5% + 20% = 65%\n2. Original remaining fee = 0.65 × 7% × $6,000,000 = $273,000\n3. Adjusted remaining fee = 0.65 × 7% × $7,500,000 = $341,250\n4. Increase = $341,250 − $273,000 = $68,250"
     },
     {
-      "id": "PcM-2.3-q26",
+      "id": "PcM-2.3-q46",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "An owner terminates a B101-2017 agreement for convenience after construction documents are complete and plans to have another architect finish the project using the documents.\n\nWhat does B101-2017 provide?",
+      "stem": "An owner terminates a B101-2017 agreement for convenience after construction documents are complete, because a competing firm offered to finish the project for less. The owner plans to have the new firm complete it using the documents.\n\nWhat does B101-2017 provide?",
       "options": [
         {
           "id": "a",
@@ -224,7 +211,7 @@
         {
           "id": "b",
           "text": "The owner may use them upon paying the licensing fee.",
-          "explanation": "Correct. Continued use after termination for convenience is conditioned on the licensing fee, and use without the architect is at the owner's risk.",
+          "explanation": "Correct. Continued use after termination for convenience is conditioned on the licensing fee and amounts due, and use without the architect is at the owner's risk.",
           "correct": true
         },
         {
@@ -234,7 +221,7 @@
         },
         {
           "id": "d",
-          "text": "The new architect acquires the copyright by sealing them.",
+          "text": "The new firm acquires the copyright by sealing them.",
           "explanation": "Sealing doesn't transfer copyright, and it raises responsible-control issues."
         }
       ],
@@ -243,10 +230,10 @@
       "confidenceNote": "Summarizes B101-2017 Article 7 / §11.9 as I understand them; confirm in your copy."
     },
     {
-      "id": "PcM-2.3-q27",
+      "id": "PcM-2.3-q47",
       "type": "cata",
       "cognitiveLevel": "U/A",
-      "stem": "After losing money on three projects to unbilled extra work, a firm wants firm-wide controls on scope creep.\n\nWhich practices should the firm adopt?",
+      "stem": "A 50-person firm lost money on three projects last year because staff performed requested extra work that was never billed. The principals want firm-wide controls on scope creep before the busy season starts.\n\nWhich practices should the firm adopt?",
       "options": [
         {
           "id": "a",
@@ -286,10 +273,10 @@
       "explanation": "Define the baseline, set limits, train teams, document promptly."
     },
     {
-      "id": "PcM-2.3-q28",
+      "id": "PcM-2.3-q48",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "A school district asks which compensation method might create an appearance of conflict about the cost of construction.\n\nWhich method should the architect identify?",
+      "stem": "A school district's facilities committee is reviewing proposals from three firms using different compensation methods. A board member asks which method could create an appearance of a conflict about the cost of construction.\n\nWhich method should the architect identify?",
       "options": [
         {
           "id": "a",
@@ -316,10 +303,10 @@
       "explanation": "Percentage-of-cost fees are simple but tie the architect's fee to construction cost."
     },
     {
-      "id": "PcM-2.3-q29",
+      "id": "PcM-2.3-q49",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "A firm has developed a proprietary library of curtain-wall details that gives it an edge on competitive pursuits. It wants to keep the library out of competitors' hands.\n\nWhich protection is most appropriate?",
+      "stem": "A firm has developed a library of curtain-wall details over ten years that gives it an edge on competitive pursuits. Two senior staff recently left for competitors, and the principals want to keep the library out of competitors' hands.\n\nWhich protection is most appropriate?",
       "options": [
         {
           "id": "a",
@@ -340,16 +327,16 @@
         {
           "id": "d",
           "text": "A copyright notice on each detail",
-          "explanation": "A notice marks ownership but doesn't keep the content confidential or stop others from learning from it."
+          "explanation": "A notice marks ownership but doesn't keep the content confidential."
         }
       ],
       "explanation": "Match the tool to the asset: copyright for expression, trademark for brand, trade secret for confidential know-how."
     },
     {
-      "id": "PcM-2.3-q30",
+      "id": "PcM-2.3-q50",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "During negotiations for a warehouse, the owner proposes removing all construction-phase services to reduce the architect's fee by 20%.\n\nWhat is the most appropriate response?",
+      "stem": "During negotiations for a distribution warehouse, the owner proposes removing all construction-phase services to cut the architect's fee by 20%. The owner's contractor is experienced, and the owner's facilities manager will 'keep an eye on things.'\n\nWhat is the most appropriate response?",
       "options": [
         {
           "id": "a",
@@ -364,7 +351,7 @@
         },
         {
           "id": "c",
-          "text": "Agree, and answer contractor questions informally as needed.",
+          "text": "Agree, and answer contractor questions informally.",
           "explanation": "Informal services create liability without a defined scope or compensation."
         },
         {
@@ -376,10 +363,11 @@
       "explanation": "When scope is cut, explain the consequences, offer alternatives, and document the owner's choice."
     },
     {
-      "id": "PcM-2.3-q31",
+      "id": "PcM-2.3-q51",
       "type": "mc",
       "cognitiveLevel": "U/A",
-      "stem": "An owner authorizes three additional exterior renderings as an additional service. The agreement provides:\n\n- Designer billing rate: $95 per hour\n- Reimbursable expenses billed at 1.1 times cost\n\nEach rendering will take 16 hours, and printing will cost $400. What should the architect invoice?",
+      "stem": "An owner authorizes three additional exterior renderings for a fundraising campaign, as an additional service. The agreement provides:\n\n- Designer billing rate: $95 per hour\n- Reimbursable expenses billed at 1.1 times cost\n\nEach rendering takes 16 hours, and printing for the campaign costs $400. What should the architect invoice?",
+      "calculation": true,
       "options": [
         {
           "id": "a",
@@ -403,7 +391,7 @@
           "explanation": "This applies the 1.1 multiple to the labor as well as the reimbursable."
         }
       ],
-      "explanation": "1. Labor = 3 renderings × 16 hours × $95 = $4,560\n2. Reimbursables = $400 × 1.1 = $440\n3. Invoice = $4,560 + $440 = $5,000"
+      "explanation": "1. Labor = 3 × 16 × $95 = $4,560\n2. Reimbursables = $400 × 1.1 = $440\n3. Invoice = $5,000"
     }
   ],
   "flashcards": [
@@ -486,5 +474,5 @@
       "back": "Stipulated sum for design phases + hourly for construction administration and additional services."
     }
   ],
-  "itemStyle": "ncarb-v2"
+  "itemStyle": "ncarb-v3-difficulty"
 }
